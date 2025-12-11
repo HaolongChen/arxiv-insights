@@ -2,28 +2,18 @@
 
 *Automatically generated index of all analyzed papers*
 
+## Statistics
+
+- **Total Papers**: 0
+- **Unique Authors**: 0
+- **Research Fields**: 0
+- **Last Updated**: 2025-12-11 08:36:09
+
 ## Latest Papers
 
-<!-- Auto-generated content will appear here -->
 
 ## By Field
 
-### Computer Science
-#### Artificial Intelligence
-<!-- Content -->
-
-#### Machine Learning
-<!-- Content -->
-
-### Mathematics
-<!-- Content -->
-
-### Physics
-<!-- Content -->
-
-## By Author
-
-<!-- Auto-generated author index -->
 
 ---
 
