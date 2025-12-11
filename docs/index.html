@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arXiv Insights - Automated Research Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 arXiv Insights</h1>
+            <p class="subtitle">Automated arXiv Paper Analysis & Research Tracking</p>
+        </header>
+
+        <nav class="nav-bar">
+            <a href="#latest" class="nav-link active">Latest</a>
+            <a href="#fields" class="nav-link">Fields</a>
+            <a href="#authors" class="nav-link">Authors</a>
+            <a href="#search" class="nav-link">Search</a>
+        </nav>
+
+        <section id="search-section" class="section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search papers by title, author, or topic..." />
+                <button onclick="searchPapers()">🔍 Search</button>
+            </div>
+        </section>
+
+        <section id="latest" class="section">
+            <h2>Latest Papers</h2>
+            <div id="latest-content" class="papers-grid">
+                <div class="paper-card">
+                    <div class="card-header">
+                        <span class="card-date">Dec 11, 2025</span>
+                        <span class="card-category">Example</span>
+                    </div>
+                    <h3 class="card-title">Welcome to arXiv Insights</h3>
+                    <p class="card-authors">by System</p>
+                    <p class="card-summary">Your automated arXiv paper analysis system is now live. Papers will appear here as they're collected and processed.</p>
+                    <div class="card-tags">
+                        <span class="tag">automation</span>
+                        <span class="tag">setup</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fields" class="section">
+            <h2>Browse by Field</h2>
+            <div class="category-grid">
+                <div class="category-card" onclick="filterByField('cs-ai')">
+                    <div class="category-icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p class="count">0 papers</p>
+                </div>
+                <div class="category-card" onclick="filterByField('cs-cv')">
+                    <div class="category-icon">👁️</div>
+                    <h3>Computer Vision</h3>
+                    <p class="count">0 papers</p>
+                </div>
+                <div class="category-card" onclick="filterByField('cs-lg')">
+                    <div class="category-icon">📊</div>
+                    <h3>Machine Learning</h3>
+                    <p class="count">0 papers</p>
+                </div>
+                <div class="category-card" onclick="filterByField('math')">
+                    <div class="category-icon">∞</div>
+                    <h3>Mathematics</h3>
+                    <p class="count">0 papers</p>
+                </div>
+                <div class="category-card" onclick="filterByField('physics')">
+                    <div class="category-icon">⚛️</div>
+                    <h3>Physics</h3>
+                    <p class="count">0 papers</p>
+                </div>
+                <div class="category-card" onclick="filterByField('q-bio')">
+                    <div class="category-icon">🧬</div>
+                    <h3>Quantitative Biology</h3>
+                    <p class="count">0 papers</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="authors" class="section">
+            <h2>Featured Authors</h2>
+            <div id="authors-list" class="authors-list">
+                <p class="placeholder">Authors will appear here as papers are collected.</p>
+            </div>
+        </section>
+
+        <section id="stats" class="section stats-section">
+            <h2>Research Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">Total Papers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">Unique Authors</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">Research Fields</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">-</div>
+                    <div class="stat-label">Last Updated</div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>🤖 Powered by automation | 📅 Last updated: <span id="lastUpdate">December 11, 2025</span></p>
+            <p><a href="https://github.com/HaolongChen/arxiv-insights">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="search.js"></script>
+</body>
+</html>
