@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "arxiv_id": "2512.10817",
+    "title": "Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values",
+    "authors": [
+      "Brian P. Powell",
+      "Jordan A. Caraballo-Vega",
+      "Mark L. Carroll",
+      "Thomas Maxwell",
+      "Andrew Ptak",
+      "Greg Olmschenk",
+      "Jorge Martinez-Palomera"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2512.10817",
+    "abstract": "We report the discovery that binary encoding allows neural networks to extrapolate periodic functions beyond their training bounds. We introduce Normalized Base-2 Encoding (NB2E) as a method for encoding continuous numerical values and demonstrate that, using this input encoding, vanilla multi-layer",
+    "file": "cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md"
+  },
+  {
+    "arxiv_id": "2512.10858",
+    "title": "Scaling Behavior of Discrete Diffusion Language Models",
+    "authors": [
+      "Dimitri von R\u00fctte",
+      "Janis Fluri",
+      "Omead Pooladzandi",
+      "Bernhard Sch\u00f6lkopf",
+      "Thomas Hofmann",
+      "Antonio Orvieto"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.10858",
+    "abstract": "Modern LLM pre-training consumes vast amounts of compute and training data, making the scaling behavior, or scaling laws, of different models a key distinguishing factor. Discrete diffusion language models (DLMs) have been proposed as an alternative to autoregressive language models (ALMs). However,",
+    "file": "cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md"
+  },
+  {
+    "arxiv_id": "2512.10835",
+    "title": "Learning Controllable and Diverse Player Behaviors in Multi-Agent Environments",
+    "authors": [
+      "Atahan Cilan",
+      "Atay \u00d6zg\u00f6vde"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.10835",
+    "abstract": "This paper introduces a reinforcement learning framework that enables controllable and diverse player behaviors without relying on human gameplay data. Existing approaches often require large-scale player trajectories, train separate models for different player types, or provide no direct mapping be",
+    "file": "cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md"
+  },
+  {
+    "arxiv_id": "2512.10860",
+    "title": "SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation",
+    "authors": [
+      "Kehong Gong",
+      "Zhengyu Wen",
+      "Mingxi Xu",
+      "Weixia He",
+      "Qi Wang",
+      "Ning Zhang",
+      "Zhengyu Li",
+      "Chenbin Li",
+      "Dongze Lian",
+      "Wei Zhao",
+      "Xiaoyu He",
+      "Mingyuan Zhang"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10860",
+    "abstract": "Despite significant progress in 4D content generation, the conversion of monocular videos into high-quality animated 3D assets with explicit 4D meshes remains considerably challenging. The scarcity of large-scale, naturally captured 4D mesh datasets further limits the ability to train generalizable ",
+    "file": "cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md"
+  },
+  {
+    "arxiv_id": "2512.10840",
+    "title": "PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning",
+    "authors": [
+      "Jianqi Chen",
+      "Biao Zhang",
+      "Xiangjun Tang",
+      "Peter Wonka"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10840",
+    "abstract": "6D object pose estimation, which predicts the transformation of an object relative to the camera, remains challenging for unseen objects. Existing approaches typically rely on explicitly constructing feature correspondences between the query image and either the object model or template images. In t",
+    "file": "cs/cv/2512.10840-posegam-robust-unseen-object-pose-estimation-via.md"
+  }
+]
