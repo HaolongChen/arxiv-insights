@@ -1,0 +1,63 @@
+# arXiv Insights Configuration
+# Customize paper fetching behavior
+
+# arXiv categories to monitor
+# See https://arxiv.org/category_taxonomy for full list
+categories:
+  - cs.AI    # Artificial Intelligence
+  - cs.LG    # Machine Learning
+  - cs.CL    # Computation and Language (NLP)
+  - cs.CV    # Computer Vision
+  - cs.NE    # Neural and Evolutionary Computing
+
+# Keywords to filter papers (papers must match at least one)
+keywords:
+  - large language model
+  - transformer
+  - deep learning
+  - neural network
+  - reinforcement learning
+  - generative AI
+  - GPT
+  - diffusion model
+  - attention mechanism
+  - self-supervised learning
+
+# Fetch parameters
+fetch:
+  max_papers_per_run: 5      # Maximum papers to fetch per run
+  days_back: 2                # How many days to look back
+  min_abstract_length: 100    # Minimum abstract length (characters)
+  
+# Field mapping (arXiv category -> internal category)
+field_mapping:
+  cs.AI: cs-ai
+  cs.LG: cs-lg
+  cs.ML: cs-ml
+  cs.CV: cs-cv
+  cs.CL: cs-ai
+  cs.NE: cs-ai
+  stat.ML: cs-ml
+  math: math
+  physics: physics
+  q-bio: bio
+
+# Paper processing options
+processing:
+  auto_extract_findings: true
+  include_comments: true
+  generate_tags: true
+  
+# Additional filters (optional)
+filters:
+  # Exclude papers with these terms in title
+  exclude_title_terms: []
+  
+  # Minimum number of authors
+  min_authors: 0
+  
+  # Maximum number of authors (0 = unlimited)
+  max_authors: 0
+  
+  # Only include papers from these institutions (empty = all)
+  include_institutions: []
