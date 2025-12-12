@@ -7,9 +7,16 @@ Updates index files and generates data for the website.
 import os
 import json
 import yaml
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 from collections import defaultdict
+
+# Add this class before the main functions
+class DateTimeEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, (date, datetime)):
+            return obj.isoformat()
+        return super().default(obj)
 
 def parse_frontmatter(content):
     """Extract YAML frontmatter from markdown."""
@@ -128,7 +135,7 @@ def generate_data_json(papers):
     data_dir.mkdir(exist_ok=True)
     
     with open(data_dir / 'papers.json', 'w', encoding='utf-8') as f:
-        json.dump(papers, f, indent=2)
+        json.dump(papers, f, indent=2, cls=DateTimeEncoder)
     
     print("✅ Generated docs/data/papers.json")
 
