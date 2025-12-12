@@ -1,5 +1,22 @@
 [
   {
+    "arxiv_id": "2512.10936",
+    "title": "Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks",
+    "authors": [
+      "Kristina Korotkova",
+      "Aleksandr Katrutsa"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10936",
+    "abstract": "The construction of adversarial attacks for neural networks appears to be a crucial challenge for their deployment in various services. To estimate the adversarial robustness of a neural network, a fast and efficient approach is needed to construct adversarial attacks. Since the formalization of adv",
+    "file": "cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md"
+  },
+  {
     "arxiv_id": "2512.10953",
     "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
     "authors": [
@@ -63,6 +80,28 @@
     "url": "https://arxiv.org/abs/2512.10858",
     "abstract": "Modern LLM pre-training consumes vast amounts of compute and training data, making the scaling behavior, or scaling laws, of different models a key distinguishing factor. Discrete diffusion language models (DLMs) have been proposed as an alternative to autoregressive language models (ALMs). However,",
     "file": "cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md"
+  },
+  {
+    "arxiv_id": "2512.10938",
+    "title": "Stronger Normalization-Free Transformers",
+    "authors": [
+      "Mingzhi Chen",
+      "Taiming Lu",
+      "Jiachen Zhu",
+      "Mingjie Sun",
+      "Zhuang Liu"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10938",
+    "abstract": "Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches norm",
+    "file": "cs/lg/2512.10938-stronger-normalization-free-transformers.md"
   },
   {
     "arxiv_id": "2512.10835",
@@ -204,6 +243,72 @@
     "url": "https://arxiv.org/abs/2512.10860",
     "abstract": "Despite significant progress in 4D content generation, the conversion of monocular videos into high-quality animated 3D assets with explicit 4D meshes remains considerably challenging. The scarcity of large-scale, naturally captured 4D mesh datasets further limits the ability to train generalizable ",
     "file": "cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md"
+  },
+  {
+    "arxiv_id": "2512.10935",
+    "title": "Any4D: Unified Feed-Forward Metric 4D Reconstruction",
+    "authors": [
+      "Jay Karhade",
+      "Nikhil Keetha",
+      "Yuchen Zhang",
+      "Tanisha Gupta",
+      "Akash Sharma",
+      "Sebastian Scherer",
+      "Deva Ramanan"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.10935",
+    "abstract": "We present Any4D, a scalable multi-view transformer for metric-scale, dense feed-forward 4D reconstruction. Any4D directly generates per-pixel motion and geometry predictions for N frames, in contrast to prior work that typically focuses on either 2-view dense scene flow or sparse 3D point tracking.",
+    "file": "cs/cv/2512.10935-any4d-unified-feed-forward-metric-4d-reconstructi.md"
+  },
+  {
+    "arxiv_id": "2512.10939",
+    "title": "GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting",
+    "authors": [
+      "Madhav Agarwal",
+      "Mingtian Zhang",
+      "Laura Sevilla-Lara",
+      "Steven McDonagh"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10939",
+    "abstract": "Speech-driven talking heads have recently emerged and enable interactive avatars. However, real-world applications are limited, as current methods achieve high visual fidelity but slow or fast yet temporally unstable. Diffusion methods provide realistic image generation, yet struggle with oneshot se",
+    "file": "cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md"
+  },
+  {
+    "arxiv_id": "2512.10940",
+    "title": "OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis",
+    "authors": [
+      "Xiang Fan",
+      "Sharath Girish",
+      "Vivek Ramanujan",
+      "Chaoyang Wang",
+      "Ashkan Mirzaei",
+      "Petr Sushko",
+      "Aliaksandr Siarohin",
+      "Sergey Tulyakov",
+      "Ranjay Krishna"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10940",
+    "abstract": "Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D ",
+    "file": "cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md"
   },
   {
     "arxiv_id": "2512.10840",
