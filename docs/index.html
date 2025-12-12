@@ -118,5 +118,22 @@
     </div>
 
     <script src="search.js"></script>
+    <script>
+// Load papers data on page load
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('data/papers.json')
+        .then(response => response.json())
+        .then(data => {
+            loadPapersData(data);
+            if (typeof updateFieldCounts === 'function') {
+                updateFieldCounts();
+            }
+        })
+        .catch(error => {
+            console.error('Error loading papers:', error);
+            console.log('No papers data available yet.');
+        });
+});
+</script>
 </body>
 </html>
