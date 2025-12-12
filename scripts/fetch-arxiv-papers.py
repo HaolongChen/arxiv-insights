@@ -7,7 +7,7 @@ Fetches recent papers from arXiv based on configured categories and keywords.
 import arxiv
 import json
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import sys
 
@@ -76,7 +76,8 @@ def paper_exists(arxiv_id):
 def fetch_recent_papers():
     """Fetch recent papers from arXiv based on categories and keywords."""
     papers_found = []
-    cutoff_date = datetime.now() - timedelta(days=DAYS_BACK)
+    # Make cutoff_date timezone-aware to match arXiv API's result.published
+    cutoff_date = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
     
     print(f"🔍 Fetching papers from last {DAYS_BACK} days...")
     print(f"📚 Categories: {', '.join(ARXIV_CATEGORIES)}")
