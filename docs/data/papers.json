@@ -1,5 +1,26 @@
 [
   {
+    "arxiv_id": "2512.10953",
+    "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
+    "authors": [
+      "Yiyang Lu",
+      "Qiao Sun",
+      "Xianbang Wang",
+      "Zhicheng Jiang",
+      "Hanhong Zhao",
+      "Kaiming He"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10953",
+    "abstract": "Normalizing Flows (NFs) have been established as a principled framework for generative modeling. Standard NFs consist of a forward process and a reverse process: the forward process maps data to noise, while the reverse process generates samples by inverting it. Typical NF forward transformations ar",
+    "file": "cs/lg/2512.10953-bidirectional-normalizing-flow-from-data-to-noise.md"
+  },
+  {
     "arxiv_id": "2512.10817",
     "title": "Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values",
     "authors": [
@@ -58,6 +79,105 @@
     "url": "https://arxiv.org/abs/2512.10835",
     "abstract": "This paper introduces a reinforcement learning framework that enables controllable and diverse player behaviors without relying on human gameplay data. Existing approaches often require large-scale player trajectories, train separate models for different player types, or provide no direct mapping be",
     "file": "cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md"
+  },
+  {
+    "arxiv_id": "2512.10949",
+    "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
+    "authors": [
+      "Yiwen Tang",
+      "Zoey Guo",
+      "Kaixin Zhu",
+      "Ray Zhang",
+      "Qizhi Chen",
+      "Dongzhi Jiang",
+      "Junli Liu",
+      "Bohan Zeng",
+      "Haoming Song",
+      "Delin Qu",
+      "Tianyi Bai",
+      "Dan Xu",
+      "Wentao Zhang",
+      "Bin Zhao"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.10949",
+    "abstract": "Reinforcement learning (RL), earlier proven to be effective in large language and multi-modal models, has been successfully extended to enhance 2D image generation recently. However, applying RL to 3D generation remains largely unexplored due to the higher spatial complexity of 3D objects, which req",
+    "file": "cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md"
+  },
+  {
+    "arxiv_id": "2512.10943",
+    "title": "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
+    "authors": [
+      "Sharath Girish",
+      "Viacheslav Ivanov",
+      "Tsai-Shien Chen",
+      "Hao Chen",
+      "Aliaksandr Siarohin",
+      "Sergey Tulyakov"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10943",
+    "abstract": "Recent advances in subject-driven video generation with large diffusion models have enabled personalized content synthesis conditioned on user-provided subjects. However, existing methods lack fine-grained temporal control over subject appearance and disappearance, which are essential for applicatio",
+    "file": "cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md"
+  },
+  {
+    "arxiv_id": "2512.10947",
+    "title": "Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving",
+    "authors": [
+      "Jiawei Yang",
+      "Ziyu Chen",
+      "Yurong You",
+      "Yan Wang",
+      "Yiming Li",
+      "Yuxiao Chen",
+      "Boyi Li",
+      "Boris Ivanovic",
+      "Marco Pavone",
+      "Yue Wang"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10947",
+    "abstract": "We present Flex, an efficient and effective scene encoder that addresses the computational bottleneck of processing high-volume multi-camera data in end-to-end autonomous driving. Flex employs a small set of learnable scene tokens to jointly encode information from all image tokens across different ",
+    "file": "cs/cv/2512.10947-towards-efficient-and-effective-multi-camera-encod.md"
+  },
+  {
+    "arxiv_id": "2512.10954",
+    "title": "Group Diffusion: Enhancing Image Generation by Unlocking Cross-Sample Collaboration",
+    "authors": [
+      "Sicheng Mo",
+      "Thao Nguyen",
+      "Richard Zhang",
+      "Nick Kolkin",
+      "Siddharth Srinivasan Iyer",
+      "Eli Shechtman",
+      "Krishna Kumar Singh",
+      "Yong Jae Lee",
+      "Bolei Zhou",
+      "Yuheng Li"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10954",
+    "abstract": "In this work, we explore an untapped signal in diffusion model inference. While all previous methods generate images independently at inference, we instead ask if samples can be generated collaboratively. We propose Group Diffusion, unlocking the attention mechanism to be shared across images, rathe",
+    "file": "cs/cv/2512.10954-group-diffusion-enhancing-image-generation-by-unl.md"
   },
   {
     "arxiv_id": "2512.10860",
