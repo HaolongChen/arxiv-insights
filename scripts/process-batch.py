@@ -7,7 +7,13 @@ Processes multiple papers from a JSON batch file.
 import json
 import sys
 from pathlib import Path
-from process_paper import process_paper
+
+# Import the process_paper function from the process-paper module
+import importlib.util
+spec = importlib.util.spec_from_file_location("process_paper", Path(__file__).parent / "process-paper.py")
+process_paper_module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(process_paper_module)
+process_paper = process_paper_module.process_paper
 
 def main():
     """Process papers from batch file."""
@@ -41,6 +47,8 @@ def main():
         
     except Exception as e:
         print(f"❌ Error processing batch: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
         return 1
 
 if __name__ == '__main__':
