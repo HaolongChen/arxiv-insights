@@ -4,12 +4,27 @@
 
 ## Statistics
 
-- **Total Papers**: 20
-- **Unique Authors**: 142
-- **Research Fields**: 3
-- **Last Updated**: 2025-12-13 01:55:34
+- **Total Papers**: 25
+- **Unique Authors**: 163
+- **Research Fields**: 4
+- **Last Updated**: 2025-12-13 08:30:58
 
 ## Latest Papers
+
+### [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md)
+**Lijie Ding, Janell Thomson, Jon Taylor et al.** · arXiv:2512.10895 · 2025-12-11 · `cs-ai`
+
+We explore how large language models (LLMs) can enhance the proposal selection process at large user facilities, offering a scalable, consistent, and cost-effective alternative to traditional human review. Proposal selection depends on assessing the relative strength among submitted proposals; howev...
+
+### [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md)
+**Muhammad Umair Haider, Hammad Rizwan, Hassan Sajjad et al.** · arXiv:2512.10903 · 2025-12-11 · `cs-ai`
+
+Circuit discovery aims to identify minimal subnetworks that are responsible for specific behaviors in large language models (LLMs). Existing approaches primarily rely on iterative edge pruning, which is computationally expensive and limited to coarse-grained units such as attention heads or MLP bloc...
+
+### [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md)
+**Hauke Licht** · arXiv:2512.10882 · 2025-12-11 · `cs-ai`
+
+Emotions are central to politics and analyzing their role in political communication has a long tradition. As research increasingly leverages audio-visual materials to analyze the display of emotions, the emergence of multimodal generative AI promises great advances. However, we lack evidence about ...
 
 ### [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md)
 **Max Zimmer, Christophe Roux, Moritz Wagner et al.** · arXiv:2512.10922 · 2025-12-11 · `cs-lg`
@@ -96,26 +111,17 @@ Motion understanding is fundamental to physical reasoning, enabling models to in
 
 Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D ...
 
-### [BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models](/cs/cv/2512.10932-babyvlm-v2-toward-developmentally-grounded-pretra.md)
-**Shengao Wang, Wenqi Wang, Zecheng Wang et al.** · arXiv:2512.10932 · 2025-12-11 · `cs-cv`
-
-Early children's developmental trajectories set up a natural goal for sample-efficient pretraining of vision foundation models. We introduce BabyVLM-V2, a developmentally grounded framework for infant-inspired vision-language modeling that extensively improves upon BabyVLM-V1 through a longitudinal,...
-
-### [PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning](/cs/cv/2512.10840-posegam-robust-unseen-object-pose-estimation-via.md)
-**Jianqi Chen, Biao Zhang, Xiangjun Tang et al.** · arXiv:2512.10840 · 2025-12-11 · `cs-cv`
-
-6D object pose estimation, which predicts the transformation of an object relative to the camera, remains challenging for unseen objects. Existing approaches typically rely on explicitly constructing feature correspondences between the query image and either the object model or template images. In t...
-
-### [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md)
-**Zamirddine Mari, Jérôme Pasquet, Julien Seinturier** · arXiv:2512.10934 · 2025-12-11 · `other`
-
-Autonomous drone navigation in confined tubular environments remains a major challenge due to the constraining geometry of the conduits, the proximity of the walls, and the perceptual limitations inherent to such scenarios. We propose a reinforcement learning approach enabling a drone to navigate un...
-
 
 ## By Field
 
 
-### CS-CV (11 papers)
+### CS-AI (3 papers)
+
+- [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md) - arXiv:2512.10895
+- [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
+- [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
+
+### CS-CV (12 papers)
 
 - [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md) - arXiv:2512.10949
 - [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md) - arXiv:2512.10943
@@ -139,9 +145,10 @@ Autonomous drone navigation in confined tubular environments remains a major cha
 - [Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation](/cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md) - arXiv:2512.10925
 - [Learning Controllable and Diverse Player Behaviors in Multi-Agent Environments](/cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md) - arXiv:2512.10835
 
-### OTHER (1 papers)
+### OTHER (2 papers)
 
 - [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md) - arXiv:2512.10934
+- [Iterative Compositional Data Generation for Robot Control](/other/2512.10891-iterative-compositional-data-generation-for-robot.md) - arXiv:2512.10891
 
 ---
 
