@@ -1,5 +1,25 @@
 [
   {
+    "arxiv_id": "2512.10922",
+    "title": "SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale",
+    "authors": [
+      "Max Zimmer",
+      "Christophe Roux",
+      "Moritz Wagner",
+      "Deborah Hendrych",
+      "Sebastian Pokutta"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10922",
+    "abstract": "The resource requirements of Neural Networks can be significantly reduced through pruning -- the removal of seemingly less important parameters. However, with the rise of Large Language Models (LLMs), full retraining to recover pruning-induced performance degradation is often prohibitive and classic",
+    "file": "cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md"
+  },
+  {
     "arxiv_id": "2512.10936",
     "title": "Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks",
     "authors": [
@@ -102,6 +122,24 @@
     "url": "https://arxiv.org/abs/2512.10938",
     "abstract": "Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches norm",
     "file": "cs/lg/2512.10938-stronger-normalization-free-transformers.md"
+  },
+  {
+    "arxiv_id": "2512.10925",
+    "title": "Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation",
+    "authors": [
+      "Zamirddine Mari",
+      "Mohamad Motasem Nawaf",
+      "Pierre Drap"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.10925",
+    "abstract": "Autonomous navigation in underwater environments remains a major challenge due to the absence of GPS, degraded visibility, and the presence of submerged obstacles. This article investigates these issues through the case of the BlueROV2, an open platform widely used for scientific experimentation. We",
+    "file": "cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md"
   },
   {
     "arxiv_id": "2512.10835",
@@ -287,6 +325,31 @@
     "file": "cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md"
   },
   {
+    "arxiv_id": "2512.10927",
+    "title": "FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos",
+    "authors": [
+      "Yulu Gan",
+      "Ligeng Zhu",
+      "Dandan Shan",
+      "Baifeng Shi",
+      "Hongxu Yin",
+      "Boris Ivanovic",
+      "Song Han",
+      "Trevor Darrell",
+      "Jitendra Malik",
+      "Marco Pavone",
+      "Boyi Li"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10927",
+    "abstract": "Motion understanding is fundamental to physical reasoning, enabling models to infer dynamics and predict future states. However, state-of-the-art models still struggle on recent motion benchmarks, primarily due to the scarcity of large-scale, fine-grained motion datasets. Existing motion datasets ar",
+    "file": "cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md"
+  },
+  {
     "arxiv_id": "2512.10940",
     "title": "OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis",
     "authors": [
@@ -311,6 +374,44 @@
     "file": "cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md"
   },
   {
+    "arxiv_id": "2512.10932",
+    "title": "BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models",
+    "authors": [
+      "Shengao Wang",
+      "Wenqi Wang",
+      "Zecheng Wang",
+      "Max Whitton",
+      "Michael Wakeham",
+      "Arjun Chandra",
+      "Joey Huang",
+      "Pengyue Zhu",
+      "Helen Chen",
+      "David Li",
+      "Jeffrey Li",
+      "Shawn Li",
+      "Andrew Zagula",
+      "Amy Zhao",
+      "Andrew Zhu",
+      "Sayaka Nakamura",
+      "Yuki Yamamoto",
+      "Jerry Jun Yokono",
+      "Aaron Mueller",
+      "Bryan A. Plummer",
+      "Kate Saenko",
+      "Venkatesh Saligrama",
+      "Boqing Gong"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10932",
+    "abstract": "Early children's developmental trajectories set up a natural goal for sample-efficient pretraining of vision foundation models. We introduce BabyVLM-V2, a developmentally grounded framework for infant-inspired vision-language modeling that extensively improves upon BabyVLM-V1 through a longitudinal,",
+    "file": "cs/cv/2512.10932-babyvlm-v2-toward-developmentally-grounded-pretra.md"
+  },
+  {
     "arxiv_id": "2512.10840",
     "title": "PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning",
     "authors": [
@@ -327,5 +428,23 @@
     "url": "https://arxiv.org/abs/2512.10840",
     "abstract": "6D object pose estimation, which predicts the transformation of an object relative to the camera, remains challenging for unseen objects. Existing approaches typically rely on explicitly constructing feature correspondences between the query image and either the object model or template images. In t",
     "file": "cs/cv/2512.10840-posegam-robust-unseen-object-pose-estimation-via.md"
+  },
+  {
+    "arxiv_id": "2512.10934",
+    "title": "Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit",
+    "authors": [
+      "Zamirddine Mari",
+      "J\u00e9r\u00f4me Pasquet",
+      "Julien Seinturier"
+    ],
+    "date": "2025-12-11",
+    "field": "other",
+    "tags": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.10934",
+    "abstract": "Autonomous drone navigation in confined tubular environments remains a major challenge due to the constraining geometry of the conduits, the proximity of the walls, and the perceptual limitations inherent to such scenarios. We propose a reinforcement learning approach enabling a drone to navigate un",
+    "file": "other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md"
   }
 ]

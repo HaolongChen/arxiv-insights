@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 15
-- **Unique Authors**: 101
-- **Research Fields**: 2
-- **Last Updated**: 2025-12-12 16:32:24
+- **Total Papers**: 20
+- **Unique Authors**: 142
+- **Research Fields**: 3
+- **Last Updated**: 2025-12-13 01:55:34
 
 ## Latest Papers
+
+### [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md)
+**Max Zimmer, Christophe Roux, Moritz Wagner et al.** · arXiv:2512.10922 · 2025-12-11 · `cs-lg`
+
+The resource requirements of Neural Networks can be significantly reduced through pruning -- the removal of seemingly less important parameters. However, with the rise of Large Language Models (LLMs), full retraining to recover pruning-induced performance degradation is often prohibitive and classic...
 
 ### [Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks](/cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md)
 **Kristina Korotkova, Aleksandr Katrutsa** · arXiv:2512.10936 · 2025-12-11 · `cs-lg`
@@ -35,6 +40,11 @@ Modern LLM pre-training consumes vast amounts of compute and training data, maki
 **Mingzhi Chen, Taiming Lu, Jiachen Zhu et al.** · arXiv:2512.10938 · 2025-12-11 · `cs-lg`
 
 Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches norm...
+
+### [Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation](/cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md)
+**Zamirddine Mari, Mohamad Motasem Nawaf, Pierre Drap** · arXiv:2512.10925 · 2025-12-11 · `cs-lg`
+
+Autonomous navigation in underwater environments remains a major challenge due to the absence of GPS, degraded visibility, and the presence of submerged obstacles. This article investigates these issues through the case of the BlueROV2, an open platform widely used for scientific experimentation. We...
 
 ### [Learning Controllable and Diverse Player Behaviors in Multi-Agent Environments](/cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md)
 **Atahan Cilan, Atay Özgövde** · arXiv:2512.10835 · 2025-12-11 · `cs-lg`
@@ -76,21 +86,36 @@ We present Any4D, a scalable multi-view transformer for metric-scale, dense feed
 
 Speech-driven talking heads have recently emerged and enable interactive avatars. However, real-world applications are limited, as current methods achieve high visual fidelity but slow or fast yet temporally unstable. Diffusion methods provide realistic image generation, yet struggle with oneshot se...
 
+### [FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos](/cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md)
+**Yulu Gan, Ligeng Zhu, Dandan Shan et al.** · arXiv:2512.10927 · 2025-12-11 · `cs-cv`
+
+Motion understanding is fundamental to physical reasoning, enabling models to infer dynamics and predict future states. However, state-of-the-art models still struggle on recent motion benchmarks, primarily due to the scarcity of large-scale, fine-grained motion datasets. Existing motion datasets ar...
+
 ### [OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis](/cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md)
 **Xiang Fan, Sharath Girish, Vivek Ramanujan et al.** · arXiv:2512.10940 · 2025-12-11 · `cs-cv`
 
 Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D ...
+
+### [BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models](/cs/cv/2512.10932-babyvlm-v2-toward-developmentally-grounded-pretra.md)
+**Shengao Wang, Wenqi Wang, Zecheng Wang et al.** · arXiv:2512.10932 · 2025-12-11 · `cs-cv`
+
+Early children's developmental trajectories set up a natural goal for sample-efficient pretraining of vision foundation models. We introduce BabyVLM-V2, a developmentally grounded framework for infant-inspired vision-language modeling that extensively improves upon BabyVLM-V1 through a longitudinal,...
 
 ### [PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning](/cs/cv/2512.10840-posegam-robust-unseen-object-pose-estimation-via.md)
 **Jianqi Chen, Biao Zhang, Xiangjun Tang et al.** · arXiv:2512.10840 · 2025-12-11 · `cs-cv`
 
 6D object pose estimation, which predicts the transformation of an object relative to the camera, remains challenging for unseen objects. Existing approaches typically rely on explicitly constructing feature correspondences between the query image and either the object model or template images. In t...
 
+### [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md)
+**Zamirddine Mari, Jérôme Pasquet, Julien Seinturier** · arXiv:2512.10934 · 2025-12-11 · `other`
+
+Autonomous drone navigation in confined tubular environments remains a major challenge due to the constraining geometry of the conduits, the proximity of the walls, and the perceptual limitations inherent to such scenarios. We propose a reinforcement learning approach enabling a drone to navigate un...
+
 
 ## By Field
 
 
-### CS-CV (9 papers)
+### CS-CV (11 papers)
 
 - [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md) - arXiv:2512.10949
 - [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md) - arXiv:2512.10943
@@ -99,17 +124,24 @@ Prior approaches injecting camera control into diffusion models have focused on 
 - [SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation](/cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md) - arXiv:2512.10860
 - [Any4D: Unified Feed-Forward Metric 4D Reconstruction](/cs/cv/2512.10935-any4d-unified-feed-forward-metric-4d-reconstructi.md) - arXiv:2512.10935
 - [GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting](/cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md) - arXiv:2512.10939
+- [FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos](/cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md) - arXiv:2512.10927
 - [OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis](/cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md) - arXiv:2512.10940
-- [PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning](/cs/cv/2512.10840-posegam-robust-unseen-object-pose-estimation-via.md) - arXiv:2512.10840
+- [BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models](/cs/cv/2512.10932-babyvlm-v2-toward-developmentally-grounded-pretra.md) - arXiv:2512.10932
 
-### CS-LG (6 papers)
+### CS-LG (8 papers)
 
+- [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md) - arXiv:2512.10922
 - [Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks](/cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md) - arXiv:2512.10936
 - [Bidirectional Normalizing Flow: From Data to Noise and Back](/cs/lg/2512.10953-bidirectional-normalizing-flow-from-data-to-noise.md) - arXiv:2512.10953
 - [Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values](/cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md) - arXiv:2512.10817
 - [Scaling Behavior of Discrete Diffusion Language Models](/cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md) - arXiv:2512.10858
 - [Stronger Normalization-Free Transformers](/cs/lg/2512.10938-stronger-normalization-free-transformers.md) - arXiv:2512.10938
+- [Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation](/cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md) - arXiv:2512.10925
 - [Learning Controllable and Diverse Player Behaviors in Multi-Agent Environments](/cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md) - arXiv:2512.10835
+
+### OTHER (1 papers)
+
+- [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md) - arXiv:2512.10934
 
 ---
 
