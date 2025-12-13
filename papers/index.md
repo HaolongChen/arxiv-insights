@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 25
-- **Unique Authors**: 163
+- **Total Papers**: 30
+- **Unique Authors**: 189
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-13 08:30:58
+- **Last Updated**: 2025-12-13 16:30:00
 
 ## Latest Papers
+
+### [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md)
+**Wang Lu, Yao Zhu, Jindong Wang** · arXiv:2512.10807 · 2025-12-11 · `cs-ai`
+
+Sensor-based human activity recognition (HAR) mines activity patterns from the time-series sensory data. In realistic scenarios, variations across individuals, devices, environments, and time introduce significant distributional shifts for the same activities. Recent efforts attempt to solve this ch...
 
 ### [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md)
 **Lijie Ding, Janell Thomson, Jon Taylor et al.** · arXiv:2512.10895 · 2025-12-11 · `cs-ai`
@@ -45,6 +50,16 @@ Normalizing Flows (NFs) have been established as a principled framework for gene
 **Brian P. Powell, Jordan A. Caraballo-Vega, Mark L. Carroll et al.** · arXiv:2512.10817 · 2025-12-11 · `cs-lg`
 
 We report the discovery that binary encoding allows neural networks to extrapolate periodic functions beyond their training bounds. We introduce Normalized Base-2 Encoding (NB2E) as a method for encoding continuous numerical values and demonstrate that, using this input encoding, vanilla multi-layer...
+
+### [Guided Transfer Learning for Discrete Diffusion Models](/cs/lg/2512.10877-guided-transfer-learning-for-discrete-diffusion-mo.md)
+**Julian Kleutgens, Claudio Battiloro, Lingkai Kong et al.** · arXiv:2512.10877 · 2025-12-11 · `cs-lg`
+
+Discrete diffusion models achieve strong performance across language and other discrete domains, providing a powerful alternative to autoregressive models. However, their strong performance relies on large training datasets, which are costly or risky to obtain, especially when adapting to new domain...
+
+### [UrbanAI 2025 Challenge: Linear vs Transformer Models for Long-Horizon Exogenous Temperature Forecasting](/cs/lg/2512.10866-urbanai-2025-challenge-linear-vs-transformer-mode.md)
+**Ruslan Gokhman** · arXiv:2512.10866 · 2025-12-11 · `cs-lg`
+
+We study long-horizon exogenous-only temperature forecasting - a challenging univariate setting where only the past values of the indoor temperature are used for prediction - using linear and Transformer-family models. We evaluate Linear, NLinear, DLinear, Transformer, Informer, and Autoformer under...
 
 ### [Scaling Behavior of Discrete Diffusion Language Models](/cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md)
 **Dimitri von Rütte, Janis Fluri, Omead Pooladzandi et al.** · arXiv:2512.10858 · 2025-12-11 · `cs-lg`
@@ -86,60 +101,48 @@ We present Flex, an efficient and effective scene encoder that addresses the com
 
 In this work, we explore an untapped signal in diffusion model inference. While all previous methods generate images independently at inference, we instead ask if samples can be generated collaboratively. We propose Group Diffusion, unlocking the attention mechanism to be shared across images, rathe...
 
+### [From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models](/cs/cv/2512.10867-from-macro-to-micro-benchmarking-microscopic-spat.md)
+**Zongzhao Li, Xiangzhe Kong, Jiahui Su et al.** · arXiv:2512.10867 · 2025-12-11 · `cs-cv`
+
+This paper introduces the concept of Microscopic Spatial Intelligence (MiSI), the capability to perceive and reason about the spatial relationships of invisible microscopic entities, which is fundamental to scientific discovery. To assess the potential of Vision-Language Models (VLMs) in this domain...
+
 ### [SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation](/cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md)
 **Kehong Gong, Zhengyu Wen, Mingxi Xu et al.** · arXiv:2512.10860 · 2025-12-11 · `cs-cv`
 
 Despite significant progress in 4D content generation, the conversion of monocular videos into high-quality animated 3D assets with explicit 4D meshes remains considerably challenging. The scarcity of large-scale, naturally captured 4D mesh datasets further limits the ability to train generalizable ...
 
-### [Any4D: Unified Feed-Forward Metric 4D Reconstruction](/cs/cv/2512.10935-any4d-unified-feed-forward-metric-4d-reconstructi.md)
-**Jay Karhade, Nikhil Keetha, Yuchen Zhang et al.** · arXiv:2512.10935 · 2025-12-11 · `cs-cv`
-
-We present Any4D, a scalable multi-view transformer for metric-scale, dense feed-forward 4D reconstruction. Any4D directly generates per-pixel motion and geometry predictions for N frames, in contrast to prior work that typically focuses on either 2-view dense scene flow or sparse 3D point tracking....
-
-### [GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting](/cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md)
-**Madhav Agarwal, Mingtian Zhang, Laura Sevilla-Lara et al.** · arXiv:2512.10939 · 2025-12-11 · `cs-cv`
-
-Speech-driven talking heads have recently emerged and enable interactive avatars. However, real-world applications are limited, as current methods achieve high visual fidelity but slow or fast yet temporally unstable. Diffusion methods provide realistic image generation, yet struggle with oneshot se...
-
-### [FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos](/cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md)
-**Yulu Gan, Ligeng Zhu, Dandan Shan et al.** · arXiv:2512.10927 · 2025-12-11 · `cs-cv`
-
-Motion understanding is fundamental to physical reasoning, enabling models to infer dynamics and predict future states. However, state-of-the-art models still struggle on recent motion benchmarks, primarily due to the scarcity of large-scale, fine-grained motion datasets. Existing motion datasets ar...
-
-### [OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis](/cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md)
-**Xiang Fan, Sharath Girish, Vivek Ramanujan et al.** · arXiv:2512.10940 · 2025-12-11 · `cs-cv`
-
-Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D ...
-
 
 ## By Field
 
 
-### CS-AI (3 papers)
+### CS-AI (4 papers)
 
+- [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md) - arXiv:2512.10807
 - [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md) - arXiv:2512.10895
 - [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
 - [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (12 papers)
+### CS-CV (14 papers)
 
 - [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md) - arXiv:2512.10949
 - [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md) - arXiv:2512.10943
 - [Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving](/cs/cv/2512.10947-towards-efficient-and-effective-multi-camera-encod.md) - arXiv:2512.10947
 - [Group Diffusion: Enhancing Image Generation by Unlocking Cross-Sample Collaboration](/cs/cv/2512.10954-group-diffusion-enhancing-image-generation-by-unl.md) - arXiv:2512.10954
+- [From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models](/cs/cv/2512.10867-from-macro-to-micro-benchmarking-microscopic-spat.md) - arXiv:2512.10867
 - [SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation](/cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md) - arXiv:2512.10860
 - [Any4D: Unified Feed-Forward Metric 4D Reconstruction](/cs/cv/2512.10935-any4d-unified-feed-forward-metric-4d-reconstructi.md) - arXiv:2512.10935
 - [GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting](/cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md) - arXiv:2512.10939
 - [FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos](/cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md) - arXiv:2512.10927
 - [OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis](/cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md) - arXiv:2512.10940
-- [BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models](/cs/cv/2512.10932-babyvlm-v2-toward-developmentally-grounded-pretra.md) - arXiv:2512.10932
 
-### CS-LG (8 papers)
+### CS-LG (10 papers)
 
 - [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md) - arXiv:2512.10922
 - [Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks](/cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md) - arXiv:2512.10936
 - [Bidirectional Normalizing Flow: From Data to Noise and Back](/cs/lg/2512.10953-bidirectional-normalizing-flow-from-data-to-noise.md) - arXiv:2512.10953
 - [Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values](/cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md) - arXiv:2512.10817
+- [Guided Transfer Learning for Discrete Diffusion Models](/cs/lg/2512.10877-guided-transfer-learning-for-discrete-diffusion-mo.md) - arXiv:2512.10877
+- [UrbanAI 2025 Challenge: Linear vs Transformer Models for Long-Horizon Exogenous Temperature Forecasting](/cs/lg/2512.10866-urbanai-2025-challenge-linear-vs-transformer-mode.md) - arXiv:2512.10866
 - [Scaling Behavior of Discrete Diffusion Language Models](/cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md) - arXiv:2512.10858
 - [Stronger Normalization-Free Transformers](/cs/lg/2512.10938-stronger-normalization-free-transformers.md) - arXiv:2512.10938
 - [Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation](/cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md) - arXiv:2512.10925

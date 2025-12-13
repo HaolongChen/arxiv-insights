@@ -1,5 +1,22 @@
 [
   {
+    "arxiv_id": "2512.10807",
+    "title": "HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition",
+    "authors": [
+      "Wang Lu",
+      "Yao Zhu",
+      "Jindong Wang"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10807",
+    "abstract": "Sensor-based human activity recognition (HAR) mines activity patterns from the time-series sensory data. In realistic scenarios, variations across individuals, devices, environments, and time introduce significant distributional shifts for the same activities. Recent efforts attempt to solve this ch",
+    "file": "cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md"
+  },
+  {
     "arxiv_id": "2512.10895",
     "title": "LLMs Can Assist with Proposal Selection at Large User Facilities",
     "authors": [
@@ -131,6 +148,42 @@
     "url": "https://arxiv.org/abs/2512.10817",
     "abstract": "We report the discovery that binary encoding allows neural networks to extrapolate periodic functions beyond their training bounds. We introduce Normalized Base-2 Encoding (NB2E) as a method for encoding continuous numerical values and demonstrate that, using this input encoding, vanilla multi-layer",
     "file": "cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md"
+  },
+  {
+    "arxiv_id": "2512.10877",
+    "title": "Guided Transfer Learning for Discrete Diffusion Models",
+    "authors": [
+      "Julian Kleutgens",
+      "Claudio Battiloro",
+      "Lingkai Kong",
+      "Benjamin Grewe",
+      "Francesca Dominici",
+      "Mauricio Tec"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.10877",
+    "abstract": "Discrete diffusion models achieve strong performance across language and other discrete domains, providing a powerful alternative to autoregressive models. However, their strong performance relies on large training datasets, which are costly or risky to obtain, especially when adapting to new domain",
+    "file": "cs/lg/2512.10877-guided-transfer-learning-for-discrete-diffusion-mo.md"
+  },
+  {
+    "arxiv_id": "2512.10866",
+    "title": "UrbanAI 2025 Challenge: Linear vs Transformer Models for Long-Horizon Exogenous Temperature Forecasting",
+    "authors": [
+      "Ruslan Gokhman"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.10866",
+    "abstract": "We study long-horizon exogenous-only temperature forecasting - a challenging univariate setting where only the past values of the indoor temperature are used for prediction - using linear and Transformer-family models. We evaluate Linear, NLinear, DLinear, Transformer, Informer, and Autoformer under",
+    "file": "cs/lg/2512.10866-urbanai-2025-challenge-linear-vs-transformer-mode.md"
   },
   {
     "arxiv_id": "2512.10858",
@@ -308,6 +361,31 @@
     "file": "cs/cv/2512.10954-group-diffusion-enhancing-image-generation-by-unl.md"
   },
   {
+    "arxiv_id": "2512.10867",
+    "title": "From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models",
+    "authors": [
+      "Zongzhao Li",
+      "Xiangzhe Kong",
+      "Jiahui Su",
+      "Zongyang Ma",
+      "Mingze Li",
+      "Songyou Li",
+      "Yuelin Zhang",
+      "Yu Rong",
+      "Tingyang Xu",
+      "Deli Zhao",
+      "Wenbing Huang"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10867",
+    "abstract": "This paper introduces the concept of Microscopic Spatial Intelligence (MiSI), the capability to perceive and reason about the spatial relationships of invisible microscopic entities, which is fundamental to scientific discovery. To assess the potential of Vision-Language Models (VLMs) in this domain",
+    "file": "cs/cv/2512.10867-from-macro-to-micro-benchmarking-microscopic-spat.md"
+  },
+  {
     "arxiv_id": "2512.10860",
     "title": "SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation",
     "authors": [
@@ -423,6 +501,25 @@
     "url": "https://arxiv.org/abs/2512.10940",
     "abstract": "Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D ",
     "file": "cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md"
+  },
+  {
+    "arxiv_id": "2512.10808",
+    "title": "Graph Laplacian Transformer with Progressive Sampling for Prostate Cancer Grading",
+    "authors": [
+      "Masum Shah Junayed",
+      "John Derek Van Vessem",
+      "Qian Wan",
+      "Gahie Nam",
+      "Sheida Nabavi"
+    ],
+    "date": "2025-12-11",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.10808",
+    "abstract": "Prostate cancer grading from whole-slide images (WSIs) remains a challenging task due to the large-scale nature of WSIs, the presence of heterogeneous tissue structures, and difficulty of selecting diagnostically relevant regions. Existing approaches often rely on random or static patch selection, l",
+    "file": "cs/cv/2512.10808-graph-laplacian-transformer-with-progressive-sampl.md"
   },
   {
     "arxiv_id": "2512.10932",
