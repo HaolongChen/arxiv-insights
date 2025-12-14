@@ -7,7 +7,7 @@
 - **Total Papers**: 30
 - **Unique Authors**: 189
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-13 16:30:00
+- **Last Updated**: 2025-12-14 02:08:14
 
 ## Latest Papers
 
