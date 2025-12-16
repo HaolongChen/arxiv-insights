@@ -1,5 +1,104 @@
 [
   {
+    "arxiv_id": "2512.12777",
+    "title": "State over Tokens: Characterizing the Role of Reasoning Tokens",
+    "authors": [
+      "Mosh Levy",
+      "Zohar Elyoseph",
+      "Shauli Ravfogel",
+      "Yoav Goldberg"
+    ],
+    "date": "2025-12-14",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.12777",
+    "abstract": "Large Language Models (LLMs) can generate reasoning tokens before their final answer to boost performance on complex tasks. While these sequences seem like human thought processes, empirical evidence reveals that they are not a faithful explanation of the model's actual reasoning process. To address",
+    "file": "cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md"
+  },
+  {
+    "arxiv_id": "2512.12775",
+    "title": "Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions",
+    "authors": [
+      "Pedro Henrique Luz de Araujo",
+      "Michael A. Hedderich",
+      "Ali Modarressi",
+      "Hinrich Schuetze",
+      "Benjamin Roth"
+    ],
+    "date": "2025-12-14",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.12775",
+    "abstract": "Persona-assigned large language models (LLMs) are used in domains such as education, healthcare, and sociodemographic simulation. Yet, they are typically evaluated only in short, single-round settings that do not reflect real-world usage. We introduce an evaluation protocol that combines long person",
+    "file": "cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md"
+  },
+  {
+    "arxiv_id": "2512.12756",
+    "title": "FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning",
+    "authors": [
+      "Yue Jiang",
+      "Dingkang Yang",
+      "Minghao Han",
+      "Jinghang Han",
+      "Zizhi Chen",
+      "Yizhou Liu",
+      "Mingcheng Li",
+      "Peng Zhai",
+      "Lihua Zhang"
+    ],
+    "date": "2025-12-14",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.12756",
+    "abstract": "Despite rapid progress in multimodal large language models (MLLMs) and emerging omni-modal architectures, current benchmarks remain limited in scope and integration, suffering from incomplete modality coverage, restricted interaction to text-centric outputs, and weak interdependence and complementar",
+    "file": "cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md"
+  },
+  {
+    "arxiv_id": "2512.12772",
+    "title": "JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation",
+    "authors": [
+      "Jianghan Chao",
+      "Jianzhang Gao",
+      "Wenhui Tan",
+      "Yuchong Sun",
+      "Ruihua Song",
+      "Liyun Ru"
+    ],
+    "date": "2025-12-14",
+    "field": "other",
+    "tags": [
+      "cs.MM",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.12772",
+    "abstract": "Understanding videos inherently requires reasoning over both visual and auditory information. To properly evaluate Omni-Large Language Models (Omni-LLMs), which are capable of processing multi-modal information including vision and audio, an effective benchmark must comprehensively cover three key a",
+    "file": "other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md"
+  },
+  {
+    "arxiv_id": "2512.12769",
+    "title": "Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)",
+    "authors": [
+      "Mohammad Jalili Torkamani",
+      "Israt Zarin"
+    ],
+    "date": "2025-12-14",
+    "field": "other",
+    "tags": [
+      "cs.SD",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.12769",
+    "abstract": "Voice-based interaction has emerged as a natural and intuitive modality for controlling IoT devices. However, speech-driven edge devices face a fundamental trade-off between cloud-based solutions, which offer stronger language understanding capabilities at the cost of latency, connectivity dependenc",
+    "file": "other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md"
+  },
+  {
     "arxiv_id": "2512.10807",
     "title": "HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition",
     "authors": [

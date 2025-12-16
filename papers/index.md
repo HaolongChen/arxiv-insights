@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 30
-- **Unique Authors**: 189
+- **Total Papers**: 35
+- **Unique Authors**: 215
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-15 16:37:52
+- **Last Updated**: 2025-12-16 02:02:28
 
 ## Latest Papers
+
+### [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md)
+**Mosh Levy, Zohar Elyoseph, Shauli Ravfogel et al.** · arXiv:2512.12777 · 2025-12-14 · `cs-ai`
+
+Large Language Models (LLMs) can generate reasoning tokens before their final answer to boost performance on complex tasks. While these sequences seem like human thought processes, empirical evidence reveals that they are not a faithful explanation of the model's actual reasoning process. To address...
+
+### [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md)
+**Pedro Henrique Luz de Araujo, Michael A. Hedderich, Ali Modarressi et al.** · arXiv:2512.12775 · 2025-12-14 · `cs-ai`
+
+Persona-assigned large language models (LLMs) are used in domains such as education, healthcare, and sociodemographic simulation. Yet, they are typically evaluated only in short, single-round settings that do not reflect real-world usage. We introduce an evaluation protocol that combines long person...
+
+### [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](/cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md)
+**Yue Jiang, Dingkang Yang, Minghao Han et al.** · arXiv:2512.12756 · 2025-12-14 · `cs-cv`
+
+Despite rapid progress in multimodal large language models (MLLMs) and emerging omni-modal architectures, current benchmarks remain limited in scope and integration, suffering from incomplete modality coverage, restricted interaction to text-centric outputs, and weak interdependence and complementar...
+
+### [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md)
+**Jianghan Chao, Jianzhang Gao, Wenhui Tan et al.** · arXiv:2512.12772 · 2025-12-14 · `other`
+
+Understanding videos inherently requires reasoning over both visual and auditory information. To properly evaluate Omni-Large Language Models (Omni-LLMs), which are capable of processing multi-modal information including vision and audio, an effective benchmark must comprehensively cover three key a...
+
+### [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md)
+**Mohammad Jalili Torkamani, Israt Zarin** · arXiv:2512.12769 · 2025-12-14 · `other`
+
+Voice-based interaction has emerged as a natural and intuitive modality for controlling IoT devices. However, speech-driven edge devices face a fundamental trade-off between cloud-based solutions, which offer stronger language understanding capabilities at the cost of latency, connectivity dependenc...
 
 ### [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md)
 **Wang Lu, Yao Zhu, Jindong Wang** · arXiv:2512.10807 · 2025-12-11 · `cs-ai`
@@ -86,44 +111,22 @@ This paper introduces a reinforcement learning framework that enables controllab
 
 Reinforcement learning (RL), earlier proven to be effective in large language and multi-modal models, has been successfully extended to enhance 2D image generation recently. However, applying RL to 3D generation remains largely unexplored due to the higher spatial complexity of 3D objects, which req...
 
-### [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md)
-**Sharath Girish, Viacheslav Ivanov, Tsai-Shien Chen et al.** · arXiv:2512.10943 · 2025-12-11 · `cs-cv`
-
-Recent advances in subject-driven video generation with large diffusion models have enabled personalized content synthesis conditioned on user-provided subjects. However, existing methods lack fine-grained temporal control over subject appearance and disappearance, which are essential for applicatio...
-
-### [Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving](/cs/cv/2512.10947-towards-efficient-and-effective-multi-camera-encod.md)
-**Jiawei Yang, Ziyu Chen, Yurong You et al.** · arXiv:2512.10947 · 2025-12-11 · `cs-cv`
-
-We present Flex, an efficient and effective scene encoder that addresses the computational bottleneck of processing high-volume multi-camera data in end-to-end autonomous driving. Flex employs a small set of learnable scene tokens to jointly encode information from all image tokens across different ...
-
-### [Group Diffusion: Enhancing Image Generation by Unlocking Cross-Sample Collaboration](/cs/cv/2512.10954-group-diffusion-enhancing-image-generation-by-unl.md)
-**Sicheng Mo, Thao Nguyen, Richard Zhang et al.** · arXiv:2512.10954 · 2025-12-11 · `cs-cv`
-
-In this work, we explore an untapped signal in diffusion model inference. While all previous methods generate images independently at inference, we instead ask if samples can be generated collaboratively. We propose Group Diffusion, unlocking the attention mechanism to be shared across images, rathe...
-
-### [From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models](/cs/cv/2512.10867-from-macro-to-micro-benchmarking-microscopic-spat.md)
-**Zongzhao Li, Xiangzhe Kong, Jiahui Su et al.** · arXiv:2512.10867 · 2025-12-11 · `cs-cv`
-
-This paper introduces the concept of Microscopic Spatial Intelligence (MiSI), the capability to perceive and reason about the spatial relationships of invisible microscopic entities, which is fundamental to scientific discovery. To assess the potential of Vision-Language Models (VLMs) in this domain...
-
-### [SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation](/cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md)
-**Kehong Gong, Zhengyu Wen, Mingxi Xu et al.** · arXiv:2512.10860 · 2025-12-11 · `cs-cv`
-
-Despite significant progress in 4D content generation, the conversion of monocular videos into high-quality animated 3D assets with explicit 4D meshes remains considerably challenging. The scarcity of large-scale, naturally captured 4D mesh datasets further limits the ability to train generalizable ...
-
 
 ## By Field
 
 
-### CS-AI (4 papers)
+### CS-AI (6 papers)
 
+- [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md) - arXiv:2512.12777
+- [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md) - arXiv:2512.12775
 - [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md) - arXiv:2512.10807
 - [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md) - arXiv:2512.10895
 - [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
 - [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (14 papers)
+### CS-CV (15 papers)
 
+- [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](/cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md) - arXiv:2512.12756
 - [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md) - arXiv:2512.10949
 - [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md) - arXiv:2512.10943
 - [Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving](/cs/cv/2512.10947-towards-efficient-and-effective-multi-camera-encod.md) - arXiv:2512.10947
@@ -133,7 +136,6 @@ Despite significant progress in 4D content generation, the conversion of monocul
 - [Any4D: Unified Feed-Forward Metric 4D Reconstruction](/cs/cv/2512.10935-any4d-unified-feed-forward-metric-4d-reconstructi.md) - arXiv:2512.10935
 - [GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting](/cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md) - arXiv:2512.10939
 - [FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos](/cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md) - arXiv:2512.10927
-- [OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis](/cs/cv/2512.10940-omniview-an-all-seeing-diffusion-model-for-3d-and.md) - arXiv:2512.10940
 
 ### CS-LG (10 papers)
 
@@ -148,8 +150,10 @@ Despite significant progress in 4D content generation, the conversion of monocul
 - [Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation](/cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md) - arXiv:2512.10925
 - [Learning Controllable and Diverse Player Behaviors in Multi-Agent Environments](/cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md) - arXiv:2512.10835
 
-### OTHER (2 papers)
+### OTHER (4 papers)
 
+- [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
+- [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md) - arXiv:2512.12769
 - [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md) - arXiv:2512.10934
 - [Iterative Compositional Data Generation for Robot Control](/other/2512.10891-iterative-compositional-data-generation-for-robot.md) - arXiv:2512.10891
 
