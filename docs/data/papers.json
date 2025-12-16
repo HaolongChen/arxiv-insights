@@ -1,5 +1,110 @@
 [
   {
+    "arxiv_id": "2512.13685",
+    "title": "Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech",
+    "authors": [
+      "Dylan Phelps",
+      "Rodrigo Wilkens",
+      "Edward Gow-Smith",
+      "Lilian Hubner",
+      "B\u00e1rbara Malcorra",
+      "C\u00e9sar Renn\u00f3-Costa",
+      "Marco Idiart",
+      "Maria-Cruz Villa-Uriol",
+      "Aline Villavicencio"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.13685",
+    "abstract": "Alzheimer's Disease (AD) is a progressive neurodegenerative condition that adversely affects cognitive abilities. Language-related changes can be automatically identified through the analysis of outputs from linguistic assessment tasks, such as picture description. Language models show promise as a ",
+    "file": "cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md"
+  },
+  {
+    "arxiv_id": "2512.13690",
+    "title": "DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders",
+    "authors": [
+      "Susung Hong",
+      "Chongjian Ge",
+      "Zhifei Zhang",
+      "Jui-Hsien Wang"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.GR",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.13690",
+    "abstract": "Video diffusion models have revolutionized generative video synthesis, but they are imprecise, slow, and can be opaque during generation -- keeping users in the dark for a prolonged period. In this work, we propose DiffusionBrowser, a model-agnostic, lightweight decoder framework that allows users t",
+    "file": "cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md"
+  },
+  {
+    "arxiv_id": "2512.13680",
+    "title": "LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction",
+    "authors": [
+      "Tianye Ding",
+      "Yiming Xie",
+      "Yiqing Liang",
+      "Moitreya Chatterjee",
+      "Pedro Miraldo",
+      "Huaizu Jiang"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13680",
+    "abstract": "Recent feed-forward reconstruction models like VGGT and $\u03c0^3$ achieve impressive reconstruction quality but cannot process streaming videos due to quadratic memory complexity, limiting their practical deployment. While existing streaming methods address this through learned memory mechanisms or caus",
+    "file": "cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md"
+  },
+  {
+    "arxiv_id": "2512.13689",
+    "title": "LitePT: Lighter Yet Stronger Point Transformer",
+    "authors": [
+      "Yuanwen Yue",
+      "Damien Robert",
+      "Jianyuan Wang",
+      "Sunghwan Hong",
+      "Jan Dirk Wegner",
+      "Christian Rupprecht",
+      "Konrad Schindler"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13689",
+    "abstract": "Modern neural architectures for 3D point cloud processing contain both convolutional layers and attention blocks, but the best way to assemble them remains unclear. We analyse the role of different computational blocks in 3D point cloud networks and find an intuitive behaviour: convolution is adequa",
+    "file": "cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md"
+  },
+  {
+    "arxiv_id": "2512.13684",
+    "title": "Recurrent Video Masked Autoencoders",
+    "authors": [
+      "Daniel Zoran",
+      "Nikhil Parthasarathy",
+      "Yi Yang",
+      "Drew A Hudson",
+      "Joao Carreira",
+      "Andrew Zisserman"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13684",
+    "abstract": "We present Recurrent Video Masked-Autoencoders (RVM): a novel video representation learning approach that uses a transformer-based recurrent neural network to aggregate dense image features over time, effectively capturing the spatio-temporal structure of natural video data. RVM learns via an asymme",
+    "file": "cs/cv/2512.13684-recurrent-video-masked-autoencoders.md"
+  },
+  {
     "arxiv_id": "2512.12777",
     "title": "State over Tokens: Characterizing the Role of Reasoning Tokens",
     "authors": [

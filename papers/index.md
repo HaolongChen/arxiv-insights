@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 35
-- **Unique Authors**: 215
+- **Total Papers**: 40
+- **Unique Authors**: 247
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-16 02:02:28
+- **Last Updated**: 2025-12-16 16:35:59
 
 ## Latest Papers
+
+### [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md)
+**Dylan Phelps, Rodrigo Wilkens, Edward Gow-Smith et al.** · arXiv:2512.13685 · 2025-12-15 · `cs-ai`
+
+Alzheimer's Disease (AD) is a progressive neurodegenerative condition that adversely affects cognitive abilities. Language-related changes can be automatically identified through the analysis of outputs from linguistic assessment tasks, such as picture description. Language models show promise as a ...
+
+### [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md)
+**Susung Hong, Chongjian Ge, Zhifei Zhang et al.** · arXiv:2512.13690 · 2025-12-15 · `cs-cv`
+
+Video diffusion models have revolutionized generative video synthesis, but they are imprecise, slow, and can be opaque during generation -- keeping users in the dark for a prolonged period. In this work, we propose DiffusionBrowser, a model-agnostic, lightweight decoder framework that allows users t...
+
+### [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md)
+**Tianye Ding, Yiming Xie, Yiqing Liang et al.** · arXiv:2512.13680 · 2025-12-15 · `cs-cv`
+
+Recent feed-forward reconstruction models like VGGT and $π^3$ achieve impressive reconstruction quality but cannot process streaming videos due to quadratic memory complexity, limiting their practical deployment. While existing streaming methods address this through learned memory mechanisms or caus...
+
+### [LitePT: Lighter Yet Stronger Point Transformer](/cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md)
+**Yuanwen Yue, Damien Robert, Jianyuan Wang et al.** · arXiv:2512.13689 · 2025-12-15 · `cs-cv`
+
+Modern neural architectures for 3D point cloud processing contain both convolutional layers and attention blocks, but the best way to assemble them remains unclear. We analyse the role of different computational blocks in 3D point cloud networks and find an intuitive behaviour: convolution is adequa...
+
+### [Recurrent Video Masked Autoencoders](/cs/cv/2512.13684-recurrent-video-masked-autoencoders.md)
+**Daniel Zoran, Nikhil Parthasarathy, Yi Yang et al.** · arXiv:2512.13684 · 2025-12-15 · `cs-cv`
+
+We present Recurrent Video Masked-Autoencoders (RVM): a novel video representation learning approach that uses a transformer-based recurrent neural network to aggregate dense image features over time, effectively capturing the spatio-temporal structure of natural video data. RVM learns via an asymme...
 
 ### [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md)
 **Mosh Levy, Zohar Elyoseph, Shauli Ravfogel et al.** · arXiv:2512.12777 · 2025-12-14 · `cs-ai`
@@ -86,37 +111,13 @@ Discrete diffusion models achieve strong performance across language and other d
 
 We study long-horizon exogenous-only temperature forecasting - a challenging univariate setting where only the past values of the indoor temperature are used for prediction - using linear and Transformer-family models. We evaluate Linear, NLinear, DLinear, Transformer, Informer, and Autoformer under...
 
-### [Scaling Behavior of Discrete Diffusion Language Models](/cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md)
-**Dimitri von Rütte, Janis Fluri, Omead Pooladzandi et al.** · arXiv:2512.10858 · 2025-12-11 · `cs-lg`
-
-Modern LLM pre-training consumes vast amounts of compute and training data, making the scaling behavior, or scaling laws, of different models a key distinguishing factor. Discrete diffusion language models (DLMs) have been proposed as an alternative to autoregressive language models (ALMs). However,...
-
-### [Stronger Normalization-Free Transformers](/cs/lg/2512.10938-stronger-normalization-free-transformers.md)
-**Mingzhi Chen, Taiming Lu, Jiachen Zhu et al.** · arXiv:2512.10938 · 2025-12-11 · `cs-lg`
-
-Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches norm...
-
-### [Digital Twin Supervised Reinforcement Learning Framework for Autonomous Underwater Navigation](/cs/lg/2512.10925-digital-twin-supervised-reinforcement-learning-fra.md)
-**Zamirddine Mari, Mohamad Motasem Nawaf, Pierre Drap** · arXiv:2512.10925 · 2025-12-11 · `cs-lg`
-
-Autonomous navigation in underwater environments remains a major challenge due to the absence of GPS, degraded visibility, and the presence of submerged obstacles. This article investigates these issues through the case of the BlueROV2, an open platform widely used for scientific experimentation. We...
-
-### [Learning Controllable and Diverse Player Behaviors in Multi-Agent Environments](/cs/lg/2512.10835-learning-controllable-and-diverse-player-behaviors.md)
-**Atahan Cilan, Atay Özgövde** · arXiv:2512.10835 · 2025-12-11 · `cs-lg`
-
-This paper introduces a reinforcement learning framework that enables controllable and diverse player behaviors without relying on human gameplay data. Existing approaches often require large-scale player trajectories, train separate models for different player types, or provide no direct mapping be...
-
-### [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md)
-**Yiwen Tang, Zoey Guo, Kaixin Zhu et al.** · arXiv:2512.10949 · 2025-12-11 · `cs-cv`
-
-Reinforcement learning (RL), earlier proven to be effective in large language and multi-modal models, has been successfully extended to enhance 2D image generation recently. However, applying RL to 3D generation remains largely unexplored due to the higher spatial complexity of 3D objects, which req...
-
 
 ## By Field
 
 
-### CS-AI (6 papers)
+### CS-AI (7 papers)
 
+- [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md) - arXiv:2512.13685
 - [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md) - arXiv:2512.12777
 - [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md) - arXiv:2512.12775
 - [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md) - arXiv:2512.10807
@@ -124,18 +125,18 @@ Reinforcement learning (RL), earlier proven to be effective in large language an
 - [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
 - [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (15 papers)
+### CS-CV (19 papers)
 
+- [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md) - arXiv:2512.13690
+- [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md) - arXiv:2512.13680
+- [LitePT: Lighter Yet Stronger Point Transformer](/cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md) - arXiv:2512.13689
+- [Recurrent Video Masked Autoencoders](/cs/cv/2512.13684-recurrent-video-masked-autoencoders.md) - arXiv:2512.13684
 - [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](/cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md) - arXiv:2512.12756
 - [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md) - arXiv:2512.10949
 - [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md) - arXiv:2512.10943
 - [Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving](/cs/cv/2512.10947-towards-efficient-and-effective-multi-camera-encod.md) - arXiv:2512.10947
 - [Group Diffusion: Enhancing Image Generation by Unlocking Cross-Sample Collaboration](/cs/cv/2512.10954-group-diffusion-enhancing-image-generation-by-unl.md) - arXiv:2512.10954
 - [From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models](/cs/cv/2512.10867-from-macro-to-micro-benchmarking-microscopic-spat.md) - arXiv:2512.10867
-- [SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation](/cs/cv/2512.10860-swit-4d-sliding-window-transformer-for-lossless-a.md) - arXiv:2512.10860
-- [Any4D: Unified Feed-Forward Metric 4D Reconstruction](/cs/cv/2512.10935-any4d-unified-feed-forward-metric-4d-reconstructi.md) - arXiv:2512.10935
-- [GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting](/cs/cv/2512.10939-gaussianheadtalk-wobble-free-3d-talking-heads-wit.md) - arXiv:2512.10939
-- [FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos](/cs/cv/2512.10927-foundationmotion-auto-labeling-and-reasoning-abou.md) - arXiv:2512.10927
 
 ### CS-LG (10 papers)
 
