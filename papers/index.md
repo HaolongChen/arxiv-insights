@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 50
-- **Unique Authors**: 314
+- **Total Papers**: 55
+- **Unique Authors**: 354
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-17 08:36:56
+- **Last Updated**: 2025-12-17 16:35:45
 
 ## Latest Papers
 
@@ -31,10 +31,35 @@ Video foundation models generate visually realistic and temporally coherent cont
 
 We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tra...
 
+### [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md)
+**Rao Muhammad Umer, Daniel Sens, Jonathan Noll et al.** · arXiv:2512.14640 · 2025-12-16 · `cs-cv`
+
+Timely and accurate lymphoma diagnosis is essential for guiding cancer treatment. Standard diagnostic practice combines hematoxylin and eosin (HE)-stained whole slide images with immunohistochemistry, flow cytometry, and molecular genetic tests to determine lymphoma subtypes, a process requiring cos...
+
 ### [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md)
 **Jun Zhang, Teng Wang, Yuying Ge et al.** · arXiv:2512.14698 · 2025-12-16 · `cs-cv`
 
 This paper does not introduce a novel method but instead establishes a straightforward, incremental, yet essential baseline for video temporal grounding (VTG), a core capability in video understanding. While multimodal large language models (MLLMs) excel at various video understanding tasks, the rec...
+
+### [AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation](/cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md)
+**Fei Wu, Marcel Dreier, Nora Gourmelon et al.** · arXiv:2512.14639 · 2025-12-16 · `cs-cv`
+
+The dynamics of glaciers and ice shelf fronts significantly impact the mass balance of ice sheets and coastal sea levels. To effectively monitor glacier conditions, it is crucial to consistently estimate positional shifts of glacier calving fronts. AMD-HookNet firstly introduces a pure two-branch co...
+
+### [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md)
+**Zizhang Li, Cheng Zhang, Zhengqin Li et al.** · arXiv:2512.14671 · 2025-12-16 · `cs-cv`
+
+We introduce ART, Articulated Reconstruction Transformer -- a category-agnostic, feed-forward model that reconstructs complete 3D articulated objects from only sparse, multi-state RGB images. Previous methods for articulated object reconstruction either rely on slow optimization with fragile cross-s...
+
+### [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md)
+**Zechen Bai, Chen Gao, Mike Zheng Shou** · arXiv:2512.14666 · 2025-12-16 · `other`
+
+Achieving truly adaptive embodied intelligence requires agents that learn not just by imitating static demonstrations, but by continuously improving through environmental interaction, which is akin to how humans master skills through practice. Vision-Language-Action (VLA) models have advanced roboti...
+
+### [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md)
+**Gabriele Accarino, Viviana Acquaviva, Sara Shamekh et al.** · arXiv:2512.14656 · 2025-12-16 · `other`
+
+We introduce WaveSim, a multi-scale similarity metric for the evaluation of spatial fields in weather and climate applications. WaveSim exploits wavelet transforms to decompose input fields into scale-specific wavelet coefficients. The metric is built by multiplying three orthogonal components deriv...
 
 ### [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md)
 **Dylan Phelps, Rodrigo Wilkens, Edward Gow-Smith et al.** · arXiv:2512.13685 · 2025-12-15 · `cs-ai`
@@ -86,31 +111,6 @@ In this paper, we present JoVA, a unified framework for joint video-audio genera
 
 We present Recurrent Video Masked-Autoencoders (RVM): a novel video representation learning approach that uses a transformer-based recurrent neural network to aggregate dense image features over time, effectively capturing the spatio-temporal structure of natural video data. RVM learns via an asymme...
 
-### [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md)
-**Mosh Levy, Zohar Elyoseph, Shauli Ravfogel et al.** · arXiv:2512.12777 · 2025-12-14 · `cs-ai`
-
-Large Language Models (LLMs) can generate reasoning tokens before their final answer to boost performance on complex tasks. While these sequences seem like human thought processes, empirical evidence reveals that they are not a faithful explanation of the model's actual reasoning process. To address...
-
-### [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md)
-**Pedro Henrique Luz de Araujo, Michael A. Hedderich, Ali Modarressi et al.** · arXiv:2512.12775 · 2025-12-14 · `cs-ai`
-
-Persona-assigned large language models (LLMs) are used in domains such as education, healthcare, and sociodemographic simulation. Yet, they are typically evaluated only in short, single-round settings that do not reflect real-world usage. We introduce an evaluation protocol that combines long person...
-
-### [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](/cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md)
-**Yue Jiang, Dingkang Yang, Minghao Han et al.** · arXiv:2512.12756 · 2025-12-14 · `cs-cv`
-
-Despite rapid progress in multimodal large language models (MLLMs) and emerging omni-modal architectures, current benchmarks remain limited in scope and integration, suffering from incomplete modality coverage, restricted interaction to text-centric outputs, and weak interdependence and complementar...
-
-### [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md)
-**Jianghan Chao, Jianzhang Gao, Wenhui Tan et al.** · arXiv:2512.12772 · 2025-12-14 · `other`
-
-Understanding videos inherently requires reasoning over both visual and auditory information. To properly evaluate Omni-Large Language Models (Omni-LLMs), which are capable of processing multi-modal information including vision and audio, an effective benchmark must comprehensively cover three key a...
-
-### [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md)
-**Mohammad Jalili Torkamani, Israt Zarin** · arXiv:2512.12769 · 2025-12-14 · `other`
-
-Voice-based interaction has emerged as a natural and intuitive modality for controlling IoT devices. However, speech-driven edge devices face a fundamental trade-off between cloud-based solutions, which offer stronger language understanding capabilities at the cost of latency, connectivity dependenc...
-
 
 ## By Field
 
@@ -128,18 +128,18 @@ Voice-based interaction has emerged as a natural and intuitive modality for cont
 - [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
 - [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (24 papers)
+### CS-CV (27 papers)
 
 - [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
+- [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md) - arXiv:2512.14640
 - [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md) - arXiv:2512.14698
+- [AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation](/cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md) - arXiv:2512.14639
+- [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md) - arXiv:2512.14671
 - [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md) - arXiv:2512.13690
 - [Grab-3D: Detecting AI-Generated Videos from 3D Geometric Temporal Consistency](/cs/cv/2512.13665-grab-3d-detecting-ai-generated-videos-from-3d-geo.md) - arXiv:2512.13665
 - [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md) - arXiv:2512.13680
 - [AgentIAD: Tool-Augmented Single-Agent for Industrial Anomaly Detection](/cs/cv/2512.13671-agentiad-tool-augmented-single-agent-for-industri.md) - arXiv:2512.13671
 - [LitePT: Lighter Yet Stronger Point Transformer](/cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md) - arXiv:2512.13689
-- [JoVA: Unified Multimodal Learning for Joint Video-Audio Generation](/cs/cv/2512.13677-jova-unified-multimodal-learning-for-joint-video.md) - arXiv:2512.13677
-- [Recurrent Video Masked Autoencoders](/cs/cv/2512.13684-recurrent-video-masked-autoencoders.md) - arXiv:2512.13684
-- [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](/cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md) - arXiv:2512.12756
 
 ### CS-LG (12 papers)
 
@@ -154,8 +154,10 @@ Voice-based interaction has emerged as a natural and intuitive modality for cont
 - [Scaling Behavior of Discrete Diffusion Language Models](/cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md) - arXiv:2512.10858
 - [Stronger Normalization-Free Transformers](/cs/lg/2512.10938-stronger-normalization-free-transformers.md) - arXiv:2512.10938
 
-### OTHER (4 papers)
+### OTHER (6 papers)
 
+- [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
+- [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
 - [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
 - [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md) - arXiv:2512.12769
 - [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md) - arXiv:2512.10934

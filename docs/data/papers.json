@@ -94,6 +94,34 @@
     "file": "cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md"
   },
   {
+    "arxiv_id": "2512.14640",
+    "title": "A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images",
+    "authors": [
+      "Rao Muhammad Umer",
+      "Daniel Sens",
+      "Jonathan Noll",
+      "Christian Matek",
+      "Lukas Wolfseher",
+      "Rainer Spang",
+      "Ralf Huss",
+      "Johannes Raffler",
+      "Sarah Reinke",
+      "Wolfram Klapper",
+      "Katja Steiger",
+      "Kristina Schwamborn",
+      "Carsten Marr"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.14640",
+    "abstract": "Timely and accurate lymphoma diagnosis is essential for guiding cancer treatment. Standard diagnostic practice combines hematoxylin and eosin (HE)-stained whole slide images with immunohistochemistry, flow cytometry, and molecular genetic tests to determine lymphoma subtypes, a process requiring cos",
+    "file": "cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md"
+  },
+  {
     "arxiv_id": "2512.14698",
     "title": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
     "authors": [
@@ -116,6 +144,92 @@
     "url": "https://arxiv.org/abs/2512.14698",
     "abstract": "This paper does not introduce a novel method but instead establishes a straightforward, incremental, yet essential baseline for video temporal grounding (VTG), a core capability in video understanding. While multimodal large language models (MLLMs) excel at various video understanding tasks, the rec",
     "file": "cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md"
+  },
+  {
+    "arxiv_id": "2512.14639",
+    "title": "AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation",
+    "authors": [
+      "Fei Wu",
+      "Marcel Dreier",
+      "Nora Gourmelon",
+      "Sebastian Wind",
+      "Jianlin Zhang",
+      "Thorsten Seehaus",
+      "Matthias Braun",
+      "Andreas Maier",
+      "Vincent Christlein"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.14639",
+    "abstract": "The dynamics of glaciers and ice shelf fronts significantly impact the mass balance of ice sheets and coastal sea levels. To effectively monitor glacier conditions, it is crucial to consistently estimate positional shifts of glacier calving fronts. AMD-HookNet firstly introduces a pure two-branch co",
+    "file": "cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md"
+  },
+  {
+    "arxiv_id": "2512.14671",
+    "title": "ART: Articulated Reconstruction Transformer",
+    "authors": [
+      "Zizhang Li",
+      "Cheng Zhang",
+      "Zhengqin Li",
+      "Henry Howard-Jenkins",
+      "Zhaoyang Lv",
+      "Chen Geng",
+      "Jiajun Wu",
+      "Richard Newcombe",
+      "Jakob Engel",
+      "Zhao Dong"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.14671",
+    "abstract": "We introduce ART, Articulated Reconstruction Transformer -- a category-agnostic, feed-forward model that reconstructs complete 3D articulated objects from only sparse, multi-state RGB images. Previous methods for articulated object reconstruction either rely on slow optimization with fragile cross-s",
+    "file": "cs/cv/2512.14671-art-articulated-reconstruction-transformer.md"
+  },
+  {
+    "arxiv_id": "2512.14666",
+    "title": "EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models",
+    "authors": [
+      "Zechen Bai",
+      "Chen Gao",
+      "Mike Zheng Shou"
+    ],
+    "date": "2025-12-16",
+    "field": "other",
+    "tags": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.14666",
+    "abstract": "Achieving truly adaptive embodied intelligence requires agents that learn not just by imitating static demonstrations, but by continuously improving through environmental interaction, which is akin to how humans master skills through practice. Vision-Language-Action (VLA) models have advanced roboti",
+    "file": "other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md"
+  },
+  {
+    "arxiv_id": "2512.14656",
+    "title": "WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields",
+    "authors": [
+      "Gabriele Accarino",
+      "Viviana Acquaviva",
+      "Sara Shamekh",
+      "Duncan Watson-Parris",
+      "David Lawrence"
+    ],
+    "date": "2025-12-16",
+    "field": "other",
+    "tags": [
+      "physics.ao-ph",
+      "cs.CV",
+      "physics.data-an"
+    ],
+    "url": "https://arxiv.org/abs/2512.14656",
+    "abstract": "We introduce WaveSim, a multi-scale similarity metric for the evaluation of spatial fields in weather and climate applications. WaveSim exploits wavelet transforms to decompose input fields into scale-specific wavelet coefficients. The metric is built by multiplying three orthogonal components deriv",
+    "file": "other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md"
   },
   {
     "arxiv_id": "2512.13685",
