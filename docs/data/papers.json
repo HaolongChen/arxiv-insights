@@ -1,5 +1,123 @@
 [
   {
+    "arxiv_id": "2512.14693",
+    "title": "Universal Reasoning Model",
+    "authors": [
+      "Zitian Gao",
+      "Lynx Chen",
+      "Yihao Xiao",
+      "He Xing",
+      "Ran Tao",
+      "Haoming Luo",
+      "Joey Zhou",
+      "Bryan Dai"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.14693",
+    "abstract": "Universal transformers (UTs) have been widely used for complex reasoning tasks such as ARC-AGI and Sudoku, yet the specific sources of their performance gains remain underexplored. In this work, we systematically analyze UTs variants and show that improvements on ARC-AGI primarily arise from the rec",
+    "file": "cs/ai/2512.14693-universal-reasoning-model.md"
+  },
+  {
+    "arxiv_id": "2512.14681",
+    "title": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
+    "authors": [
+      "Lanxiang Hu",
+      "Siqi Kou",
+      "Yichao Fu",
+      "Samyam Rajbhandari",
+      "Tajana Rosing",
+      "Yuxiong He",
+      "Zhijie Deng",
+      "Hao Zhang"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.14681",
+    "abstract": "Multi-token generation has emerged as a promising paradigm for accelerating transformer-based large model inference. Recent efforts primarily explore diffusion Large Language Models (dLLMs) for parallel decoding to reduce inference latency. To achieve AR-level generation quality, many techniques ada",
+    "file": "cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md"
+  },
+  {
+    "arxiv_id": "2512.14691",
+    "title": "MMGR: Multi-Modal Generative Reasoning",
+    "authors": [
+      "Zefan Cai",
+      "Haoyi Qiu",
+      "Tianyi Ma",
+      "Haozhe Zhao",
+      "Gengze Zhou",
+      "Kung-Hsiang Huang",
+      "Parisa Kordjamshidi",
+      "Minjia Zhang",
+      "Xiao Wen",
+      "Jiuxiang Gu",
+      "Nanyun Peng",
+      "Junjie Hu"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.14691",
+    "abstract": "Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook r",
+    "file": "cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md"
+  },
+  {
+    "arxiv_id": "2512.14696",
+    "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
+    "authors": [
+      "Zihan Wang",
+      "Jiashun Wang",
+      "Jeff Tan",
+      "Yiwen Zhao",
+      "Jessica Hodgins",
+      "Shubham Tulsiani",
+      "Deva Ramanan"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.GR",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.14696",
+    "abstract": "We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tra",
+    "file": "cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md"
+  },
+  {
+    "arxiv_id": "2512.14698",
+    "title": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+    "authors": [
+      "Jun Zhang",
+      "Teng Wang",
+      "Yuying Ge",
+      "Yixiao Ge",
+      "Xinhao Li",
+      "Ying Shan",
+      "Limin Wang"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.MM"
+    ],
+    "url": "https://arxiv.org/abs/2512.14698",
+    "abstract": "This paper does not introduce a novel method but instead establishes a straightforward, incremental, yet essential baseline for video temporal grounding (VTG), a core capability in video understanding. While multimodal large language models (MLLMs) excel at various video understanding tasks, the rec",
+    "file": "cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md"
+  },
+  {
     "arxiv_id": "2512.13685",
     "title": "Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech",
     "authors": [

@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 45
-- **Unique Authors**: 273
+- **Total Papers**: 50
+- **Unique Authors**: 314
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-17 01:57:41
+- **Last Updated**: 2025-12-17 08:36:56
 
 ## Latest Papers
+
+### [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md)
+**Zitian Gao, Lynx Chen, Yihao Xiao et al.** · arXiv:2512.14693 · 2025-12-16 · `cs-ai`
+
+Universal transformers (UTs) have been widely used for complex reasoning tasks such as ARC-AGI and Sudoku, yet the specific sources of their performance gains remain underexplored. In this work, we systematically analyze UTs variants and show that improvements on ARC-AGI primarily arise from the rec...
+
+### [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md)
+**Lanxiang Hu, Siqi Kou, Yichao Fu et al.** · arXiv:2512.14681 · 2025-12-16 · `cs-ai`
+
+Multi-token generation has emerged as a promising paradigm for accelerating transformer-based large model inference. Recent efforts primarily explore diffusion Large Language Models (dLLMs) for parallel decoding to reduce inference latency. To achieve AR-level generation quality, many techniques ada...
+
+### [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md)
+**Zefan Cai, Haoyi Qiu, Tianyi Ma et al.** · arXiv:2512.14691 · 2025-12-16 · `cs-ai`
+
+Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook r...
+
+### [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md)
+**Zihan Wang, Jiashun Wang, Jeff Tan et al.** · arXiv:2512.14696 · 2025-12-16 · `cs-cv`
+
+We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tra...
+
+### [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md)
+**Jun Zhang, Teng Wang, Yuying Ge et al.** · arXiv:2512.14698 · 2025-12-16 · `cs-cv`
+
+This paper does not introduce a novel method but instead establishes a straightforward, incremental, yet essential baseline for video temporal grounding (VTG), a core capability in video understanding. While multimodal large language models (MLLMs) excel at various video understanding tasks, the rec...
 
 ### [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md)
 **Dylan Phelps, Rodrigo Wilkens, Edward Gow-Smith et al.** · arXiv:2512.13685 · 2025-12-15 · `cs-ai`
@@ -86,37 +111,15 @@ Understanding videos inherently requires reasoning over both visual and auditory
 
 Voice-based interaction has emerged as a natural and intuitive modality for controlling IoT devices. However, speech-driven edge devices face a fundamental trade-off between cloud-based solutions, which offer stronger language understanding capabilities at the cost of latency, connectivity dependenc...
 
-### [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md)
-**Wang Lu, Yao Zhu, Jindong Wang** · arXiv:2512.10807 · 2025-12-11 · `cs-ai`
-
-Sensor-based human activity recognition (HAR) mines activity patterns from the time-series sensory data. In realistic scenarios, variations across individuals, devices, environments, and time introduce significant distributional shifts for the same activities. Recent efforts attempt to solve this ch...
-
-### [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md)
-**Lijie Ding, Janell Thomson, Jon Taylor et al.** · arXiv:2512.10895 · 2025-12-11 · `cs-ai`
-
-We explore how large language models (LLMs) can enhance the proposal selection process at large user facilities, offering a scalable, consistent, and cost-effective alternative to traditional human review. Proposal selection depends on assessing the relative strength among submitted proposals; howev...
-
-### [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md)
-**Muhammad Umair Haider, Hammad Rizwan, Hassan Sajjad et al.** · arXiv:2512.10903 · 2025-12-11 · `cs-ai`
-
-Circuit discovery aims to identify minimal subnetworks that are responsible for specific behaviors in large language models (LLMs). Existing approaches primarily rely on iterative edge pruning, which is computationally expensive and limited to coarse-grained units such as attention heads or MLP bloc...
-
-### [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md)
-**Hauke Licht** · arXiv:2512.10882 · 2025-12-11 · `cs-ai`
-
-Emotions are central to politics and analyzing their role in political communication has a long tradition. As research increasingly leverages audio-visual materials to analyze the display of emotions, the emergence of multimodal generative AI promises great advances. However, we lack evidence about ...
-
-### [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md)
-**Max Zimmer, Christophe Roux, Moritz Wagner et al.** · arXiv:2512.10922 · 2025-12-11 · `cs-lg`
-
-The resource requirements of Neural Networks can be significantly reduced through pruning -- the removal of seemingly less important parameters. However, with the rise of Large Language Models (LLMs), full retraining to recover pruning-induced performance degradation is often prohibitive and classic...
-
 
 ## By Field
 
 
-### CS-AI (7 papers)
+### CS-AI (10 papers)
 
+- [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md) - arXiv:2512.14693
+- [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md) - arXiv:2512.14681
+- [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md) - arXiv:2512.14691
 - [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md) - arXiv:2512.13685
 - [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md) - arXiv:2512.12777
 - [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md) - arXiv:2512.12775
@@ -125,8 +128,10 @@ The resource requirements of Neural Networks can be significantly reduced throug
 - [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
 - [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (22 papers)
+### CS-CV (24 papers)
 
+- [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
+- [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md) - arXiv:2512.14698
 - [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md) - arXiv:2512.13690
 - [Grab-3D: Detecting AI-Generated Videos from 3D Geometric Temporal Consistency](/cs/cv/2512.13665-grab-3d-detecting-ai-generated-videos-from-3d-geo.md) - arXiv:2512.13665
 - [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md) - arXiv:2512.13680
@@ -135,8 +140,6 @@ The resource requirements of Neural Networks can be significantly reduced throug
 - [JoVA: Unified Multimodal Learning for Joint Video-Audio Generation](/cs/cv/2512.13677-jova-unified-multimodal-learning-for-joint-video.md) - arXiv:2512.13677
 - [Recurrent Video Masked Autoencoders](/cs/cv/2512.13684-recurrent-video-masked-autoencoders.md) - arXiv:2512.13684
 - [FysicsWorld: A Unified Full-Modality Benchmark for Any-to-Any Understanding, Generation, and Reasoning](/cs/cv/2512.12756-fysicsworld-a-unified-full-modality-benchmark-for.md) - arXiv:2512.12756
-- [Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](/cs/cv/2512.10949-are-we-ready-for-rl-in-text-to-3d-generation-a-pr.md) - arXiv:2512.10949
-- [AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation](/cs/cv/2512.10943-alchemint-fine-grained-temporal-control-for-multi.md) - arXiv:2512.10943
 
 ### CS-LG (12 papers)
 
