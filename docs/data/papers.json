@@ -23,6 +23,49 @@
     "file": "cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md"
   },
   {
+    "arxiv_id": "2512.13672",
+    "title": "Directional Textual Inversion for Personalized Text-to-Image Generation",
+    "authors": [
+      "Kunhee Kim",
+      "NaHyeon Park",
+      "Kibeom Hong",
+      "Hyunjung Shim"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13672",
+    "abstract": "Textual Inversion (TI) is an efficient approach to text-to-image personalization but often fails on complex prompts. We trace these failures to embedding norm inflation: learned tokens drift to out-of-distribution magnitudes, degrading prompt conditioning in pre-norm Transformers. Empirically, we sh",
+    "file": "cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md"
+  },
+  {
+    "arxiv_id": "2512.13668",
+    "title": "A Scientific Reasoning Model for Organic Synthesis Procedure Generation",
+    "authors": [
+      "Guoqing Liu",
+      "Junren Li",
+      "Zihan Zhao",
+      "Eray Inanc",
+      "Krzysztof Maziarz",
+      "Jose Garrido Torres",
+      "Victor Garcia Satorras",
+      "Shoko Ueda",
+      "Christopher M. Bishop",
+      "Marwin Segler"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.13668",
+    "abstract": "Solving computer-aided synthesis planning is essential for enabling fully automated, robot-assisted synthesis workflows and improving the efficiency of drug discovery. A key challenge, however, is bridging the gap between computational route design and practical laboratory execution, particularly th",
+    "file": "cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md"
+  },
+  {
     "arxiv_id": "2512.13690",
     "title": "DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders",
     "authors": [
@@ -42,6 +85,23 @@
     "url": "https://arxiv.org/abs/2512.13690",
     "abstract": "Video diffusion models have revolutionized generative video synthesis, but they are imprecise, slow, and can be opaque during generation -- keeping users in the dark for a prolonged period. In this work, we propose DiffusionBrowser, a model-agnostic, lightweight decoder framework that allows users t",
     "file": "cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md"
+  },
+  {
+    "arxiv_id": "2512.13665",
+    "title": "Grab-3D: Detecting AI-Generated Videos from 3D Geometric Temporal Consistency",
+    "authors": [
+      "Wenhan Chen",
+      "Sezer Karaoglu",
+      "Theo Gevers"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13665",
+    "abstract": "Recent advances in diffusion-based generation techniques enable AI models to produce highly realistic videos, heightening the need for reliable detection mechanisms. However, existing detection methods provide only limited exploration of the 3D geometric patterns present in generated videos. In this",
+    "file": "cs/cv/2512.13665-grab-3d-detecting-ai-generated-videos-from-3d-geo.md"
   },
   {
     "arxiv_id": "2512.13680",
@@ -64,6 +124,25 @@
     "file": "cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md"
   },
   {
+    "arxiv_id": "2512.13671",
+    "title": "AgentIAD: Tool-Augmented Single-Agent for Industrial Anomaly Detection",
+    "authors": [
+      "Junwen Miao",
+      "Penghui Du",
+      "Yi Liu",
+      "Yu Wang",
+      "Yan Wang"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13671",
+    "abstract": "Industrial anomaly detection (IAD) is difficult due to the scarcity of normal reference samples and the subtle, localized nature of many defects. Single-pass vision-language models (VLMs) often overlook small abnormalities and lack explicit mechanisms to compare against canonical normal patterns. We",
+    "file": "cs/cv/2512.13671-agentiad-tool-augmented-single-agent-for-industri.md"
+  },
+  {
     "arxiv_id": "2512.13689",
     "title": "LitePT: Lighter Yet Stronger Point Transformer",
     "authors": [
@@ -83,6 +162,25 @@
     "url": "https://arxiv.org/abs/2512.13689",
     "abstract": "Modern neural architectures for 3D point cloud processing contain both convolutional layers and attention blocks, but the best way to assemble them remains unclear. We analyse the role of different computational blocks in 3D point cloud networks and find an intuitive behaviour: convolution is adequa",
     "file": "cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md"
+  },
+  {
+    "arxiv_id": "2512.13677",
+    "title": "JoVA: Unified Multimodal Learning for Joint Video-Audio Generation",
+    "authors": [
+      "Xiaohu Huang",
+      "Hao Zhou",
+      "Qiangpeng Yang",
+      "Shilei Wen",
+      "Kai Han"
+    ],
+    "date": "2025-12-15",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.13677",
+    "abstract": "In this paper, we present JoVA, a unified framework for joint video-audio generation. Despite recent encouraging advances, existing methods face two critical limitations. First, most existing approaches can only generate ambient sounds and lack the capability to produce human speech synchronized wit",
+    "file": "cs/cv/2512.13677-jova-unified-multimodal-learning-for-joint-video.md"
   },
   {
     "arxiv_id": "2512.13684",
