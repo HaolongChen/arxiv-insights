@@ -71,6 +71,46 @@
     "file": "cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md"
   },
   {
+    "arxiv_id": "2512.14619",
+    "title": "ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning",
+    "authors": [
+      "Chaohao Yuan",
+      "Zhenjie Song",
+      "Ercan Engin Kuruoglu",
+      "Kangfei Zhao",
+      "Yang Liu",
+      "Deli Zhao",
+      "Hong Cheng",
+      "Yu Rong"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.14619",
+    "abstract": "Graph Transformers (GTs) have emerged as a promising graph learning tool, leveraging their all-pair connected property to effectively capture global information. To address the over-smoothing problem in deep GNNs, global attention was initially introduced, eliminating the necessity for using deep GN",
+    "file": "cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md"
+  },
+  {
+    "arxiv_id": "2512.14617",
+    "title": "Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes",
+    "authors": [
+      "Alessandro Trapasso",
+      "Luca Iocchi",
+      "Fabio Patrizi"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.14617",
+    "abstract": "Many practical decision-making problems involve tasks whose success depends on the entire system history, rather than on achieving a state with desired properties. Markovian Reinforcement Learning (RL) approaches are not suitable for such tasks, while RL with non-Markovian reward decision processes ",
+    "file": "cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md"
+  },
+  {
     "arxiv_id": "2512.14696",
     "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
     "authors": [
@@ -92,6 +132,31 @@
     "url": "https://arxiv.org/abs/2512.14696",
     "abstract": "We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tra",
     "file": "cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md"
+  },
+  {
+    "arxiv_id": "2512.14614",
+    "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+    "authors": [
+      "Wenqiang Sun",
+      "Haiyu Zhang",
+      "Haoyuan Wang",
+      "Junta Wu",
+      "Zehan Wang",
+      "Zhenwei Wang",
+      "Yunhong Wang",
+      "Jun Zhang",
+      "Tengfei Wang",
+      "Chunchao Guo"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.GR"
+    ],
+    "url": "https://arxiv.org/abs/2512.14614",
+    "abstract": "This paper presents WorldPlay, a streaming video diffusion model that enables real-time, interactive world modeling with long-term geometric consistency, resolving the trade-off between speed and memory that limits current methods. WorldPlay draws power from three key innovations. 1) We use a Dual A",
+    "file": "cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md"
   },
   {
     "arxiv_id": "2512.14640",
@@ -169,6 +234,26 @@
     "file": "cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md"
   },
   {
+    "arxiv_id": "2512.14621",
+    "title": "Distill Video Datasets into Images",
+    "authors": [
+      "Zhenghao Zhao",
+      "Haoxuan Wang",
+      "Kai Wang",
+      "Yuzhang Shang",
+      "Yuan Hong",
+      "Yan Yan"
+    ],
+    "date": "2025-12-16",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.14621",
+    "abstract": "Dataset distillation aims to synthesize compact yet informative datasets that allow models trained on them to achieve performance comparable to training on the full dataset. While this approach has shown promising results for image data, extending dataset distillation methods to video data has prove",
+    "file": "cs/cv/2512.14621-distill-video-datasets-into-images.md"
+  },
+  {
     "arxiv_id": "2512.14671",
     "title": "ART: Articulated Reconstruction Transformer",
     "authors": [
@@ -191,6 +276,28 @@
     "url": "https://arxiv.org/abs/2512.14671",
     "abstract": "We introduce ART, Articulated Reconstruction Transformer -- a category-agnostic, feed-forward model that reconstructs complete 3D articulated objects from only sparse, multi-state RGB images. Previous methods for articulated object reconstruction either rely on slow optimization with fragile cross-s",
     "file": "cs/cv/2512.14671-art-articulated-reconstruction-transformer.md"
+  },
+  {
+    "arxiv_id": "2512.14629",
+    "title": "MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation",
+    "authors": [
+      "Yash Vishe",
+      "Eric Xue",
+      "Xunyi Jiang",
+      "Zachary Novack",
+      "Junda Wu",
+      "Julian McAuley",
+      "Xin Xu"
+    ],
+    "date": "2025-12-16",
+    "field": "other",
+    "tags": [
+      "cs.SD",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.14629",
+    "abstract": "Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music generation models have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. However, many existing",
+    "file": "other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md"
   },
   {
     "arxiv_id": "2512.14666",

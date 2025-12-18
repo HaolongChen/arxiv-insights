@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 55
-- **Unique Authors**: 354
+- **Total Papers**: 60
+- **Unique Authors**: 385
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-17 16:35:45
+- **Last Updated**: 2025-12-18 01:58:27
 
 ## Latest Papers
 
@@ -26,10 +26,25 @@ Multi-token generation has emerged as a promising paradigm for accelerating tran
 
 Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook r...
 
+### [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md)
+**Chaohao Yuan, Zhenjie Song, Ercan Engin Kuruoglu et al.** · arXiv:2512.14619 · 2025-12-16 · `cs-lg`
+
+Graph Transformers (GTs) have emerged as a promising graph learning tool, leveraging their all-pair connected property to effectively capture global information. To address the over-smoothing problem in deep GNNs, global attention was initially introduced, eliminating the necessity for using deep GN...
+
+### [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md)
+**Alessandro Trapasso, Luca Iocchi, Fabio Patrizi** · arXiv:2512.14617 · 2025-12-16 · `cs-lg`
+
+Many practical decision-making problems involve tasks whose success depends on the entire system history, rather than on achieving a state with desired properties. Markovian Reinforcement Learning (RL) approaches are not suitable for such tasks, while RL with non-Markovian reward decision processes ...
+
 ### [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md)
 **Zihan Wang, Jiashun Wang, Jeff Tan et al.** · arXiv:2512.14696 · 2025-12-16 · `cs-cv`
 
 We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tra...
+
+### [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md)
+**Wenqiang Sun, Haiyu Zhang, Haoyuan Wang et al.** · arXiv:2512.14614 · 2025-12-16 · `cs-cv`
+
+This paper presents WorldPlay, a streaming video diffusion model that enables real-time, interactive world modeling with long-term geometric consistency, resolving the trade-off between speed and memory that limits current methods. WorldPlay draws power from three key innovations. 1) We use a Dual A...
 
 ### [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md)
 **Rao Muhammad Umer, Daniel Sens, Jonathan Noll et al.** · arXiv:2512.14640 · 2025-12-16 · `cs-cv`
@@ -46,10 +61,20 @@ This paper does not introduce a novel method but instead establishes a straightf
 
 The dynamics of glaciers and ice shelf fronts significantly impact the mass balance of ice sheets and coastal sea levels. To effectively monitor glacier conditions, it is crucial to consistently estimate positional shifts of glacier calving fronts. AMD-HookNet firstly introduces a pure two-branch co...
 
+### [Distill Video Datasets into Images](/cs/cv/2512.14621-distill-video-datasets-into-images.md)
+**Zhenghao Zhao, Haoxuan Wang, Kai Wang et al.** · arXiv:2512.14621 · 2025-12-16 · `cs-cv`
+
+Dataset distillation aims to synthesize compact yet informative datasets that allow models trained on them to achieve performance comparable to training on the full dataset. While this approach has shown promising results for image data, extending dataset distillation methods to video data has prove...
+
 ### [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md)
 **Zizhang Li, Cheng Zhang, Zhengqin Li et al.** · arXiv:2512.14671 · 2025-12-16 · `cs-cv`
 
 We introduce ART, Articulated Reconstruction Transformer -- a category-agnostic, feed-forward model that reconstructs complete 3D articulated objects from only sparse, multi-state RGB images. Previous methods for articulated object reconstruction either rely on slow optimization with fragile cross-s...
+
+### [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md)
+**Yash Vishe, Eric Xue, Xunyi Jiang et al.** · arXiv:2512.14629 · 2025-12-16 · `other`
+
+Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music generation models have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. However, many existing...
 
 ### [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md)
 **Zechen Bai, Chen Gao, Mike Zheng Shou** · arXiv:2512.14666 · 2025-12-16 · `other`
@@ -86,31 +111,6 @@ Video diffusion models have revolutionized generative video synthesis, but they 
 
 Recent advances in diffusion-based generation techniques enable AI models to produce highly realistic videos, heightening the need for reliable detection mechanisms. However, existing detection methods provide only limited exploration of the 3D geometric patterns present in generated videos. In this...
 
-### [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md)
-**Tianye Ding, Yiming Xie, Yiqing Liang et al.** · arXiv:2512.13680 · 2025-12-15 · `cs-cv`
-
-Recent feed-forward reconstruction models like VGGT and $π^3$ achieve impressive reconstruction quality but cannot process streaming videos due to quadratic memory complexity, limiting their practical deployment. While existing streaming methods address this through learned memory mechanisms or caus...
-
-### [AgentIAD: Tool-Augmented Single-Agent for Industrial Anomaly Detection](/cs/cv/2512.13671-agentiad-tool-augmented-single-agent-for-industri.md)
-**Junwen Miao, Penghui Du, Yi Liu et al.** · arXiv:2512.13671 · 2025-12-15 · `cs-cv`
-
-Industrial anomaly detection (IAD) is difficult due to the scarcity of normal reference samples and the subtle, localized nature of many defects. Single-pass vision-language models (VLMs) often overlook small abnormalities and lack explicit mechanisms to compare against canonical normal patterns. We...
-
-### [LitePT: Lighter Yet Stronger Point Transformer](/cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md)
-**Yuanwen Yue, Damien Robert, Jianyuan Wang et al.** · arXiv:2512.13689 · 2025-12-15 · `cs-cv`
-
-Modern neural architectures for 3D point cloud processing contain both convolutional layers and attention blocks, but the best way to assemble them remains unclear. We analyse the role of different computational blocks in 3D point cloud networks and find an intuitive behaviour: convolution is adequa...
-
-### [JoVA: Unified Multimodal Learning for Joint Video-Audio Generation](/cs/cv/2512.13677-jova-unified-multimodal-learning-for-joint-video.md)
-**Xiaohu Huang, Hao Zhou, Qiangpeng Yang et al.** · arXiv:2512.13677 · 2025-12-15 · `cs-cv`
-
-In this paper, we present JoVA, a unified framework for joint video-audio generation. Despite recent encouraging advances, existing methods face two critical limitations. First, most existing approaches can only generate ambient sounds and lack the capability to produce human speech synchronized wit...
-
-### [Recurrent Video Masked Autoencoders](/cs/cv/2512.13684-recurrent-video-masked-autoencoders.md)
-**Daniel Zoran, Nikhil Parthasarathy, Yi Yang et al.** · arXiv:2512.13684 · 2025-12-15 · `cs-cv`
-
-We present Recurrent Video Masked-Autoencoders (RVM): a novel video representation learning approach that uses a transformer-based recurrent neural network to aggregate dense image features over time, effectively capturing the spatio-temporal structure of natural video data. RVM learns via an asymme...
-
 
 ## By Field
 
@@ -128,21 +128,23 @@ We present Recurrent Video Masked-Autoencoders (RVM): a novel video representati
 - [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
 - [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (27 papers)
+### CS-CV (29 papers)
 
 - [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
+- [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md) - arXiv:2512.14614
 - [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md) - arXiv:2512.14640
 - [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md) - arXiv:2512.14698
 - [AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation](/cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md) - arXiv:2512.14639
+- [Distill Video Datasets into Images](/cs/cv/2512.14621-distill-video-datasets-into-images.md) - arXiv:2512.14621
 - [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md) - arXiv:2512.14671
 - [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md) - arXiv:2512.13690
 - [Grab-3D: Detecting AI-Generated Videos from 3D Geometric Temporal Consistency](/cs/cv/2512.13665-grab-3d-detecting-ai-generated-videos-from-3d-geo.md) - arXiv:2512.13665
 - [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md) - arXiv:2512.13680
-- [AgentIAD: Tool-Augmented Single-Agent for Industrial Anomaly Detection](/cs/cv/2512.13671-agentiad-tool-augmented-single-agent-for-industri.md) - arXiv:2512.13671
-- [LitePT: Lighter Yet Stronger Point Transformer](/cs/cv/2512.13689-litept-lighter-yet-stronger-point-transformer.md) - arXiv:2512.13689
 
-### CS-LG (12 papers)
+### CS-LG (14 papers)
 
+- [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
+- [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
 - [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md) - arXiv:2512.13672
 - [A Scientific Reasoning Model for Organic Synthesis Procedure Generation](/cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md) - arXiv:2512.13668
 - [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md) - arXiv:2512.10922
@@ -151,11 +153,10 @@ We present Recurrent Video Masked-Autoencoders (RVM): a novel video representati
 - [Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values](/cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md) - arXiv:2512.10817
 - [Guided Transfer Learning for Discrete Diffusion Models](/cs/lg/2512.10877-guided-transfer-learning-for-discrete-diffusion-mo.md) - arXiv:2512.10877
 - [UrbanAI 2025 Challenge: Linear vs Transformer Models for Long-Horizon Exogenous Temperature Forecasting](/cs/lg/2512.10866-urbanai-2025-challenge-linear-vs-transformer-mode.md) - arXiv:2512.10866
-- [Scaling Behavior of Discrete Diffusion Language Models](/cs/lg/2512.10858-scaling-behavior-of-discrete-diffusion-language-mo.md) - arXiv:2512.10858
-- [Stronger Normalization-Free Transformers](/cs/lg/2512.10938-stronger-normalization-free-transformers.md) - arXiv:2512.10938
 
-### OTHER (6 papers)
+### OTHER (7 papers)
 
+- [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
 - [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
 - [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
 - [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
