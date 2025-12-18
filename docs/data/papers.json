@@ -39,6 +39,24 @@
     "file": "cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md"
   },
   {
+    "arxiv_id": "2512.15706",
+    "title": "Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data",
+    "authors": [
+      "Kayode Olumoyin",
+      "Lamees El Naqa",
+      "Katarzyna Rejniak"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "q-bio.CB"
+    ],
+    "url": "https://arxiv.org/abs/2512.15706",
+    "abstract": "In a mathematical model of interacting biological organisms, where external interventions may alter behavior over time, traditional models that assume fixed parameters usually do not capture the evolving dynamics. In oncology, this is further exacerbated by the fact that experimental data are often ",
+    "file": "cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md"
+  },
+  {
     "arxiv_id": "2512.15711",
     "title": "Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering",
     "authors": [
@@ -60,6 +78,28 @@
     "file": "cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md"
   },
   {
+    "arxiv_id": "2512.15701",
+    "title": "VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression",
+    "authors": [
+      "Kyle Sargent",
+      "Ruiqi Gao",
+      "Philipp Henzler",
+      "Charles Herrmann",
+      "Aleksander Holynski",
+      "Li Fei-Fei",
+      "Jiajun Wu",
+      "Jason Zhang"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.15701",
+    "abstract": "Evaluations of image compression performance which include human preferences have generally found that naive distortion functions such as MSE are insufficiently aligned to human perception. In order to align compression models to human perception, prior work has employed differentiable perceptual lo",
+    "file": "cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md"
+  },
+  {
     "arxiv_id": "2512.15708",
     "title": "Multi-View Foundation Models",
     "authors": [
@@ -75,6 +115,28 @@
     "url": "https://arxiv.org/abs/2512.15708",
     "abstract": "Foundation models are vital tools in various Computer Vision applications. They take as input a single RGB image and output a deep feature representation that is useful for various applications. However, in case we have multiple views of the same 3D scene, they operate on each image independently an",
     "file": "cs/cv/2512.15708-multi-view-foundation-models.md"
+  },
+  {
+    "arxiv_id": "2512.15702",
+    "title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+    "authors": [
+      "Yuwei Guo",
+      "Ceyuan Yang",
+      "Hao He",
+      "Yang Zhao",
+      "Meng Wei",
+      "Zhenheng Yang",
+      "Weilin Huang",
+      "Dahua Lin"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.15702",
+    "abstract": "Autoregressive video diffusion models hold promise for world simulation but are vulnerable to exposure bias arising from the train-test mismatch. While recent works address this via post-training, they typically rely on a bidirectional teacher model or online discriminator. To achieve an end-to-end ",
+    "file": "cs/cv/2512.15702-end-to-end-training-for-autoregressive-video-diffu.md"
   },
   {
     "arxiv_id": "2512.15707",
@@ -94,6 +156,48 @@
     "url": "https://arxiv.org/abs/2512.15707",
     "abstract": "Active Speaker Detection (ASD) aims to identify who is currently speaking in each frame of a video. Most state-of-the-art approaches rely on late fusion to combine visual and audio features, but late fusion often fails to capture fine-grained cross-modal interactions, which can be critical for robus",
     "file": "cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md"
+  },
+  {
+    "arxiv_id": "2512.15693",
+    "title": "Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning",
+    "authors": [
+      "Yifei Li",
+      "Wenzhao Zheng",
+      "Yanran Zhang",
+      "Runze Sun",
+      "Yu Zheng",
+      "Lei Chen",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.15693",
+    "abstract": "The misuse of AI-driven video generation technologies has raised serious social concerns, highlighting the urgent need for reliable AI-generated video detectors. However, most existing methods are limited to binary classification and lack the necessary explanations for human interpretation. In this ",
+    "file": "cs/cv/2512.15693-skyra-ai-generated-video-detection-via-grounded-a.md"
+  },
+  {
+    "arxiv_id": "2512.15705",
+    "title": "Dynamic Rebatching for Efficient Early-Exit Inference with DREX",
+    "authors": [
+      "Xuting Liu",
+      "Daniel Alexander",
+      "Siva Kesava Reddy Kakarla",
+      "Behnaz Arzani",
+      "Vincent Liu"
+    ],
+    "date": "2025-12-17",
+    "field": "other",
+    "tags": [
+      "cs.DC",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.15705",
+    "abstract": "Early-Exit (EE) is a Large Language Model (LLM) architecture that accelerates inference by allowing easier tokens to be generated using only a subset of the model's layers. However, traditional batching frameworks are ill-suited for EE LLMs, as not all requests in a batch may be ready to exit at the",
+    "file": "other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md"
   },
   {
     "arxiv_id": "2512.14693",

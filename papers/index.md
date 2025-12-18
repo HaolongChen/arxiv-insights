@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 65
-- **Unique Authors**: 407
+- **Total Papers**: 70
+- **Unique Authors**: 438
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-18 08:36:16
+- **Last Updated**: 2025-12-18 16:36:52
 
 ## Latest Papers
 
@@ -21,20 +21,45 @@ Interpreting the internal activations of neural networks can produce more faithf
 
 This paper proposes a dual-engine AI architectural method designed to address the complex problem of exploring potential trajectories in the evolution of art. We present two interconnected components: AIDA (an artificial artist social network) and the Ismism Machine, a system for critical analysis. ...
 
+### [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md)
+**Kayode Olumoyin, Lamees El Naqa, Katarzyna Rejniak** · arXiv:2512.15706 · 2025-12-17 · `cs-lg`
+
+In a mathematical model of interacting biological organisms, where external interventions may alter behavior over time, traditional models that assume fixed parameters usually do not capture the evolving dynamics. In oncology, this is further exacerbated by the fact that experimental data are often ...
+
 ### [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md)
 **Divam Gupta, Anuj Pahuja, Nemanja Bartolovic et al.** · arXiv:2512.15711 · 2025-12-17 · `cs-cv`
 
 We present Gaussian Pixel Codec Avatars (GPiCA), photorealistic head avatars that can be generated from multi-view images and efficiently rendered on mobile devices. GPiCA utilizes a unique hybrid representation that combines a triangle mesh and anisotropic 3D Gaussians. This combination maximizes m...
+
+### [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md)
+**Kyle Sargent, Ruiqi Gao, Philipp Henzler et al.** · arXiv:2512.15701 · 2025-12-17 · `cs-cv`
+
+Evaluations of image compression performance which include human preferences have generally found that naive distortion functions such as MSE are insufficiently aligned to human perception. In order to align compression models to human perception, prior work has employed differentiable perceptual lo...
 
 ### [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md)
 **Leo Segre, Or Hirschorn, Shai Avidan** · arXiv:2512.15708 · 2025-12-17 · `cs-cv`
 
 Foundation models are vital tools in various Computer Vision applications. They take as input a single RGB image and output a deep feature representation that is useful for various applications. However, in case we have multiple views of the same 3D scene, they operate on each image independently an...
 
+### [End-to-End Training for Autoregressive Video Diffusion via Self-Resampling](/cs/cv/2512.15702-end-to-end-training-for-autoregressive-video-diffu.md)
+**Yuwei Guo, Ceyuan Yang, Hao He et al.** · arXiv:2512.15702 · 2025-12-17 · `cs-cv`
+
+Autoregressive video diffusion models hold promise for world simulation but are vulnerable to exposure bias arising from the train-test mismatch. While recent works address this via post-training, they typically rely on a bidirectional teacher model or online discriminator. To achieve an end-to-end ...
+
 ### [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md)
 **Yu Wang, Juhyung Ha, Frangil M. Ramirez et al.** · arXiv:2512.15707 · 2025-12-17 · `cs-cv`
 
 Active Speaker Detection (ASD) aims to identify who is currently speaking in each frame of a video. Most state-of-the-art approaches rely on late fusion to combine visual and audio features, but late fusion often fails to capture fine-grained cross-modal interactions, which can be critical for robus...
+
+### [Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning](/cs/cv/2512.15693-skyra-ai-generated-video-detection-via-grounded-a.md)
+**Yifei Li, Wenzhao Zheng, Yanran Zhang et al.** · arXiv:2512.15693 · 2025-12-17 · `cs-cv`
+
+The misuse of AI-driven video generation technologies has raised serious social concerns, highlighting the urgent need for reliable AI-generated video detectors. However, most existing methods are limited to binary classification and lack the necessary explanations for human interpretation. In this ...
+
+### [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md)
+**Xuting Liu, Daniel Alexander, Siva Kesava Reddy Kakarla et al.** · arXiv:2512.15705 · 2025-12-17 · `other`
+
+Early-Exit (EE) is a Large Language Model (LLM) architecture that accelerates inference by allowing easier tokens to be generated using only a subset of the model's layers. However, traditional batching frameworks are ill-suited for EE LLMs, as not all requests in a batch may be ready to exit at the...
 
 ### [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md)
 **Zitian Gao, Lynx Chen, Yihao Xiao et al.** · arXiv:2512.14693 · 2025-12-16 · `cs-ai`
@@ -86,31 +111,6 @@ This paper does not introduce a novel method but instead establishes a straightf
 
 The dynamics of glaciers and ice shelf fronts significantly impact the mass balance of ice sheets and coastal sea levels. To effectively monitor glacier conditions, it is crucial to consistently estimate positional shifts of glacier calving fronts. AMD-HookNet firstly introduces a pure two-branch co...
 
-### [Distill Video Datasets into Images](/cs/cv/2512.14621-distill-video-datasets-into-images.md)
-**Zhenghao Zhao, Haoxuan Wang, Kai Wang et al.** · arXiv:2512.14621 · 2025-12-16 · `cs-cv`
-
-Dataset distillation aims to synthesize compact yet informative datasets that allow models trained on them to achieve performance comparable to training on the full dataset. While this approach has shown promising results for image data, extending dataset distillation methods to video data has prove...
-
-### [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md)
-**Zizhang Li, Cheng Zhang, Zhengqin Li et al.** · arXiv:2512.14671 · 2025-12-16 · `cs-cv`
-
-We introduce ART, Articulated Reconstruction Transformer -- a category-agnostic, feed-forward model that reconstructs complete 3D articulated objects from only sparse, multi-state RGB images. Previous methods for articulated object reconstruction either rely on slow optimization with fragile cross-s...
-
-### [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md)
-**Yash Vishe, Eric Xue, Xunyi Jiang et al.** · arXiv:2512.14629 · 2025-12-16 · `other`
-
-Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music generation models have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. However, many existing...
-
-### [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md)
-**Zechen Bai, Chen Gao, Mike Zheng Shou** · arXiv:2512.14666 · 2025-12-16 · `other`
-
-Achieving truly adaptive embodied intelligence requires agents that learn not just by imitating static demonstrations, but by continuously improving through environmental interaction, which is akin to how humans master skills through practice. Vision-Language-Action (VLA) models have advanced roboti...
-
-### [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md)
-**Gabriele Accarino, Viviana Acquaviva, Sara Shamekh et al.** · arXiv:2512.14656 · 2025-12-16 · `other`
-
-We introduce WaveSim, a multi-scale similarity metric for the evaluation of spatial fields in weather and climate applications. WaveSim exploits wavelet transforms to decompose input fields into scale-specific wavelet coefficients. The metric is built by multiplying three orthogonal components deriv...
-
 
 ## By Field
 
@@ -128,21 +128,22 @@ We introduce WaveSim, a multi-scale similarity metric for the evaluation of spat
 - [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md) - arXiv:2512.10807
 - [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md) - arXiv:2512.10895
 
-### CS-CV (32 papers)
+### CS-CV (35 papers)
 
 - [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md) - arXiv:2512.15711
+- [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md) - arXiv:2512.15701
 - [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md) - arXiv:2512.15708
+- [End-to-End Training for Autoregressive Video Diffusion via Self-Resampling](/cs/cv/2512.15702-end-to-end-training-for-autoregressive-video-diffu.md) - arXiv:2512.15702
 - [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md) - arXiv:2512.15707
+- [Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning](/cs/cv/2512.15693-skyra-ai-generated-video-detection-via-grounded-a.md) - arXiv:2512.15693
 - [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
 - [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md) - arXiv:2512.14614
 - [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md) - arXiv:2512.14640
 - [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md) - arXiv:2512.14698
-- [AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation](/cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md) - arXiv:2512.14639
-- [Distill Video Datasets into Images](/cs/cv/2512.14621-distill-video-datasets-into-images.md) - arXiv:2512.14621
-- [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md) - arXiv:2512.14671
 
-### CS-LG (14 papers)
+### CS-LG (15 papers)
 
+- [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
 - [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
 - [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
 - [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md) - arXiv:2512.13672
@@ -152,10 +153,10 @@ We introduce WaveSim, a multi-scale similarity metric for the evaluation of spat
 - [Bidirectional Normalizing Flow: From Data to Noise and Back](/cs/lg/2512.10953-bidirectional-normalizing-flow-from-data-to-noise.md) - arXiv:2512.10953
 - [Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values](/cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md) - arXiv:2512.10817
 - [Guided Transfer Learning for Discrete Diffusion Models](/cs/lg/2512.10877-guided-transfer-learning-for-discrete-diffusion-mo.md) - arXiv:2512.10877
-- [UrbanAI 2025 Challenge: Linear vs Transformer Models for Long-Horizon Exogenous Temperature Forecasting](/cs/lg/2512.10866-urbanai-2025-challenge-linear-vs-transformer-mode.md) - arXiv:2512.10866
 
-### OTHER (7 papers)
+### OTHER (8 papers)
 
+- [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md) - arXiv:2512.15705
 - [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
 - [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
 - [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
