@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 60
-- **Unique Authors**: 385
+- **Total Papers**: 65
+- **Unique Authors**: 407
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-18 01:58:27
+- **Last Updated**: 2025-12-18 08:36:16
 
 ## Latest Papers
+
+### [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md)
+**Vincent Huang, Dami Choi, Daniel D. Johnson et al.** · arXiv:2512.15712 · 2025-12-17 · `cs-ai`
+
+Interpreting the internal activations of neural networks can produce more faithful explanations of their behavior, but is difficult due to the complex structure of activation space. Existing approaches to scalable interpretability use hand-designed agents that make and test hypotheses about how inte...
+
+### [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md)
+**Shuai Liu, Yiqing Tian, Yang Chen et al.** · arXiv:2512.15710 · 2025-12-17 · `cs-ai`
+
+This paper proposes a dual-engine AI architectural method designed to address the complex problem of exploring potential trajectories in the evolution of art. We present two interconnected components: AIDA (an artificial artist social network) and the Ismism Machine, a system for critical analysis. ...
+
+### [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md)
+**Divam Gupta, Anuj Pahuja, Nemanja Bartolovic et al.** · arXiv:2512.15711 · 2025-12-17 · `cs-cv`
+
+We present Gaussian Pixel Codec Avatars (GPiCA), photorealistic head avatars that can be generated from multi-view images and efficiently rendered on mobile devices. GPiCA utilizes a unique hybrid representation that combines a triangle mesh and anisotropic 3D Gaussians. This combination maximizes m...
+
+### [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md)
+**Leo Segre, Or Hirschorn, Shai Avidan** · arXiv:2512.15708 · 2025-12-17 · `cs-cv`
+
+Foundation models are vital tools in various Computer Vision applications. They take as input a single RGB image and output a deep feature representation that is useful for various applications. However, in case we have multiple views of the same 3D scene, they operate on each image independently an...
+
+### [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md)
+**Yu Wang, Juhyung Ha, Frangil M. Ramirez et al.** · arXiv:2512.15707 · 2025-12-17 · `cs-cv`
+
+Active Speaker Detection (ASD) aims to identify who is currently speaking in each frame of a video. Most state-of-the-art approaches rely on late fusion to combine visual and audio features, but late fusion often fails to capture fine-grained cross-modal interactions, which can be critical for robus...
 
 ### [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md)
 **Zitian Gao, Lynx Chen, Yihao Xiao et al.** · arXiv:2512.14693 · 2025-12-16 · `cs-ai`
@@ -86,37 +111,14 @@ Achieving truly adaptive embodied intelligence requires agents that learn not ju
 
 We introduce WaveSim, a multi-scale similarity metric for the evaluation of spatial fields in weather and climate applications. WaveSim exploits wavelet transforms to decompose input fields into scale-specific wavelet coefficients. The metric is built by multiplying three orthogonal components deriv...
 
-### [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md)
-**Dylan Phelps, Rodrigo Wilkens, Edward Gow-Smith et al.** · arXiv:2512.13685 · 2025-12-15 · `cs-ai`
-
-Alzheimer's Disease (AD) is a progressive neurodegenerative condition that adversely affects cognitive abilities. Language-related changes can be automatically identified through the analysis of outputs from linguistic assessment tasks, such as picture description. Language models show promise as a ...
-
-### [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md)
-**Kunhee Kim, NaHyeon Park, Kibeom Hong et al.** · arXiv:2512.13672 · 2025-12-15 · `cs-lg`
-
-Textual Inversion (TI) is an efficient approach to text-to-image personalization but often fails on complex prompts. We trace these failures to embedding norm inflation: learned tokens drift to out-of-distribution magnitudes, degrading prompt conditioning in pre-norm Transformers. Empirically, we sh...
-
-### [A Scientific Reasoning Model for Organic Synthesis Procedure Generation](/cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md)
-**Guoqing Liu, Junren Li, Zihan Zhao et al.** · arXiv:2512.13668 · 2025-12-15 · `cs-lg`
-
-Solving computer-aided synthesis planning is essential for enabling fully automated, robot-assisted synthesis workflows and improving the efficiency of drug discovery. A key challenge, however, is bridging the gap between computational route design and practical laboratory execution, particularly th...
-
-### [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md)
-**Susung Hong, Chongjian Ge, Zhifei Zhang et al.** · arXiv:2512.13690 · 2025-12-15 · `cs-cv`
-
-Video diffusion models have revolutionized generative video synthesis, but they are imprecise, slow, and can be opaque during generation -- keeping users in the dark for a prolonged period. In this work, we propose DiffusionBrowser, a model-agnostic, lightweight decoder framework that allows users t...
-
-### [Grab-3D: Detecting AI-Generated Videos from 3D Geometric Temporal Consistency](/cs/cv/2512.13665-grab-3d-detecting-ai-generated-videos-from-3d-geo.md)
-**Wenhan Chen, Sezer Karaoglu, Theo Gevers** · arXiv:2512.13665 · 2025-12-15 · `cs-cv`
-
-Recent advances in diffusion-based generation techniques enable AI models to produce highly realistic videos, heightening the need for reliable detection mechanisms. However, existing detection methods provide only limited exploration of the 3D geometric patterns present in generated videos. In this...
-
 
 ## By Field
 
 
-### CS-AI (10 papers)
+### CS-AI (12 papers)
 
+- [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
+- [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md) - arXiv:2512.15710
 - [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md) - arXiv:2512.14693
 - [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md) - arXiv:2512.14681
 - [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md) - arXiv:2512.14691
@@ -125,11 +127,12 @@ Recent advances in diffusion-based generation techniques enable AI models to pro
 - [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md) - arXiv:2512.12775
 - [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md) - arXiv:2512.10807
 - [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md) - arXiv:2512.10895
-- [Multi-Granular Node Pruning for Circuit Discovery](/cs/ai/2512.10903-multi-granular-node-pruning-for-circuit-discovery.md) - arXiv:2512.10903
-- [Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](/cs/ai/2512.10882-computational-emotion-analysis-with-multimodal-llm.md) - arXiv:2512.10882
 
-### CS-CV (29 papers)
+### CS-CV (32 papers)
 
+- [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md) - arXiv:2512.15711
+- [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md) - arXiv:2512.15708
+- [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md) - arXiv:2512.15707
 - [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
 - [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md) - arXiv:2512.14614
 - [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md) - arXiv:2512.14640
@@ -137,9 +140,6 @@ Recent advances in diffusion-based generation techniques enable AI models to pro
 - [AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation](/cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md) - arXiv:2512.14639
 - [Distill Video Datasets into Images](/cs/cv/2512.14621-distill-video-datasets-into-images.md) - arXiv:2512.14621
 - [ART: Articulated Reconstruction Transformer](/cs/cv/2512.14671-art-articulated-reconstruction-transformer.md) - arXiv:2512.14671
-- [DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders](/cs/cv/2512.13690-diffusionbrowser-interactive-diffusion-previews-v.md) - arXiv:2512.13690
-- [Grab-3D: Detecting AI-Generated Videos from 3D Geometric Temporal Consistency](/cs/cv/2512.13665-grab-3d-detecting-ai-generated-videos-from-3d-geo.md) - arXiv:2512.13665
-- [LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](/cs/cv/2512.13680-laser-layer-wise-scale-alignment-for-training-fre.md) - arXiv:2512.13680
 
 ### CS-LG (14 papers)
 

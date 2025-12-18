@@ -1,5 +1,101 @@
 [
   {
+    "arxiv_id": "2512.15712",
+    "title": "Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants",
+    "authors": [
+      "Vincent Huang",
+      "Dami Choi",
+      "Daniel D. Johnson",
+      "Sarah Schwettmann",
+      "Jacob Steinhardt"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.15712",
+    "abstract": "Interpreting the internal activations of neural networks can produce more faithful explanations of their behavior, but is difficult due to the complex structure of activation space. Existing approaches to scalable interpretability use hand-designed agents that make and test hypotheses about how inte",
+    "file": "cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md"
+  },
+  {
+    "arxiv_id": "2512.15710",
+    "title": "Artism: AI-Driven Dual-Engine System for Art Generation and Critique",
+    "authors": [
+      "Shuai Liu",
+      "Yiqing Tian",
+      "Yang Chen",
+      "Mar Canet Sola"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.15710",
+    "abstract": "This paper proposes a dual-engine AI architectural method designed to address the complex problem of exploring potential trajectories in the evolution of art. We present two interconnected components: AIDA (an artificial artist social network) and the Ismism Machine, a system for critical analysis. ",
+    "file": "cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md"
+  },
+  {
+    "arxiv_id": "2512.15711",
+    "title": "Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering",
+    "authors": [
+      "Divam Gupta",
+      "Anuj Pahuja",
+      "Nemanja Bartolovic",
+      "Tomas Simon",
+      "Forrest Iandola",
+      "Giljoo Nam"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.GR"
+    ],
+    "url": "https://arxiv.org/abs/2512.15711",
+    "abstract": "We present Gaussian Pixel Codec Avatars (GPiCA), photorealistic head avatars that can be generated from multi-view images and efficiently rendered on mobile devices. GPiCA utilizes a unique hybrid representation that combines a triangle mesh and anisotropic 3D Gaussians. This combination maximizes m",
+    "file": "cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md"
+  },
+  {
+    "arxiv_id": "2512.15708",
+    "title": "Multi-View Foundation Models",
+    "authors": [
+      "Leo Segre",
+      "Or Hirschorn",
+      "Shai Avidan"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.15708",
+    "abstract": "Foundation models are vital tools in various Computer Vision applications. They take as input a single RGB image and output a deep feature representation that is useful for various applications. However, in case we have multiple views of the same 3D scene, they operate on each image independently an",
+    "file": "cs/cv/2512.15708-multi-view-foundation-models.md"
+  },
+  {
+    "arxiv_id": "2512.15707",
+    "title": "GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection",
+    "authors": [
+      "Yu Wang",
+      "Juhyung Ha",
+      "Frangil M. Ramirez",
+      "Yuchen Wang",
+      "David J. Crandall"
+    ],
+    "date": "2025-12-17",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.15707",
+    "abstract": "Active Speaker Detection (ASD) aims to identify who is currently speaking in each frame of a video. Most state-of-the-art approaches rely on late fusion to combine visual and audio features, but late fusion often fails to capture fine-grained cross-modal interactions, which can be critical for robus",
+    "file": "cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md"
+  },
+  {
     "arxiv_id": "2512.14693",
     "title": "Universal Reasoning Model",
     "authors": [
