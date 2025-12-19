@@ -20,6 +20,27 @@
     "file": "cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md"
   },
   {
+    "arxiv_id": "2512.16917",
+    "title": "Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning",
+    "authors": [
+      "Qihao Liu",
+      "Luoxin Ye",
+      "Wufei Ma",
+      "Yu-Cheng Chou",
+      "Alan Yuille"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.16917",
+    "abstract": "Large language models (LLMs) with explicit reasoning capabilities excel at mathematical reasoning yet still commit process errors, such as incorrect calculations, brittle logic, and superficially plausible but invalid steps. In this paper, we introduce Generative Adversarial Reasoner, an on-policy j",
+    "file": "cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md"
+  },
+  {
     "arxiv_id": "2512.16795",
     "title": "From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs",
     "authors": [
@@ -64,6 +85,73 @@
     "file": "cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md"
   },
   {
+    "arxiv_id": "2512.16919",
+    "title": "DVGT: Driving Visual Geometry Transformer",
+    "authors": [
+      "Sicheng Zuo",
+      "Zixun Xie",
+      "Wenzhao Zheng",
+      "Shaoqing Xu",
+      "Fang Li",
+      "Shengyin Jiang",
+      "Long Chen",
+      "Zhi-Xin Yang",
+      "Jiwen Lu"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.16919",
+    "abstract": "Perceiving and reconstructing 3D scene geometry from visual inputs is crucial for autonomous driving. However, there still lacks a driving-targeted dense geometry perception model that can adapt to different scenarios and camera configurations. To bridge this gap, we propose a Driving Visual Geometr",
+    "file": "cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md"
+  },
+  {
+    "arxiv_id": "2512.16921",
+    "title": "Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification",
+    "authors": [
+      "Qihao Liu",
+      "Chengzhi Mao",
+      "Yaojie Liu",
+      "Alan Yuille",
+      "Wen-Sheng Chu"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.16921",
+    "abstract": "Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by auditing",
+    "file": "cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md"
+  },
+  {
+    "arxiv_id": "2512.16922",
+    "title": "Next-Embedding Prediction Makes Strong Vision Learners",
+    "authors": [
+      "Sihan Xu",
+      "Ziqiao Ma",
+      "Wenhao Chai",
+      "Xuweiyi Chen",
+      "Weiyang Jin",
+      "Joyce Chai",
+      "Saining Xie",
+      "Stella X. Yu"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16922",
+    "abstract": "Inspired by the success of generative pretraining in natural language, we ask whether the same principles can yield strong self-supervised visual learners. Instead of training models to output features for downstream use, we train them to generate embeddings to perform predictive tasks directly. Thi",
+    "file": "cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md"
+  },
+  {
     "arxiv_id": "2512.16767",
     "title": "Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation",
     "authors": [
@@ -82,6 +170,31 @@
     "url": "https://arxiv.org/abs/2512.16767",
     "abstract": "Posing 3D characters is a fundamental task in computer graphics and vision. However, existing methods like auto-rigging and pose-conditioned generation often struggle with challenges such as inaccurate skinning weight prediction, topological imperfections, and poor pose conformance, limiting their r",
     "file": "cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md"
+  },
+  {
+    "arxiv_id": "2512.16918",
+    "title": "AdaTooler-V: Adaptive Tool-Use for Images and Videos",
+    "authors": [
+      "Chaoyang Wang",
+      "Kaituo Feng",
+      "Dongyang Chen",
+      "Zhongyu Wang",
+      "Zhixun Li",
+      "Sicheng Gao",
+      "Meng Meng",
+      "Xu Zhou",
+      "Manyuan Zhang",
+      "Yuzhang Shang",
+      "Xiangyu Yue"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16918",
+    "abstract": "Recent advances have shown that multimodal large language models (MLLMs) benefit from multimodal interleaved chain-of-thought (CoT) with vision tool interactions. However, existing open-source models often exhibit blind tool-use reasoning patterns, invoking vision tools even when they are unnecessar",
+    "file": "cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md"
   },
   {
     "arxiv_id": "2512.16786",

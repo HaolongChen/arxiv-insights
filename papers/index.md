@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 75
-- **Unique Authors**: 467
+- **Total Papers**: 80
+- **Unique Authors**: 499
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-19 02:01:25
+- **Last Updated**: 2025-12-19 08:35:36
 
 ## Latest Papers
 
@@ -15,6 +15,11 @@
 **Primož Kocbek, Azra Frkatović-Hodžić, Dora Lalić et al.** · arXiv:2512.16802 · 2025-12-18 · `cs-ai`
 
 Multi-modal retrieval-augmented generation (MM-RAG) promises grounded biomedical QA, but it is unclear when to (i) convert figures/tables into text versus (ii) use optical character recognition (OCR)-free visual retrieval that returns page images and leaves interpretation to the generator. We study ...
+
+### [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md)
+**Qihao Liu, Luoxin Ye, Wufei Ma et al.** · arXiv:2512.16917 · 2025-12-18 · `cs-ai`
+
+Large language models (LLMs) with explicit reasoning capabilities excel at mathematical reasoning yet still commit process errors, such as incorrect calculations, brittle logic, and superficially plausible but invalid steps. In this paper, we introduce Generative Adversarial Reasoner, an on-policy j...
 
 ### [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md)
 **Shubham Mishra, Samyek Jain, Gorang Mehrishi et al.** · arXiv:2512.16795 · 2025-12-18 · `cs-ai`
@@ -26,10 +31,30 @@ Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in ext
 
 Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ...
 
+### [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md)
+**Sicheng Zuo, Zixun Xie, Wenzhao Zheng et al.** · arXiv:2512.16919 · 2025-12-18 · `cs-cv`
+
+Perceiving and reconstructing 3D scene geometry from visual inputs is crucial for autonomous driving. However, there still lacks a driving-targeted dense geometry perception model that can adapt to different scenarios and camera configurations. To bridge this gap, we propose a Driving Visual Geometr...
+
+### [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md)
+**Qihao Liu, Chengzhi Mao, Yaojie Liu et al.** · arXiv:2512.16921 · 2025-12-18 · `cs-cv`
+
+Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by auditing...
+
+### [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md)
+**Sihan Xu, Ziqiao Ma, Wenhao Chai et al.** · arXiv:2512.16922 · 2025-12-18 · `cs-cv`
+
+Inspired by the success of generative pretraining in natural language, we ask whether the same principles can yield strong self-supervised visual learners. Instead of training models to output features for downstream use, we train them to generate embeddings to perform predictive tasks directly. Thi...
+
 ### [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md)
 **Zhiyang Guo, Ori Zhang, Jax Xiang et al.** · arXiv:2512.16767 · 2025-12-18 · `cs-cv`
 
 Posing 3D characters is a fundamental task in computer graphics and vision. However, existing methods like auto-rigging and pose-conditioned generation often struggle with challenges such as inaccurate skinning weight prediction, topological imperfections, and poor pose conformance, limiting their r...
+
+### [AdaTooler-V: Adaptive Tool-Use for Images and Videos](/cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md)
+**Chaoyang Wang, Kaituo Feng, Dongyang Chen et al.** · arXiv:2512.16918 · 2025-12-18 · `cs-cv`
+
+Recent advances have shown that multimodal large language models (MLLMs) benefit from multimodal interleaved chain-of-thought (CoT) with vision tool interactions. However, existing open-source models often exhibit blind tool-use reasoning patterns, invoking vision tools even when they are unnecessar...
 
 ### [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md)
 **Chenyu Zhu, Zeyang Li, Ziyi Xie et al.** · arXiv:2512.16786 · 2025-12-18 · `other`
@@ -86,38 +111,14 @@ The misuse of AI-driven video generation technologies has raised serious social 
 
 Early-Exit (EE) is a Large Language Model (LLM) architecture that accelerates inference by allowing easier tokens to be generated using only a subset of the model's layers. However, traditional batching frameworks are ill-suited for EE LLMs, as not all requests in a batch may be ready to exit at the...
 
-### [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md)
-**Zitian Gao, Lynx Chen, Yihao Xiao et al.** · arXiv:2512.14693 · 2025-12-16 · `cs-ai`
-
-Universal transformers (UTs) have been widely used for complex reasoning tasks such as ARC-AGI and Sudoku, yet the specific sources of their performance gains remain underexplored. In this work, we systematically analyze UTs variants and show that improvements on ARC-AGI primarily arise from the rec...
-
-### [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md)
-**Lanxiang Hu, Siqi Kou, Yichao Fu et al.** · arXiv:2512.14681 · 2025-12-16 · `cs-ai`
-
-Multi-token generation has emerged as a promising paradigm for accelerating transformer-based large model inference. Recent efforts primarily explore diffusion Large Language Models (dLLMs) for parallel decoding to reduce inference latency. To achieve AR-level generation quality, many techniques ada...
-
-### [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md)
-**Zefan Cai, Haoyi Qiu, Tianyi Ma et al.** · arXiv:2512.14691 · 2025-12-16 · `cs-ai`
-
-Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook r...
-
-### [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md)
-**Chaohao Yuan, Zhenjie Song, Ercan Engin Kuruoglu et al.** · arXiv:2512.14619 · 2025-12-16 · `cs-lg`
-
-Graph Transformers (GTs) have emerged as a promising graph learning tool, leveraging their all-pair connected property to effectively capture global information. To address the over-smoothing problem in deep GNNs, global attention was initially introduced, eliminating the necessity for using deep GN...
-
-### [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md)
-**Alessandro Trapasso, Luca Iocchi, Fabio Patrizi** · arXiv:2512.14617 · 2025-12-16 · `cs-lg`
-
-Many practical decision-making problems involve tasks whose success depends on the entire system history, rather than on achieving a state with desired properties. Markovian Reinforcement Learning (RL) approaches are not suitable for such tasks, while RL with non-Markovian reward decision processes ...
-
 
 ## By Field
 
 
-### CS-AI (14 papers)
+### CS-AI (15 papers)
 
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
+- [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
 - [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
 - [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
 - [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md) - arXiv:2512.15710
@@ -126,20 +127,19 @@ Many practical decision-making problems involve tasks whose success depends on t
 - [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md) - arXiv:2512.14691
 - [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md) - arXiv:2512.13685
 - [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md) - arXiv:2512.12777
-- [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md) - arXiv:2512.12775
 
-### CS-CV (36 papers)
+### CS-CV (40 papers)
 
+- [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
+- [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
+- [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
 - [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
+- [AdaTooler-V: Adaptive Tool-Use for Images and Videos](/cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md) - arXiv:2512.16918
 - [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md) - arXiv:2512.15711
 - [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md) - arXiv:2512.15701
 - [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md) - arXiv:2512.15708
 - [End-to-End Training for Autoregressive Video Diffusion via Self-Resampling](/cs/cv/2512.15702-end-to-end-training-for-autoregressive-video-diffu.md) - arXiv:2512.15702
 - [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md) - arXiv:2512.15707
-- [Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning](/cs/cv/2512.15693-skyra-ai-generated-video-detection-via-grounded-a.md) - arXiv:2512.15693
-- [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
-- [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md) - arXiv:2512.14614
-- [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md) - arXiv:2512.14640
 
 ### CS-LG (16 papers)
 
