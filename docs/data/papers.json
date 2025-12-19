@@ -1,5 +1,24 @@
 [
   {
+    "arxiv_id": "2512.16902",
+    "title": "In-Context Algebra",
+    "authors": [
+      "Eric Todd",
+      "Jannik Brinkmann",
+      "Rohit Gandikota",
+      "David Bau"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.16902",
+    "abstract": "We investigate the mechanisms that arise when transformers are trained to solve arithmetic on sequences where tokens are variables whose meaning is determined only through their interactions. While prior work has found that transformers develop geometric embeddings that mirror algebraic structure, t",
+    "file": "cs/ai/2512.16902-in-context-algebra.md"
+  },
+  {
     "arxiv_id": "2512.16802",
     "title": "Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology",
     "authors": [
@@ -65,6 +84,28 @@
     "file": "cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md"
   },
   {
+    "arxiv_id": "2512.16912",
+    "title": "Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward",
+    "authors": [
+      "Peter Chen",
+      "Xiaopeng Li",
+      "Ziniu Li",
+      "Wotao Yin",
+      "Xi Chen",
+      "Tianyi Lin"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.16912",
+    "abstract": "This paper examines the exploration-exploitation trade-off in reinforcement learning with verifiable rewards (RLVR), a framework for improving the reasoning of Large Language Models (LLMs). Recent studies suggest that RLVR can elicit strong mathematical reasoning in LLMs through two seemingly parado",
+    "file": "cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md"
+  },
+  {
     "arxiv_id": "2512.16762",
     "title": "NRGPT: An Energy-based Alternative for GPT",
     "authors": [
@@ -83,6 +124,27 @@
     "url": "https://arxiv.org/abs/2512.16762",
     "abstract": "Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ",
     "file": "cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md"
+  },
+  {
+    "arxiv_id": "2512.16911",
+    "title": "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning",
+    "authors": [
+      "Andrew Wagenmaker",
+      "Perry Dong",
+      "Raymond Tsao",
+      "Chelsea Finn",
+      "Sergey Levine"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.16911",
+    "abstract": "Standard practice across domains from robotics to language is to first pretrain a policy on a large-scale demonstration dataset, and then finetune this policy, typically with reinforcement learning (RL), in order to improve performance on deployment domains. This finetuning step has proved critical ",
+    "file": "cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md"
   },
   {
     "arxiv_id": "2512.16919",
@@ -110,6 +172,27 @@
     "file": "cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md"
   },
   {
+    "arxiv_id": "2512.16906",
+    "title": "VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization",
+    "authors": [
+      "Xiaoyan Cong",
+      "Haotian Yang",
+      "Angtian Wang",
+      "Yizhi Wang",
+      "Yiding Yang",
+      "Canyu Zhang",
+      "Chongyang Ma"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16906",
+    "abstract": "Instruction-based video editing aims to modify an input video according to a natural-language instruction while preserving content fidelity and temporal coherence. However, existing diffusion-based approaches are often trained on paired data of simple editing operations, which fundamentally limits t",
+    "file": "cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md"
+  },
+  {
     "arxiv_id": "2512.16921",
     "title": "Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification",
     "authors": [
@@ -128,6 +211,31 @@
     "url": "https://arxiv.org/abs/2512.16921",
     "abstract": "Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by auditing",
     "file": "cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md"
+  },
+  {
+    "arxiv_id": "2512.16909",
+    "title": "MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning",
+    "authors": [
+      "Yuanchen Ju",
+      "Yongyuan Liang",
+      "Yen-Jen Wang",
+      "Nandiraju Gireesh",
+      "Yuanliang Ju",
+      "Seungjae Lee",
+      "Qiao Gu",
+      "Elvis Hsieh",
+      "Furong Huang",
+      "Koushil Sreenath"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.16909",
+    "abstract": "Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and funct",
+    "file": "cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md"
   },
   {
     "arxiv_id": "2512.16922",

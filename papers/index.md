@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 80
-- **Unique Authors**: 499
+- **Total Papers**: 85
+- **Unique Authors**: 531
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-19 08:35:36
+- **Last Updated**: 2025-12-19 16:33:36
 
 ## Latest Papers
+
+### [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md)
+**Eric Todd, Jannik Brinkmann, Rohit Gandikota et al.** · arXiv:2512.16902 · 2025-12-18 · `cs-ai`
+
+We investigate the mechanisms that arise when transformers are trained to solve arithmetic on sequences where tokens are variables whose meaning is determined only through their interactions. While prior work has found that transformers develop geometric embeddings that mirror algebraic structure, t...
 
 ### [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md)
 **Primož Kocbek, Azra Frkatović-Hodžić, Dora Lalić et al.** · arXiv:2512.16802 · 2025-12-18 · `cs-ai`
@@ -26,20 +31,40 @@ Large language models (LLMs) with explicit reasoning capabilities excel at mathe
 
 Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external evidence, but fails when retrieved sources conflict or contain outdated or subjective information. Prior work address these issues independently but lack unified reasoning supervision. We propose a reasoning-trace-...
 
+### [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md)
+**Peter Chen, Xiaopeng Li, Ziniu Li et al.** · arXiv:2512.16912 · 2025-12-18 · `cs-lg`
+
+This paper examines the exploration-exploitation trade-off in reinforcement learning with verifiable rewards (RLVR), a framework for improving the reasoning of Large Language Models (LLMs). Recent studies suggest that RLVR can elicit strong mathematical reasoning in LLMs through two seemingly parado...
+
 ### [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md)
 **Nima Dehmamy, Benjamin Hoover, Bishwajit Saha et al.** · arXiv:2512.16762 · 2025-12-18 · `cs-lg`
 
 Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ...
+
+### [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md)
+**Andrew Wagenmaker, Perry Dong, Raymond Tsao et al.** · arXiv:2512.16911 · 2025-12-18 · `cs-lg`
+
+Standard practice across domains from robotics to language is to first pretrain a policy on a large-scale demonstration dataset, and then finetune this policy, typically with reinforcement learning (RL), in order to improve performance on deployment domains. This finetuning step has proved critical ...
 
 ### [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md)
 **Sicheng Zuo, Zixun Xie, Wenzhao Zheng et al.** · arXiv:2512.16919 · 2025-12-18 · `cs-cv`
 
 Perceiving and reconstructing 3D scene geometry from visual inputs is crucial for autonomous driving. However, there still lacks a driving-targeted dense geometry perception model that can adapt to different scenarios and camera configurations. To bridge this gap, we propose a Driving Visual Geometr...
 
+### [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md)
+**Xiaoyan Cong, Haotian Yang, Angtian Wang et al.** · arXiv:2512.16906 · 2025-12-18 · `cs-cv`
+
+Instruction-based video editing aims to modify an input video according to a natural-language instruction while preserving content fidelity and temporal coherence. However, existing diffusion-based approaches are often trained on paired data of simple editing operations, which fundamentally limits t...
+
 ### [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md)
 **Qihao Liu, Chengzhi Mao, Yaojie Liu et al.** · arXiv:2512.16921 · 2025-12-18 · `cs-cv`
 
 Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by auditing...
+
+### [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md)
+**Yuanchen Ju, Yongyuan Liang, Yen-Jen Wang et al.** · arXiv:2512.16909 · 2025-12-18 · `cs-cv`
+
+Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and funct...
 
 ### [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md)
 **Sihan Xu, Ziqiao Ma, Wenhao Chai et al.** · arXiv:2512.16922 · 2025-12-18 · `cs-cv`
@@ -86,37 +111,13 @@ We present Gaussian Pixel Codec Avatars (GPiCA), photorealistic head avatars tha
 
 Evaluations of image compression performance which include human preferences have generally found that naive distortion functions such as MSE are insufficiently aligned to human perception. In order to align compression models to human perception, prior work has employed differentiable perceptual lo...
 
-### [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md)
-**Leo Segre, Or Hirschorn, Shai Avidan** · arXiv:2512.15708 · 2025-12-17 · `cs-cv`
-
-Foundation models are vital tools in various Computer Vision applications. They take as input a single RGB image and output a deep feature representation that is useful for various applications. However, in case we have multiple views of the same 3D scene, they operate on each image independently an...
-
-### [End-to-End Training for Autoregressive Video Diffusion via Self-Resampling](/cs/cv/2512.15702-end-to-end-training-for-autoregressive-video-diffu.md)
-**Yuwei Guo, Ceyuan Yang, Hao He et al.** · arXiv:2512.15702 · 2025-12-17 · `cs-cv`
-
-Autoregressive video diffusion models hold promise for world simulation but are vulnerable to exposure bias arising from the train-test mismatch. While recent works address this via post-training, they typically rely on a bidirectional teacher model or online discriminator. To achieve an end-to-end ...
-
-### [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md)
-**Yu Wang, Juhyung Ha, Frangil M. Ramirez et al.** · arXiv:2512.15707 · 2025-12-17 · `cs-cv`
-
-Active Speaker Detection (ASD) aims to identify who is currently speaking in each frame of a video. Most state-of-the-art approaches rely on late fusion to combine visual and audio features, but late fusion often fails to capture fine-grained cross-modal interactions, which can be critical for robus...
-
-### [Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning](/cs/cv/2512.15693-skyra-ai-generated-video-detection-via-grounded-a.md)
-**Yifei Li, Wenzhao Zheng, Yanran Zhang et al.** · arXiv:2512.15693 · 2025-12-17 · `cs-cv`
-
-The misuse of AI-driven video generation technologies has raised serious social concerns, highlighting the urgent need for reliable AI-generated video detectors. However, most existing methods are limited to binary classification and lack the necessary explanations for human interpretation. In this ...
-
-### [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md)
-**Xuting Liu, Daniel Alexander, Siva Kesava Reddy Kakarla et al.** · arXiv:2512.15705 · 2025-12-17 · `other`
-
-Early-Exit (EE) is a Large Language Model (LLM) architecture that accelerates inference by allowing easier tokens to be generated using only a subset of the model's layers. However, traditional batching frameworks are ill-suited for EE LLMs, as not all requests in a batch may be ready to exit at the...
-
 
 ## By Field
 
 
-### CS-AI (15 papers)
+### CS-AI (16 papers)
 
+- [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
 - [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
 - [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
@@ -126,24 +127,25 @@ Early-Exit (EE) is a Large Language Model (LLM) architecture that accelerates in
 - [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md) - arXiv:2512.14681
 - [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md) - arXiv:2512.14691
 - [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md) - arXiv:2512.13685
-- [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md) - arXiv:2512.12777
 
-### CS-CV (40 papers)
+### CS-CV (42 papers)
 
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
+- [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md) - arXiv:2512.16906
 - [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
+- [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md) - arXiv:2512.16909
 - [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
 - [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
 - [AdaTooler-V: Adaptive Tool-Use for Images and Videos](/cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md) - arXiv:2512.16918
 - [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md) - arXiv:2512.15711
 - [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md) - arXiv:2512.15701
 - [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md) - arXiv:2512.15708
-- [End-to-End Training for Autoregressive Video Diffusion via Self-Resampling](/cs/cv/2512.15702-end-to-end-training-for-autoregressive-video-diffu.md) - arXiv:2512.15702
-- [GateFusion: Hierarchical Gated Cross-Modal Fusion for Active Speaker Detection](/cs/cv/2512.15707-gatefusion-hierarchical-gated-cross-modal-fusion.md) - arXiv:2512.15707
 
-### CS-LG (16 papers)
+### CS-LG (18 papers)
 
+- [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 - [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
+- [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md) - arXiv:2512.16911
 - [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
 - [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
 - [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
@@ -151,8 +153,6 @@ Early-Exit (EE) is a Large Language Model (LLM) architecture that accelerates in
 - [A Scientific Reasoning Model for Organic Synthesis Procedure Generation](/cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md) - arXiv:2512.13668
 - [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md) - arXiv:2512.10922
 - [Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks](/cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md) - arXiv:2512.10936
-- [Bidirectional Normalizing Flow: From Data to Noise and Back](/cs/lg/2512.10953-bidirectional-normalizing-flow-from-data-to-noise.md) - arXiv:2512.10953
-- [Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values](/cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md) - arXiv:2512.10817
 
 ### OTHER (9 papers)
 
