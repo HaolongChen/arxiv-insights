@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 70
-- **Unique Authors**: 438
+- **Total Papers**: 75
+- **Unique Authors**: 467
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-18 16:36:52
+- **Last Updated**: 2025-12-19 02:01:25
 
 ## Latest Papers
+
+### [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md)
+**Primož Kocbek, Azra Frkatović-Hodžić, Dora Lalić et al.** · arXiv:2512.16802 · 2025-12-18 · `cs-ai`
+
+Multi-modal retrieval-augmented generation (MM-RAG) promises grounded biomedical QA, but it is unclear when to (i) convert figures/tables into text versus (ii) use optical character recognition (OCR)-free visual retrieval that returns page images and leaves interpretation to the generator. We study ...
+
+### [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md)
+**Shubham Mishra, Samyek Jain, Gorang Mehrishi et al.** · arXiv:2512.16795 · 2025-12-18 · `cs-ai`
+
+Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external evidence, but fails when retrieved sources conflict or contain outdated or subjective information. Prior work address these issues independently but lack unified reasoning supervision. We propose a reasoning-trace-...
+
+### [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md)
+**Nima Dehmamy, Benjamin Hoover, Bishwajit Saha et al.** · arXiv:2512.16762 · 2025-12-18 · `cs-lg`
+
+Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ...
+
+### [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md)
+**Zhiyang Guo, Ori Zhang, Jax Xiang et al.** · arXiv:2512.16767 · 2025-12-18 · `cs-cv`
+
+Posing 3D characters is a fundamental task in computer graphics and vision. However, existing methods like auto-rigging and pose-conditioned generation often struggle with challenges such as inaccurate skinning weight prediction, topological imperfections, and poor pose conformance, limiting their r...
+
+### [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md)
+**Chenyu Zhu, Zeyang Li, Ziyi Xie et al.** · arXiv:2512.16786 · 2025-12-18 · `other`
+
+Specific emitter identification (SEI) utilizes passive hardware characteristics to authenticate transmitters, providing a robust physical-layer security solution. However, most deep-learning-based methods rely on extensive data or require prior information, which poses challenges in real-world scena...
 
 ### [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md)
 **Vincent Huang, Dami Choi, Daniel D. Johnson et al.** · arXiv:2512.15712 · 2025-12-17 · `cs-ai`
@@ -86,37 +111,14 @@ Graph Transformers (GTs) have emerged as a promising graph learning tool, levera
 
 Many practical decision-making problems involve tasks whose success depends on the entire system history, rather than on achieving a state with desired properties. Markovian Reinforcement Learning (RL) approaches are not suitable for such tasks, while RL with non-Markovian reward decision processes ...
 
-### [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md)
-**Zihan Wang, Jiashun Wang, Jeff Tan et al.** · arXiv:2512.14696 · 2025-12-16 · `cs-cv`
-
-We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tra...
-
-### [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md)
-**Wenqiang Sun, Haiyu Zhang, Haoyuan Wang et al.** · arXiv:2512.14614 · 2025-12-16 · `cs-cv`
-
-This paper presents WorldPlay, a streaming video diffusion model that enables real-time, interactive world modeling with long-term geometric consistency, resolving the trade-off between speed and memory that limits current methods. WorldPlay draws power from three key innovations. 1) We use a Dual A...
-
-### [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md)
-**Rao Muhammad Umer, Daniel Sens, Jonathan Noll et al.** · arXiv:2512.14640 · 2025-12-16 · `cs-cv`
-
-Timely and accurate lymphoma diagnosis is essential for guiding cancer treatment. Standard diagnostic practice combines hematoxylin and eosin (HE)-stained whole slide images with immunohistochemistry, flow cytometry, and molecular genetic tests to determine lymphoma subtypes, a process requiring cos...
-
-### [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md)
-**Jun Zhang, Teng Wang, Yuying Ge et al.** · arXiv:2512.14698 · 2025-12-16 · `cs-cv`
-
-This paper does not introduce a novel method but instead establishes a straightforward, incremental, yet essential baseline for video temporal grounding (VTG), a core capability in video understanding. While multimodal large language models (MLLMs) excel at various video understanding tasks, the rec...
-
-### [AMD-HookNet++: Evolution of AMD-HookNet with Hybrid CNN-Transformer Feature Enhancement for Glacier Calving Front Segmentation](/cs/cv/2512.14639-amd-hooknet-evolution-of-amd-hooknet-with-hybri.md)
-**Fei Wu, Marcel Dreier, Nora Gourmelon et al.** · arXiv:2512.14639 · 2025-12-16 · `cs-cv`
-
-The dynamics of glaciers and ice shelf fronts significantly impact the mass balance of ice sheets and coastal sea levels. To effectively monitor glacier conditions, it is crucial to consistently estimate positional shifts of glacier calving fronts. AMD-HookNet firstly introduces a pure two-branch co...
-
 
 ## By Field
 
 
-### CS-AI (12 papers)
+### CS-AI (14 papers)
 
+- [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
+- [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
 - [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
 - [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md) - arXiv:2512.15710
 - [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md) - arXiv:2512.14693
@@ -125,11 +127,10 @@ The dynamics of glaciers and ice shelf fronts significantly impact the mass bala
 - [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md) - arXiv:2512.13685
 - [State over Tokens: Characterizing the Role of Reasoning Tokens](/cs/ai/2512.12777-state-over-tokens-characterizing-the-role-of-reas.md) - arXiv:2512.12777
 - [Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions](/cs/ai/2512.12775-persistent-personas-role-playing-instruction-fol.md) - arXiv:2512.12775
-- [HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](/cs/ai/2512.10807-harood-a-benchmark-for-out-of-distribution-genera.md) - arXiv:2512.10807
-- [LLMs Can Assist with Proposal Selection at Large User Facilities](/cs/ai/2512.10895-llms-can-assist-with-proposal-selection-at-large-u.md) - arXiv:2512.10895
 
-### CS-CV (35 papers)
+### CS-CV (36 papers)
 
+- [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
 - [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md) - arXiv:2512.15711
 - [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md) - arXiv:2512.15701
 - [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md) - arXiv:2512.15708
@@ -139,10 +140,10 @@ The dynamics of glaciers and ice shelf fronts significantly impact the mass bala
 - [CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives](/cs/cv/2512.14696-crisp-contact-guided-real2sim-from-monocular-vide.md) - arXiv:2512.14696
 - [WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling](/cs/cv/2512.14614-worldplay-towards-long-term-geometric-consistency.md) - arXiv:2512.14614
 - [A Multicenter Benchmark of Multiple Instance Learning Models for Lymphoma Subtyping from HE-stained Whole Slide Images](/cs/cv/2512.14640-a-multicenter-benchmark-of-multiple-instance-learn.md) - arXiv:2512.14640
-- [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](/cs/cv/2512.14698-timelens-rethinking-video-temporal-grounding-with.md) - arXiv:2512.14698
 
-### CS-LG (15 papers)
+### CS-LG (16 papers)
 
+- [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
 - [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
 - [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
 - [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
@@ -152,10 +153,10 @@ The dynamics of glaciers and ice shelf fronts significantly impact the mass bala
 - [Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks](/cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md) - arXiv:2512.10936
 - [Bidirectional Normalizing Flow: From Data to Noise and Back](/cs/lg/2512.10953-bidirectional-normalizing-flow-from-data-to-noise.md) - arXiv:2512.10953
 - [Extrapolation of Periodic Functions Using Binary Encoding of Continuous Numerical Values](/cs/lg/2512.10817-extrapolation-of-periodic-functions-using-binary-e.md) - arXiv:2512.10817
-- [Guided Transfer Learning for Discrete Diffusion Models](/cs/lg/2512.10877-guided-transfer-learning-for-discrete-diffusion-mo.md) - arXiv:2512.10877
 
-### OTHER (8 papers)
+### OTHER (9 papers)
 
+- [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md) - arXiv:2512.16786
 - [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md) - arXiv:2512.15705
 - [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
 - [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666

@@ -1,5 +1,108 @@
 [
   {
+    "arxiv_id": "2512.16802",
+    "title": "Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology",
+    "authors": [
+      "Primo\u017e Kocbek",
+      "Azra Frkatovi\u0107-Hod\u017ei\u0107",
+      "Dora Lali\u0107",
+      "Vivian Hui",
+      "Gordan Lauc",
+      "Gregor \u0160tiglic"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.16802",
+    "abstract": "Multi-modal retrieval-augmented generation (MM-RAG) promises grounded biomedical QA, but it is unclear when to (i) convert figures/tables into text versus (ii) use optical character recognition (OCR)-free visual retrieval that returns page images and leaves interpretation to the generator. We study ",
+    "file": "cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md"
+  },
+  {
+    "arxiv_id": "2512.16795",
+    "title": "From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs",
+    "authors": [
+      "Shubham Mishra",
+      "Samyek Jain",
+      "Gorang Mehrishi",
+      "Shiv Tiwari",
+      "Harsh Sharma",
+      "Pratik Narang",
+      "Dhruv Kumar"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY",
+      "cs.IR"
+    ],
+    "url": "https://arxiv.org/abs/2512.16795",
+    "abstract": "Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external evidence, but fails when retrieved sources conflict or contain outdated or subjective information. Prior work address these issues independently but lack unified reasoning supervision. We propose a reasoning-trace-",
+    "file": "cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md"
+  },
+  {
+    "arxiv_id": "2512.16762",
+    "title": "NRGPT: An Energy-based Alternative for GPT",
+    "authors": [
+      "Nima Dehmamy",
+      "Benjamin Hoover",
+      "Bishwajit Saha",
+      "Leo Kozachkov",
+      "Jean-Jacques Slotine",
+      "Dmitry Krotov"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.16762",
+    "abstract": "Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ",
+    "file": "cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md"
+  },
+  {
+    "arxiv_id": "2512.16767",
+    "title": "Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation",
+    "authors": [
+      "Zhiyang Guo",
+      "Ori Zhang",
+      "Jax Xiang",
+      "Alan Zhao",
+      "Wengang Zhou",
+      "Houqiang Li"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16767",
+    "abstract": "Posing 3D characters is a fundamental task in computer graphics and vision. However, existing methods like auto-rigging and pose-conditioned generation often struggle with challenges such as inaccurate skinning weight prediction, topological imperfections, and poor pose conformance, limiting their r",
+    "file": "cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md"
+  },
+  {
+    "arxiv_id": "2512.16786",
+    "title": "Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer",
+    "authors": [
+      "Chenyu Zhu",
+      "Zeyang Li",
+      "Ziyi Xie",
+      "Jie Zhang"
+    ],
+    "date": "2025-12-18",
+    "field": "other",
+    "tags": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.16786",
+    "abstract": "Specific emitter identification (SEI) utilizes passive hardware characteristics to authenticate transmitters, providing a robust physical-layer security solution. However, most deep-learning-based methods rely on extensive data or require prior information, which poses challenges in real-world scena",
+    "file": "other/2512.16786-few-shot-specific-emitter-identification-via-integ.md"
+  },
+  {
     "arxiv_id": "2512.15712",
     "title": "Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants",
     "authors": [
