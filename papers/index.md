@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 95
-- **Unique Authors**: 591
+- **Total Papers**: 100
+- **Unique Authors**: 605
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-20 08:31:30
+- **Last Updated**: 2025-12-20 16:29:31
 
 ## Latest Papers
 
@@ -25,6 +25,16 @@ We investigate the mechanisms that arise when transformers are trained to solve 
 **Primož Kocbek, Azra Frkatović-Hodžić, Dora Lalić et al.** · arXiv:2512.16802 · 2025-12-18 · `cs-ai`
 
 Multi-modal retrieval-augmented generation (MM-RAG) promises grounded biomedical QA, but it is unclear when to (i) convert figures/tables into text versus (ii) use optical character recognition (OCR)-free visual retrieval that returns page images and leaves interpretation to the generator. We study ...
+
+### [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md)
+**Harsh Vardhan Bansal** · arXiv:2512.16843 · 2025-12-18 · `cs-ai`
+
+Transformer-based language models have achieved remarkable performance across a wide range of tasks, yet their high inference latency poses a significant challenge for real-timeand large-scale deployment. While existing caching mechanisms,such as token-level key-value caches, offer speedups in autor...
+
+### [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](/cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md)
+**Khurram Khalil, Khaza Anuarul Hoque** · arXiv:2512.16855 · 2025-12-18 · `cs-ai`
+
+Large Language Models (LLMs) deliver exceptional performance across natural language tasks but demand substantial computational resources, limiting their deployment on resource-constrained edge devices. Existing compression techniques, such as quantization and pruning, often degrade critical linguis...
 
 ### [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md)
 **Yushi Hu, Reyhane Askari-Hemmat, Melissa Hall et al.** · arXiv:2512.16899 · 2025-12-18 · `cs-ai`
@@ -45,6 +55,11 @@ Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in ext
 **Tzu-Han Lin, Wei-Lin Chen, Chen-An Li et al.** · arXiv:2512.16883 · 2025-12-18 · `cs-ai`
 
 Equipping large language models (LLMs) with search engines via reinforcement learning (RL) has emerged as an effective approach for building search agents. However, overreliance on search introduces unnecessary cost and risks exposure to noisy or malicious content, while relying solely on parametric...
+
+### [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md)
+**Yulun Jiang, Liangze Jiang, Damien Teney et al.** · arXiv:2512.16848 · 2025-12-18 · `cs-lg`
+
+Reinforcement learning (RL) has enabled the training of large language model (LLM) agents to interact with the environment and to solve multi-turn long-horizon tasks. However, the RL-trained agents often struggle in tasks that require active exploration and fail to efficiently adapt from trial-and-e...
 
 ### [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md)
 **Peter Chen, Xiaopeng Li, Ziniu Li et al.** · arXiv:2512.16912 · 2025-12-18 · `cs-lg`
@@ -96,37 +111,22 @@ Instruction-based video editing aims to modify an input video according to a nat
 
 Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by auditing...
 
-### [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md)
-**Yuanchen Ju, Yongyuan Liang, Yen-Jen Wang et al.** · arXiv:2512.16909 · 2025-12-18 · `cs-cv`
-
-Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and funct...
-
-### [RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing](/cs/cv/2512.16864-replan-reasoning-guided-region-planning-for-compl.md)
-**Tianyuan Qu, Lei Ke, Xiaohang Zhan et al.** · arXiv:2512.16864 · 2025-12-18 · `cs-cv`
-
-Instruction-based image editing enables natural-language control over visual modifications, yet existing models falter under Instruction-Visual Complexity (IV-Complexity), where intricate instructions meet cluttered or ambiguous scenes. We introduce RePlan (Region-aligned Planning), a plan-then-exec...
-
-### [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md)
-**Haichao Zhang, Yao Lu, Lichen Wang et al.** · arXiv:2512.16891 · 2025-12-18 · `cs-cv`
-
-Video Large Language Models (VLLMs) unlock world-knowledge-aware video understanding through pretraining on internet-scale data and have already shown promise on tasks such as movie analysis and video question answering. However, deploying VLLMs for downstream tasks such as video recommendation rema...
-
 
 ## By Field
 
 
-### CS-AI (19 papers)
+### CS-AI (21 papers)
 
 - [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md) - arXiv:2512.16872
 - [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
+- [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md) - arXiv:2512.16843
+- [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](/cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md) - arXiv:2512.16855
 - [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md) - arXiv:2512.16899
 - [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
 - [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
 - [AdaSearch: Balancing Parametric Knowledge and Search in Large Language Models via Reinforcement Learning](/cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md) - arXiv:2512.16883
 - [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
-- [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md) - arXiv:2512.15710
-- [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md) - arXiv:2512.14693
 
 ### CS-CV (47 papers)
 
@@ -141,8 +141,9 @@ Video Large Language Models (VLLMs) unlock world-knowledge-aware video understan
 - [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
 - [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
 
-### CS-LG (20 papers)
+### CS-LG (21 papers)
 
+- [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 - [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
 - [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
@@ -152,10 +153,11 @@ Video Large Language Models (VLLMs) unlock world-knowledge-aware video understan
 - [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
 - [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
 - [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md) - arXiv:2512.13672
-- [A Scientific Reasoning Model for Organic Synthesis Procedure Generation](/cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md) - arXiv:2512.13668
 
-### OTHER (9 papers)
+### OTHER (11 papers)
 
+- [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](/other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md) - arXiv:2512.16861
+- [PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy](/other/2512.16851-privatexr-defending-privacy-attacks-in-extended-r.md) - arXiv:2512.16851
 - [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md) - arXiv:2512.16786
 - [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md) - arXiv:2512.15705
 - [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
@@ -164,7 +166,6 @@ Video Large Language Models (VLLMs) unlock world-knowledge-aware video understan
 - [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
 - [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md) - arXiv:2512.12769
 - [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md) - arXiv:2512.10934
-- [Iterative Compositional Data Generation for Robot Control](/other/2512.10891-iterative-compositional-data-generation-for-robot.md) - arXiv:2512.10891
 
 ---
 

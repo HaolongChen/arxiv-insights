@@ -59,6 +59,39 @@
     "file": "cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md"
   },
   {
+    "arxiv_id": "2512.16843",
+    "title": "LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference",
+    "authors": [
+      "Harsh Vardhan Bansal"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.16843",
+    "abstract": "Transformer-based language models have achieved remarkable performance across a wide range of tasks, yet their high inference latency poses a significant challenge for real-timeand large-scale deployment. While existing caching mechanisms,such as token-level key-value caches, offer speedups in autor",
+    "file": "cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md"
+  },
+  {
+    "arxiv_id": "2512.16855",
+    "title": "TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge",
+    "authors": [
+      "Khurram Khalil",
+      "Khaza Anuarul Hoque"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "url": "https://arxiv.org/abs/2512.16855",
+    "abstract": "Large Language Models (LLMs) deliver exceptional performance across natural language tasks but demand substantial computational resources, limiting their deployment on resource-constrained edge devices. Existing compression techniques, such as quantization and pruning, often degrade critical linguis",
+    "file": "cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md"
+  },
+  {
     "arxiv_id": "2512.16899",
     "title": "Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image",
     "authors": [
@@ -143,6 +176,26 @@
     "url": "https://arxiv.org/abs/2512.16883",
     "abstract": "Equipping large language models (LLMs) with search engines via reinforcement learning (RL) has emerged as an effective approach for building search agents. However, overreliance on search introduces unnecessary cost and risks exposure to noisy or malicious content, while relying solely on parametric",
     "file": "cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md"
+  },
+  {
+    "arxiv_id": "2512.16848",
+    "title": "Meta-RL Induces Exploration in Language Agents",
+    "authors": [
+      "Yulun Jiang",
+      "Liangze Jiang",
+      "Damien Teney",
+      "Michael Moor",
+      "Maria Brbic"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.16848",
+    "abstract": "Reinforcement learning (RL) has enabled the training of large language model (LLM) agents to interact with the environment and to solve multi-turn long-horizon tasks. However, the RL-trained agents often struggle in tasks that require active exploration and fail to efficiently adapt from trial-and-e",
+    "file": "cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md"
   },
   {
     "arxiv_id": "2512.16912",
@@ -517,6 +570,45 @@
     "url": "https://arxiv.org/abs/2512.16874",
     "abstract": "Invisible watermarking is essential for tracing the provenance of digital content. However, training state-of-the-art models remains notoriously difficult, with current approaches often struggling to balance robustness against true imperceptibility. This work introduces Pixel Seal, which sets a new ",
     "file": "cs/cv/2512.16874-pixel-seal-adversarial-only-training-for-invisibl.md"
+  },
+  {
+    "arxiv_id": "2512.16861",
+    "title": "ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning",
+    "authors": [
+      "Zihan Zhou",
+      "Animesh Garg",
+      "Ajay Mandlekar",
+      "Caelan Garrett"
+    ],
+    "date": "2025-12-18",
+    "field": "other",
+    "tags": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.16861",
+    "abstract": "Long-horizon manipulation has been a long-standing challenge in the robotics community. We propose ReinforceGen, a system that combines task decomposition, data generation, imitation learning, and motion planning to form an initial solution, and improves each component through reinforcement-learning",
+    "file": "other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md"
+  },
+  {
+    "arxiv_id": "2512.16851",
+    "title": "PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy",
+    "authors": [
+      "Ripan Kumar Kundu",
+      "Istiak Ahmed",
+      "Khaza Anuarul Hoque"
+    ],
+    "date": "2025-12-18",
+    "field": "other",
+    "tags": [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "url": "https://arxiv.org/abs/2512.16851",
+    "abstract": "The convergence of artificial AI and XR technologies (AI XR) promises innovative applications across many domains. However, the sensitive nature of data (e.g., eye-tracking) used in these systems raises significant privacy concerns, as adversaries can exploit these data and models to infer and leak ",
+    "file": "other/2512.16851-privatexr-defending-privacy-attacks-in-extended-r.md"
   },
   {
     "arxiv_id": "2512.16786",
