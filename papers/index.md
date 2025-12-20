@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 90
-- **Unique Authors**: 563
+- **Total Papers**: 95
+- **Unique Authors**: 591
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-20 01:55:16
+- **Last Updated**: 2025-12-20 08:31:30
 
 ## Latest Papers
+
+### [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md)
+**Shayan Hundrieser, Philipp Tuchel, Insung Kong et al.** · arXiv:2512.16872 · 2025-12-18 · `cs-ai`
+
+Inspired by biology, spiking neural networks (SNNs) process information via discrete spikes over time, offering an energy-efficient alternative to the classical computing paradigm and classical artificial neural networks (ANNs). In this work, we analyze the representational power of SNNs by viewing ...
 
 ### [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md)
 **Eric Todd, Jannik Brinkmann, Rohit Gandikota et al.** · arXiv:2512.16902 · 2025-12-18 · `cs-ai`
@@ -36,6 +41,11 @@ Large language models (LLMs) with explicit reasoning capabilities excel at mathe
 
 Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external evidence, but fails when retrieved sources conflict or contain outdated or subjective information. Prior work address these issues independently but lack unified reasoning supervision. We propose a reasoning-trace-...
 
+### [AdaSearch: Balancing Parametric Knowledge and Search in Large Language Models via Reinforcement Learning](/cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md)
+**Tzu-Han Lin, Wei-Lin Chen, Chen-An Li et al.** · arXiv:2512.16883 · 2025-12-18 · `cs-ai`
+
+Equipping large language models (LLMs) with search engines via reinforcement learning (RL) has emerged as an effective approach for building search agents. However, overreliance on search introduces unnecessary cost and risks exposure to noisy or malicious content, while relying solely on parametric...
+
 ### [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md)
 **Peter Chen, Xiaopeng Li, Ziniu Li et al.** · arXiv:2512.16912 · 2025-12-18 · `cs-lg`
 
@@ -50,6 +60,11 @@ AI technologies have rapidly moved into business and research applications that 
 **Nima Dehmamy, Benjamin Hoover, Bishwajit Saha et al.** · arXiv:2512.16762 · 2025-12-18 · `cs-lg`
 
 Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ...
+
+### [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md)
+**Jiabin Xue** · arXiv:2512.16866 · 2025-12-18 · `cs-lg`
+
+Edge machine learning (Edge ML) enables training ML models using the vast data distributed across network edges. However, many existing approaches assume static models trained centrally and then deployed, making them ineffective against unseen data. To address this, Online Edge ML allows models to b...
 
 ### [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md)
 **Andrew Wagenmaker, Perry Dong, Raymond Tsao et al.** · arXiv:2512.16911 · 2025-12-18 · `cs-lg`
@@ -86,49 +101,34 @@ Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretabilit
 
 Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and funct...
 
+### [RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing](/cs/cv/2512.16864-replan-reasoning-guided-region-planning-for-compl.md)
+**Tianyuan Qu, Lei Ke, Xiaohang Zhan et al.** · arXiv:2512.16864 · 2025-12-18 · `cs-cv`
+
+Instruction-based image editing enables natural-language control over visual modifications, yet existing models falter under Instruction-Visual Complexity (IV-Complexity), where intricate instructions meet cluttered or ambiguous scenes. We introduce RePlan (Region-aligned Planning), a plan-then-exec...
+
 ### [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md)
 **Haichao Zhang, Yao Lu, Lichen Wang et al.** · arXiv:2512.16891 · 2025-12-18 · `cs-cv`
 
 Video Large Language Models (VLLMs) unlock world-knowledge-aware video understanding through pretraining on internet-scale data and have already shown promise on tasks such as movie analysis and video question answering. However, deploying VLLMs for downstream tasks such as video recommendation rema...
 
-### [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md)
-**Sihan Xu, Ziqiao Ma, Wenhao Chai et al.** · arXiv:2512.16922 · 2025-12-18 · `cs-cv`
-
-Inspired by the success of generative pretraining in natural language, we ask whether the same principles can yield strong self-supervised visual learners. Instead of training models to output features for downstream use, we train them to generate embeddings to perform predictive tasks directly. Thi...
-
-### [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md)
-**Zhiyang Guo, Ori Zhang, Jax Xiang et al.** · arXiv:2512.16767 · 2025-12-18 · `cs-cv`
-
-Posing 3D characters is a fundamental task in computer graphics and vision. However, existing methods like auto-rigging and pose-conditioned generation often struggle with challenges such as inaccurate skinning weight prediction, topological imperfections, and poor pose conformance, limiting their r...
-
-### [AdaTooler-V: Adaptive Tool-Use for Images and Videos](/cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md)
-**Chaoyang Wang, Kaituo Feng, Dongyang Chen et al.** · arXiv:2512.16918 · 2025-12-18 · `cs-cv`
-
-Recent advances have shown that multimodal large language models (MLLMs) benefit from multimodal interleaved chain-of-thought (CoT) with vision tool interactions. However, existing open-source models often exhibit blind tool-use reasoning patterns, invoking vision tools even when they are unnecessar...
-
-### [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md)
-**Chenyu Zhu, Zeyang Li, Ziyi Xie et al.** · arXiv:2512.16786 · 2025-12-18 · `other`
-
-Specific emitter identification (SEI) utilizes passive hardware characteristics to authenticate transmitters, providing a robust physical-layer security solution. However, most deep-learning-based methods rely on extensive data or require prior information, which poses challenges in real-world scena...
-
 
 ## By Field
 
 
-### CS-AI (17 papers)
+### CS-AI (19 papers)
 
+- [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md) - arXiv:2512.16872
 - [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
 - [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md) - arXiv:2512.16899
 - [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
 - [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
+- [AdaSearch: Balancing Parametric Knowledge and Search in Large Language Models via Reinforcement Learning](/cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md) - arXiv:2512.16883
 - [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
 - [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md) - arXiv:2512.15710
 - [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md) - arXiv:2512.14693
-- [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md) - arXiv:2512.14681
-- [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md) - arXiv:2512.14691
 
-### CS-CV (45 papers)
+### CS-CV (47 papers)
 
 - [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
 - [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
@@ -136,23 +136,23 @@ Specific emitter identification (SEI) utilizes passive hardware characteristics 
 - [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md) - arXiv:2512.16906
 - [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
 - [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md) - arXiv:2512.16909
+- [RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing](/cs/cv/2512.16864-replan-reasoning-guided-region-planning-for-compl.md) - arXiv:2512.16864
 - [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md) - arXiv:2512.16891
 - [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
 - [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
-- [AdaTooler-V: Adaptive Tool-Use for Images and Videos](/cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md) - arXiv:2512.16918
 
-### CS-LG (19 papers)
+### CS-LG (20 papers)
 
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 - [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
 - [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
+- [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md) - arXiv:2512.16866
 - [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md) - arXiv:2512.16911
 - [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
 - [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
 - [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
 - [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md) - arXiv:2512.13672
 - [A Scientific Reasoning Model for Organic Synthesis Procedure Generation](/cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md) - arXiv:2512.13668
-- [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md) - arXiv:2512.10922
 
 ### OTHER (9 papers)
 

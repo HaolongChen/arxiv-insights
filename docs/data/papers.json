@@ -1,5 +1,25 @@
 [
   {
+    "arxiv_id": "2512.16872",
+    "title": "On the Universal Representation Property of Spiking Neural Networks",
+    "authors": [
+      "Shayan Hundrieser",
+      "Philipp Tuchel",
+      "Insung Kong",
+      "Johannes Schmidt-Hieber"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.NE",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2512.16872",
+    "abstract": "Inspired by biology, spiking neural networks (SNNs) process information via discrete spikes over time, offering an energy-efficient alternative to the classical computing paradigm and classical artificial neural networks (ANNs). In this work, we analyze the representational power of SNNs by viewing ",
+    "file": "cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md"
+  },
+  {
     "arxiv_id": "2512.16902",
     "title": "In-Context Algebra",
     "authors": [
@@ -105,6 +125,26 @@
     "file": "cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md"
   },
   {
+    "arxiv_id": "2512.16883",
+    "title": "AdaSearch: Balancing Parametric Knowledge and Search in Large Language Models via Reinforcement Learning",
+    "authors": [
+      "Tzu-Han Lin",
+      "Wei-Lin Chen",
+      "Chen-An Li",
+      "Hung-yi Lee",
+      "Yun-Nung Chen",
+      "Yu Meng"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.16883",
+    "abstract": "Equipping large language models (LLMs) with search engines via reinforcement learning (RL) has emerged as an effective approach for building search agents. However, overreliance on search introduces unnecessary cost and risks exposure to noisy or malicious content, while relying solely on parametric",
+    "file": "cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md"
+  },
+  {
     "arxiv_id": "2512.16912",
     "title": "Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward",
     "authors": [
@@ -166,6 +206,22 @@
     "url": "https://arxiv.org/abs/2512.16762",
     "abstract": "Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ",
     "file": "cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md"
+  },
+  {
+    "arxiv_id": "2512.16866",
+    "title": "Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models",
+    "authors": [
+      "Jiabin Xue"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.16866",
+    "abstract": "Edge machine learning (Edge ML) enables training ML models using the vast data distributed across network edges. However, many existing approaches assume static models trained centrally and then deployed, making them ineffective against unseen data. To address this, Online Edge ML allows models to b",
+    "file": "cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md"
   },
   {
     "arxiv_id": "2512.16911",
@@ -323,6 +379,29 @@
     "file": "cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md"
   },
   {
+    "arxiv_id": "2512.16864",
+    "title": "RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing",
+    "authors": [
+      "Tianyuan Qu",
+      "Lei Ke",
+      "Xiaohang Zhan",
+      "Longxiang Tang",
+      "Yuqi Liu",
+      "Bohao Peng",
+      "Bei Yu",
+      "Dong Yu",
+      "Jiaya Jia"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16864",
+    "abstract": "Instruction-based image editing enables natural-language control over visual modifications, yet existing models falter under Instruction-Visual Complexity (IV-Complexity), where intricate instructions meet cluttered or ambiguous scenes. We introduce RePlan (Region-aligned Planning), a plan-then-exec",
+    "file": "cs/cv/2512.16864-replan-reasoning-guided-region-planning-for-compl.md"
+  },
+  {
     "arxiv_id": "2512.16891",
     "title": "LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation",
     "authors": [
@@ -413,6 +492,31 @@
     "url": "https://arxiv.org/abs/2512.16918",
     "abstract": "Recent advances have shown that multimodal large language models (MLLMs) benefit from multimodal interleaved chain-of-thought (CoT) with vision tool interactions. However, existing open-source models often exhibit blind tool-use reasoning patterns, invoking vision tools even when they are unnecessar",
     "file": "cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md"
+  },
+  {
+    "arxiv_id": "2512.16874",
+    "title": "Pixel Seal: Adversarial-only training for invisible image and video watermarking",
+    "authors": [
+      "Tom\u00e1\u0161 Sou\u010dek",
+      "Pierre Fernandez",
+      "Hady Elsahar",
+      "Sylvestre-Alvise Rebuffi",
+      "Valeriu Lacatusu",
+      "Tuan Tran",
+      "Tom Sander",
+      "Alexandre Mourachko"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.16874",
+    "abstract": "Invisible watermarking is essential for tracing the provenance of digital content. However, training state-of-the-art models remains notoriously difficult, with current approaches often struggling to balance robustness against true imperceptibility. This work introduces Pixel Seal, which sets a new ",
+    "file": "cs/cv/2512.16874-pixel-seal-adversarial-only-training-for-invisibl.md"
   },
   {
     "arxiv_id": "2512.16786",
