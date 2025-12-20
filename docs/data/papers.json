@@ -39,6 +39,27 @@
     "file": "cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md"
   },
   {
+    "arxiv_id": "2512.16899",
+    "title": "Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image",
+    "authors": [
+      "Yushi Hu",
+      "Reyhane Askari-Hemmat",
+      "Melissa Hall",
+      "Emily Dinan",
+      "Luke Zettlemoyer",
+      "Marjan Ghazvininejad"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16899",
+    "abstract": "Reward models (RMs) are essential for training large language models (LLMs), but remain underexplored for omni models that handle interleaved image and text sequences. We introduce Multimodal RewardBench 2 (MMRB2), the first comprehensive benchmark for reward models on multimodal understanding and (",
+    "file": "cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md"
+  },
+  {
     "arxiv_id": "2512.16917",
     "title": "Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning",
     "authors": [
@@ -106,6 +127,27 @@
     "file": "cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md"
   },
   {
+    "arxiv_id": "2512.16901",
+    "title": "Impacts of Racial Bias in Historical Training Data for News AI",
+    "authors": [
+      "Rahul Bhargava",
+      "Malene Hornstrup Jespersen",
+      "Emily Boardman Ndulue",
+      "Vivica Dsouza"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "url": "https://arxiv.org/abs/2512.16901",
+    "abstract": "AI technologies have rapidly moved into business and research applications that involve large text corpora, including computational journalism research and newsroom settings. These models, trained on extant data from various sources, can be conceptualized as historical artifacts that encode decades-",
+    "file": "cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md"
+  },
+  {
     "arxiv_id": "2512.16762",
     "title": "NRGPT: An Energy-based Alternative for GPT",
     "authors": [
@@ -145,6 +187,49 @@
     "url": "https://arxiv.org/abs/2512.16911",
     "abstract": "Standard practice across domains from robotics to language is to first pretrain a policy on a large-scale demonstration dataset, and then finetune this policy, typically with reinforcement learning (RL), in order to improve performance on deployment domains. This finetuning step has proved critical ",
     "file": "cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md"
+  },
+  {
+    "arxiv_id": "2512.16900",
+    "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
+    "authors": [
+      "Shuyuan Tu",
+      "Yueming Pan",
+      "Yinming Huang",
+      "Xintong Han",
+      "Zhen Xing",
+      "Qi Dai",
+      "Kai Qiu",
+      "Chong Luo",
+      "Zuxuan Wu"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16900",
+    "abstract": "Current diffusion-based acceleration methods for long-portrait animation struggle to ensure identity (ID) consistency. This paper presents FlashPortrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6x acceleration in i",
+    "file": "cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md"
+  },
+  {
+    "arxiv_id": "2512.16893",
+    "title": "Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation",
+    "authors": [
+      "Kaiwen Jiang",
+      "Xueting Li",
+      "Seonwook Park",
+      "Ravi Ramamoorthi",
+      "Shalini De Mello",
+      "Koki Nagano"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.16893",
+    "abstract": "Portrait animation has witnessed tremendous quality improvements thanks to recent advances in video diffusion models. However, these 2D methods often compromise 3D consistency and speed, limiting their applicability in real-world scenarios, such as digital twins or telepresence. In contrast, 3D-awar",
+    "file": "cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md"
   },
   {
     "arxiv_id": "2512.16919",
@@ -236,6 +321,31 @@
     "url": "https://arxiv.org/abs/2512.16909",
     "abstract": "Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and funct",
     "file": "cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md"
+  },
+  {
+    "arxiv_id": "2512.16891",
+    "title": "LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation",
+    "authors": [
+      "Haichao Zhang",
+      "Yao Lu",
+      "Lichen Wang",
+      "Yunzhe Li",
+      "Daiwei Chen",
+      "Yunpeng Xu",
+      "Yun Fu"
+    ],
+    "date": "2025-12-18",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG",
+      "cs.MM"
+    ],
+    "url": "https://arxiv.org/abs/2512.16891",
+    "abstract": "Video Large Language Models (VLLMs) unlock world-knowledge-aware video understanding through pretraining on internet-scale data and have already shown promise on tasks such as movie analysis and video question answering. However, deploying VLLMs for downstream tasks such as video recommendation rema",
+    "file": "cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md"
   },
   {
     "arxiv_id": "2512.16922",

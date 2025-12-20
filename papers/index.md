@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 85
-- **Unique Authors**: 531
+- **Total Papers**: 90
+- **Unique Authors**: 563
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-19 16:33:36
+- **Last Updated**: 2025-12-20 01:55:16
 
 ## Latest Papers
 
@@ -20,6 +20,11 @@ We investigate the mechanisms that arise when transformers are trained to solve 
 **Primož Kocbek, Azra Frkatović-Hodžić, Dora Lalić et al.** · arXiv:2512.16802 · 2025-12-18 · `cs-ai`
 
 Multi-modal retrieval-augmented generation (MM-RAG) promises grounded biomedical QA, but it is unclear when to (i) convert figures/tables into text versus (ii) use optical character recognition (OCR)-free visual retrieval that returns page images and leaves interpretation to the generator. We study ...
+
+### [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md)
+**Yushi Hu, Reyhane Askari-Hemmat, Melissa Hall et al.** · arXiv:2512.16899 · 2025-12-18 · `cs-ai`
+
+Reward models (RMs) are essential for training large language models (LLMs), but remain underexplored for omni models that handle interleaved image and text sequences. We introduce Multimodal RewardBench 2 (MMRB2), the first comprehensive benchmark for reward models on multimodal understanding and (...
 
 ### [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md)
 **Qihao Liu, Luoxin Ye, Wufei Ma et al.** · arXiv:2512.16917 · 2025-12-18 · `cs-ai`
@@ -36,6 +41,11 @@ Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in ext
 
 This paper examines the exploration-exploitation trade-off in reinforcement learning with verifiable rewards (RLVR), a framework for improving the reasoning of Large Language Models (LLMs). Recent studies suggest that RLVR can elicit strong mathematical reasoning in LLMs through two seemingly parado...
 
+### [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md)
+**Rahul Bhargava, Malene Hornstrup Jespersen, Emily Boardman Ndulue et al.** · arXiv:2512.16901 · 2025-12-18 · `cs-lg`
+
+AI technologies have rapidly moved into business and research applications that involve large text corpora, including computational journalism research and newsroom settings. These models, trained on extant data from various sources, can be conceptualized as historical artifacts that encode decades-...
+
 ### [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md)
 **Nima Dehmamy, Benjamin Hoover, Bishwajit Saha et al.** · arXiv:2512.16762 · 2025-12-18 · `cs-lg`
 
@@ -45,6 +55,16 @@ Generative Pre-trained Transformer (GPT) architectures are the most popular desi
 **Andrew Wagenmaker, Perry Dong, Raymond Tsao et al.** · arXiv:2512.16911 · 2025-12-18 · `cs-lg`
 
 Standard practice across domains from robotics to language is to first pretrain a policy on a large-scale demonstration dataset, and then finetune this policy, typically with reinforcement learning (RL), in order to improve performance on deployment domains. This finetuning step has proved critical ...
+
+### [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md)
+**Shuyuan Tu, Yueming Pan, Yinming Huang et al.** · arXiv:2512.16900 · 2025-12-18 · `cs-cv`
+
+Current diffusion-based acceleration methods for long-portrait animation struggle to ensure identity (ID) consistency. This paper presents FlashPortrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6x acceleration in i...
+
+### [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md)
+**Kaiwen Jiang, Xueting Li, Seonwook Park et al.** · arXiv:2512.16893 · 2025-12-18 · `cs-cv`
+
+Portrait animation has witnessed tremendous quality improvements thanks to recent advances in video diffusion models. However, these 2D methods often compromise 3D consistency and speed, limiting their applicability in real-world scenarios, such as digital twins or telepresence. In contrast, 3D-awar...
 
 ### [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md)
 **Sicheng Zuo, Zixun Xie, Wenzhao Zheng et al.** · arXiv:2512.16919 · 2025-12-18 · `cs-cv`
@@ -66,6 +86,11 @@ Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretabilit
 
 Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and funct...
 
+### [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md)
+**Haichao Zhang, Yao Lu, Lichen Wang et al.** · arXiv:2512.16891 · 2025-12-18 · `cs-cv`
+
+Video Large Language Models (VLLMs) unlock world-knowledge-aware video understanding through pretraining on internet-scale data and have already shown promise on tasks such as movie analysis and video question answering. However, deploying VLLMs for downstream tasks such as video recommendation rema...
+
 ### [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md)
 **Sihan Xu, Ziqiao Ma, Wenhao Chai et al.** · arXiv:2512.16922 · 2025-12-18 · `cs-cv`
 
@@ -86,39 +111,15 @@ Recent advances have shown that multimodal large language models (MLLMs) benefit
 
 Specific emitter identification (SEI) utilizes passive hardware characteristics to authenticate transmitters, providing a robust physical-layer security solution. However, most deep-learning-based methods rely on extensive data or require prior information, which poses challenges in real-world scena...
 
-### [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md)
-**Vincent Huang, Dami Choi, Daniel D. Johnson et al.** · arXiv:2512.15712 · 2025-12-17 · `cs-ai`
-
-Interpreting the internal activations of neural networks can produce more faithful explanations of their behavior, but is difficult due to the complex structure of activation space. Existing approaches to scalable interpretability use hand-designed agents that make and test hypotheses about how inte...
-
-### [Artism: AI-Driven Dual-Engine System for Art Generation and Critique](/cs/ai/2512.15710-artism-ai-driven-dual-engine-system-for-art-gener.md)
-**Shuai Liu, Yiqing Tian, Yang Chen et al.** · arXiv:2512.15710 · 2025-12-17 · `cs-ai`
-
-This paper proposes a dual-engine AI architectural method designed to address the complex problem of exploring potential trajectories in the evolution of art. We present two interconnected components: AIDA (an artificial artist social network) and the Ismism Machine, a system for critical analysis. ...
-
-### [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md)
-**Kayode Olumoyin, Lamees El Naqa, Katarzyna Rejniak** · arXiv:2512.15706 · 2025-12-17 · `cs-lg`
-
-In a mathematical model of interacting biological organisms, where external interventions may alter behavior over time, traditional models that assume fixed parameters usually do not capture the evolving dynamics. In oncology, this is further exacerbated by the fact that experimental data are often ...
-
-### [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md)
-**Divam Gupta, Anuj Pahuja, Nemanja Bartolovic et al.** · arXiv:2512.15711 · 2025-12-17 · `cs-cv`
-
-We present Gaussian Pixel Codec Avatars (GPiCA), photorealistic head avatars that can be generated from multi-view images and efficiently rendered on mobile devices. GPiCA utilizes a unique hybrid representation that combines a triangle mesh and anisotropic 3D Gaussians. This combination maximizes m...
-
-### [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md)
-**Kyle Sargent, Ruiqi Gao, Philipp Henzler et al.** · arXiv:2512.15701 · 2025-12-17 · `cs-cv`
-
-Evaluations of image compression performance which include human preferences have generally found that naive distortion functions such as MSE are insufficiently aligned to human perception. In order to align compression models to human perception, prior work has employed differentiable perceptual lo...
-
 
 ## By Field
 
 
-### CS-AI (16 papers)
+### CS-AI (17 papers)
 
 - [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
+- [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md) - arXiv:2512.16899
 - [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
 - [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
 - [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
@@ -126,24 +127,24 @@ Evaluations of image compression performance which include human preferences hav
 - [Universal Reasoning Model](/cs/ai/2512.14693-universal-reasoning-model.md) - arXiv:2512.14693
 - [Fast and Accurate Causal Parallel Decoding using Jacobi Forcing](/cs/ai/2512.14681-fast-and-accurate-causal-parallel-decoding-using-j.md) - arXiv:2512.14681
 - [MMGR: Multi-Modal Generative Reasoning](/cs/ai/2512.14691-mmgr-multi-modal-generative-reasoning.md) - arXiv:2512.14691
-- [Beyond surface form: A pipeline for semantic analysis in Alzheimer's Disease detection from spontaneous speech](/cs/ai/2512.13685-beyond-surface-form-a-pipeline-for-semantic-analy.md) - arXiv:2512.13685
 
-### CS-CV (42 papers)
+### CS-CV (45 papers)
 
+- [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
+- [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
 - [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md) - arXiv:2512.16906
 - [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
 - [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md) - arXiv:2512.16909
+- [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md) - arXiv:2512.16891
 - [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
 - [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
 - [AdaTooler-V: Adaptive Tool-Use for Images and Videos](/cs/cv/2512.16918-adatooler-v-adaptive-tool-use-for-images-and-vide.md) - arXiv:2512.16918
-- [Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering](/cs/cv/2512.15711-gaussian-pixel-codec-avatars-a-hybrid-representat.md) - arXiv:2512.15711
-- [VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression](/cs/cv/2512.15701-vlic-vision-language-models-as-perceptual-judges.md) - arXiv:2512.15701
-- [Multi-View Foundation Models](/cs/cv/2512.15708-multi-view-foundation-models.md) - arXiv:2512.15708
 
-### CS-LG (18 papers)
+### CS-LG (19 papers)
 
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
+- [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
 - [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
 - [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md) - arXiv:2512.16911
 - [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
@@ -152,7 +153,6 @@ Evaluations of image compression performance which include human preferences hav
 - [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md) - arXiv:2512.13672
 - [A Scientific Reasoning Model for Organic Synthesis Procedure Generation](/cs/lg/2512.13668-a-scientific-reasoning-model-for-organic-synthesis.md) - arXiv:2512.13668
 - [SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale](/cs/lg/2512.10922-sparseswaps-tractable-llm-pruning-mask-refinement.md) - arXiv:2512.10922
-- [Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks](/cs/lg/2512.10936-empirical-evaluation-of-the-frank-wolfe-methods-fo.md) - arXiv:2512.10936
 
 ### OTHER (9 papers)
 
