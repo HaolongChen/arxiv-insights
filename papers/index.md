@@ -4,12 +4,22 @@
 
 ## Statistics
 
-- **Total Papers**: 105
-- **Unique Authors**: 622
+- **Total Papers**: 110
+- **Unique Authors**: 660
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-23 02:02:57
+- **Last Updated**: 2025-12-23 08:36:13
 
 ## Latest Papers
+
+### [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md)
+**Junze Ye, Daniel Tawfik, Alex J. Goodell et al.** · arXiv:2512.19691 · 2025-12-22 · `cs-ai`
+
+Automating the calculation of clinical risk scores offers a significant opportunity to reduce physician administrative burden and enhance patient care. The current standard for evaluating this capability is MedCalc-Bench, a large-scale dataset constructed using LLM-based feature extraction and rule-...
+
+### [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md)
+**Jiacheng Guo, Ling Yang, Peter Chen et al.** · arXiv:2512.19682 · 2025-12-22 · `cs-ai`
+
+Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative e...
 
 ### [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md)
 **Wen-Long Jin** · arXiv:2512.18940 · 2025-12-22 · `cs-ai`
@@ -20,6 +30,21 @@ Large Language Models (LLMs) execute complex multi-turn interaction protocols bu
 **Michael S. Zhang, Rishi A. Ruia, Arnav Kewalram et al.** · arXiv:2512.18934 · 2025-12-22 · `cs-lg`
 
 Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin...
+
+### [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md)
+**Pablo Ruiz-Ponce, Sergio Escalera, José García-Rodríguez et al.** · arXiv:2512.19692 · 2025-12-22 · `cs-cv`
+
+Generating realistic human-human interactions is a challenging task that requires not only high-quality individual body and hand motions, but also coherent coordination among all interactants. Due to limitations in available data and increased learning complexity, previous methods tend to ignore han...
+
+### [From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](/cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md)
+**Mingrui Wu, Zhaozhi Wang, Fangjinhua Wang et al.** · arXiv:2512.19683 · 2025-12-22 · `cs-cv`
+
+While Multimodal Large Language Models (MLLMs) have achieved impressive performance on semantic tasks, their spatial intelligence--crucial for robust and grounded AI systems--remains underdeveloped. Existing benchmarks fall short of diagnosing this limitation: they either focus on overly simplified ...
+
+### [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md)
+**Mojtaba Safari, Shansong Wang, Vanessa L Wildman et al.** · arXiv:2512.19676 · 2025-12-22 · `cs-cv`
+
+Background: High-resolution MRI is critical for diagnosis, but long acquisition times limit clinical use. Super-resolution (SR) can enhance resolution post-scan, yet existing deep learning methods face fidelity-efficiency trade-offs. Purpose: To develop a computationally efficient and accurate deep ...
 
 ### [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md)
 **Shaomu Tan, Ryosuke Mitani, Ritvik Choudhary et al.** · arXiv:2512.18906 · 2025-12-21 · `cs-ai`
@@ -86,37 +111,14 @@ Equipping large language models (LLMs) with search engines via reinforcement lea
 
 Reinforcement learning (RL) has enabled the training of large language model (LLM) agents to interact with the environment and to solve multi-turn long-horizon tasks. However, the RL-trained agents often struggle in tasks that require active exploration and fail to efficiently adapt from trial-and-e...
 
-### [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md)
-**Peter Chen, Xiaopeng Li, Ziniu Li et al.** · arXiv:2512.16912 · 2025-12-18 · `cs-lg`
-
-This paper examines the exploration-exploitation trade-off in reinforcement learning with verifiable rewards (RLVR), a framework for improving the reasoning of Large Language Models (LLMs). Recent studies suggest that RLVR can elicit strong mathematical reasoning in LLMs through two seemingly parado...
-
-### [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md)
-**Rahul Bhargava, Malene Hornstrup Jespersen, Emily Boardman Ndulue et al.** · arXiv:2512.16901 · 2025-12-18 · `cs-lg`
-
-AI technologies have rapidly moved into business and research applications that involve large text corpora, including computational journalism research and newsroom settings. These models, trained on extant data from various sources, can be conceptualized as historical artifacts that encode decades-...
-
-### [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md)
-**Nima Dehmamy, Benjamin Hoover, Bishwajit Saha et al.** · arXiv:2512.16762 · 2025-12-18 · `cs-lg`
-
-Generative Pre-trained Transformer (GPT) architectures are the most popular design for language modeling. Energy-based modeling is a different paradigm that views inference as a dynamical process operating on an energy landscape. We propose a minimal modification of the GPT setting to unify it with ...
-
-### [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md)
-**Jiabin Xue** · arXiv:2512.16866 · 2025-12-18 · `cs-lg`
-
-Edge machine learning (Edge ML) enables training ML models using the vast data distributed across network edges. However, many existing approaches assume static models trained centrally and then deployed, making them ineffective against unseen data. To address this, Online Edge ML allows models to b...
-
-### [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md)
-**Andrew Wagenmaker, Perry Dong, Raymond Tsao et al.** · arXiv:2512.16911 · 2025-12-18 · `cs-lg`
-
-Standard practice across domains from robotics to language is to first pretrain a policy on a large-scale demonstration dataset, and then finetune this policy, typically with reinforcement learning (RL), in order to improve performance on deployment domains. This finetuning step has proved critical ...
-
 
 ## By Field
 
 
-### CS-AI (23 papers)
+### CS-AI (25 papers)
 
+- [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
+- [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md) - arXiv:2512.19682
 - [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md) - arXiv:2512.18940
 - [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md) - arXiv:2512.18906
 - [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md) - arXiv:2512.16872
@@ -125,11 +127,12 @@ Standard practice across domains from robotics to language is to first pretrain 
 - [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md) - arXiv:2512.16843
 - [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](/cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md) - arXiv:2512.16855
 - [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md) - arXiv:2512.16899
-- [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
-- [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
 
-### CS-CV (48 papers)
+### CS-CV (51 papers)
 
+- [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md) - arXiv:2512.19692
+- [From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](/cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md) - arXiv:2512.19683
+- [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md) - arXiv:2512.19676
 - [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md) - arXiv:2512.18910
 - [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
 - [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
@@ -137,9 +140,6 @@ Standard practice across domains from robotics to language is to first pretrain 
 - [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md) - arXiv:2512.16906
 - [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
 - [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md) - arXiv:2512.16909
-- [RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing](/cs/cv/2512.16864-replan-reasoning-guided-region-planning-for-compl.md) - arXiv:2512.16864
-- [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md) - arXiv:2512.16891
-- [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
 
 ### CS-LG (22 papers)
 

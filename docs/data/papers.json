@@ -1,5 +1,49 @@
 [
   {
+    "arxiv_id": "2512.19691",
+    "title": "Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight",
+    "authors": [
+      "Junze Ye",
+      "Daniel Tawfik",
+      "Alex J. Goodell",
+      "Nikhil V. Kotha",
+      "Mark K. Buyyounouski",
+      "Mohsen Bayati"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "stat.AP"
+    ],
+    "url": "https://arxiv.org/abs/2512.19691",
+    "abstract": "Automating the calculation of clinical risk scores offers a significant opportunity to reduce physician administrative burden and enhance patient care. The current standard for evaluating this capability is MedCalc-Bench, a large-scale dataset constructed using LLM-based feature extraction and rule-",
+    "file": "cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md"
+  },
+  {
+    "arxiv_id": "2512.19682",
+    "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+    "authors": [
+      "Jiacheng Guo",
+      "Ling Yang",
+      "Peter Chen",
+      "Qixin Xiao",
+      "Yinjie Wang",
+      "Xinzhe Juan",
+      "Jiahao Qiu",
+      "Ke Shen",
+      "Mengdi Wang"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.19682",
+    "abstract": "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative e",
+    "file": "cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md"
+  },
+  {
     "arxiv_id": "2512.18940",
     "title": "FASTRIC: Prompt Specification Language for Verifiable LLM Interactions",
     "authors": [
@@ -35,6 +79,73 @@
     "url": "https://arxiv.org/abs/2512.18934",
     "abstract": "Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin",
     "file": "cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md"
+  },
+  {
+    "arxiv_id": "2512.19692",
+    "title": "Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models",
+    "authors": [
+      "Pablo Ruiz-Ponce",
+      "Sergio Escalera",
+      "Jos\u00e9 Garc\u00eda-Rodr\u00edguez",
+      "Jiankang Deng",
+      "Rolandos Alexandros Potamias"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.19692",
+    "abstract": "Generating realistic human-human interactions is a challenging task that requires not only high-quality individual body and hand motions, but also coherent coordination among all interactants. Due to limitations in available data and increased learning complexity, previous methods tend to ignore han",
+    "file": "cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md"
+  },
+  {
+    "arxiv_id": "2512.19683",
+    "title": "From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs",
+    "authors": [
+      "Mingrui Wu",
+      "Zhaozhi Wang",
+      "Fangjinhua Wang",
+      "Jiaolong Yang",
+      "Marc Pollefeys",
+      "Tong Zhang"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.19683",
+    "abstract": "While Multimodal Large Language Models (MLLMs) have achieved impressive performance on semantic tasks, their spatial intelligence--crucial for robust and grounded AI systems--remains underdeveloped. Existing benchmarks fall short of diagnosing this limitation: they either focus on overly simplified ",
+    "file": "cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md"
+  },
+  {
+    "arxiv_id": "2512.19676",
+    "title": "Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning",
+    "authors": [
+      "Mojtaba Safari",
+      "Shansong Wang",
+      "Vanessa L Wildman",
+      "Mingzhe Hu",
+      "Zach Eidex",
+      "Chih-Wei Chang",
+      "Erik H Middlebrooks",
+      "Richard L. J Qiu",
+      "Pretesh Patel",
+      "Ashesh B. Jania",
+      "Hui Mao",
+      "Zhen Tian",
+      "Xiaofeng Yang"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "physics.med-ph"
+    ],
+    "url": "https://arxiv.org/abs/2512.19676",
+    "abstract": "Background: High-resolution MRI is critical for diagnosis, but long acquisition times limit clinical use. Super-resolution (SR) can enhance resolution post-scan, yet existing deep learning methods face fidelity-efficiency trade-offs. Purpose: To develop a computationally efficient and accurate deep ",
+    "file": "cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md"
   },
   {
     "arxiv_id": "2512.18906",
