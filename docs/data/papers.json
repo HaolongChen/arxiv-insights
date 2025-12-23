@@ -1,5 +1,96 @@
 [
   {
+    "arxiv_id": "2512.18940",
+    "title": "FASTRIC: Prompt Specification Language for Verifiable LLM Interactions",
+    "authors": [
+      "Wen-Long Jin"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "url": "https://arxiv.org/abs/2512.18940",
+    "abstract": "Large Language Models (LLMs) execute complex multi-turn interaction protocols but lack formal specifications to verify execution against designer intent. We introduce FASTRIC, a Prompt Specification Language that makes implicit Finite State Machines (FSMs) explicit in natural language prompts, enabl",
+    "file": "cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md"
+  },
+  {
+    "arxiv_id": "2512.18934",
+    "title": "When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models",
+    "authors": [
+      "Michael S. Zhang",
+      "Rishi A. Ruia",
+      "Arnav Kewalram",
+      "Saathvik Dharmapuram",
+      "Utkarsh Sharma",
+      "Kevin Zhu"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.18934",
+    "abstract": "Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin",
+    "file": "cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md"
+  },
+  {
+    "arxiv_id": "2512.18906",
+    "title": "Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations",
+    "authors": [
+      "Shaomu Tan",
+      "Ryosuke Mitani",
+      "Ritvik Choudhary",
+      "Qiyu Wu",
+      "Toshiyuki Sekiya",
+      "Christof Monz"
+    ],
+    "date": "2025-12-21",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.18906",
+    "abstract": "Over the years, automatic MT metrics have hillclimbed benchmarks and presented strong and sometimes human-level agreement with human ratings. Yet they remain black-box, offering little insight into their decision-making and often failing under real-world out-of-distribution (OOD) inputs. We introduc",
+    "file": "cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md"
+  },
+  {
+    "arxiv_id": "2512.18910",
+    "title": "Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models",
+    "authors": [
+      "Mohamad Zamini",
+      "Diksha Shukla"
+    ],
+    "date": "2025-12-21",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.18910",
+    "abstract": "Multimodal Large Language Models (MLLMs) combine visual and textual representations to enable rich reasoning capabilities. However, the high computational cost of processing dense visual tokens remains a major bottleneck. A critical component in this pipeline is the visual projector, which bridges t",
+    "file": "cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md"
+  },
+  {
+    "arxiv_id": "2512.18925",
+    "title": "An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects",
+    "authors": [
+      "Shaokang Jiang",
+      "Daye Nam"
+    ],
+    "date": "2025-12-21",
+    "field": "other",
+    "tags": [
+      "cs.SE",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "url": "https://arxiv.org/abs/2512.18925",
+    "abstract": "While Large Language Models (LLMs) have demonstrated remarkable capabilities, research shows that their effectiveness depends not only on explicit prompts but also on the broader context provided. This requirement is especially pronounced in software engineering, where the goals, architecture, and c",
+    "file": "other/2512.18925-an-empirical-study-of-developer-provided-context-f.md"
+  },
+  {
     "arxiv_id": "2512.16872",
     "title": "On the Universal Representation Property of Spiking Neural Networks",
     "authors": [

@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 100
-- **Unique Authors**: 605
+- **Total Papers**: 105
+- **Unique Authors**: 622
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-22 16:32:58
+- **Last Updated**: 2025-12-23 02:02:57
 
 ## Latest Papers
+
+### [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md)
+**Wen-Long Jin** · arXiv:2512.18940 · 2025-12-22 · `cs-ai`
+
+Large Language Models (LLMs) execute complex multi-turn interaction protocols but lack formal specifications to verify execution against designer intent. We introduce FASTRIC, a Prompt Specification Language that makes implicit Finite State Machines (FSMs) explicit in natural language prompts, enabl...
+
+### [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md)
+**Michael S. Zhang, Rishi A. Ruia, Arnav Kewalram et al.** · arXiv:2512.18934 · 2025-12-22 · `cs-lg`
+
+Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin...
+
+### [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md)
+**Shaomu Tan, Ryosuke Mitani, Ritvik Choudhary et al.** · arXiv:2512.18906 · 2025-12-21 · `cs-ai`
+
+Over the years, automatic MT metrics have hillclimbed benchmarks and presented strong and sometimes human-level agreement with human ratings. Yet they remain black-box, offering little insight into their decision-making and often failing under real-world out-of-distribution (OOD) inputs. We introduc...
+
+### [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md)
+**Mohamad Zamini, Diksha Shukla** · arXiv:2512.18910 · 2025-12-21 · `cs-cv`
+
+Multimodal Large Language Models (MLLMs) combine visual and textual representations to enable rich reasoning capabilities. However, the high computational cost of processing dense visual tokens remains a major bottleneck. A critical component in this pipeline is the visual projector, which bridges t...
+
+### [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md)
+**Shaokang Jiang, Daye Nam** · arXiv:2512.18925 · 2025-12-21 · `other`
+
+While Large Language Models (LLMs) have demonstrated remarkable capabilities, research shows that their effectiveness depends not only on explicit prompts but also on the broader context provided. This requirement is especially pronounced in software engineering, where the goals, architecture, and c...
 
 ### [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md)
 **Shayan Hundrieser, Philipp Tuchel, Insung Kong et al.** · arXiv:2512.16872 · 2025-12-18 · `cs-ai`
@@ -86,37 +111,14 @@ Edge machine learning (Edge ML) enables training ML models using the vast data d
 
 Standard practice across domains from robotics to language is to first pretrain a policy on a large-scale demonstration dataset, and then finetune this policy, typically with reinforcement learning (RL), in order to improve performance on deployment domains. This finetuning step has proved critical ...
 
-### [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md)
-**Shuyuan Tu, Yueming Pan, Yinming Huang et al.** · arXiv:2512.16900 · 2025-12-18 · `cs-cv`
-
-Current diffusion-based acceleration methods for long-portrait animation struggle to ensure identity (ID) consistency. This paper presents FlashPortrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6x acceleration in i...
-
-### [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md)
-**Kaiwen Jiang, Xueting Li, Seonwook Park et al.** · arXiv:2512.16893 · 2025-12-18 · `cs-cv`
-
-Portrait animation has witnessed tremendous quality improvements thanks to recent advances in video diffusion models. However, these 2D methods often compromise 3D consistency and speed, limiting their applicability in real-world scenarios, such as digital twins or telepresence. In contrast, 3D-awar...
-
-### [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md)
-**Sicheng Zuo, Zixun Xie, Wenzhao Zheng et al.** · arXiv:2512.16919 · 2025-12-18 · `cs-cv`
-
-Perceiving and reconstructing 3D scene geometry from visual inputs is crucial for autonomous driving. However, there still lacks a driving-targeted dense geometry perception model that can adapt to different scenarios and camera configurations. To bridge this gap, we propose a Driving Visual Geometr...
-
-### [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md)
-**Xiaoyan Cong, Haotian Yang, Angtian Wang et al.** · arXiv:2512.16906 · 2025-12-18 · `cs-cv`
-
-Instruction-based video editing aims to modify an input video according to a natural-language instruction while preserving content fidelity and temporal coherence. However, existing diffusion-based approaches are often trained on paired data of simple editing operations, which fundamentally limits t...
-
-### [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md)
-**Qihao Liu, Chengzhi Mao, Yaojie Liu et al.** · arXiv:2512.16921 · 2025-12-18 · `cs-cv`
-
-Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by auditing...
-
 
 ## By Field
 
 
-### CS-AI (21 papers)
+### CS-AI (23 papers)
 
+- [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md) - arXiv:2512.18940
+- [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md) - arXiv:2512.18906
 - [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md) - arXiv:2512.16872
 - [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
@@ -125,11 +127,10 @@ Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretabilit
 - [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md) - arXiv:2512.16899
 - [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md) - arXiv:2512.16917
 - [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md) - arXiv:2512.16795
-- [AdaSearch: Balancing Parametric Knowledge and Search in Large Language Models via Reinforcement Learning](/cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md) - arXiv:2512.16883
-- [Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants](/cs/ai/2512.15712-predictive-concept-decoders-training-scalable-end.md) - arXiv:2512.15712
 
-### CS-CV (47 papers)
+### CS-CV (48 papers)
 
+- [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md) - arXiv:2512.18910
 - [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
 - [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
@@ -139,10 +140,10 @@ Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretabilit
 - [RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing](/cs/cv/2512.16864-replan-reasoning-guided-region-planning-for-compl.md) - arXiv:2512.16864
 - [LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation](/cs/cv/2512.16891-linkedout-linking-world-knowledge-representation.md) - arXiv:2512.16891
 - [Next-Embedding Prediction Makes Strong Vision Learners](/cs/cv/2512.16922-next-embedding-prediction-makes-strong-vision-lear.md) - arXiv:2512.16922
-- [Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation](/cs/cv/2512.16767-make-it-poseable-feed-forward-latent-posing-model.md) - arXiv:2512.16767
 
-### CS-LG (21 papers)
+### CS-LG (22 papers)
 
+- [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 - [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 - [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
@@ -152,10 +153,10 @@ Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretabilit
 - [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
 - [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
 - [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
-- [Directional Textual Inversion for Personalized Text-to-Image Generation](/cs/lg/2512.13672-directional-textual-inversion-for-personalized-tex.md) - arXiv:2512.13672
 
-### OTHER (11 papers)
+### OTHER (12 papers)
 
+- [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md) - arXiv:2512.18925
 - [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](/other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md) - arXiv:2512.16861
 - [PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy](/other/2512.16851-privatexr-defending-privacy-attacks-in-extended-r.md) - arXiv:2512.16851
 - [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md) - arXiv:2512.16786
@@ -165,7 +166,6 @@ Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretabilit
 - [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
 - [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
 - [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md) - arXiv:2512.12769
-- [Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit](/other/2512.10934-curriculum-based-reinforcement-learning-for-autono.md) - arXiv:2512.10934
 
 ---
 
