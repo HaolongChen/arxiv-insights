@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 110
-- **Unique Authors**: 660
+- **Total Papers**: 115
+- **Unique Authors**: 681
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-23 08:36:13
+- **Last Updated**: 2025-12-23 16:34:18
 
 ## Latest Papers
 
@@ -15,6 +15,11 @@
 **Junze Ye, Daniel Tawfik, Alex J. Goodell et al.** · arXiv:2512.19691 · 2025-12-22 · `cs-ai`
 
 Automating the calculation of clinical risk scores offers a significant opportunity to reduce physician administrative burden and enhance patient care. The current standard for evaluating this capability is MedCalc-Bench, a large-scale dataset constructed using LLM-based feature extraction and rule-...
+
+### [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md)
+**Filippos Ventirozos, Peter Appleby, Matthew Shardlow** · arXiv:2512.19651 · 2025-12-22 · `cs-ai`
+
+Aspect-Category Sentiment Analysis (ACSA) provides granular insights by identifying specific themes within reviews and their associated sentiment. While supervised learning approaches dominate this field, the scarcity and high cost of annotated data for new domains present significant barriers. We a...
 
 ### [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md)
 **Jiacheng Guo, Ling Yang, Peter Chen et al.** · arXiv:2512.19682 · 2025-12-22 · `cs-ai`
@@ -26,10 +31,20 @@ Training capable Large Language Model (LLM) agents is critically bottlenecked by
 
 Large Language Models (LLMs) execute complex multi-turn interaction protocols but lack formal specifications to verify execution against designer intent. We introduce FASTRIC, a Prompt Specification Language that makes implicit Finite State Machines (FSMs) explicit in natural language prompts, enabl...
 
+### [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md)
+**Yuqiao Tan, Minzheng Wang, Shizhu He et al.** · arXiv:2512.19673 · 2025-12-22 · `cs-lg`
+
+Existing reinforcement learning (RL) approaches treat large language models (LLMs) as a single unified policy, overlooking their internal mechanisms. Understanding how policy evolves across layers and modules is therefore crucial for enabling more targeted optimization and raveling out complex reaso...
+
 ### [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md)
 **Michael S. Zhang, Rishi A. Ruia, Arnav Kewalram et al.** · arXiv:2512.18934 · 2025-12-22 · `cs-lg`
 
 Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin...
+
+### [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md)
+**Aleksey Minabutdinov, Patrick Cheridito** · arXiv:2512.19649 · 2025-12-22 · `cs-lg`
+
+We introduce a novel deep learning algorithm for computing convex conjugates of differentiable convex functions, a fundamental operation in convex analysis with various applications in different fields such as optimization, control theory, physics and economics. While traditional numerical methods s...
 
 ### [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md)
 **Pablo Ruiz-Ponce, Sergio Escalera, José García-Rodríguez et al.** · arXiv:2512.19692 · 2025-12-22 · `cs-cv`
@@ -41,10 +56,20 @@ Generating realistic human-human interactions is a challenging task that require
 
 While Multimodal Large Language Models (MLLMs) have achieved impressive performance on semantic tasks, their spatial intelligence--crucial for robust and grounded AI systems--remains underdeveloped. Existing benchmarks fall short of diagnosing this limitation: they either focus on overly simplified ...
 
+### [Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis](/cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md)
+**Argha Kamal Samanta, Harshika Goyal, Vasudha Joshi et al.** · arXiv:2512.19663 · 2025-12-22 · `cs-cv`
+
+Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide, demanding accurate automated diagnostic systems. While general-domain vision-language models like Contrastive Language-Image Pre-Training (CLIP) perform well on natural image tasks, they struggle in medical domain appli...
+
 ### [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md)
 **Mojtaba Safari, Shansong Wang, Vanessa L Wildman et al.** · arXiv:2512.19676 · 2025-12-22 · `cs-cv`
 
 Background: High-resolution MRI is critical for diagnosis, but long acquisition times limit clinical use. Super-resolution (SR) can enhance resolution post-scan, yet existing deep learning methods face fidelity-efficiency trade-offs. Purpose: To develop a computationally efficient and accurate deep ...
+
+### [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md)
+**Niclas Griesshaber, Jochen Streb** · arXiv:2512.19675 · 2025-12-22 · `other`
+
+We leverage multimodal large language models (LLMs) to construct a dataset of 306,070 German patents (1877-1918) from 9,562 archival image scans using our LLM-based pipeline powered by Gemini-2.5-Pro and Gemini-2.5-Flash-Lite. Our benchmarking exercise provides tentative evidence that multimodal LLM...
 
 ### [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md)
 **Shaomu Tan, Ryosuke Mitani, Ritvik Choudhary et al.** · arXiv:2512.18906 · 2025-12-21 · `cs-ai`
@@ -86,38 +111,14 @@ Transformer-based language models have achieved remarkable performance across a 
 
 Large Language Models (LLMs) deliver exceptional performance across natural language tasks but demand substantial computational resources, limiting their deployment on resource-constrained edge devices. Existing compression techniques, such as quantization and pruning, often degrade critical linguis...
 
-### [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md)
-**Yushi Hu, Reyhane Askari-Hemmat, Melissa Hall et al.** · arXiv:2512.16899 · 2025-12-18 · `cs-ai`
-
-Reward models (RMs) are essential for training large language models (LLMs), but remain underexplored for omni models that handle interleaved image and text sequences. We introduce Multimodal RewardBench 2 (MMRB2), the first comprehensive benchmark for reward models on multimodal understanding and (...
-
-### [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](/cs/ai/2512.16917-generative-adversarial-reasoner-enhancing-llm-rea.md)
-**Qihao Liu, Luoxin Ye, Wufei Ma et al.** · arXiv:2512.16917 · 2025-12-18 · `cs-ai`
-
-Large language models (LLMs) with explicit reasoning capabilities excel at mathematical reasoning yet still commit process errors, such as incorrect calculations, brittle logic, and superficially plausible but invalid steps. In this paper, we introduce Generative Adversarial Reasoner, an on-policy j...
-
-### [From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs](/cs/ai/2512.16795-from-facts-to-conclusions-integrating-deductive.md)
-**Shubham Mishra, Samyek Jain, Gorang Mehrishi et al.** · arXiv:2512.16795 · 2025-12-18 · `cs-ai`
-
-Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external evidence, but fails when retrieved sources conflict or contain outdated or subjective information. Prior work address these issues independently but lack unified reasoning supervision. We propose a reasoning-trace-...
-
-### [AdaSearch: Balancing Parametric Knowledge and Search in Large Language Models via Reinforcement Learning](/cs/ai/2512.16883-adasearch-balancing-parametric-knowledge-and-sear.md)
-**Tzu-Han Lin, Wei-Lin Chen, Chen-An Li et al.** · arXiv:2512.16883 · 2025-12-18 · `cs-ai`
-
-Equipping large language models (LLMs) with search engines via reinforcement learning (RL) has emerged as an effective approach for building search agents. However, overreliance on search introduces unnecessary cost and risks exposure to noisy or malicious content, while relying solely on parametric...
-
-### [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md)
-**Yulun Jiang, Liangze Jiang, Damien Teney et al.** · arXiv:2512.16848 · 2025-12-18 · `cs-lg`
-
-Reinforcement learning (RL) has enabled the training of large language model (LLM) agents to interact with the environment and to solve multi-turn long-horizon tasks. However, the RL-trained agents often struggle in tasks that require active exploration and fail to efficiently adapt from trial-and-e...
-
 
 ## By Field
 
 
-### CS-AI (25 papers)
+### CS-AI (26 papers)
 
 - [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
+- [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md) - arXiv:2512.19651
 - [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md) - arXiv:2512.19682
 - [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md) - arXiv:2512.18940
 - [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md) - arXiv:2512.18906
@@ -126,12 +127,12 @@ Reinforcement learning (RL) has enabled the training of large language model (LL
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
 - [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md) - arXiv:2512.16843
 - [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](/cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md) - arXiv:2512.16855
-- [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](/cs/ai/2512.16899-multimodal-rewardbench-2-evaluating-omni-reward-m.md) - arXiv:2512.16899
 
-### CS-CV (51 papers)
+### CS-CV (52 papers)
 
 - [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md) - arXiv:2512.19692
 - [From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](/cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md) - arXiv:2512.19683
+- [Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis](/cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md) - arXiv:2512.19663
 - [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md) - arXiv:2512.19676
 - [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md) - arXiv:2512.18910
 - [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
@@ -139,11 +140,12 @@ Reinforcement learning (RL) has enabled the training of large language model (LL
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
 - [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md) - arXiv:2512.16906
 - [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
-- [MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning](/cs/cv/2512.16909-momagraph-state-aware-unified-scene-graphs-with-v.md) - arXiv:2512.16909
 
-### CS-LG (22 papers)
+### CS-LG (24 papers)
 
+- [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
+- [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
 - [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 - [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
@@ -151,11 +153,10 @@ Reinforcement learning (RL) has enabled the training of large language model (LL
 - [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md) - arXiv:2512.16866
 - [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md) - arXiv:2512.16911
 - [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
-- [ParaFormer: A Generalized PageRank Graph Transformer for Graph Representation Learning](/cs/lg/2512.14619-paraformer-a-generalized-pagerank-graph-transform.md) - arXiv:2512.14619
-- [Model-Based Reinforcement Learning in Discrete-Action Non-Markovian Reward Decision Processes](/cs/lg/2512.14617-model-based-reinforcement-learning-in-discrete-act.md) - arXiv:2512.14617
 
-### OTHER (12 papers)
+### OTHER (13 papers)
 
+- [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md) - arXiv:2512.19675
 - [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md) - arXiv:2512.18925
 - [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](/other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md) - arXiv:2512.16861
 - [PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy](/other/2512.16851-privatexr-defending-privacy-attacks-in-extended-r.md) - arXiv:2512.16851
@@ -165,7 +166,6 @@ Reinforcement learning (RL) has enabled the training of large language model (LL
 - [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
 - [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
 - [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
-- [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models (ASTA)](/other/2512.12769-adaptive-edge-cloud-inference-for-speech-to-action.md) - arXiv:2512.12769
 
 ---
 

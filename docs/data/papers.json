@@ -21,6 +21,23 @@
     "file": "cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md"
   },
   {
+    "arxiv_id": "2512.19651",
+    "title": "Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting",
+    "authors": [
+      "Filippos Ventirozos",
+      "Peter Appleby",
+      "Matthew Shardlow"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.19651",
+    "abstract": "Aspect-Category Sentiment Analysis (ACSA) provides granular insights by identifying specific themes within reviews and their associated sentiment. While supervised learning approaches dominate this field, the scarcity and high cost of annotated data for new domains present significant barriers. We a",
+    "file": "cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md"
+  },
+  {
     "arxiv_id": "2512.19682",
     "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
     "authors": [
@@ -60,6 +77,31 @@
     "file": "cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md"
   },
   {
+    "arxiv_id": "2512.19673",
+    "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+    "authors": [
+      "Yuqiao Tan",
+      "Minzheng Wang",
+      "Shizhu He",
+      "Huanxuan Liao",
+      "Chengfeng Zhao",
+      "Qiunan Lu",
+      "Tian Liang",
+      "Jun Zhao",
+      "Kang Liu"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.19673",
+    "abstract": "Existing reinforcement learning (RL) approaches treat large language models (LLMs) as a single unified policy, overlooking their internal mechanisms. Understanding how policy evolves across layers and modules is therefore crucial for enabling more targeted optimization and raveling out complex reaso",
+    "file": "cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md"
+  },
+  {
     "arxiv_id": "2512.18934",
     "title": "When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models",
     "authors": [
@@ -79,6 +121,23 @@
     "url": "https://arxiv.org/abs/2512.18934",
     "abstract": "Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin",
     "file": "cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md"
+  },
+  {
+    "arxiv_id": "2512.19649",
+    "title": "Deep Legendre Transform",
+    "authors": [
+      "Aleksey Minabutdinov",
+      "Patrick Cheridito"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "math.OC"
+    ],
+    "url": "https://arxiv.org/abs/2512.19649",
+    "abstract": "We introduce a novel deep learning algorithm for computing convex conjugates of differentiable convex functions, a fundamental operation in convex analysis with various applications in different fields such as optimization, control theory, physics and economics. While traditional numerical methods s",
+    "file": "cs/lg/2512.19649-deep-legendre-transform.md"
   },
   {
     "arxiv_id": "2512.19692",
@@ -120,6 +179,26 @@
     "file": "cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md"
   },
   {
+    "arxiv_id": "2512.19663",
+    "title": "Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis",
+    "authors": [
+      "Argha Kamal Samanta",
+      "Harshika Goyal",
+      "Vasudha Joshi",
+      "Tushar Mungle",
+      "Pabitra Mitra"
+    ],
+    "date": "2025-12-22",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.19663",
+    "abstract": "Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide, demanding accurate automated diagnostic systems. While general-domain vision-language models like Contrastive Language-Image Pre-Training (CLIP) perform well on natural image tasks, they struggle in medical domain appli",
+    "file": "cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md"
+  },
+  {
     "arxiv_id": "2512.19676",
     "title": "Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning",
     "authors": [
@@ -146,6 +225,24 @@
     "url": "https://arxiv.org/abs/2512.19676",
     "abstract": "Background: High-resolution MRI is critical for diagnosis, but long acquisition times limit clinical use. Super-resolution (SR) can enhance resolution post-scan, yet existing deep learning methods face fidelity-efficiency trade-offs. Purpose: To develop a computationally efficient and accurate deep ",
     "file": "cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md"
+  },
+  {
+    "arxiv_id": "2512.19675",
+    "title": "Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)",
+    "authors": [
+      "Niclas Griesshaber",
+      "Jochen Streb"
+    ],
+    "date": "2025-12-22",
+    "field": "other",
+    "tags": [
+      "econ.GN",
+      "cs.CV",
+      "cs.DL"
+    ],
+    "url": "https://arxiv.org/abs/2512.19675",
+    "abstract": "We leverage multimodal large language models (LLMs) to construct a dataset of 306,070 German patents (1877-1918) from 9,562 archival image scans using our LLM-based pipeline powered by Gemini-2.5-Pro and Gemini-2.5-Flash-Lite. Our benchmarking exercise provides tentative evidence that multimodal LLM",
+    "file": "other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md"
   },
   {
     "arxiv_id": "2512.18906",
