@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 125
-- **Unique Authors**: 753
+- **Total Papers**: 130
+- **Unique Authors**: 771
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-24 08:36:00
+- **Last Updated**: 2025-12-24 16:31:46
 
 ## Latest Papers
 
@@ -15,6 +15,16 @@
 **Humza Nusrat, Luke Francisco, Bing Luo et al.** · arXiv:2512.20586 · 2025-12-23 · `cs-ai`
 
 Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metasta...
+
+### [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md)
+**Yanhong Li, Songlin Yang, Shawn Tan et al.** · arXiv:2512.20569 · 2025-12-23 · `cs-ai`
+
+Distilling pretrained softmax attention Transformers into more efficient hybrid architectures that interleave softmax and linear attention layers is a promising approach for improving the inference efficiency of LLMs without requiring expensive pretraining from scratch. A critical factor in the conv...
+
+### [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md)
+**Amirhosein Ghasemabadi, Di Niu** · arXiv:2512.20578 · 2025-12-23 · `cs-ai`
+
+Large language models (LLMs) generate fluent and complex outputs but often fail to recognize their own mistakes and hallucinations. Existing approaches typically rely on external judges, multi-sample consistency, or text-based self-critique, which incur additional compute or correlate weakly with tr...
 
 ### [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md)
 **Dhruv Anand, Ehsan Shareghi** · arXiv:2512.20595 · 2025-12-23 · `cs-ai`
@@ -36,10 +46,25 @@ We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diff
 
 Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explai...
 
+### [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md)
+**Rui Pan, Zhuofu Chen, Ravi Netravali** · arXiv:2512.20573 · 2025-12-23 · `cs-lg`
+
+Diffusion Large Language Models (dLLMs) offer fast, parallel token generation, but their standalone use is plagued by an inherent efficiency-quality tradeoff. We show that, if carefully applied, the attributes of dLLMs can actually be a strength for drafters in speculative decoding with autoregressi...
+
 ### [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md)
 **Seijin Kobayashi, Yanick Schimpf, Maximilian Schlegel et al.** · arXiv:2512.20605 · 2025-12-23 · `cs-lg`
 
 Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token c...
+
+### [Relu and softplus neural nets as zero-sum turn-based games](/cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md)
+**Stephane Gaubert, Yiannis Vlassopoulos** · arXiv:2512.20582 · 2025-12-23 · `cs-lg`
+
+We show that the output of a ReLU neural network can be interpreted as the value of a zero-sum, turn-based, stopping game, which we call the ReLU net game. The game runs in the direction opposite to that of the network, and the input of the network serves as the terminal reward of the game. In fact,...
+
+### [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](/cs/lg/2512.20576-performative-policy-gradient-optimality-in-perfor.md)
+**Debabrota Basu, Udvas Das, Brahim Driss et al.** · arXiv:2512.20576 · 2025-12-23 · `cs-lg`
+
+Post-deployment machine learning algorithms often influence the environments they act in, and thus shift the underlying dynamics that the standard reinforcement learning (RL) methods ignore. While designing optimal algorithms in this performative setting has recently been studied in supervised learn...
 
 ### [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md)
 **Soowon Son, Honggyu An, Chaehyun Kim et al.** · arXiv:2512.20606 · 2025-12-23 · `cs-cv`
@@ -86,38 +111,15 @@ Large Language Models (LLMs) execute complex multi-turn interaction protocols bu
 
 Existing reinforcement learning (RL) approaches treat large language models (LLMs) as a single unified policy, overlooking their internal mechanisms. Understanding how policy evolves across layers and modules is therefore crucial for enabling more targeted optimization and raveling out complex reaso...
 
-### [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md)
-**Michael S. Zhang, Rishi A. Ruia, Arnav Kewalram et al.** · arXiv:2512.18934 · 2025-12-22 · `cs-lg`
-
-Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealin...
-
-### [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md)
-**Aleksey Minabutdinov, Patrick Cheridito** · arXiv:2512.19649 · 2025-12-22 · `cs-lg`
-
-We introduce a novel deep learning algorithm for computing convex conjugates of differentiable convex functions, a fundamental operation in convex analysis with various applications in different fields such as optimization, control theory, physics and economics. While traditional numerical methods s...
-
-### [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md)
-**Pablo Ruiz-Ponce, Sergio Escalera, José García-Rodríguez et al.** · arXiv:2512.19692 · 2025-12-22 · `cs-cv`
-
-Generating realistic human-human interactions is a challenging task that requires not only high-quality individual body and hand motions, but also coherent coordination among all interactants. Due to limitations in available data and increased learning complexity, previous methods tend to ignore han...
-
-### [From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](/cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md)
-**Mingrui Wu, Zhaozhi Wang, Fangjinhua Wang et al.** · arXiv:2512.19683 · 2025-12-22 · `cs-cv`
-
-While Multimodal Large Language Models (MLLMs) have achieved impressive performance on semantic tasks, their spatial intelligence--crucial for robust and grounded AI systems--remains underdeveloped. Existing benchmarks fall short of diagnosing this limitation: they either focus on overly simplified ...
-
-### [Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis](/cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md)
-**Argha Kamal Samanta, Harshika Goyal, Vasudha Joshi et al.** · arXiv:2512.19663 · 2025-12-22 · `cs-cv`
-
-Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide, demanding accurate automated diagnostic systems. While general-domain vision-language models like Contrastive Language-Image Pre-Training (CLIP) perform well on natural image tasks, they struggle in medical domain appli...
-
 
 ## By Field
 
 
-### CS-AI (30 papers)
+### CS-AI (32 papers)
 
 - [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
+- [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md) - arXiv:2512.20569
+- [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md) - arXiv:2512.20578
 - [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md) - arXiv:2512.20595
 - [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
 - [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
@@ -125,8 +127,6 @@ Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide,
 - [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md) - arXiv:2512.19651
 - [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md) - arXiv:2512.19682
 - [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md) - arXiv:2512.18940
-- [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md) - arXiv:2512.18906
-- [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md) - arXiv:2512.16872
 
 ### CS-CV (54 papers)
 
@@ -141,18 +141,18 @@ Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide,
 - [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
 
-### CS-LG (26 papers)
+### CS-LG (29 papers)
 
 - [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
+- [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md) - arXiv:2512.20573
 - [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md) - arXiv:2512.20605
+- [Relu and softplus neural nets as zero-sum turn-based games](/cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md) - arXiv:2512.20582
+- [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](/cs/lg/2512.20576-performative-policy-gradient-optimality-in-perfor.md) - arXiv:2512.20576
 - [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 - [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
 - [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
-- [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
-- [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
-- [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md) - arXiv:2512.16866
 
 ### OTHER (15 papers)
 

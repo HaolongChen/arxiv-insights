@@ -29,6 +29,44 @@
     "file": "cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md"
   },
   {
+    "arxiv_id": "2512.20569",
+    "title": "Distilling to Hybrid Attention Models via KL-Guided Layer Selection",
+    "authors": [
+      "Yanhong Li",
+      "Songlin Yang",
+      "Shawn Tan",
+      "Mayank Mishra",
+      "Rameswar Panda",
+      "Jiawei Zhou",
+      "Yoon Kim"
+    ],
+    "date": "2025-12-23",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.20569",
+    "abstract": "Distilling pretrained softmax attention Transformers into more efficient hybrid architectures that interleave softmax and linear attention layers is a promising approach for improving the inference efficiency of LLMs without requiring expensive pretraining from scratch. A critical factor in the conv",
+    "file": "cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md"
+  },
+  {
+    "arxiv_id": "2512.20578",
+    "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+    "authors": [
+      "Amirhosein Ghasemabadi",
+      "Di Niu"
+    ],
+    "date": "2025-12-23",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.20578",
+    "abstract": "Large language models (LLMs) generate fluent and complex outputs but often fail to recognize their own mistakes and hallucinations. Existing approaches typically rely on external judges, multi-sample consistency, or text-based self-critique, which incur additional compute or correlate weakly with tr",
+    "file": "cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md"
+  },
+  {
     "arxiv_id": "2512.20595",
     "title": "Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs",
     "authors": [
@@ -104,6 +142,25 @@
     "file": "cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md"
   },
   {
+    "arxiv_id": "2512.20573",
+    "title": "Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs",
+    "authors": [
+      "Rui Pan",
+      "Zhuofu Chen",
+      "Ravi Netravali"
+    ],
+    "date": "2025-12-23",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "url": "https://arxiv.org/abs/2512.20573",
+    "abstract": "Diffusion Large Language Models (dLLMs) offer fast, parallel token generation, but their standalone use is plagued by an inherent efficiency-quality tradeoff. We show that, if carefully applied, the attributes of dLLMs can actually be a strength for drafters in speculative decoding with autoregressi",
+    "file": "cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md"
+  },
+  {
     "arxiv_id": "2512.20605",
     "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
     "authors": [
@@ -132,6 +189,44 @@
     "url": "https://arxiv.org/abs/2512.20605",
     "abstract": "Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token c",
     "file": "cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md"
+  },
+  {
+    "arxiv_id": "2512.20582",
+    "title": "Relu and softplus neural nets as zero-sum turn-based games",
+    "authors": [
+      "Stephane Gaubert",
+      "Yiannis Vlassopoulos"
+    ],
+    "date": "2025-12-23",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.GT",
+      "math.OC"
+    ],
+    "url": "https://arxiv.org/abs/2512.20582",
+    "abstract": "We show that the output of a ReLU neural network can be interpreted as the value of a zero-sum, turn-based, stopping game, which we call the ReLU net game. The game runs in the direction opposite to that of the network, and the input of the network serves as the terminal reward of the game. In fact,",
+    "file": "cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md"
+  },
+  {
+    "arxiv_id": "2512.20576",
+    "title": "Performative Policy Gradient: Optimality in Performative Reinforcement Learning",
+    "authors": [
+      "Debabrota Basu",
+      "Udvas Das",
+      "Brahim Driss",
+      "Uddalak Mukherjee"
+    ],
+    "date": "2025-12-23",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "math.OC"
+    ],
+    "url": "https://arxiv.org/abs/2512.20576",
+    "abstract": "Post-deployment machine learning algorithms often influence the environments they act in, and thus shift the underlying dynamics that the standard reinforcement learning (RL) methods ignore. While designing optimal algorithms in this performative setting has recently been studied in supervised learn",
+    "file": "cs/lg/2512.20576-performative-policy-gradient-optimality-in-perfor.md"
   },
   {
     "arxiv_id": "2512.20606",
