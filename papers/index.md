@@ -4,22 +4,42 @@
 
 ## Statistics
 
-- **Total Papers**: 120
-- **Unique Authors**: 718
+- **Total Papers**: 125
+- **Unique Authors**: 753
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-24 02:00:45
+- **Last Updated**: 2025-12-24 08:36:00
 
 ## Latest Papers
+
+### [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md)
+**Humza Nusrat, Luke Francisco, Bing Luo et al.** · arXiv:2512.20586 · 2025-12-23 · `cs-ai`
+
+Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metasta...
+
+### [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md)
+**Dhruv Anand, Ehsan Shareghi** · arXiv:2512.20595 · 2025-12-23 · `cs-ai`
+
+We introduce Cube Bench, a Rubik's-cube benchmark for evaluating spatial and sequential reasoning in multimodal large language models (MLLMs). The benchmark decomposes performance into five skills: (i) reconstructing cube faces from images and text, (ii) choosing the optimal next move, (iii) predict...
 
 ### [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md)
 **Runtao Liu, Ziyi Liu, Jiaqi Tang et al.** · arXiv:2512.20618 · 2025-12-23 · `cs-ai`
 
 Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We pro...
 
+### [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md)
+**Alexandros Christoforos, Chadbourne Davis** · arXiv:2512.20604 · 2025-12-23 · `cs-ai`
+
+We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diffusion models in long document generation. Existing diffusion based text generation models, such as DiffuSeq, suffer from high computational cost and memory overhead when applied to extended sequences. To address these ch...
+
 ### [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md)
 **Yedi Zhang, Andrew Saxe, Peter E. Latham** · arXiv:2512.20607 · 2025-12-23 · `cs-lg`
 
 Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explai...
+
+### [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md)
+**Seijin Kobayashi, Yanick Schimpf, Maximilian Schlegel et al.** · arXiv:2512.20605 · 2025-12-23 · `cs-lg`
+
+Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token c...
 
 ### [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md)
 **Soowon Son, Honggyu An, Chaehyun Kim et al.** · arXiv:2512.20606 · 2025-12-23 · `cs-cv`
@@ -30,6 +50,11 @@ Point tracking aims to localize corresponding points across video frames, servin
 **Jianhong Bai, Xiaoshi Wu, Xintao Wang et al.** · arXiv:2512.20619 · 2025-12-23 · `cs-cv`
 
 State-of-the-art video generative models typically learn the distribution of video latents in the VAE space and map them to pixels using a VAE decoder. While this approach can generate high-quality videos, it suffers from slow convergence and is computationally expensive when generating long videos....
+
+### [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md)
+**İbrahim Oğuz Çetinkaya, Sajad Khodadadian, Taylan G. Topçu** · arXiv:2512.20589 · 2025-12-23 · `other`
+
+As systems engineering (SE) objectives evolve from design and operation of monolithic systems to complex System of Systems (SoS), the discipline of Mission Engineering (ME) has emerged which is increasingly being accepted as a new line of thinking for the SE community. Moreover, mission environments...
 
 ### [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md)
 **Yibin Lei, Shwai He, Ang Li et al.** · arXiv:2512.20612 · 2025-12-23 · `other`
@@ -86,47 +111,22 @@ While Multimodal Large Language Models (MLLMs) have achieved impressive performa
 
 Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide, demanding accurate automated diagnostic systems. While general-domain vision-language models like Contrastive Language-Image Pre-Training (CLIP) perform well on natural image tasks, they struggle in medical domain appli...
 
-### [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md)
-**Mojtaba Safari, Shansong Wang, Vanessa L Wildman et al.** · arXiv:2512.19676 · 2025-12-22 · `cs-cv`
-
-Background: High-resolution MRI is critical for diagnosis, but long acquisition times limit clinical use. Super-resolution (SR) can enhance resolution post-scan, yet existing deep learning methods face fidelity-efficiency trade-offs. Purpose: To develop a computationally efficient and accurate deep ...
-
-### [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md)
-**Niclas Griesshaber, Jochen Streb** · arXiv:2512.19675 · 2025-12-22 · `other`
-
-We leverage multimodal large language models (LLMs) to construct a dataset of 306,070 German patents (1877-1918) from 9,562 archival image scans using our LLM-based pipeline powered by Gemini-2.5-Pro and Gemini-2.5-Flash-Lite. Our benchmarking exercise provides tentative evidence that multimodal LLM...
-
-### [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md)
-**Shaomu Tan, Ryosuke Mitani, Ritvik Choudhary et al.** · arXiv:2512.18906 · 2025-12-21 · `cs-ai`
-
-Over the years, automatic MT metrics have hillclimbed benchmarks and presented strong and sometimes human-level agreement with human ratings. Yet they remain black-box, offering little insight into their decision-making and often failing under real-world out-of-distribution (OOD) inputs. We introduc...
-
-### [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md)
-**Mohamad Zamini, Diksha Shukla** · arXiv:2512.18910 · 2025-12-21 · `cs-cv`
-
-Multimodal Large Language Models (MLLMs) combine visual and textual representations to enable rich reasoning capabilities. However, the high computational cost of processing dense visual tokens remains a major bottleneck. A critical component in this pipeline is the visual projector, which bridges t...
-
-### [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md)
-**Shaokang Jiang, Daye Nam** · arXiv:2512.18925 · 2025-12-21 · `other`
-
-While Large Language Models (LLMs) have demonstrated remarkable capabilities, research shows that their effectiveness depends not only on explicit prompts but also on the broader context provided. This requirement is especially pronounced in software engineering, where the goals, architecture, and c...
-
 
 ## By Field
 
 
-### CS-AI (27 papers)
+### CS-AI (30 papers)
 
+- [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
+- [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md) - arXiv:2512.20595
 - [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
+- [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
 - [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
 - [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md) - arXiv:2512.19651
 - [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md) - arXiv:2512.19682
 - [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md) - arXiv:2512.18940
 - [Remedy-R: Generative Reasoning for Machine Translation Evaluation without Error Annotations](/cs/ai/2512.18906-remedy-r-generative-reasoning-for-machine-transla.md) - arXiv:2512.18906
 - [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md) - arXiv:2512.16872
-- [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
-- [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
-- [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md) - arXiv:2512.16843
 
 ### CS-CV (54 papers)
 
@@ -141,9 +141,10 @@ While Large Language Models (LLMs) have demonstrated remarkable capabilities, re
 - [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
 
-### CS-LG (25 papers)
+### CS-LG (26 papers)
 
 - [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
+- [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md) - arXiv:2512.20605
 - [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 - [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
@@ -152,10 +153,10 @@ While Large Language Models (LLMs) have demonstrated remarkable capabilities, re
 - [Impacts of Racial Bias in Historical Training Data for News AI](/cs/lg/2512.16901-impacts-of-racial-bias-in-historical-training-data.md) - arXiv:2512.16901
 - [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
 - [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md) - arXiv:2512.16866
-- [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md) - arXiv:2512.16911
 
-### OTHER (14 papers)
+### OTHER (15 papers)
 
+- [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md) - arXiv:2512.20589
 - [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md) - arXiv:2512.20612
 - [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md) - arXiv:2512.19675
 - [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md) - arXiv:2512.18925
@@ -165,7 +166,6 @@ While Large Language Models (LLMs) have demonstrated remarkable capabilities, re
 - [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md) - arXiv:2512.15705
 - [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
 - [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
-- [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
 
 ---
 
