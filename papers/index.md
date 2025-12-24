@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 115
-- **Unique Authors**: 681
+- **Total Papers**: 120
+- **Unique Authors**: 718
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-23 16:34:18
+- **Last Updated**: 2025-12-24 02:00:45
 
 ## Latest Papers
+
+### [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md)
+**Runtao Liu, Ziyi Liu, Jiaqi Tang et al.** · arXiv:2512.20618 · 2025-12-23 · `cs-ai`
+
+Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We pro...
+
+### [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md)
+**Yedi Zhang, Andrew Saxe, Peter E. Latham** · arXiv:2512.20607 · 2025-12-23 · `cs-lg`
+
+Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explai...
+
+### [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md)
+**Soowon Son, Honggyu An, Chaehyun Kim et al.** · arXiv:2512.20606 · 2025-12-23 · `cs-cv`
+
+Point tracking aims to localize corresponding points across video frames, serving as a fundamental task for 4D reconstruction, robotics, and video editing. Existing methods commonly rely on shallow convolutional backbones such as ResNet that process frames independently, lacking temporal coherence a...
+
+### [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md)
+**Jianhong Bai, Xiaoshi Wu, Xintao Wang et al.** · arXiv:2512.20619 · 2025-12-23 · `cs-cv`
+
+State-of-the-art video generative models typically learn the distribution of video latents in the VAE space and map them to pixels using a VAE decoder. While this approach can generate high-quality videos, it suffers from slow convergence and is computationally expensive when generating long videos....
+
+### [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md)
+**Yibin Lei, Shwai He, Ang Li et al.** · arXiv:2512.20612 · 2025-12-23 · `other`
+
+Recent work has shown that directly fine-tuning large language models (LLMs) for dense retrieval yields strong performance, but their substantial parameter counts make them computationally inefficient. While prior studies have revealed significant layer redundancy in LLMs for generative tasks, it re...
 
 ### [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md)
 **Junze Ye, Daniel Tawfik, Alex J. Goodell et al.** · arXiv:2512.19691 · 2025-12-22 · `cs-ai`
@@ -86,37 +111,13 @@ Multimodal Large Language Models (MLLMs) combine visual and textual representati
 
 While Large Language Models (LLMs) have demonstrated remarkable capabilities, research shows that their effectiveness depends not only on explicit prompts but also on the broader context provided. This requirement is especially pronounced in software engineering, where the goals, architecture, and c...
 
-### [On the Universal Representation Property of Spiking Neural Networks](/cs/ai/2512.16872-on-the-universal-representation-property-of-spikin.md)
-**Shayan Hundrieser, Philipp Tuchel, Insung Kong et al.** · arXiv:2512.16872 · 2025-12-18 · `cs-ai`
-
-Inspired by biology, spiking neural networks (SNNs) process information via discrete spikes over time, offering an energy-efficient alternative to the classical computing paradigm and classical artificial neural networks (ANNs). In this work, we analyze the representational power of SNNs by viewing ...
-
-### [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md)
-**Eric Todd, Jannik Brinkmann, Rohit Gandikota et al.** · arXiv:2512.16902 · 2025-12-18 · `cs-ai`
-
-We investigate the mechanisms that arise when transformers are trained to solve arithmetic on sequences where tokens are variables whose meaning is determined only through their interactions. While prior work has found that transformers develop geometric embeddings that mirror algebraic structure, t...
-
-### [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md)
-**Primož Kocbek, Azra Frkatović-Hodžić, Dora Lalić et al.** · arXiv:2512.16802 · 2025-12-18 · `cs-ai`
-
-Multi-modal retrieval-augmented generation (MM-RAG) promises grounded biomedical QA, but it is unclear when to (i) convert figures/tables into text versus (ii) use optical character recognition (OCR)-free visual retrieval that returns page images and leaves interpretation to the generator. We study ...
-
-### [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md)
-**Harsh Vardhan Bansal** · arXiv:2512.16843 · 2025-12-18 · `cs-ai`
-
-Transformer-based language models have achieved remarkable performance across a wide range of tasks, yet their high inference latency poses a significant challenge for real-timeand large-scale deployment. While existing caching mechanisms,such as token-level key-value caches, offer speedups in autor...
-
-### [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](/cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md)
-**Khurram Khalil, Khaza Anuarul Hoque** · arXiv:2512.16855 · 2025-12-18 · `cs-ai`
-
-Large Language Models (LLMs) deliver exceptional performance across natural language tasks but demand substantial computational resources, limiting their deployment on resource-constrained edge devices. Existing compression techniques, such as quantization and pruning, often degrade critical linguis...
-
 
 ## By Field
 
 
-### CS-AI (26 papers)
+### CS-AI (27 papers)
 
+- [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
 - [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
 - [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md) - arXiv:2512.19651
 - [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md) - arXiv:2512.19682
@@ -126,10 +127,11 @@ Large Language Models (LLMs) deliver exceptional performance across natural lang
 - [In-Context Algebra](/cs/ai/2512.16902-in-context-algebra.md) - arXiv:2512.16902
 - [Exploration of Augmentation Strategies in Multi-modal Retrieval-Augmented Generation for the Biomedical Domain: A Case Study Evaluating Question Answering in Glycobiology](/cs/ai/2512.16802-exploration-of-augmentation-strategies-in-multi-mo.md) - arXiv:2512.16802
 - [LLMCache: Layer-Wise Caching Strategies for Accelerated Reuse in Transformer Inference](/cs/ai/2512.16843-llmcache-layer-wise-caching-strategies-for-accele.md) - arXiv:2512.16843
-- [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](/cs/ai/2512.16855-toggle-temporal-logic-guided-large-language-model.md) - arXiv:2512.16855
 
-### CS-CV (52 papers)
+### CS-CV (54 papers)
 
+- [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
+- [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md) - arXiv:2512.20619
 - [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md) - arXiv:2512.19692
 - [From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](/cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md) - arXiv:2512.19683
 - [Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis](/cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md) - arXiv:2512.19663
@@ -138,11 +140,10 @@ Large Language Models (LLMs) deliver exceptional performance across natural lang
 - [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
 - [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
 - [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
-- [VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization](/cs/cv/2512.16906-viva-vlm-guided-instruction-based-video-editing-w.md) - arXiv:2512.16906
-- [Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification](/cs/cv/2512.16921-differences-that-matter-auditing-models-for-capab.md) - arXiv:2512.16921
 
-### CS-LG (24 papers)
+### CS-LG (25 papers)
 
+- [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
 - [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 - [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
@@ -152,10 +153,10 @@ Large Language Models (LLMs) deliver exceptional performance across natural lang
 - [NRGPT: An Energy-based Alternative for GPT](/cs/lg/2512.16762-nrgpt-an-energy-based-alternative-for-gpt.md) - arXiv:2512.16762
 - [Semi-Supervised Online Learning on the Edge by Transforming Knowledge from Teacher Models](/cs/lg/2512.16866-semi-supervised-online-learning-on-the-edge-by-tra.md) - arXiv:2512.16866
 - [Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning](/cs/lg/2512.16911-posterior-behavioral-cloning-pretraining-bc-polic.md) - arXiv:2512.16911
-- [Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data](/cs/lg/2512.15706-learning-model-parameter-dynamics-in-a-combination.md) - arXiv:2512.15706
 
-### OTHER (13 papers)
+### OTHER (14 papers)
 
+- [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md) - arXiv:2512.20612
 - [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md) - arXiv:2512.19675
 - [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md) - arXiv:2512.18925
 - [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](/other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md) - arXiv:2512.16861
@@ -165,7 +166,6 @@ Large Language Models (LLMs) deliver exceptional performance across natural lang
 - [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
 - [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
 - [WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields](/other/2512.14656-wavesim-a-wavelet-based-multi-scale-similarity-me.md) - arXiv:2512.14656
-- [JointAVBench: A Benchmark for Joint Audio-Visual Reasoning Evaluation](/other/2512.12772-jointavbench-a-benchmark-for-joint-audio-visual-r.md) - arXiv:2512.12772
 
 ---
 
