@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 135
-- **Unique Authors**: 807
+- **Total Papers**: 140
+- **Unique Authors**: 833
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-25 08:34:41
+- **Last Updated**: 2025-12-25 16:32:13
 
 ## Latest Papers
 
@@ -16,10 +16,25 @@
 
 Masked Diffusion Models (MDMs) offer flexible, non-autoregressive generation, but this freedom introduces a challenge: final output quality is highly sensitive to the decoding order. We are the first to formalize this issue, attributing the variability in output quality to the cumulative predictive ...
 
+### [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md)
+**Felix Draxler, Justus Will, Farrin Marouf Sofian et al.** · arXiv:2512.21323 · 2025-12-24 · `cs-ai`
+
+We propose Parallel Token Prediction (PTP), a universal framework for parallel sequence generation in language models. PTP jointly predicts multiple dependent tokens in a single transformer call by incorporating the sampling procedure into the model. This reduces the latency bottleneck of autoregres...
+
 ### [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md)
 **Jin Qin, Zihan Liao, Ziyin Zhang et al.** · arXiv:2512.21332 · 2025-12-24 · `cs-ai`
 
 We present C2LLM - Contrastive Code Large Language Models, a family of code embedding models in both 0.5B and 7B sizes. Building upon Qwen-2.5-Coder backbones, C2LLM adopts a Pooling by Multihead Attention (PMA) module for generating sequence embedding from token embeddings, effectively 1) utilizing...
+
+### [Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Level Tasks](/cs/lg/2512.21315-does-the-data-processing-inequality-reflect-practi.md)
+**Roy Turgeman, Tom Tirer** · arXiv:2512.21315 · 2025-12-24 · `cs-lg`
+
+The data processing inequality is an information-theoretic principle stating that the information content of a signal cannot be increased by processing the observations. In particular, it suggests that there is no benefit in enhancing the signal or encoding it before addressing a classification prob...
+
+### [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md)
+**Varun Belagali, Saarthak Kapse, Pierre Marza et al.** · arXiv:2512.21331 · 2025-12-24 · `cs-cv`
+
+The interpretation of small tiles in large whole slide images (WSI) often needs a larger image context. We introduce TICON, a transformer-based tile representation contextualizer that produces rich, contextualized embeddings for ''any'' application in computational pathology. Standard tile encoder-b...
 
 ### [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md)
 **Haonan Qiu, Shikun Liu, Zijian Zhou et al.** · arXiv:2512.21338 · 2025-12-24 · `cs-cv`
@@ -30,6 +45,16 @@ High-resolution video generation, while crucial for digital media and film, is c
 **Avilasha Mandal, Chaoning Zhang, Fachrina Dewi Puspitasari et al.** · arXiv:2512.21333 · 2025-12-24 · `cs-cv`
 
 Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propa...
+
+### [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md)
+**Ali Merali** · arXiv:2512.21316 · 2025-12-24 · `other`
+
+This paper derives `Scaling Laws for Economic Impacts' -- empirical relationships between the training compute of Large Language Models (LLMs) and professional productivity. In a preregistered experiment, over 500 consultants, data analysts, and managers completed professional tasks using one of 13 ...
+
+### [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md)
+**Yuan Qiu, Wolfgang Dahmen, Peng Chen** · arXiv:2512.21319 · 2025-12-24 · `other`
+
+Minimizing PDE-residual losses is a common strategy to promote physical consistency in neural operators. However, standard formulations often lack variational correctness, meaning that small residuals do not guarantee small solution errors due to the use of non-compliant norms or ad hoc penalty term...
 
 ### [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md)
 **Artem Goncharov, Rajesh Ghosh, Hyou-Arm Joung et al.** · arXiv:2512.21335 · 2025-12-24 · `other`
@@ -86,38 +111,14 @@ Large-scale autoregressive models pretrained on next-token prediction and finetu
 
 We show that the output of a ReLU neural network can be interpreted as the value of a zero-sum, turn-based, stopping game, which we call the ReLU net game. The game runs in the direction opposite to that of the network, and the input of the network serves as the terminal reward of the game. In fact,...
 
-### [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](/cs/lg/2512.20576-performative-policy-gradient-optimality-in-perfor.md)
-**Debabrota Basu, Udvas Das, Brahim Driss et al.** · arXiv:2512.20576 · 2025-12-23 · `cs-lg`
-
-Post-deployment machine learning algorithms often influence the environments they act in, and thus shift the underlying dynamics that the standard reinforcement learning (RL) methods ignore. While designing optimal algorithms in this performative setting has recently been studied in supervised learn...
-
-### [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md)
-**Soowon Son, Honggyu An, Chaehyun Kim et al.** · arXiv:2512.20606 · 2025-12-23 · `cs-cv`
-
-Point tracking aims to localize corresponding points across video frames, serving as a fundamental task for 4D reconstruction, robotics, and video editing. Existing methods commonly rely on shallow convolutional backbones such as ResNet that process frames independently, lacking temporal coherence a...
-
-### [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md)
-**Jianhong Bai, Xiaoshi Wu, Xintao Wang et al.** · arXiv:2512.20619 · 2025-12-23 · `cs-cv`
-
-State-of-the-art video generative models typically learn the distribution of video latents in the VAE space and map them to pixels using a VAE decoder. While this approach can generate high-quality videos, it suffers from slow convergence and is computationally expensive when generating long videos....
-
-### [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md)
-**İbrahim Oğuz Çetinkaya, Sajad Khodadadian, Taylan G. Topçu** · arXiv:2512.20589 · 2025-12-23 · `other`
-
-As systems engineering (SE) objectives evolve from design and operation of monolithic systems to complex System of Systems (SoS), the discipline of Mission Engineering (ME) has emerged which is increasingly being accepted as a new line of thinking for the SE community. Moreover, mission environments...
-
-### [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md)
-**Yibin Lei, Shwai He, Ang Li et al.** · arXiv:2512.20612 · 2025-12-23 · `other`
-
-Recent work has shown that directly fine-tuning large language models (LLMs) for dense retrieval yields strong performance, but their substantial parameter counts make them computationally inefficient. While prior studies have revealed significant layer redundancy in LLMs for generative tasks, it re...
-
 
 ## By Field
 
 
-### CS-AI (34 papers)
+### CS-AI (35 papers)
 
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
+- [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md) - arXiv:2512.21323
 - [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md) - arXiv:2512.21332
 - [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
 - [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md) - arXiv:2512.20569
@@ -126,10 +127,10 @@ Recent work has shown that directly fine-tuning large language models (LLMs) for
 - [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
 - [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
 - [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
-- [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md) - arXiv:2512.19651
 
-### CS-CV (56 papers)
+### CS-CV (57 papers)
 
+- [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
 - [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
 - [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
@@ -139,10 +140,10 @@ Recent work has shown that directly fine-tuning large language models (LLMs) for
 - [Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis](/cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md) - arXiv:2512.19663
 - [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md) - arXiv:2512.19676
 - [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md) - arXiv:2512.18910
-- [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
 
-### CS-LG (29 papers)
+### CS-LG (30 papers)
 
+- [Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Level Tasks](/cs/lg/2512.21315-does-the-data-processing-inequality-reflect-practi.md) - arXiv:2512.21315
 - [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
 - [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md) - arXiv:2512.20573
 - [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md) - arXiv:2512.20605
@@ -152,10 +153,11 @@ Recent work has shown that directly fine-tuning large language models (LLMs) for
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 - [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
 - [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
-- [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 
-### OTHER (16 papers)
+### OTHER (18 papers)
 
+- [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md) - arXiv:2512.21316
+- [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md) - arXiv:2512.21319
 - [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md) - arXiv:2512.21335
 - [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md) - arXiv:2512.20589
 - [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md) - arXiv:2512.20612
@@ -164,8 +166,6 @@ Recent work has shown that directly fine-tuning large language models (LLMs) for
 - [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](/other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md) - arXiv:2512.16861
 - [PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy](/other/2512.16851-privatexr-defending-privacy-attacks-in-extended-r.md) - arXiv:2512.16851
 - [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md) - arXiv:2512.16786
-- [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md) - arXiv:2512.15705
-- [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
 
 ---
 
