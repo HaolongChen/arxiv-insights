@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 130
-- **Unique Authors**: 771
+- **Total Papers**: 135
+- **Unique Authors**: 807
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-24 16:31:46
+- **Last Updated**: 2025-12-25 08:34:41
 
 ## Latest Papers
+
+### [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md)
+**Ziyu Chen, Xinbei Jiang, Peng Sun et al.** · arXiv:2512.21336 · 2025-12-24 · `cs-ai`
+
+Masked Diffusion Models (MDMs) offer flexible, non-autoregressive generation, but this freedom introduces a challenge: final output quality is highly sensitive to the decoding order. We are the first to formalize this issue, attributing the variability in output quality to the cumulative predictive ...
+
+### [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md)
+**Jin Qin, Zihan Liao, Ziyin Zhang et al.** · arXiv:2512.21332 · 2025-12-24 · `cs-ai`
+
+We present C2LLM - Contrastive Code Large Language Models, a family of code embedding models in both 0.5B and 7B sizes. Building upon Qwen-2.5-Coder backbones, C2LLM adopts a Pooling by Multihead Attention (PMA) module for generating sequence embedding from token embeddings, effectively 1) utilizing...
+
+### [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md)
+**Haonan Qiu, Shikun Liu, Zijian Zhou et al.** · arXiv:2512.21338 · 2025-12-24 · `cs-cv`
+
+High-resolution video generation, while crucial for digital media and film, is computationally bottlenecked by the quadratic complexity of diffusion models, making practical inference infeasible. To address this, we introduce HiStream, an efficient autoregressive framework that systematically reduce...
+
+### [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md)
+**Avilasha Mandal, Chaoning Zhang, Fachrina Dewi Puspitasari et al.** · arXiv:2512.21333 · 2025-12-24 · `cs-cv`
+
+Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propa...
+
+### [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md)
+**Artem Goncharov, Rajesh Ghosh, Hyou-Arm Joung et al.** · arXiv:2512.21335 · 2025-12-24 · `other`
+
+Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals ...
 
 ### [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md)
 **Humza Nusrat, Luke Francisco, Bing Luo et al.** · arXiv:2512.20586 · 2025-12-23 · `cs-ai`
@@ -86,37 +111,14 @@ As systems engineering (SE) objectives evolve from design and operation of monol
 
 Recent work has shown that directly fine-tuning large language models (LLMs) for dense retrieval yields strong performance, but their substantial parameter counts make them computationally inefficient. While prior studies have revealed significant layer redundancy in LLMs for generative tasks, it re...
 
-### [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md)
-**Junze Ye, Daniel Tawfik, Alex J. Goodell et al.** · arXiv:2512.19691 · 2025-12-22 · `cs-ai`
-
-Automating the calculation of clinical risk scores offers a significant opportunity to reduce physician administrative burden and enhance patient care. The current standard for evaluating this capability is MedCalc-Bench, a large-scale dataset constructed using LLM-based feature extraction and rule-...
-
-### [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md)
-**Filippos Ventirozos, Peter Appleby, Matthew Shardlow** · arXiv:2512.19651 · 2025-12-22 · `cs-ai`
-
-Aspect-Category Sentiment Analysis (ACSA) provides granular insights by identifying specific themes within reviews and their associated sentiment. While supervised learning approaches dominate this field, the scarcity and high cost of annotated data for new domains present significant barriers. We a...
-
-### [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md)
-**Jiacheng Guo, Ling Yang, Peter Chen et al.** · arXiv:2512.19682 · 2025-12-22 · `cs-ai`
-
-Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative e...
-
-### [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md)
-**Wen-Long Jin** · arXiv:2512.18940 · 2025-12-22 · `cs-ai`
-
-Large Language Models (LLMs) execute complex multi-turn interaction protocols but lack formal specifications to verify execution against designer intent. We introduce FASTRIC, a Prompt Specification Language that makes implicit Finite State Machines (FSMs) explicit in natural language prompts, enabl...
-
-### [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md)
-**Yuqiao Tan, Minzheng Wang, Shizhu He et al.** · arXiv:2512.19673 · 2025-12-22 · `cs-lg`
-
-Existing reinforcement learning (RL) approaches treat large language models (LLMs) as a single unified policy, overlooking their internal mechanisms. Understanding how policy evolves across layers and modules is therefore crucial for enabling more targeted optimization and raveling out complex reaso...
-
 
 ## By Field
 
 
-### CS-AI (32 papers)
+### CS-AI (34 papers)
 
+- [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
+- [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md) - arXiv:2512.21332
 - [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
 - [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md) - arXiv:2512.20569
 - [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md) - arXiv:2512.20578
@@ -125,11 +127,11 @@ Existing reinforcement learning (RL) approaches treat large language models (LLM
 - [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
 - [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
 - [Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting](/cs/ai/2512.19651-exploring-zero-shot-acsa-with-unified-meaning-repr.md) - arXiv:2512.19651
-- [GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators](/cs/ai/2512.19682-genenv-difficulty-aligned-co-evolution-between-ll.md) - arXiv:2512.19682
-- [FASTRIC: Prompt Specification Language for Verifiable LLM Interactions](/cs/ai/2512.18940-fastric-prompt-specification-language-for-verifia.md) - arXiv:2512.18940
 
-### CS-CV (54 papers)
+### CS-CV (56 papers)
 
+- [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
+- [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
 - [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
 - [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md) - arXiv:2512.20619
 - [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md) - arXiv:2512.19692
@@ -138,8 +140,6 @@ Existing reinforcement learning (RL) approaches treat large language models (LLM
 - [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md) - arXiv:2512.19676
 - [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md) - arXiv:2512.18910
 - [FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction](/cs/cv/2512.16900-flashportrait-6x-faster-infinite-portrait-animati.md) - arXiv:2512.16900
-- [Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillation](/cs/cv/2512.16893-instant-expressive-gaussian-head-avatar-via-3d-awa.md) - arXiv:2512.16893
-- [DVGT: Driving Visual Geometry Transformer](/cs/cv/2512.16919-dvgt-driving-visual-geometry-transformer.md) - arXiv:2512.16919
 
 ### CS-LG (29 papers)
 
@@ -154,8 +154,9 @@ Existing reinforcement learning (RL) approaches treat large language models (LLM
 - [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 - [Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](/cs/lg/2512.16912-exploration-vs-exploitation-rethinking-rlvr-thr.md) - arXiv:2512.16912
 
-### OTHER (15 papers)
+### OTHER (16 papers)
 
+- [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md) - arXiv:2512.21335
 - [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md) - arXiv:2512.20589
 - [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md) - arXiv:2512.20612
 - [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md) - arXiv:2512.19675
@@ -165,7 +166,6 @@ Existing reinforcement learning (RL) approaches treat large language models (LLM
 - [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md) - arXiv:2512.16786
 - [Dynamic Rebatching for Efficient Early-Exit Inference with DREX](/other/2512.15705-dynamic-rebatching-for-efficient-early-exit-infere.md) - arXiv:2512.15705
 - [MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation](/other/2512.14629-musecpbench-an-empirical-study-of-music-editing-m.md) - arXiv:2512.14629
-- [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](/other/2512.14666-evolve-vla-test-time-training-from-environment-fe.md) - arXiv:2512.14666
 
 ---
 

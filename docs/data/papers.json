@@ -1,5 +1,118 @@
 [
   {
+    "arxiv_id": "2512.21336",
+    "title": "Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty",
+    "authors": [
+      "Ziyu Chen",
+      "Xinbei Jiang",
+      "Peng Sun",
+      "Tao Lin"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.21336",
+    "abstract": "Masked Diffusion Models (MDMs) offer flexible, non-autoregressive generation, but this freedom introduces a challenge: final output quality is highly sensitive to the decoding order. We are the first to formalize this issue, attributing the variability in output quality to the cumulative predictive ",
+    "file": "cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md"
+  },
+  {
+    "arxiv_id": "2512.21332",
+    "title": "C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling",
+    "authors": [
+      "Jin Qin",
+      "Zihan Liao",
+      "Ziyin Zhang",
+      "Hang Yu",
+      "Peng Di",
+      "Rui Wang"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.21332",
+    "abstract": "We present C2LLM - Contrastive Code Large Language Models, a family of code embedding models in both 0.5B and 7B sizes. Building upon Qwen-2.5-Coder backbones, C2LLM adopts a Pooling by Multihead Attention (PMA) module for generating sequence embedding from token embeddings, effectively 1) utilizing",
+    "file": "cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md"
+  },
+  {
+    "arxiv_id": "2512.21338",
+    "title": "HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming",
+    "authors": [
+      "Haonan Qiu",
+      "Shikun Liu",
+      "Zijian Zhou",
+      "Zhaochong An",
+      "Weiming Ren",
+      "Zhiheng Liu",
+      "Jonas Schult",
+      "Sen He",
+      "Shoufa Chen",
+      "Yuren Cong",
+      "Tao Xiang",
+      "Ziwei Liu",
+      "Juan-Manuel Perez-Rua"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21338",
+    "abstract": "High-resolution video generation, while crucial for digital media and film, is computationally bottlenecked by the quadratic complexity of diffusion models, making practical inference infeasible. To address this, we introduce HiStream, an efficient autoregressive framework that systematically reduce",
+    "file": "cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md"
+  },
+  {
+    "arxiv_id": "2512.21333",
+    "title": "Fast SAM2 with Text-Driven Token Pruning",
+    "authors": [
+      "Avilasha Mandal",
+      "Chaoning Zhang",
+      "Fachrina Dewi Puspitasari",
+      "Xudong Wang",
+      "Jiaquan Zhang",
+      "Caiyan Qin",
+      "Guoqing Wang",
+      "Yang Yang",
+      "Heng Tao Shen"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21333",
+    "abstract": "Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propa",
+    "file": "cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md"
+  },
+  {
+    "arxiv_id": "2512.21335",
+    "title": "Autonomous Uncertainty Quantification for Computational Point-of-care Sensors",
+    "authors": [
+      "Artem Goncharov",
+      "Rajesh Ghosh",
+      "Hyou-Arm Joung",
+      "Dino Di Carlo",
+      "Aydogan Ozcan"
+    ],
+    "date": "2025-12-24",
+    "field": "other",
+    "tags": [
+      "physics.med-ph",
+      "cs.LG",
+      "physics.app-ph",
+      "physics.bio-ph"
+    ],
+    "url": "https://arxiv.org/abs/2512.21335",
+    "abstract": "Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals ",
+    "file": "other/2512.21335-autonomous-uncertainty-quantification-for-computat.md"
+  },
+  {
     "arxiv_id": "2512.20586",
     "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
     "authors": [
