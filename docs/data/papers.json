@@ -1,5 +1,22 @@
 [
   {
+    "arxiv_id": "2512.21280",
+    "title": "SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance",
+    "authors": [
+      "Divij Dudeja",
+      "Mayukha Pal"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.21280",
+    "abstract": "The user of Engineering Manuals (EM) finds it difficult to read EM s because they are long, have a dense format which includes written documents, step by step procedures, and standard parameter lists for engineering equipment. Off the shelf transformers, especially compact ones, treat this material ",
+    "file": "cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md"
+  },
+  {
     "arxiv_id": "2512.21336",
     "title": "Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty",
     "authors": [
@@ -156,6 +173,80 @@
     "url": "https://arxiv.org/abs/2512.21333",
     "abstract": "Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propa",
     "file": "cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md"
+  },
+  {
+    "arxiv_id": "2512.21276",
+    "title": "GriDiT: Factorized Grid-Based Diffusion for Efficient Long Image Sequence Generation",
+    "authors": [
+      "Snehal Singh Tomar",
+      "Alexandros Graikos",
+      "Arjun Krishna",
+      "Dimitris Samaras",
+      "Klaus Mueller"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21276",
+    "abstract": "Modern deep learning methods typically treat image sequences as large tensors of sequentially stacked frames. However, is this straightforward representation ideal given the current state-of-the-art (SoTA)? In this work, we address this question in the context of generative models and aim to devise ",
+    "file": "cs/cv/2512.21276-gridit-factorized-grid-based-diffusion-for-effici.md"
+  },
+  {
+    "arxiv_id": "2512.21268",
+    "title": "ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision",
+    "authors": [
+      "Weiqi Li",
+      "Zehao Zhang",
+      "Liang Lin",
+      "Guangrun Wang"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21268",
+    "abstract": "Controllability is a fundamental requirement in video synthesis, where accurate alignment with conditioning signals is essential. Existing classifier-free guidance methods typically achieve conditioning indirectly by modeling the joint distribution of data and conditions, which often results in limi",
+    "file": "cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md"
+  },
+  {
+    "arxiv_id": "2512.21284",
+    "title": "Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential",
+    "authors": [
+      "Shihao Zou",
+      "Jingjing Li",
+      "Wei Ji",
+      "Jincai Huang",
+      "Kai Wang",
+      "Guo Dan",
+      "Weixin Si",
+      "Yi Pan"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21284",
+    "abstract": "Modern surgical systems increasingly rely on intelligent scene understanding to provide timely situational awareness for enhanced intra-operative safety. Within this pipeline, surgical scene segmentation plays a central role in accurately perceiving operative events. Although recent deep learning mo",
+    "file": "cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md"
+  },
+  {
+    "arxiv_id": "2512.21287",
+    "title": "Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction",
+    "authors": [
+      "Suren Bandara"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21287",
+    "abstract": "Structured data extraction from tables plays a crucial role in document image analysis for scanned documents and digital archives. Although many methods have been proposed to detect table structures and extract cell contents, accurately identifying table segment boundaries (rows and columns) remains",
+    "file": "cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md"
   },
   {
     "arxiv_id": "2512.21316",

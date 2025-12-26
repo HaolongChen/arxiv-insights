@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 140
-- **Unique Authors**: 833
+- **Total Papers**: 145
+- **Unique Authors**: 851
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-25 16:32:13
+- **Last Updated**: 2025-12-26 02:02:06
 
 ## Latest Papers
+
+### [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md)
+**Divij Dudeja, Mayukha Pal** · arXiv:2512.21280 · 2025-12-24 · `cs-ai`
+
+The user of Engineering Manuals (EM) finds it difficult to read EM s because they are long, have a dense format which includes written documents, step by step procedures, and standard parameter lists for engineering equipment. Off the shelf transformers, especially compact ones, treat this material ...
 
 ### [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md)
 **Ziyu Chen, Xinbei Jiang, Peng Sun et al.** · arXiv:2512.21336 · 2025-12-24 · `cs-ai`
@@ -45,6 +50,26 @@ High-resolution video generation, while crucial for digital media and film, is c
 **Avilasha Mandal, Chaoning Zhang, Fachrina Dewi Puspitasari et al.** · arXiv:2512.21333 · 2025-12-24 · `cs-cv`
 
 Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propa...
+
+### [GriDiT: Factorized Grid-Based Diffusion for Efficient Long Image Sequence Generation](/cs/cv/2512.21276-gridit-factorized-grid-based-diffusion-for-effici.md)
+**Snehal Singh Tomar, Alexandros Graikos, Arjun Krishna et al.** · arXiv:2512.21276 · 2025-12-24 · `cs-cv`
+
+Modern deep learning methods typically treat image sequences as large tensors of sequentially stacked frames. However, is this straightforward representation ideal given the current state-of-the-art (SoTA)? In this work, we address this question in the context of generative models and aim to devise ...
+
+### [ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision](/cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md)
+**Weiqi Li, Zehao Zhang, Liang Lin et al.** · arXiv:2512.21268 · 2025-12-24 · `cs-cv`
+
+Controllability is a fundamental requirement in video synthesis, where accurate alignment with conditioning signals is essential. Existing classifier-free guidance methods typically achieve conditioning indirectly by modeling the joint distribution of data and conditions, which often results in limi...
+
+### [Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential](/cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md)
+**Shihao Zou, Jingjing Li, Wei Ji et al.** · arXiv:2512.21284 · 2025-12-24 · `cs-cv`
+
+Modern surgical systems increasingly rely on intelligent scene understanding to provide timely situational awareness for enhanced intra-operative safety. Within this pipeline, surgical scene segmentation plays a central role in accurately perceiving operative events. Although recent deep learning mo...
+
+### [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md)
+**Suren Bandara** · arXiv:2512.21287 · 2025-12-24 · `cs-cv`
+
+Structured data extraction from tables plays a crucial role in document image analysis for scanned documents and digital archives. Although many methods have been proposed to detect table structures and extract cell contents, accurately identifying table segment boundaries (rows and columns) remains...
 
 ### [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md)
 **Ali Merali** · arXiv:2512.21316 · 2025-12-24 · `other`
@@ -86,37 +111,13 @@ We introduce Cube Bench, a Rubik's-cube benchmark for evaluating spatial and seq
 
 Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We pro...
 
-### [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md)
-**Alexandros Christoforos, Chadbourne Davis** · arXiv:2512.20604 · 2025-12-23 · `cs-ai`
-
-We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diffusion models in long document generation. Existing diffusion based text generation models, such as DiffuSeq, suffer from high computational cost and memory overhead when applied to extended sequences. To address these ch...
-
-### [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md)
-**Yedi Zhang, Andrew Saxe, Peter E. Latham** · arXiv:2512.20607 · 2025-12-23 · `cs-lg`
-
-Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explai...
-
-### [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md)
-**Rui Pan, Zhuofu Chen, Ravi Netravali** · arXiv:2512.20573 · 2025-12-23 · `cs-lg`
-
-Diffusion Large Language Models (dLLMs) offer fast, parallel token generation, but their standalone use is plagued by an inherent efficiency-quality tradeoff. We show that, if carefully applied, the attributes of dLLMs can actually be a strength for drafters in speculative decoding with autoregressi...
-
-### [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md)
-**Seijin Kobayashi, Yanick Schimpf, Maximilian Schlegel et al.** · arXiv:2512.20605 · 2025-12-23 · `cs-lg`
-
-Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token c...
-
-### [Relu and softplus neural nets as zero-sum turn-based games](/cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md)
-**Stephane Gaubert, Yiannis Vlassopoulos** · arXiv:2512.20582 · 2025-12-23 · `cs-lg`
-
-We show that the output of a ReLU neural network can be interpreted as the value of a zero-sum, turn-based, stopping game, which we call the ReLU net game. The game runs in the direction opposite to that of the network, and the input of the network serves as the terminal reward of the game. In fact,...
-
 
 ## By Field
 
 
-### CS-AI (35 papers)
+### CS-AI (36 papers)
 
+- [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
 - [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md) - arXiv:2512.21323
 - [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md) - arXiv:2512.21332
@@ -126,20 +127,19 @@ We show that the output of a ReLU neural network can be interpreted as the value
 - [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md) - arXiv:2512.20595
 - [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
 - [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
-- [Scalably Enhancing the Clinical Validity of a Task Benchmark with Physician Oversight](/cs/ai/2512.19691-scalably-enhancing-the-clinical-validity-of-a-task.md) - arXiv:2512.19691
 
-### CS-CV (57 papers)
+### CS-CV (61 papers)
 
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
 - [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
+- [GriDiT: Factorized Grid-Based Diffusion for Efficient Long Image Sequence Generation](/cs/cv/2512.21276-gridit-factorized-grid-based-diffusion-for-effici.md) - arXiv:2512.21276
+- [ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision](/cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md) - arXiv:2512.21268
+- [Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential](/cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md) - arXiv:2512.21284
+- [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md) - arXiv:2512.21287
 - [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
 - [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md) - arXiv:2512.20619
 - [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md) - arXiv:2512.19692
-- [From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs](/cs/cv/2512.19683-from-indoor-to-open-world-revealing-the-spatial-r.md) - arXiv:2512.19683
-- [Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis](/cs/cv/2512.19663-beyond-clip-knowledge-enhanced-multimodal-transfo.md) - arXiv:2512.19663
-- [Efficient Vision Mamba for MRI Super-Resolution via Hybrid Selective Scanning](/cs/cv/2512.19676-efficient-vision-mamba-for-mri-super-resolution-vi.md) - arXiv:2512.19676
-- [Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models](/cs/cv/2512.18910-delta-llava-base-then-specialize-alignment-for-to.md) - arXiv:2512.18910
 
 ### CS-LG (30 papers)
 
