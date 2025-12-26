@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 145
-- **Unique Authors**: 851
+- **Total Papers**: 150
+- **Unique Authors**: 913
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-26 02:02:06
+- **Last Updated**: 2025-12-26 08:34:32
 
 ## Latest Papers
 
@@ -71,10 +71,35 @@ Modern surgical systems increasingly rely on intelligent scene understanding to 
 
 Structured data extraction from tables plays a crucial role in document image analysis for scanned documents and digital archives. Although many methods have been proposed to detect table structures and extract cell contents, accurately identifying table segment boundaries (rows and columns) remains...
 
+### [DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation](/cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md)
+**Jiawei Liu, Junqiao Li, Jiangfan Deng et al.** · arXiv:2512.21252 · 2025-12-24 · `cs-cv`
+
+The "one-shot" technique represents a distinct and sophisticated aesthetic in filmmaking. However, its practical realization is often hindered by prohibitive costs and complex real-world constraints. Although emerging video generation models offer a virtual alternative, existing approaches typically...
+
 ### [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md)
 **Ali Merali** · arXiv:2512.21316 · 2025-12-24 · `other`
 
 This paper derives `Scaling Laws for Economic Impacts' -- empirical relationships between the training compute of Large Language Models (LLMs) and professional productivity. In a preregistered experiment, over 500 consultants, data analysts, and managers completed professional tasks using one of 13 ...
+
+### [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md)
+**Mohammed Latif Siddiq, Natalie Sekerak, Antonio Karam et al.** · arXiv:2512.21238 · 2025-12-24 · `other`
+
+Large language models (LLMs) are increasingly used in software development, but their level of software security expertise remains unclear. This work systematically evaluates the security comprehension of five leading LLMs: GPT-4o-Mini, GPT-5-Mini, Gemini-2.5-Flash, Llama-3.1, and Qwen-2.5, using Bl...
+
+### [LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation](/other/2512.21243-lookplangraph-embodied-instruction-following-meth.md)
+**Anatoly O. Onishchenko, Alexey K. Kovalev, Aleksandr I. Panov** · arXiv:2512.21243 · 2025-12-24 · `other`
+
+Methods that use Large Language Models (LLM) as planners for embodied instruction following tasks have become widespread. To successfully complete tasks, the LLM must be grounded in the environment in which the robot operates. One solution is to use a scene graph that contains all the necessary info...
+
+### [Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking](/other/2512.21236-casting-a-spell-sentence-pairing-exploration-for.md)
+**Yifan Huang, Xiaojun Jia, Wenbo Guo et al.** · arXiv:2512.21236 · 2025-12-24 · `other`
+
+Large language models (LLMs) have revolutionized software development through AI-assisted coding tools, enabling developers with limited programming expertise to create sophisticated applications. However, this accessibility extends to malicious actors who may exploit these powerful tools to generat...
+
+### [ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling](/other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md)
+**Chuan Wang, Gaoming Yang, Han Wu et al.** · arXiv:2512.21257 · 2025-12-24 · `other`
+
+Industrial recommender systems face two fundamental limitations under the log-driven paradigm: (1) knowledge poverty in ID-based item representations that causes brittle interest modeling under data sparsity, and (2) systemic blindness to beyond-log user interests that constrains model performance w...
 
 ### [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md)
 **Yuan Qiu, Wolfgang Dahmen, Peng Chen** · arXiv:2512.21319 · 2025-12-24 · `other`
@@ -85,31 +110,6 @@ Minimizing PDE-residual losses is a common strategy to promote physical consiste
 **Artem Goncharov, Rajesh Ghosh, Hyou-Arm Joung et al.** · arXiv:2512.21335 · 2025-12-24 · `other`
 
 Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals ...
-
-### [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md)
-**Humza Nusrat, Luke Francisco, Bing Luo et al.** · arXiv:2512.20586 · 2025-12-23 · `cs-ai`
-
-Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metasta...
-
-### [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md)
-**Yanhong Li, Songlin Yang, Shawn Tan et al.** · arXiv:2512.20569 · 2025-12-23 · `cs-ai`
-
-Distilling pretrained softmax attention Transformers into more efficient hybrid architectures that interleave softmax and linear attention layers is a promising approach for improving the inference efficiency of LLMs without requiring expensive pretraining from scratch. A critical factor in the conv...
-
-### [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md)
-**Amirhosein Ghasemabadi, Di Niu** · arXiv:2512.20578 · 2025-12-23 · `cs-ai`
-
-Large language models (LLMs) generate fluent and complex outputs but often fail to recognize their own mistakes and hallucinations. Existing approaches typically rely on external judges, multi-sample consistency, or text-based self-critique, which incur additional compute or correlate weakly with tr...
-
-### [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md)
-**Dhruv Anand, Ehsan Shareghi** · arXiv:2512.20595 · 2025-12-23 · `cs-ai`
-
-We introduce Cube Bench, a Rubik's-cube benchmark for evaluating spatial and sequential reasoning in multimodal large language models (MLLMs). The benchmark decomposes performance into five skills: (i) reconstructing cube faces from images and text, (ii) choosing the optimal next move, (iii) predict...
-
-### [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md)
-**Runtao Liu, Ziyi Liu, Jiaqi Tang et al.** · arXiv:2512.20618 · 2025-12-23 · `cs-ai`
-
-Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We pro...
 
 
 ## By Field
@@ -128,7 +128,7 @@ Recent advances in multimodal LLMs and systems that use tools for long-video QA 
 - [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
 - [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
 
-### CS-CV (61 papers)
+### CS-CV (62 papers)
 
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
@@ -137,9 +137,9 @@ Recent advances in multimodal LLMs and systems that use tools for long-video QA 
 - [ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision](/cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md) - arXiv:2512.21268
 - [Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential](/cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md) - arXiv:2512.21284
 - [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md) - arXiv:2512.21287
+- [DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation](/cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md) - arXiv:2512.21252
 - [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
 - [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md) - arXiv:2512.20619
-- [Interact2Ar: Full-Body Human-Human Interaction Generation via Autoregressive Diffusion Models](/cs/cv/2512.19692-interact2ar-full-body-human-human-interaction-gen.md) - arXiv:2512.19692
 
 ### CS-LG (30 papers)
 
@@ -154,18 +154,18 @@ Recent advances in multimodal LLMs and systems that use tools for long-video QA 
 - [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
 - [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 
-### OTHER (18 papers)
+### OTHER (22 papers)
 
 - [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md) - arXiv:2512.21316
+- [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md) - arXiv:2512.21238
+- [LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation](/other/2512.21243-lookplangraph-embodied-instruction-following-meth.md) - arXiv:2512.21243
+- [Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking](/other/2512.21236-casting-a-spell-sentence-pairing-exploration-for.md) - arXiv:2512.21236
+- [ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling](/other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md) - arXiv:2512.21257
 - [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md) - arXiv:2512.21319
 - [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md) - arXiv:2512.21335
 - [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md) - arXiv:2512.20589
 - [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md) - arXiv:2512.20612
 - [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md) - arXiv:2512.19675
-- [An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects](/other/2512.18925-an-empirical-study-of-developer-provided-context-f.md) - arXiv:2512.18925
-- [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](/other/2512.16861-reinforcegen-hybrid-skill-policies-with-automated.md) - arXiv:2512.16861
-- [PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy](/other/2512.16851-privatexr-defending-privacy-attacks-in-extended-r.md) - arXiv:2512.16851
-- [Few-Shot Specific Emitter Identification via Integrated Complex Variational Mode Decomposition and Spatial Attention Transfer](/other/2512.16786-few-shot-specific-emitter-identification-via-integ.md) - arXiv:2512.16786
 
 ---
 

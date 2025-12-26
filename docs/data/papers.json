@@ -249,6 +249,34 @@
     "file": "cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md"
   },
   {
+    "arxiv_id": "2512.21252",
+    "title": "DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation",
+    "authors": [
+      "Jiawei Liu",
+      "Junqiao Li",
+      "Jiangfan Deng",
+      "Gen Li",
+      "Siyu Zhou",
+      "Zetao Fang",
+      "Shanshan Lao",
+      "Zengde Deng",
+      "Jianing Zhu",
+      "Tingting Ma",
+      "Jiayi Li",
+      "Yunqiu Wang",
+      "Qian He",
+      "Xinglong Wu"
+    ],
+    "date": "2025-12-24",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.21252",
+    "abstract": "The \"one-shot\" technique represents a distinct and sophisticated aesthetic in filmmaking. However, its practical realization is often hindered by prohibitive costs and complex real-world constraints. Although emerging video generation models offer a virtual alternative, existing approaches typically",
+    "file": "cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md"
+  },
+  {
     "arxiv_id": "2512.21316",
     "title": "Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks",
     "authors": [
@@ -264,6 +292,118 @@
     "url": "https://arxiv.org/abs/2512.21316",
     "abstract": "This paper derives `Scaling Laws for Economic Impacts' -- empirical relationships between the training compute of Large Language Models (LLMs) and professional productivity. In a preregistered experiment, over 500 consultants, data analysts, and managers completed professional tasks using one of 13 ",
     "file": "other/2512.21316-scaling-laws-for-economic-productivity-experiment.md"
+  },
+  {
+    "arxiv_id": "2512.21238",
+    "title": "Assessing the Software Security Comprehension of Large Language Models",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Natalie Sekerak",
+      "Antonio Karam",
+      "Maria Leal",
+      "Arvin Islam-Gomes",
+      "Joanna C. S. Santos"
+    ],
+    "date": "2025-12-24",
+    "field": "other",
+    "tags": [
+      "cs.SE",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.21238",
+    "abstract": "Large language models (LLMs) are increasingly used in software development, but their level of software security expertise remains unclear. This work systematically evaluates the security comprehension of five leading LLMs: GPT-4o-Mini, GPT-5-Mini, Gemini-2.5-Flash, Llama-3.1, and Qwen-2.5, using Bl",
+    "file": "other/2512.21238-assessing-the-software-security-comprehension-of-l.md"
+  },
+  {
+    "arxiv_id": "2512.21243",
+    "title": "LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation",
+    "authors": [
+      "Anatoly O. Onishchenko",
+      "Alexey K. Kovalev",
+      "Aleksandr I. Panov"
+    ],
+    "date": "2025-12-24",
+    "field": "other",
+    "tags": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.21243",
+    "abstract": "Methods that use Large Language Models (LLM) as planners for embodied instruction following tasks have become widespread. To successfully complete tasks, the LLM must be grounded in the environment in which the robot operates. One solution is to use a scene graph that contains all the necessary info",
+    "file": "other/2512.21243-lookplangraph-embodied-instruction-following-meth.md"
+  },
+  {
+    "arxiv_id": "2512.21236",
+    "title": "Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking",
+    "authors": [
+      "Yifan Huang",
+      "Xiaojun Jia",
+      "Wenbo Guo",
+      "Yuqiang Sun",
+      "Yihao Huang",
+      "Chong Wang",
+      "Yang Liu"
+    ],
+    "date": "2025-12-24",
+    "field": "other",
+    "tags": [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "url": "https://arxiv.org/abs/2512.21236",
+    "abstract": "Large language models (LLMs) have revolutionized software development through AI-assisted coding tools, enabling developers with limited programming expertise to create sophisticated applications. However, this accessibility extends to malicious actors who may exploit these powerful tools to generat",
+    "file": "other/2512.21236-casting-a-spell-sentence-pairing-exploration-for.md"
+  },
+  {
+    "arxiv_id": "2512.21257",
+    "title": "ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling",
+    "authors": [
+      "Chuan Wang",
+      "Gaoming Yang",
+      "Han Wu",
+      "Jiakai Tang",
+      "Jiahao Yu",
+      "Jian Wu",
+      "Jianwu Hu",
+      "Junjun Zheng",
+      "Shuwen Xiao",
+      "Yeqiu Yang",
+      "Yuning Jiang",
+      "Ahjol Nurlanbek",
+      "Binbin Cao",
+      "Bo Zheng",
+      "Fangmei Zhu",
+      "Gaoming Zhou",
+      "Huimin Yi",
+      "Huiping Chu",
+      "Jin Huang",
+      "Jinzhe Shan",
+      "Kenan Cui",
+      "Longbin Li",
+      "Silu Zhou",
+      "Wen Chen",
+      "Xia Ming",
+      "Xiang Gao",
+      "Xin Yao",
+      "Xingyu Wen",
+      "Yan Zhang",
+      "Yiwen Hu",
+      "Yulin Wang",
+      "Ziheng Bao",
+      "Zongyuan Wu"
+    ],
+    "date": "2025-12-24",
+    "field": "other",
+    "tags": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.21257",
+    "abstract": "Industrial recommender systems face two fundamental limitations under the log-driven paradigm: (1) knowledge poverty in ID-based item representations that causes brittle interest modeling under data sparsity, and (2) systemic blindness to beyond-log user interests that constrains model performance w",
+    "file": "other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md"
   },
   {
     "arxiv_id": "2512.21319",
