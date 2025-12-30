@@ -46,6 +46,28 @@
     "file": "cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md"
   },
   {
+    "arxiv_id": "2512.23676",
+    "title": "Web World Models",
+    "authors": [
+      "Jichen Feng",
+      "Yifan Zhang",
+      "Chenggong Zhang",
+      "Yifu Lu",
+      "Shilong Liu",
+      "Mengdi Wang"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23676",
+    "abstract": "Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative world models aim for unlimited environments at the e",
+    "file": "cs/ai/2512.23676-web-world-models.md"
+  },
+  {
     "arxiv_id": "2512.23701",
     "title": "Eliciting Behaviors in Multi-Turn Conversations",
     "authors": [
@@ -65,6 +87,34 @@
     "url": "https://arxiv.org/abs/2512.23701",
     "abstract": "Identifying specific and often complex behaviors from large language models (LLMs) in conversational settings is crucial for their evaluation. Recent work proposes novel techniques to find natural language prompts that induce specific behaviors from a target model, yet they are mainly studied in sin",
     "file": "cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md"
+  },
+  {
+    "arxiv_id": "2512.23675",
+    "title": "End-to-End Test-Time Training for Long Context",
+    "authors": [
+      "Arnuv Tandon",
+      "Karan Dalal",
+      "Xinhao Li",
+      "Daniel Koceja",
+      "Marcel R\u00f8d",
+      "Sam Buchanan",
+      "Xiaolong Wang",
+      "Jure Leskovec",
+      "Sanmi Koyejo",
+      "Tatsunori Hashimoto",
+      "Carlos Guestrin",
+      "Jed McCaleb",
+      "Yejin Choi",
+      "Yu Sun"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.23675",
+    "abstract": "We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under this formulation, we only use a standard architecture -- a Transformer with sliding-window attention. However, our model continues learning at test time via next-token prediction on ",
+    "file": "cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md"
   },
   {
     "arxiv_id": "2512.23329",
@@ -160,6 +210,62 @@
     "url": "https://arxiv.org/abs/2512.23333",
     "abstract": "Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no",
     "file": "cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md"
+  },
+  {
+    "arxiv_id": "2512.23646",
+    "title": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+    "authors": [
+      "Keda Tao",
+      "Wenjie Du",
+      "Bohan Yu",
+      "Weiqiang Wang",
+      "Jian Liu",
+      "Huan Wang"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23646",
+    "abstract": "Omnimodal large language models have made significant strides in unifying audio and visual modalities; however, they often lack the fine-grained cross-modal understanding and have difficulty with multimodal alignment. To address these limitations, we introduce OmniAgent, a fully audio-guided active ",
+    "file": "cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md"
+  },
+  {
+    "arxiv_id": "2512.23667",
+    "title": "IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition",
+    "authors": [
+      "Kang Du",
+      "Yirui Guan",
+      "Zeyu Wang"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23667",
+    "abstract": "Intrinsic image decomposition is fundamental for visual understanding, as RGB images entangle material properties, illumination, and view-dependent effects. Recent diffusion-based methods have achieved strong results for single-view intrinsic decomposition; however, extending these approaches to mul",
+    "file": "cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md"
+  },
+  {
+    "arxiv_id": "2512.23643",
+    "title": "Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks",
+    "authors": [
+      "Konstantin Yakovlev",
+      "Nikita Puchkin"
+    ],
+    "date": "2025-12-29",
+    "field": "other",
+    "tags": [
+      "math.NA",
+      "cs.LG",
+      "math.ST",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2512.23643",
+    "abstract": "We present a theory for simultaneous approximation of the score function and its derivatives, enabling the handling of data distributions with low-dimensional structure and unbounded support. Our approximation error bounds match those in the literature while relying on assumptions that relax the usu",
+    "file": "other/2512.23643-simultaneous-approximation-of-the-score-function-a.md"
   },
   {
     "arxiv_id": "2512.23694",

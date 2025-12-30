@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 160
-- **Unique Authors**: 976
+- **Total Papers**: 165
+- **Unique Authors**: 1004
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-30 08:35:54
+- **Last Updated**: 2025-12-30 16:34:28
 
 ## Latest Papers
 
@@ -21,10 +21,20 @@ Large language models (LLMs) are increasingly considered for use in high-impact 
 
 Large Language Model (LLM) agents, while proficient in the digital realm, face a significant gap in physical-world deployment due to the challenge of forming and maintaining a robust spatial mental model. We identify three core cognitive challenges hindering this transition: spatial reasoning, long-...
 
+### [Web World Models](/cs/ai/2512.23676-web-world-models.md)
+**Jichen Feng, Yifan Zhang, Chenggong Zhang et al.** · arXiv:2512.23676 · 2025-12-29 · `cs-ai`
+
+Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative world models aim for unlimited environments at the e...
+
 ### [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md)
 **Jing Huang, Shujian Zhang, Lun Wang et al.** · arXiv:2512.23701 · 2025-12-29 · `cs-ai`
 
 Identifying specific and often complex behaviors from large language models (LLMs) in conversational settings is crucial for their evaluation. Recent work proposes novel techniques to find natural language prompts that induce specific behaviors from a target model, yet they are mainly studied in sin...
+
+### [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md)
+**Arnuv Tandon, Karan Dalal, Xinhao Li et al.** · arXiv:2512.23675 · 2025-12-29 · `cs-lg`
+
+We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under this formulation, we only use a standard architecture -- a Transformer with sliding-window attention. However, our model continues learning at test time via next-token prediction on ...
 
 ### [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md)
 **Laurent Boué** · arXiv:2512.23329 · 2025-12-29 · `cs-lg`
@@ -45,6 +55,21 @@ Transparent objects remain notoriously hard for perception systems: refraction, 
 **Ke Niu, Haiyang Yu, Zhuofan Chen et al.** · arXiv:2512.23333 · 2025-12-29 · `cs-cv`
 
 Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no...
+
+### [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md)
+**Keda Tao, Wenjie Du, Bohan Yu et al.** · arXiv:2512.23646 · 2025-12-29 · `cs-cv`
+
+Omnimodal large language models have made significant strides in unifying audio and visual modalities; however, they often lack the fine-grained cross-modal understanding and have difficulty with multimodal alignment. To address these limitations, we introduce OmniAgent, a fully audio-guided active ...
+
+### [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md)
+**Kang Du, Yirui Guan, Zeyu Wang** · arXiv:2512.23667 · 2025-12-29 · `cs-cv`
+
+Intrinsic image decomposition is fundamental for visual understanding, as RGB images entangle material properties, illumination, and view-dependent effects. Recent diffusion-based methods have achieved strong results for single-view intrinsic decomposition; however, extending these approaches to mul...
+
+### [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md)
+**Konstantin Yakovlev, Nikita Puchkin** · arXiv:2512.23643 · 2025-12-29 · `other`
+
+We present a theory for simultaneous approximation of the score function and its derivatives, enabling the handling of data distributions with low-dimensional structure and unbounded support. Our approximation error bounds match those in the literature while relying on assumptions that relax the usu...
 
 ### [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md)
 **Lars van der Laan, Nathan Kallus** · arXiv:2512.23694 · 2025-12-29 · `other`
@@ -86,39 +111,15 @@ We present C2LLM - Contrastive Code Large Language Models, a family of code embe
 
 The data processing inequality is an information-theoretic principle stating that the information content of a signal cannot be increased by processing the observations. In particular, it suggests that there is no benefit in enhancing the signal or encoding it before addressing a classification prob...
 
-### [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md)
-**Varun Belagali, Saarthak Kapse, Pierre Marza et al.** · arXiv:2512.21331 · 2025-12-24 · `cs-cv`
-
-The interpretation of small tiles in large whole slide images (WSI) often needs a larger image context. We introduce TICON, a transformer-based tile representation contextualizer that produces rich, contextualized embeddings for ''any'' application in computational pathology. Standard tile encoder-b...
-
-### [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md)
-**Haonan Qiu, Shikun Liu, Zijian Zhou et al.** · arXiv:2512.21338 · 2025-12-24 · `cs-cv`
-
-High-resolution video generation, while crucial for digital media and film, is computationally bottlenecked by the quadratic complexity of diffusion models, making practical inference infeasible. To address this, we introduce HiStream, an efficient autoregressive framework that systematically reduce...
-
-### [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md)
-**Avilasha Mandal, Chaoning Zhang, Fachrina Dewi Puspitasari et al.** · arXiv:2512.21333 · 2025-12-24 · `cs-cv`
-
-Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propa...
-
-### [GriDiT: Factorized Grid-Based Diffusion for Efficient Long Image Sequence Generation](/cs/cv/2512.21276-gridit-factorized-grid-based-diffusion-for-effici.md)
-**Snehal Singh Tomar, Alexandros Graikos, Arjun Krishna et al.** · arXiv:2512.21276 · 2025-12-24 · `cs-cv`
-
-Modern deep learning methods typically treat image sequences as large tensors of sequentially stacked frames. However, is this straightforward representation ideal given the current state-of-the-art (SoTA)? In this work, we address this question in the context of generative models and aim to devise ...
-
-### [ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision](/cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md)
-**Weiqi Li, Zehao Zhang, Liang Lin et al.** · arXiv:2512.21268 · 2025-12-24 · `cs-cv`
-
-Controllability is a fundamental requirement in video synthesis, where accurate alignment with conditioning signals is essential. Existing classifier-free guidance methods typically achieve conditioning indirectly by modeling the joint distribution of data and conditions, which often results in limi...
-
 
 ## By Field
 
 
-### CS-AI (39 papers)
+### CS-AI (40 papers)
 
 - [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
+- [Web World Models](/cs/ai/2512.23676-web-world-models.md) - arXiv:2512.23676
 - [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md) - arXiv:2512.23701
 - [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
@@ -126,23 +127,23 @@ Controllability is a fundamental requirement in video synthesis, where accurate 
 - [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md) - arXiv:2512.21332
 - [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
 - [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md) - arXiv:2512.20569
-- [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md) - arXiv:2512.20578
 
-### CS-CV (64 papers)
+### CS-CV (66 papers)
 
 - [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md) - arXiv:2512.23705
 - [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md) - arXiv:2512.23333
+- [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md) - arXiv:2512.23646
+- [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md) - arXiv:2512.23667
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
 - [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
 - [GriDiT: Factorized Grid-Based Diffusion for Efficient Long Image Sequence Generation](/cs/cv/2512.21276-gridit-factorized-grid-based-diffusion-for-effici.md) - arXiv:2512.21276
 - [ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision](/cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md) - arXiv:2512.21268
 - [Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential](/cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md) - arXiv:2512.21284
-- [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md) - arXiv:2512.21287
-- [DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation](/cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md) - arXiv:2512.21252
 
-### CS-LG (32 papers)
+### CS-LG (33 papers)
 
+- [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md) - arXiv:2512.23675
 - [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md) - arXiv:2512.23329
 - [Training AI Co-Scientists Using Rubric Rewards](/cs/lg/2512.23707-training-ai-co-scientists-using-rubric-rewards.md) - arXiv:2512.23707
 - [Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Level Tasks](/cs/lg/2512.21315-does-the-data-processing-inequality-reflect-practi.md) - arXiv:2512.21315
@@ -152,10 +153,10 @@ Controllability is a fundamental requirement in video synthesis, where accurate 
 - [Relu and softplus neural nets as zero-sum turn-based games](/cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md) - arXiv:2512.20582
 - [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](/cs/lg/2512.20576-performative-policy-gradient-optimality-in-perfor.md) - arXiv:2512.20576
 - [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
-- [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 
-### OTHER (25 papers)
+### OTHER (26 papers)
 
+- [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 - [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
 - [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md) - arXiv:2512.23312
 - [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md) - arXiv:2512.23318
@@ -165,7 +166,6 @@ Controllability is a fundamental requirement in video synthesis, where accurate 
 - [Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking](/other/2512.21236-casting-a-spell-sentence-pairing-exploration-for.md) - arXiv:2512.21236
 - [ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling](/other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md) - arXiv:2512.21257
 - [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md) - arXiv:2512.21319
-- [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md) - arXiv:2512.21335
 
 ---
 
