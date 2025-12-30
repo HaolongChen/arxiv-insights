@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 150
-- **Unique Authors**: 913
+- **Total Papers**: 155
+- **Unique Authors**: 940
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-29 16:32:46
+- **Last Updated**: 2025-12-30 02:03:39
 
 ## Latest Papers
+
+### [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md)
+**Huan-ang Gao, Zikang Zhang, Tianwei Luo et al.** · arXiv:2512.23328 · 2025-12-29 · `cs-ai`
+
+Large Language Model (LLM) agents, while proficient in the digital realm, face a significant gap in physical-world deployment due to the challenge of forming and maintaining a robust spatial mental model. We identify three core cognitive challenges hindering this transition: spatial reasoning, long-...
+
+### [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md)
+**Laurent Boué** · arXiv:2512.23329 · 2025-12-29 · `cs-lg`
+
+This document is a follow-up to our previous paper dedicated to a vectorized derivation of backpropagation in CNNs. Following the same principles and notations already put in place there, we now focus on transformer-based next-token-prediction architectures. To this end, we apply our lightweight ind...
+
+### [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md)
+**Ke Niu, Haiyang Yu, Zhuofan Chen et al.** · arXiv:2512.23333 · 2025-12-29 · `cs-cv`
+
+Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no...
+
+### [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md)
+**Sheng-Kai Chen, Yi-Ling Tsai, Chun-Chih Chang et al.** · arXiv:2512.23312 · 2025-12-29 · `other`
+
+Deep neural networks have accelerated inverse-kinematics (IK) inference to the point where low cost manipulators can execute complex trajectories in real time, yet the opaque nature of these models contradicts the transparency and safety requirements emerging in responsible AI regulation. This study...
+
+### [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md)
+**Sheng-Kai Chen, Jie-Yu Chao, Jr-Yu Chang et al.** · arXiv:2512.23318 · 2025-12-29 · `other`
+
+Visual Simultaneous Localization and Mapping (vSLAM) systems encounter substantial challenges in dynamic environments where moving objects compromise tracking accuracy and map consistency. This paper introduces PCR-ORB (Point Cloud Refinement ORB), an enhanced ORB-SLAM3 framework that integrates dee...
 
 ### [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md)
 **Divij Dudeja, Mayukha Pal** · arXiv:2512.21280 · 2025-12-24 · `cs-ai`
@@ -86,37 +111,13 @@ This paper derives `Scaling Laws for Economic Impacts' -- empirical relationship
 
 Large language models (LLMs) are increasingly used in software development, but their level of software security expertise remains unclear. This work systematically evaluates the security comprehension of five leading LLMs: GPT-4o-Mini, GPT-5-Mini, Gemini-2.5-Flash, Llama-3.1, and Qwen-2.5, using Bl...
 
-### [LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation](/other/2512.21243-lookplangraph-embodied-instruction-following-meth.md)
-**Anatoly O. Onishchenko, Alexey K. Kovalev, Aleksandr I. Panov** · arXiv:2512.21243 · 2025-12-24 · `other`
-
-Methods that use Large Language Models (LLM) as planners for embodied instruction following tasks have become widespread. To successfully complete tasks, the LLM must be grounded in the environment in which the robot operates. One solution is to use a scene graph that contains all the necessary info...
-
-### [Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking](/other/2512.21236-casting-a-spell-sentence-pairing-exploration-for.md)
-**Yifan Huang, Xiaojun Jia, Wenbo Guo et al.** · arXiv:2512.21236 · 2025-12-24 · `other`
-
-Large language models (LLMs) have revolutionized software development through AI-assisted coding tools, enabling developers with limited programming expertise to create sophisticated applications. However, this accessibility extends to malicious actors who may exploit these powerful tools to generat...
-
-### [ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling](/other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md)
-**Chuan Wang, Gaoming Yang, Han Wu et al.** · arXiv:2512.21257 · 2025-12-24 · `other`
-
-Industrial recommender systems face two fundamental limitations under the log-driven paradigm: (1) knowledge poverty in ID-based item representations that causes brittle interest modeling under data sparsity, and (2) systemic blindness to beyond-log user interests that constrains model performance w...
-
-### [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md)
-**Yuan Qiu, Wolfgang Dahmen, Peng Chen** · arXiv:2512.21319 · 2025-12-24 · `other`
-
-Minimizing PDE-residual losses is a common strategy to promote physical consistency in neural operators. However, standard formulations often lack variational correctness, meaning that small residuals do not guarantee small solution errors due to the use of non-compliant norms or ad hoc penalty term...
-
-### [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md)
-**Artem Goncharov, Rajesh Ghosh, Hyou-Arm Joung et al.** · arXiv:2512.21335 · 2025-12-24 · `other`
-
-Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals ...
-
 
 ## By Field
 
 
-### CS-AI (36 papers)
+### CS-AI (37 papers)
 
+- [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
 - [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
 - [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md) - arXiv:2512.21323
@@ -126,10 +127,10 @@ Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible
 - [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md) - arXiv:2512.20578
 - [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md) - arXiv:2512.20595
 - [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
-- [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](/cs/ai/2512.20604-moe-diffuseq-enhancing-long-document-diffusion-mo.md) - arXiv:2512.20604
 
-### CS-CV (62 papers)
+### CS-CV (63 papers)
 
+- [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md) - arXiv:2512.23333
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
 - [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
@@ -139,10 +140,10 @@ Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible
 - [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md) - arXiv:2512.21287
 - [DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation](/cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md) - arXiv:2512.21252
 - [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
-- [SemanticGen: Video Generation in Semantic Space](/cs/cv/2512.20619-semanticgen-video-generation-in-semantic-space.md) - arXiv:2512.20619
 
-### CS-LG (30 papers)
+### CS-LG (31 papers)
 
+- [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md) - arXiv:2512.23329
 - [Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Level Tasks](/cs/lg/2512.21315-does-the-data-processing-inequality-reflect-practi.md) - arXiv:2512.21315
 - [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
 - [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md) - arXiv:2512.20573
@@ -152,10 +153,11 @@ Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible
 - [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
 - [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
-- [Meta-RL Induces Exploration in Language Agents](/cs/lg/2512.16848-meta-rl-induces-exploration-in-language-agents.md) - arXiv:2512.16848
 
-### OTHER (22 papers)
+### OTHER (24 papers)
 
+- [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md) - arXiv:2512.23312
+- [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md) - arXiv:2512.23318
 - [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md) - arXiv:2512.21316
 - [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md) - arXiv:2512.21238
 - [LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation](/other/2512.21243-lookplangraph-embodied-instruction-following-meth.md) - arXiv:2512.21243
@@ -164,8 +166,6 @@ Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible
 - [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md) - arXiv:2512.21319
 - [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md) - arXiv:2512.21335
 - [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md) - arXiv:2512.20589
-- [Making Large Language Models Efficient Dense Retrievers](/other/2512.20612-making-large-language-models-efficient-dense-retri.md) - arXiv:2512.20612
-- [Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)](/other/2512.19675-multimodal-llms-for-historical-dataset-constructio.md) - arXiv:2512.19675
 
 ---
 

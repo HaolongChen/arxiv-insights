@@ -1,5 +1,112 @@
 [
   {
+    "arxiv_id": "2512.23328",
+    "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
+    "authors": [
+      "Huan-ang Gao",
+      "Zikang Zhang",
+      "Tianwei Luo",
+      "Kaisen Yang",
+      "Xinzhe Juan",
+      "Jiahao Qiu",
+      "Tianxing Chen",
+      "Bingxiang He",
+      "Hao Zhao",
+      "Hao Zhou",
+      "Shilong Liu",
+      "Mengdi Wang"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23328",
+    "abstract": "Large Language Model (LLM) agents, while proficient in the digital realm, face a significant gap in physical-world deployment due to the challenge of forming and maintaining a robust spatial mental model. We identify three core cognitive challenges hindering this transition: spatial reasoning, long-",
+    "file": "cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md"
+  },
+  {
+    "arxiv_id": "2512.23329",
+    "title": "Deep learning for pedestrians: backpropagation in Transformers",
+    "authors": [
+      "Laurent Bou\u00e9"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.23329",
+    "abstract": "This document is a follow-up to our previous paper dedicated to a vectorized derivation of backpropagation in CNNs. Following the same principles and notations already put in place there, we now focus on transformer-based next-token-prediction architectures. To this end, we apply our lightweight ind",
+    "file": "cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md"
+  },
+  {
+    "arxiv_id": "2512.23333",
+    "title": "CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation",
+    "authors": [
+      "Ke Niu",
+      "Haiyang Yu",
+      "Zhuofan Chen",
+      "Zhengtao Yao",
+      "Weitao Jia",
+      "Xiaodong Ge",
+      "Jingqun Tang",
+      "Benlei Cui",
+      "Bin Li",
+      "Xiangyang Xue"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23333",
+    "abstract": "Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no",
+    "file": "cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md"
+  },
+  {
+    "arxiv_id": "2512.23312",
+    "title": "Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants",
+    "authors": [
+      "Sheng-Kai Chen",
+      "Yi-Ling Tsai",
+      "Chun-Chih Chang",
+      "Yan-Chen Chen",
+      "Po-Chiang Lin"
+    ],
+    "date": "2025-12-29",
+    "field": "other",
+    "tags": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.23312",
+    "abstract": "Deep neural networks have accelerated inverse-kinematics (IK) inference to the point where low cost manipulators can execute complex trajectories in real time, yet the opaque nature of these models contradicts the transparency and safety requirements emerging in responsible AI regulation. This study",
+    "file": "other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md"
+  },
+  {
+    "arxiv_id": "2512.23318",
+    "title": "PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering",
+    "authors": [
+      "Sheng-Kai Chen",
+      "Jie-Yu Chao",
+      "Jr-Yu Chang",
+      "Po-Lien Wu",
+      "Po-Chiang Lin"
+    ],
+    "date": "2025-12-29",
+    "field": "other",
+    "tags": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23318",
+    "abstract": "Visual Simultaneous Localization and Mapping (vSLAM) systems encounter substantial challenges in dynamic environments where moving objects compromise tracking accuracy and map consistency. This paper introduces PCR-ORB (Point Cloud Refinement ORB), an enhanced ORB-SLAM3 framework that integrates dee",
+    "file": "other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md"
+  },
+  {
     "arxiv_id": "2512.21280",
     "title": "SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance",
     "authors": [
