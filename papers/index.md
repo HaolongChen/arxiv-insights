@@ -4,27 +4,52 @@
 
 ## Statistics
 
-- **Total Papers**: 155
-- **Unique Authors**: 940
+- **Total Papers**: 160
+- **Unique Authors**: 976
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-30 02:03:39
+- **Last Updated**: 2025-12-30 08:35:54
 
 ## Latest Papers
+
+### [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md)
+**Panagiotis Theocharopoulos, Ajinkya Kulkarni, Mathew Magimai. -Doss** · arXiv:2512.23684 · 2025-12-29 · `cs-ai`
+
+Large language models (LLMs) are increasingly considered for use in high-impact workflows, including academic peer review. However, LLMs are vulnerable to document-level hidden prompt injection attacks. In this work, we construct a dataset of approximately 500 real academic papers accepted to ICML a...
 
 ### [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md)
 **Huan-ang Gao, Zikang Zhang, Tianwei Luo et al.** · arXiv:2512.23328 · 2025-12-29 · `cs-ai`
 
 Large Language Model (LLM) agents, while proficient in the digital realm, face a significant gap in physical-world deployment due to the challenge of forming and maintaining a robust spatial mental model. We identify three core cognitive challenges hindering this transition: spatial reasoning, long-...
 
+### [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md)
+**Jing Huang, Shujian Zhang, Lun Wang et al.** · arXiv:2512.23701 · 2025-12-29 · `cs-ai`
+
+Identifying specific and often complex behaviors from large language models (LLMs) in conversational settings is crucial for their evaluation. Recent work proposes novel techniques to find natural language prompts that induce specific behaviors from a target model, yet they are mainly studied in sin...
+
 ### [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md)
 **Laurent Boué** · arXiv:2512.23329 · 2025-12-29 · `cs-lg`
 
 This document is a follow-up to our previous paper dedicated to a vectorized derivation of backpropagation in CNNs. Following the same principles and notations already put in place there, we now focus on transformer-based next-token-prediction architectures. To this end, we apply our lightweight ind...
 
+### [Training AI Co-Scientists Using Rubric Rewards](/cs/lg/2512.23707-training-ai-co-scientists-using-rubric-rewards.md)
+**Shashwat Goel, Rishi Hazra, Dulhan Jayalath et al.** · arXiv:2512.23707 · 2025-12-29 · `cs-lg`
+
+AI co-scientists are emerging as a tool to assist human researchers in achieving their research goals. A crucial feature of these AI co-scientists is the ability to generate a research plan given a set of aims and constraints. The plan may be used by researchers for brainstorming, or may even be imp...
+
+### [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md)
+**Shaocong Xu, Songlin Wei, Qizhe Wei et al.** · arXiv:2512.23705 · 2025-12-29 · `cs-cv`
+
+Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models a...
+
 ### [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md)
 **Ke Niu, Haiyang Yu, Zhuofan Chen et al.** · arXiv:2512.23333 · 2025-12-29 · `cs-cv`
 
 Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no...
+
+### [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md)
+**Lars van der Laan, Nathan Kallus** · arXiv:2512.23694 · 2025-12-29 · `other`
+
+We introduce Iterated Bellman Calibration, a simple, model-agnostic, post-hoc procedure for calibrating off-policy value predictions in infinite-horizon Markov decision processes. Bellman calibration requires that states with similar predicted long-term returns exhibit one-step returns consistent wi...
 
 ### [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md)
 **Sheng-Kai Chen, Yi-Ling Tsai, Chun-Chih Chang et al.** · arXiv:2512.23312 · 2025-12-29 · `other`
@@ -86,38 +111,15 @@ Modern deep learning methods typically treat image sequences as large tensors of
 
 Controllability is a fundamental requirement in video synthesis, where accurate alignment with conditioning signals is essential. Existing classifier-free guidance methods typically achieve conditioning indirectly by modeling the joint distribution of data and conditions, which often results in limi...
 
-### [Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential](/cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md)
-**Shihao Zou, Jingjing Li, Wei Ji et al.** · arXiv:2512.21284 · 2025-12-24 · `cs-cv`
-
-Modern surgical systems increasingly rely on intelligent scene understanding to provide timely situational awareness for enhanced intra-operative safety. Within this pipeline, surgical scene segmentation plays a central role in accurately perceiving operative events. Although recent deep learning mo...
-
-### [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md)
-**Suren Bandara** · arXiv:2512.21287 · 2025-12-24 · `cs-cv`
-
-Structured data extraction from tables plays a crucial role in document image analysis for scanned documents and digital archives. Although many methods have been proposed to detect table structures and extract cell contents, accurately identifying table segment boundaries (rows and columns) remains...
-
-### [DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation](/cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md)
-**Jiawei Liu, Junqiao Li, Jiangfan Deng et al.** · arXiv:2512.21252 · 2025-12-24 · `cs-cv`
-
-The "one-shot" technique represents a distinct and sophisticated aesthetic in filmmaking. However, its practical realization is often hindered by prohibitive costs and complex real-world constraints. Although emerging video generation models offer a virtual alternative, existing approaches typically...
-
-### [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md)
-**Ali Merali** · arXiv:2512.21316 · 2025-12-24 · `other`
-
-This paper derives `Scaling Laws for Economic Impacts' -- empirical relationships between the training compute of Large Language Models (LLMs) and professional productivity. In a preregistered experiment, over 500 consultants, data analysts, and managers completed professional tasks using one of 13 ...
-
-### [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md)
-**Mohammed Latif Siddiq, Natalie Sekerak, Antonio Karam et al.** · arXiv:2512.21238 · 2025-12-24 · `other`
-
-Large language models (LLMs) are increasingly used in software development, but their level of software security expertise remains unclear. This work systematically evaluates the security comprehension of five leading LLMs: GPT-4o-Mini, GPT-5-Mini, Gemini-2.5-Flash, Llama-3.1, and Qwen-2.5, using Bl...
-
 
 ## By Field
 
 
-### CS-AI (37 papers)
+### CS-AI (39 papers)
 
+- [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
+- [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md) - arXiv:2512.23701
 - [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
 - [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md) - arXiv:2512.21323
@@ -125,11 +127,10 @@ Large language models (LLMs) are increasingly used in software development, but 
 - [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
 - [Distilling to Hybrid Attention Models via KL-Guided Layer Selection](/cs/ai/2512.20569-distilling-to-hybrid-attention-models-via-kl-guide.md) - arXiv:2512.20569
 - [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](/cs/ai/2512.20578-can-llms-predict-their-own-failures-self-awarenes.md) - arXiv:2512.20578
-- [Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs](/cs/ai/2512.20595-cube-bench-a-benchmark-for-spatial-visual-reasoni.md) - arXiv:2512.20595
-- [LongVideoAgent: Multi-Agent Reasoning with Long Videos](/cs/ai/2512.20618-longvideoagent-multi-agent-reasoning-with-long-vi.md) - arXiv:2512.20618
 
-### CS-CV (63 papers)
+### CS-CV (64 papers)
 
+- [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md) - arXiv:2512.23705
 - [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md) - arXiv:2512.23333
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
@@ -139,11 +140,11 @@ Large language models (LLMs) are increasingly used in software development, but 
 - [Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Time Potential](/cs/cv/2512.21284-surgical-scene-segmentation-using-a-spike-driven-v.md) - arXiv:2512.21284
 - [Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction](/cs/cv/2512.21287-post-processing-mask-based-table-segmentation-for.md) - arXiv:2512.21287
 - [DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation](/cs/cv/2512.21252-dreamontage-arbitrary-frame-guided-one-shot-video.md) - arXiv:2512.21252
-- [Repurposing Video Diffusion Transformers for Robust Point Tracking](/cs/cv/2512.20606-repurposing-video-diffusion-transformers-for-robus.md) - arXiv:2512.20606
 
-### CS-LG (31 papers)
+### CS-LG (32 papers)
 
 - [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md) - arXiv:2512.23329
+- [Training AI Co-Scientists Using Rubric Rewards](/cs/lg/2512.23707-training-ai-co-scientists-using-rubric-rewards.md) - arXiv:2512.23707
 - [Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Level Tasks](/cs/lg/2512.21315-does-the-data-processing-inequality-reflect-practi.md) - arXiv:2512.21315
 - [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
 - [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md) - arXiv:2512.20573
@@ -152,10 +153,10 @@ Large language models (LLMs) are increasingly used in software development, but 
 - [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](/cs/lg/2512.20576-performative-policy-gradient-optimality-in-perfor.md) - arXiv:2512.20576
 - [Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies](/cs/lg/2512.19673-bottom-up-policy-optimization-your-language-model.md) - arXiv:2512.19673
 - [When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models](/cs/lg/2512.18934-when-less-is-more-8-bit-quantization-improves-con.md) - arXiv:2512.18934
-- [Deep Legendre Transform](/cs/lg/2512.19649-deep-legendre-transform.md) - arXiv:2512.19649
 
-### OTHER (24 papers)
+### OTHER (25 papers)
 
+- [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
 - [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md) - arXiv:2512.23312
 - [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md) - arXiv:2512.23318
 - [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md) - arXiv:2512.21316
@@ -165,7 +166,6 @@ Large language models (LLMs) are increasingly used in software development, but 
 - [ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling](/other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md) - arXiv:2512.21257
 - [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](/other/2512.21319-variationally-correct-operator-learning-reduced-b.md) - arXiv:2512.21319
 - [Autonomous Uncertainty Quantification for Computational Point-of-care Sensors](/other/2512.21335-autonomous-uncertainty-quantification-for-computat.md) - arXiv:2512.21335
-- [Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information](/other/2512.20589-leveraging-high-fidelity-digital-models-and-reinfo.md) - arXiv:2512.20589
 
 ---
 
