@@ -18,6 +18,31 @@
     "file": "cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md"
   },
   {
+    "arxiv_id": "2512.23611",
+    "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+    "authors": [
+      "Yuwen Li",
+      "Wei Zhang",
+      "Zelong Huang",
+      "Mason Yang",
+      "Jiajun Wu",
+      "Shawn Guo",
+      "Huahao Hu",
+      "Lingyi Sun",
+      "Jian Yang",
+      "Mingjie Tang",
+      "Byran Dai"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.23611",
+    "abstract": "Enabling Large Language Models (LLMs) to reliably invoke external tools remains a critical bottleneck for autonomous agents. Existing approaches suffer from three fundamental challenges: expensive human annotation for high-quality trajectories, poor generalization to unseen tools, and quality ceilin",
+    "file": "cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md"
+  },
+  {
     "arxiv_id": "2512.23328",
     "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
     "authors": [
@@ -83,6 +108,22 @@
     "url": "https://arxiv.org/abs/2512.23624",
     "abstract": "We present NeuroSPICE, a physics-informed neural network (PINN) framework for device and circuit simulation. Unlike conventional SPICE, which relies on time-discretized numerical solvers, NeuroSPICE leverages PINNs to solve circuit differential-algebraic equations (DAEs) by minimizing the residual o",
     "file": "cs/ai/2512.23624-physics-informed-neural-networks-for-device-and-ci.md"
+  },
+  {
+    "arxiv_id": "2512.23601",
+    "title": "Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation",
+    "authors": [
+      "Manh Hung Nguyen",
+      "Adish Singla"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.23601",
+    "abstract": "Large language models (LLMs) have significant potential for generating educational questions and problems, enabling educators to create large-scale learning materials. However, LLMs are fundamentally limited by the ``Artificial Hivemind'' effect, where they generate similar responses within the same",
+    "file": "cs/ai/2512.23601-divergent-convergent-thinking-in-large-language-mo.md"
   },
   {
     "arxiv_id": "2512.23701",
@@ -218,6 +259,27 @@
     "file": "cs/lg/2512.23631-boad-discovering-hierarchical-software-engineerin.md"
   },
   {
+    "arxiv_id": "2512.23576",
+    "title": "LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation",
+    "authors": [
+      "Ethan Chern",
+      "Zhulin Hu",
+      "Bohao Tang",
+      "Jiadi Su",
+      "Steffi Chern",
+      "Zhijie Deng",
+      "Pengfei Liu"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.23576",
+    "abstract": "Real-time video generation via diffusion is essential for building general-purpose multimodal interactive AI systems. However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction. While existing disti",
+    "file": "cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md"
+  },
+  {
     "arxiv_id": "2512.23628",
     "title": "Memorization in 3D Shape Generation: An Empirical Study",
     "authors": [
@@ -289,6 +351,24 @@
     "url": "https://arxiv.org/abs/2512.23333",
     "abstract": "Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no",
     "file": "cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md"
+  },
+  {
+    "arxiv_id": "2512.23597",
+    "title": "Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging",
+    "authors": [
+      "Janani Annur Thiruvengadam",
+      "Kiran Mayee Nabigaru",
+      "Anusha Kovi"
+    ],
+    "date": "2025-12-29",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.IR"
+    ],
+    "url": "https://arxiv.org/abs/2512.23597",
+    "abstract": "The early detection of pancreatic neoplasm is a major clinical dilemma, and it is predominantly so because tumors are likely to occur with minimal contrast margins and a large spread anatomy-wide variation amongst patients on a CT scan. These complexities require to be addressed with an effective an",
+    "file": "cs/cv/2512.23597-scalable-residual-feature-aggregation-framework-wi.md"
   },
   {
     "arxiv_id": "2512.23646",
@@ -363,6 +443,23 @@
     "url": "https://arxiv.org/abs/2512.23694",
     "abstract": "We introduce Iterated Bellman Calibration, a simple, model-agnostic, post-hoc procedure for calibrating off-policy value predictions in infinite-horizon Markov decision processes. Bellman calibration requires that states with similar predicted long-term returns exhibit one-step returns consistent wi",
     "file": "other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md"
+  },
+  {
+    "arxiv_id": "2512.23609",
+    "title": "The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentiment on Weibo and Xiaohongshu",
+    "authors": [
+      "Frank Tian-Fang Ye",
+      "Xiaozi Gao"
+    ],
+    "date": "2025-12-29",
+    "field": "other",
+    "tags": [
+      "econ.GN",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.23609",
+    "abstract": "China's marriage registrations have declined dramatically, dropping from 13.47 million couples in 2013 to 6.1 million in 2024. Understanding public attitudes toward marriage requires examining not only emotional sentiment but also the moral reasoning underlying these evaluations. This study analyzed",
+    "file": "other/2512.23609-the-big-three-in-marriage-talk-llm-assisted-analy.md"
   },
   {
     "arxiv_id": "2512.23312",

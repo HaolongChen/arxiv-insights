@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 170
-- **Unique Authors**: 1055
+- **Total Papers**: 175
+- **Unique Authors**: 1078
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-31 02:03:57
+- **Last Updated**: 2025-12-31 08:35:44
 
 ## Latest Papers
 
@@ -15,6 +15,11 @@
 **Panagiotis Theocharopoulos, Ajinkya Kulkarni, Mathew Magimai. -Doss** · arXiv:2512.23684 · 2025-12-29 · `cs-ai`
 
 Large language models (LLMs) are increasingly considered for use in high-impact workflows, including academic peer review. However, LLMs are vulnerable to document-level hidden prompt injection attacks. In this work, we construct a dataset of approximately 500 real academic papers accepted to ICML a...
+
+### [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md)
+**Yuwen Li, Wei Zhang, Zelong Huang et al.** · arXiv:2512.23611 · 2025-12-29 · `cs-ai`
+
+Enabling Large Language Models (LLMs) to reliably invoke external tools remains a critical bottleneck for autonomous agents. Existing approaches suffer from three fundamental challenges: expensive human annotation for high-quality trajectories, poor generalization to unseen tools, and quality ceilin...
 
 ### [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md)
 **Huan-ang Gao, Zikang Zhang, Tianwei Luo et al.** · arXiv:2512.23328 · 2025-12-29 · `cs-ai`
@@ -30,6 +35,11 @@ Language agents increasingly require persistent worlds in which they can act, re
 **Chien-Ting Tung, Chenming Hu** · arXiv:2512.23624 · 2025-12-29 · `cs-ai`
 
 We present NeuroSPICE, a physics-informed neural network (PINN) framework for device and circuit simulation. Unlike conventional SPICE, which relies on time-discretized numerical solvers, NeuroSPICE leverages PINNs to solve circuit differential-algebraic equations (DAEs) by minimizing the residual o...
+
+### [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](/cs/ai/2512.23601-divergent-convergent-thinking-in-large-language-mo.md)
+**Manh Hung Nguyen, Adish Singla** · arXiv:2512.23601 · 2025-12-29 · `cs-ai`
+
+Large language models (LLMs) have significant potential for generating educational questions and problems, enabling educators to create large-scale learning materials. However, LLMs are fundamentally limited by the ``Artificial Hivemind'' effect, where they generate similar responses within the same...
 
 ### [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md)
 **Jing Huang, Shujian Zhang, Lun Wang et al.** · arXiv:2512.23701 · 2025-12-29 · `cs-ai`
@@ -61,6 +71,11 @@ AI co-scientists are emerging as a tool to assist human researchers in achieving
 
 Large language models (LLMs) have shown strong reasoning and coding capabilities, yet they struggle to generalize to real-world software engineering (SWE) problems that are long-horizon and out of distribution. Existing systems often rely on a single agent to handle the entire workflow-interpreting ...
 
+### [LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation](/cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md)
+**Ethan Chern, Zhulin Hu, Bohao Tang et al.** · arXiv:2512.23576 · 2025-12-29 · `cs-cv`
+
+Real-time video generation via diffusion is essential for building general-purpose multimodal interactive AI systems. However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction. While existing disti...
+
 ### [Memorization in 3D Shape Generation: An Empirical Study](/cs/cv/2512.23628-memorization-in-3d-shape-generation-an-empirical.md)
 **Shu Pu, Boya Zeng, Kaichen Zhou et al.** · arXiv:2512.23628 · 2025-12-29 · `cs-cv`
 
@@ -75,6 +90,11 @@ Transparent objects remain notoriously hard for perception systems: refraction, 
 **Ke Niu, Haiyang Yu, Zhuofan Chen et al.** · arXiv:2512.23333 · 2025-12-29 · `cs-cv`
 
 Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no...
+
+### [Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging](/cs/cv/2512.23597-scalable-residual-feature-aggregation-framework-wi.md)
+**Janani Annur Thiruvengadam, Kiran Mayee Nabigaru, Anusha Kovi** · arXiv:2512.23597 · 2025-12-29 · `cs-cv`
+
+The early detection of pancreatic neoplasm is a major clinical dilemma, and it is predominantly so because tumors are likely to occur with minimal contrast margins and a large spread anatomy-wide variation amongst patients on a CT scan. These complexities require to be addressed with an effective an...
 
 ### [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md)
 **Keda Tao, Wenjie Du, Bohan Yu et al.** · arXiv:2512.23646 · 2025-12-29 · `cs-cv`
@@ -91,55 +111,35 @@ Intrinsic image decomposition is fundamental for visual understanding, as RGB im
 
 We present a theory for simultaneous approximation of the score function and its derivatives, enabling the handling of data distributions with low-dimensional structure and unbounded support. Our approximation error bounds match those in the literature while relying on assumptions that relax the usu...
 
-### [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md)
-**Lars van der Laan, Nathan Kallus** · arXiv:2512.23694 · 2025-12-29 · `other`
-
-We introduce Iterated Bellman Calibration, a simple, model-agnostic, post-hoc procedure for calibrating off-policy value predictions in infinite-horizon Markov decision processes. Bellman calibration requires that states with similar predicted long-term returns exhibit one-step returns consistent wi...
-
-### [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md)
-**Sheng-Kai Chen, Yi-Ling Tsai, Chun-Chih Chang et al.** · arXiv:2512.23312 · 2025-12-29 · `other`
-
-Deep neural networks have accelerated inverse-kinematics (IK) inference to the point where low cost manipulators can execute complex trajectories in real time, yet the opaque nature of these models contradicts the transparency and safety requirements emerging in responsible AI regulation. This study...
-
-### [AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms](/other/2512.23633-ai-tutoring-can-safely-and-effectively-support-stu.md)
-**LearnLM Team, Eedi, : et al.** · arXiv:2512.23633 · 2025-12-29 · `other`
-
-One-to-one tutoring is widely considered the gold standard for personalized education, yet it remains prohibitively expensive to scale. To evaluate whether generative AI might help expand access to this resource, we conducted an exploratory randomized controlled trial (RCT) with $N = 165$ students a...
-
-### [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md)
-**Sheng-Kai Chen, Jie-Yu Chao, Jr-Yu Chang et al.** · arXiv:2512.23318 · 2025-12-29 · `other`
-
-Visual Simultaneous Localization and Mapping (vSLAM) systems encounter substantial challenges in dynamic environments where moving objects compromise tracking accuracy and map consistency. This paper introduces PCR-ORB (Point Cloud Refinement ORB), an enhanced ORB-SLAM3 framework that integrates dee...
-
 
 ## By Field
 
 
-### CS-AI (41 papers)
+### CS-AI (43 papers)
 
 - [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
+- [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md) - arXiv:2512.23611
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
 - [Web World Models](/cs/ai/2512.23676-web-world-models.md) - arXiv:2512.23676
 - [Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study of NeuroSPICE](/cs/ai/2512.23624-physics-informed-neural-networks-for-device-and-ci.md) - arXiv:2512.23624
+- [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](/cs/ai/2512.23601-divergent-convergent-thinking-in-large-language-mo.md) - arXiv:2512.23601
 - [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md) - arXiv:2512.23701
 - [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
 - [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md) - arXiv:2512.21323
-- [C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling](/cs/ai/2512.21332-c2llm-technical-report-a-new-frontier-in-code-ret.md) - arXiv:2512.21332
-- [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](/cs/ai/2512.20586-automated-stereotactic-radiosurgery-planning-using.md) - arXiv:2512.20586
 
-### CS-CV (67 papers)
+### CS-CV (69 papers)
 
+- [LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation](/cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md) - arXiv:2512.23576
 - [Memorization in 3D Shape Generation: An Empirical Study](/cs/cv/2512.23628-memorization-in-3d-shape-generation-an-empirical.md) - arXiv:2512.23628
 - [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md) - arXiv:2512.23705
 - [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md) - arXiv:2512.23333
+- [Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging](/cs/cv/2512.23597-scalable-residual-feature-aggregation-framework-wi.md) - arXiv:2512.23597
 - [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md) - arXiv:2512.23646
 - [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md) - arXiv:2512.23667
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
 - [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
-- [GriDiT: Factorized Grid-Based Diffusion for Efficient Long Image Sequence Generation](/cs/cv/2512.21276-gridit-factorized-grid-based-diffusion-for-effici.md) - arXiv:2512.21276
-- [ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision](/cs/cv/2512.21268-acd-direct-conditional-control-for-video-diffusio.md) - arXiv:2512.21268
 
 ### CS-LG (35 papers)
 
@@ -154,10 +154,11 @@ Visual Simultaneous Localization and Mapping (vSLAM) systems encounter substanti
 - [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md) - arXiv:2512.20605
 - [Relu and softplus neural nets as zero-sum turn-based games](/cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md) - arXiv:2512.20582
 
-### OTHER (27 papers)
+### OTHER (28 papers)
 
 - [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 - [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
+- [The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentiment on Weibo and Xiaohongshu](/other/2512.23609-the-big-three-in-marriage-talk-llm-assisted-analy.md) - arXiv:2512.23609
 - [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md) - arXiv:2512.23312
 - [AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms](/other/2512.23633-ai-tutoring-can-safely-and-effectively-support-stu.md) - arXiv:2512.23633
 - [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md) - arXiv:2512.23318
@@ -165,7 +166,6 @@ Visual Simultaneous Localization and Mapping (vSLAM) systems encounter substanti
 - [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md) - arXiv:2512.21238
 - [LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation](/other/2512.21243-lookplangraph-embodied-instruction-following-meth.md) - arXiv:2512.21243
 - [Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking](/other/2512.21236-casting-a-spell-sentence-pairing-exploration-for.md) - arXiv:2512.21236
-- [ReaSeq: Unleashing World Knowledge via Reasoning for Sequential Modeling](/other/2512.21257-reaseq-unleashing-world-knowledge-via-reasoning-f.md) - arXiv:2512.21257
 
 ---
 
