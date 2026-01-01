@@ -81,6 +81,67 @@
     "file": "cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md"
   },
   {
+    "arxiv_id": "2512.25063",
+    "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+    "authors": [
+      "Diji Yang",
+      "Yi Zhang"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.25063",
+    "abstract": "Despite their scale and success, modern transformers are almost universally trained as single-minded systems: optimization produces one deterministic set of parameters, representing a single functional hypothesis about the data. Motivated by the idea that intelligence emerge from many minds, we prop",
+    "file": "cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md"
+  },
+  {
+    "arxiv_id": "2512.25070",
+    "title": "Scaling Open-Ended Reasoning to Predict the Future",
+    "authors": [
+      "Nikhil Chandak",
+      "Shashwat Goel",
+      "Ameya Prabhu",
+      "Moritz Hardt",
+      "Jonas Geiping"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.25070",
+    "abstract": "High-stakes decision making involves reasoning under uncertainty about the future. In this work, we train language models to make predictions on open-ended forecasting questions. To scale up training data, we synthesize novel forecasting questions from global events reported in daily news, using a f",
+    "file": "cs/lg/2512.25070-scaling-open-ended-reasoning-to-predict-the-future.md"
+  },
+  {
+    "arxiv_id": "2512.25066",
+    "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+    "authors": [
+      "Xu He",
+      "Haoxian Zhang",
+      "Hejia Chen",
+      "Changyuan Zheng",
+      "Liyang Chen",
+      "Songlin Tang",
+      "Jiehui Huang",
+      "Xiaoqiang Liu",
+      "Pengfei Wan",
+      "Zhiyong Wu"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.25066",
+    "abstract": "Audio-driven visual dubbing aims to synchronize a video's lip movements with new speech, but is fundamentally challenged by the lack of ideal training data: paired videos where only a subject's lip movements differ while all other visual conditions are identical. Existing methods circumvent this wit",
+    "file": "cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md"
+  },
+  {
     "arxiv_id": "2512.24702",
     "title": "Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting",
     "authors": [
@@ -100,6 +161,50 @@
     "url": "https://arxiv.org/abs/2512.24702",
     "abstract": "Reasoning Segmentation requires models to interpret complex, context-dependent linguistic queries to achieve pixel-level localization. Current dominant approaches rely heavily on Supervised Fine-Tuning (SFT) or Reinforcement Learning (RL). However, SFT suffers from catastrophic forgetting and domain",
     "file": "cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md"
+  },
+  {
+    "arxiv_id": "2512.25075",
+    "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+    "authors": [
+      "Zhening Huang",
+      "Hyeonho Jeong",
+      "Xuelin Chen",
+      "Yulia Gryaditskaya",
+      "Tuanfeng Y. Wang",
+      "Joan Lasenby",
+      "Chun-Hao Huang"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2512.25075",
+    "abstract": "We present SpaceTimePilot, a video diffusion model that disentangles space and time for controllable generative rendering. Given a monocular video, SpaceTimePilot can independently alter the camera viewpoint and the motion sequence within the generative process, re-rendering the scene for continuous",
+    "file": "cs/cv/2512.25075-spacetimepilot-generative-rendering-of-dynamic-sc.md"
+  },
+  {
+    "arxiv_id": "2512.25065",
+    "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+    "authors": [
+      "Rohit Dwivedula",
+      "Divyanshu Saxena",
+      "Sujay Yadalam",
+      "Daehyeok Kim",
+      "Aditya Akella"
+    ],
+    "date": "2025-12-31",
+    "field": "other",
+    "tags": [
+      "cs.OS",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "url": "https://arxiv.org/abs/2512.25065",
+    "abstract": "Resource-management tasks in modern operating and distributed systems continue to rely primarily on hand-designed heuristics for tasks such as scheduling, caching, or active queue management. Designing performant heuristics is an expensive, time-consuming process that we are forced to continuously g",
+    "file": "other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md"
   },
   {
     "arxiv_id": "2512.23684",
