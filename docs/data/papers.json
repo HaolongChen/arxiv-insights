@@ -1,5 +1,107 @@
 [
   {
+    "arxiv_id": "2512.24733",
+    "title": "BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature",
+    "authors": [
+      "Sibo Wei",
+      "Peng Chen",
+      "Lifeng Dong",
+      "Yin Luo",
+      "Lei Wang",
+      "Peng Zhang",
+      "Wenpeng Lu",
+      "Jianbin Guo",
+      "Hongjun Yang",
+      "Dajun Zeng"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.24733",
+    "abstract": "Multi-omics studies often rely on pathway enrichment to interpret heterogeneous molecular changes, but pathway enrichment (PE)-based workflows inherit structural limitations of pathway resources, including curation lag, functional redundancy, and limited sensitivity to molecular states and intervent",
+    "file": "cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md"
+  },
+  {
+    "arxiv_id": "2512.24695",
+    "title": "Nested Learning: The Illusion of Deep Learning Architectures",
+    "authors": [
+      "Ali Behrouz",
+      "Meisam Razaviyayn",
+      "Peilin Zhong",
+      "Vahab Mirrokni"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.24695",
+    "abstract": "Despite the recent progresses, particularly in developing Language Models, there are fundamental challenges and unanswered questions about how such models can continually learn/memorize, self-improve, and find effective solutions. In this paper, we present a new learning paradigm, called Nested Lear",
+    "file": "cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md"
+  },
+  {
+    "arxiv_id": "2512.24713",
+    "title": "FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference",
+    "authors": [
+      "Fen-Yu Hsieh",
+      "Yun-Chang Teng",
+      "Ding-Yong Hong",
+      "Jan-Jan Wu"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AR"
+    ],
+    "url": "https://arxiv.org/abs/2512.24713",
+    "abstract": "Large language models (LLMs) have demonstrated remarkable performance across a wide range of language processing tasks. However, this success comes at the cost of substantial computation and memory requirements, which significantly impedes their deployment in resource-constrained environments. To ad",
+    "file": "cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md"
+  },
+  {
+    "arxiv_id": "2512.24708",
+    "title": "BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework",
+    "authors": [
+      "Andr\u00e1s Millinghoffer",
+      "Andr\u00e1s Formanek",
+      "Andr\u00e1s Antos",
+      "P\u00e9ter Antal"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.24708",
+    "abstract": "The challenge of effectively transferring knowledge across multiple tasks is of critical importance and is also present in downstream tasks with foundation models. However, the nature of transfer, its transitive-intransitive nature, is still an open problem, and negative transfer remains a significa",
+    "file": "cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md"
+  },
+  {
+    "arxiv_id": "2512.24702",
+    "title": "Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting",
+    "authors": [
+      "Kai Ye",
+      "Xiaotong You",
+      "Jianghang Lin",
+      "Jiayi Ji",
+      "Pingyang Dai",
+      "Liujuan Cao"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.24702",
+    "abstract": "Reasoning Segmentation requires models to interpret complex, context-dependent linguistic queries to achieve pixel-level localization. Current dominant approaches rely heavily on Supervised Fine-Tuning (SFT) or Reinforcement Learning (RL). However, SFT suffers from catastrophic forgetting and domain",
+    "file": "cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md"
+  },
+  {
     "arxiv_id": "2512.23684",
     "title": "Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing",
     "authors": [

@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 175
-- **Unique Authors**: 1078
+- **Total Papers**: 180
+- **Unique Authors**: 1105
 - **Research Fields**: 4
-- **Last Updated**: 2025-12-31 16:32:09
+- **Last Updated**: 2026-01-01 02:20:45
 
 ## Latest Papers
+
+### [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md)
+**Sibo Wei, Peng Chen, Lifeng Dong et al.** · arXiv:2512.24733 · 2025-12-31 · `cs-ai`
+
+Multi-omics studies often rely on pathway enrichment to interpret heterogeneous molecular changes, but pathway enrichment (PE)-based workflows inherit structural limitations of pathway resources, including curation lag, functional redundancy, and limited sensitivity to molecular states and intervent...
+
+### [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md)
+**Ali Behrouz, Meisam Razaviyayn, Peilin Zhong et al.** · arXiv:2512.24695 · 2025-12-31 · `cs-lg`
+
+Despite the recent progresses, particularly in developing Language Models, there are fundamental challenges and unanswered questions about how such models can continually learn/memorize, self-improve, and find effective solutions. In this paper, we present a new learning paradigm, called Nested Lear...
+
+### [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md)
+**Fen-Yu Hsieh, Yun-Chang Teng, Ding-Yong Hong et al.** · arXiv:2512.24713 · 2025-12-31 · `cs-lg`
+
+Large language models (LLMs) have demonstrated remarkable performance across a wide range of language processing tasks. However, this success comes at the cost of substantial computation and memory requirements, which significantly impedes their deployment in resource-constrained environments. To ad...
+
+### [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md)
+**András Millinghoffer, András Formanek, András Antos et al.** · arXiv:2512.24708 · 2025-12-31 · `cs-lg`
+
+The challenge of effectively transferring knowledge across multiple tasks is of critical importance and is also present in downstream tasks with foundation models. However, the nature of transfer, its transitive-intransitive nature, is still an open problem, and negative transfer remains a significa...
+
+### [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md)
+**Kai Ye, Xiaotong You, Jianghang Lin et al.** · arXiv:2512.24702 · 2025-12-31 · `cs-cv`
+
+Reasoning Segmentation requires models to interpret complex, context-dependent linguistic queries to achieve pixel-level localization. Current dominant approaches rely heavily on Supervised Fine-Tuning (SFT) or Reinforcement Learning (RL). However, SFT suffers from catastrophic forgetting and domain...
 
 ### [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md)
 **Panagiotis Theocharopoulos, Ajinkya Kulkarni, Mathew Magimai. -Doss** · arXiv:2512.23684 · 2025-12-29 · `cs-ai`
@@ -86,37 +111,13 @@ Generative models are increasingly used in 3D vision to synthesize novel shapes,
 
 Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models a...
 
-### [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md)
-**Ke Niu, Haiyang Yu, Zhuofan Chen et al.** · arXiv:2512.23333 · 2025-12-29 · `cs-cv`
-
-Computer-Aided Design (CAD) is essential in industrial design, but the complexity of traditional CAD modeling and workflows presents significant challenges for automating the generation of high-precision, editable CAD models. Existing methods that reconstruct 3D models from sketches often produce no...
-
-### [Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging](/cs/cv/2512.23597-scalable-residual-feature-aggregation-framework-wi.md)
-**Janani Annur Thiruvengadam, Kiran Mayee Nabigaru, Anusha Kovi** · arXiv:2512.23597 · 2025-12-29 · `cs-cv`
-
-The early detection of pancreatic neoplasm is a major clinical dilemma, and it is predominantly so because tumors are likely to occur with minimal contrast margins and a large spread anatomy-wide variation amongst patients on a CT scan. These complexities require to be addressed with an effective an...
-
-### [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md)
-**Keda Tao, Wenjie Du, Bohan Yu et al.** · arXiv:2512.23646 · 2025-12-29 · `cs-cv`
-
-Omnimodal large language models have made significant strides in unifying audio and visual modalities; however, they often lack the fine-grained cross-modal understanding and have difficulty with multimodal alignment. To address these limitations, we introduce OmniAgent, a fully audio-guided active ...
-
-### [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md)
-**Kang Du, Yirui Guan, Zeyu Wang** · arXiv:2512.23667 · 2025-12-29 · `cs-cv`
-
-Intrinsic image decomposition is fundamental for visual understanding, as RGB images entangle material properties, illumination, and view-dependent effects. Recent diffusion-based methods have achieved strong results for single-view intrinsic decomposition; however, extending these approaches to mul...
-
-### [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md)
-**Konstantin Yakovlev, Nikita Puchkin** · arXiv:2512.23643 · 2025-12-29 · `other`
-
-We present a theory for simultaneous approximation of the score function and its derivatives, enabling the handling of data distributions with low-dimensional structure and unbounded support. Our approximation error bounds match those in the literature while relying on assumptions that relax the usu...
-
 
 ## By Field
 
 
-### CS-AI (43 papers)
+### CS-AI (44 papers)
 
+- [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md) - arXiv:2512.24733
 - [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 - [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md) - arXiv:2512.23611
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
@@ -126,10 +127,10 @@ We present a theory for simultaneous approximation of the score function and its
 - [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md) - arXiv:2512.23701
 - [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
 - [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
-- [Parallel Token Prediction for Language Models](/cs/ai/2512.21323-parallel-token-prediction-for-language-models.md) - arXiv:2512.21323
 
-### CS-CV (69 papers)
+### CS-CV (70 papers)
 
+- [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
 - [LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation](/cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md) - arXiv:2512.23576
 - [Memorization in 3D Shape Generation: An Empirical Study](/cs/cv/2512.23628-memorization-in-3d-shape-generation-an-empirical.md) - arXiv:2512.23628
 - [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md) - arXiv:2512.23705
@@ -139,10 +140,12 @@ We present a theory for simultaneous approximation of the score function and its
 - [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md) - arXiv:2512.23667
 - [TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning](/cs/cv/2512.21331-ticon-a-slide-level-tile-contextualizer-for-histo.md) - arXiv:2512.21331
 - [HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming](/cs/cv/2512.21338-histream-efficient-high-resolution-video-generati.md) - arXiv:2512.21338
-- [Fast SAM2 with Text-Driven Token Pruning](/cs/cv/2512.21333-fast-sam2-with-text-driven-token-pruning.md) - arXiv:2512.21333
 
-### CS-LG (35 papers)
+### CS-LG (38 papers)
 
+- [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
+- [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
+- [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md) - arXiv:2512.24708
 - [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md) - arXiv:2512.23675
 - [Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning](/cs/lg/2512.23617-le-cam-distortion-a-decision-theoretic-framework.md) - arXiv:2512.23617
 - [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md) - arXiv:2512.23329
@@ -150,9 +153,6 @@ We present a theory for simultaneous approximation of the score function and its
 - [BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization](/cs/lg/2512.23631-boad-discovering-hierarchical-software-engineerin.md) - arXiv:2512.23631
 - [Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Level Tasks](/cs/lg/2512.21315-does-the-data-processing-inequality-reflect-practi.md) - arXiv:2512.21315
 - [Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures](/cs/lg/2512.20607-saddle-to-saddle-dynamics-explains-a-simplicity-bi.md) - arXiv:2512.20607
-- [Fail Fast, Win Big: Rethinking the Drafting Strategy in Speculative Decoding via Diffusion LLMs](/cs/lg/2512.20573-fail-fast-win-big-rethinking-the-drafting-strate.md) - arXiv:2512.20573
-- [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](/cs/lg/2512.20605-emergent-temporal-abstractions-in-autoregressive-m.md) - arXiv:2512.20605
-- [Relu and softplus neural nets as zero-sum turn-based games](/cs/lg/2512.20582-relu-and-softplus-neural-nets-as-zero-sum-turn-bas.md) - arXiv:2512.20582
 
 ### OTHER (28 papers)
 
