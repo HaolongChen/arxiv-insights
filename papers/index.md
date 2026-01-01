@@ -4,12 +4,22 @@
 
 ## Statistics
 
-- **Total Papers**: 185
-- **Unique Authors**: 1131
+- **Total Papers**: 190
+- **Unique Authors**: 1149
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-01 08:35:09
+- **Last Updated**: 2026-01-01 16:33:25
 
 ## Latest Papers
+
+### [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md)
+**Tianzhi He, Farrokh Jazizadeh** · arXiv:2512.25055 · 2025-12-31 · `cs-ai`
+
+This study presents a conceptual framework and a prototype assessment for Large Language Model (LLM)-based Building Energy Management System (BEMS) AI agents to facilitate context-aware energy management in smart buildings through natural language interaction. The proposed framework comprises three ...
+
+### [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md)
+**Nasim Borazjanizadeh, James McClelland** · arXiv:2512.25026 · 2025-12-31 · `cs-ai`
+
+Transformer language models can generate strikingly natural text by modeling language as a sequence of tokens. Yet, by relying primarily on surface-level co-occurrence statistics, they fail to form globally consistent latent representations of entities and events, lack of which contributes to brittl...
 
 ### [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md)
 **Sibo Wei, Peng Chen, Lifeng Dong et al.** · arXiv:2512.24733 · 2025-12-31 · `cs-ai`
@@ -25,6 +35,16 @@ Despite the recent progresses, particularly in developing Language Models, there
 **Fen-Yu Hsieh, Yun-Chang Teng, Ding-Yong Hong et al.** · arXiv:2512.24713 · 2025-12-31 · `cs-lg`
 
 Large language models (LLMs) have demonstrated remarkable performance across a wide range of language processing tasks. However, this success comes at the cost of substantial computation and memory requirements, which significantly impedes their deployment in resource-constrained environments. To ad...
+
+### [On the geometry and topology of representations: the manifolds of modular addition](/cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md)
+**Gabriela Moisescu-Pareja, Gavin McCracken, Harley Wiltzer et al.** · arXiv:2512.25060 · 2025-12-31 · `cs-lg`
+
+The Clock and Pizza interpretations, associated with architectures differing in either uniform or learnable attention, were introduced to argue that different architectural designs can yield distinct circuits for modular addition. In this work, we show that this is not the case, and that both unifor...
+
+### [ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](/cs/lg/2512.25023-responserank-data-efficient-reward-modeling-throu.md)
+**Timo Kaufmann, Yannick Metz, Daniel Keim et al.** · arXiv:2512.25023 · 2025-12-31 · `cs-lg`
+
+Binary choices, as often used for reinforcement learning from human feedback (RLHF), convey only the direction of a preference. A person may choose apples over oranges and bananas over grapes, but which preference is stronger? Strength is crucial for decision-making under uncertainty and generalizat...
 
 ### [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md)
 **András Millinghoffer, András Formanek, András Antos et al.** · arXiv:2512.24708 · 2025-12-31 · `cs-lg`
@@ -56,6 +76,11 @@ Reasoning Segmentation requires models to interpret complex, context-dependent l
 
 We present SpaceTimePilot, a video diffusion model that disentangles space and time for controllable generative rendering. Given a monocular video, SpaceTimePilot can independently alter the camera viewpoint and the motion sequence within the generative process, re-rendering the scene for continuous...
 
+### [Convergence of the generalization error for deep gradient flow methods for PDEs](/other/2512.25017-convergence-of-the-generalization-error-for-deep-g.md)
+**Chenguang Liu, Antonis Papapantoleon, Jasper Rou** · arXiv:2512.25017 · 2025-12-31 · `other`
+
+The aim of this article is to provide a firm mathematical foundation for the application of deep gradient flow methods (DGFMs) for the solution of (high-dimensional) partial differential equations (PDEs). We decompose the generalization error of DGFMs into an approximation and a training error. We f...
+
 ### [Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search](/other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md)
 **Rohit Dwivedula, Divyanshu Saxena, Sujay Yadalam et al.** · arXiv:2512.25065 · 2025-12-31 · `other`
 
@@ -86,37 +111,14 @@ Language agents increasingly require persistent worlds in which they can act, re
 
 We present NeuroSPICE, a physics-informed neural network (PINN) framework for device and circuit simulation. Unlike conventional SPICE, which relies on time-discretized numerical solvers, NeuroSPICE leverages PINNs to solve circuit differential-algebraic equations (DAEs) by minimizing the residual o...
 
-### [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](/cs/ai/2512.23601-divergent-convergent-thinking-in-large-language-mo.md)
-**Manh Hung Nguyen, Adish Singla** · arXiv:2512.23601 · 2025-12-29 · `cs-ai`
-
-Large language models (LLMs) have significant potential for generating educational questions and problems, enabling educators to create large-scale learning materials. However, LLMs are fundamentally limited by the ``Artificial Hivemind'' effect, where they generate similar responses within the same...
-
-### [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md)
-**Jing Huang, Shujian Zhang, Lun Wang et al.** · arXiv:2512.23701 · 2025-12-29 · `cs-ai`
-
-Identifying specific and often complex behaviors from large language models (LLMs) in conversational settings is crucial for their evaluation. Recent work proposes novel techniques to find natural language prompts that induce specific behaviors from a target model, yet they are mainly studied in sin...
-
-### [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md)
-**Arnuv Tandon, Karan Dalal, Xinhao Li et al.** · arXiv:2512.23675 · 2025-12-29 · `cs-lg`
-
-We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under this formulation, we only use a standard architecture -- a Transformer with sliding-window attention. However, our model continues learning at test time via next-token prediction on ...
-
-### [Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning](/cs/lg/2512.23617-le-cam-distortion-a-decision-theoretic-framework.md)
-**Deniz Akdemir** · arXiv:2512.23617 · 2025-12-29 · `cs-lg`
-
-Distribution shift is the defining challenge of real-world machine learning. The dominant paradigm--Unsupervised Domain Adaptation (UDA)--enforces feature invariance, aligning source and target representations via symmetric divergence minimization [Ganin et al., 2016]. We demonstrate that this appro...
-
-### [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md)
-**Laurent Boué** · arXiv:2512.23329 · 2025-12-29 · `cs-lg`
-
-This document is a follow-up to our previous paper dedicated to a vectorized derivation of backpropagation in CNNs. Following the same principles and notations already put in place there, we now focus on transformer-based next-token-prediction architectures. To this end, we apply our lightweight ind...
-
 
 ## By Field
 
 
-### CS-AI (44 papers)
+### CS-AI (46 papers)
 
+- [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md) - arXiv:2512.25055
+- [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md) - arXiv:2512.25026
 - [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md) - arXiv:2512.24733
 - [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 - [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md) - arXiv:2512.23611
@@ -125,8 +127,6 @@ This document is a follow-up to our previous paper dedicated to a vectorized der
 - [Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study of NeuroSPICE](/cs/ai/2512.23624-physics-informed-neural-networks-for-device-and-ci.md) - arXiv:2512.23624
 - [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](/cs/ai/2512.23601-divergent-convergent-thinking-in-large-language-mo.md) - arXiv:2512.23601
 - [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md) - arXiv:2512.23701
-- [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](/cs/ai/2512.21280-smart-slm-structured-memory-and-reasoning-transfo.md) - arXiv:2512.21280
-- [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](/cs/ai/2512.21336-optimizing-decoding-paths-in-masked-diffusion-mode.md) - arXiv:2512.21336
 
 ### CS-CV (72 papers)
 
@@ -141,21 +141,22 @@ This document is a follow-up to our previous paper dedicated to a vectorized der
 - [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md) - arXiv:2512.23646
 - [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md) - arXiv:2512.23667
 
-### CS-LG (40 papers)
+### CS-LG (42 papers)
 
 - [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
 - [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
+- [On the geometry and topology of representations: the manifolds of modular addition](/cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md) - arXiv:2512.25060
+- [ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](/cs/lg/2512.25023-responserank-data-efficient-reward-modeling-throu.md) - arXiv:2512.25023
 - [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md) - arXiv:2512.24708
 - [Many Minds from One Model: Bayesian Transformers for Population Intelligence](/cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md) - arXiv:2512.25063
 - [Scaling Open-Ended Reasoning to Predict the Future](/cs/lg/2512.25070-scaling-open-ended-reasoning-to-predict-the-future.md) - arXiv:2512.25070
 - [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md) - arXiv:2512.23675
 - [Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning](/cs/lg/2512.23617-le-cam-distortion-a-decision-theoretic-framework.md) - arXiv:2512.23617
 - [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md) - arXiv:2512.23329
-- [Training AI Co-Scientists Using Rubric Rewards](/cs/lg/2512.23707-training-ai-co-scientists-using-rubric-rewards.md) - arXiv:2512.23707
-- [BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization](/cs/lg/2512.23631-boad-discovering-hierarchical-software-engineerin.md) - arXiv:2512.23631
 
-### OTHER (29 papers)
+### OTHER (30 papers)
 
+- [Convergence of the generalization error for deep gradient flow methods for PDEs](/other/2512.25017-convergence-of-the-generalization-error-for-deep-g.md) - arXiv:2512.25017
 - [Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search](/other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md) - arXiv:2512.25065
 - [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 - [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
@@ -165,7 +166,6 @@ This document is a follow-up to our previous paper dedicated to a vectorized der
 - [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md) - arXiv:2512.23318
 - [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md) - arXiv:2512.21316
 - [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md) - arXiv:2512.21238
-- [LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation](/other/2512.21243-lookplangraph-embodied-instruction-following-meth.md) - arXiv:2512.21243
 
 ---
 

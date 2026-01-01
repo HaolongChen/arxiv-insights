@@ -1,5 +1,39 @@
 [
   {
+    "arxiv_id": "2512.25055",
+    "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+    "authors": [
+      "Tianzhi He",
+      "Farrokh Jazizadeh"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "url": "https://arxiv.org/abs/2512.25055",
+    "abstract": "This study presents a conceptual framework and a prototype assessment for Large Language Model (LLM)-based Building Energy Management System (BEMS) AI agents to facilitate context-aware energy management in smart buildings through natural language interaction. The proposed framework comprises three ",
+    "file": "cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md"
+  },
+  {
+    "arxiv_id": "2512.25026",
+    "title": "Modeling Language as a Sequence of Thoughts",
+    "authors": [
+      "Nasim Borazjanizadeh",
+      "James McClelland"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.25026",
+    "abstract": "Transformer language models can generate strikingly natural text by modeling language as a sequence of tokens. Yet, by relying primarily on surface-level co-occurrence statistics, they fail to form globally consistent latent representations of entities and events, lack of which contributes to brittl",
+    "file": "cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md"
+  },
+  {
     "arxiv_id": "2512.24733",
     "title": "BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature",
     "authors": [
@@ -60,6 +94,45 @@
     "url": "https://arxiv.org/abs/2512.24713",
     "abstract": "Large language models (LLMs) have demonstrated remarkable performance across a wide range of language processing tasks. However, this success comes at the cost of substantial computation and memory requirements, which significantly impedes their deployment in resource-constrained environments. To ad",
     "file": "cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md"
+  },
+  {
+    "arxiv_id": "2512.25060",
+    "title": "On the geometry and topology of representations: the manifolds of modular addition",
+    "authors": [
+      "Gabriela Moisescu-Pareja",
+      "Gavin McCracken",
+      "Harley Wiltzer",
+      "Vincent L\u00e9tourneau",
+      "Colin Daniels",
+      "Doina Precup",
+      "Jonathan Love"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.25060",
+    "abstract": "The Clock and Pizza interpretations, associated with architectures differing in either uniform or learnable attention, were introduced to argue that different architectural designs can yield distinct circuits for modular addition. In this work, we show that this is not the case, and that both unifor",
+    "file": "cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md"
+  },
+  {
+    "arxiv_id": "2512.25023",
+    "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+    "authors": [
+      "Timo Kaufmann",
+      "Yannick Metz",
+      "Daniel Keim",
+      "Eyke H\u00fcllermeier"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.25023",
+    "abstract": "Binary choices, as often used for reinforcement learning from human feedback (RLHF), convey only the direction of a preference. A person may choose apples over oranges and bananas over grapes, but which preference is stronger? Strength is crucial for decision-making under uncertainty and generalizat",
+    "file": "cs/lg/2512.25023-responserank-data-efficient-reward-modeling-throu.md"
   },
   {
     "arxiv_id": "2512.24708",
@@ -184,6 +257,26 @@
     "url": "https://arxiv.org/abs/2512.25075",
     "abstract": "We present SpaceTimePilot, a video diffusion model that disentangles space and time for controllable generative rendering. Given a monocular video, SpaceTimePilot can independently alter the camera viewpoint and the motion sequence within the generative process, re-rendering the scene for continuous",
     "file": "cs/cv/2512.25075-spacetimepilot-generative-rendering-of-dynamic-sc.md"
+  },
+  {
+    "arxiv_id": "2512.25017",
+    "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+    "authors": [
+      "Chenguang Liu",
+      "Antonis Papapantoleon",
+      "Jasper Rou"
+    ],
+    "date": "2025-12-31",
+    "field": "other",
+    "tags": [
+      "math.NA",
+      "cs.LG",
+      "q-fin.CP",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2512.25017",
+    "abstract": "The aim of this article is to provide a firm mathematical foundation for the application of deep gradient flow methods (DGFMs) for the solution of (high-dimensional) partial differential equations (PDEs). We decompose the generalization error of DGFMs into an approximation and a training error. We f",
+    "file": "other/2512.25017-convergence-of-the-generalization-error-for-deep-g.md"
   },
   {
     "arxiv_id": "2512.25065",
