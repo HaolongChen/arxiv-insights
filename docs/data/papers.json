@@ -94,6 +94,43 @@
     "file": "cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md"
   },
   {
+    "arxiv_id": "2512.24957",
+    "title": "AMAP Agentic Planning Technical Report",
+    "authors": [
+      "Yulan Hu",
+      "Xiangwen Zhang",
+      "Sheng Ouyang",
+      "Hao Yi",
+      "Lu Xu",
+      "Qinglin Lang",
+      "Lide Tan",
+      "Xiang Cheng",
+      "Tianchen Ye",
+      "Zhicong Li",
+      "Ge Chen",
+      "Wenjin Yang",
+      "Zheng Pan",
+      "Shaopan Xiong",
+      "Siran Yang",
+      "Ju Huang",
+      "Yan Zhang",
+      "Jiamang Wang",
+      "Yong Liu",
+      "Yinfeng Huang",
+      "Tucheng Lin",
+      "Xin Li",
+      "Ning Guo"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.24957",
+    "abstract": "We present STAgent, an agentic large language model tailored for spatio-temporal understanding, designed to solve complex tasks such as constrained point-of-interest discovery and itinerary planning. STAgent is a specialized model capable of interacting with ten distinct tools within spatio-temporal",
+    "file": "cs/ai/2512.24957-amap-agentic-planning-technical-report.md"
+  },
+  {
     "arxiv_id": "2512.24695",
     "title": "Nested Learning: The Illusion of Deep Learning Architectures",
     "authors": [
@@ -188,6 +225,27 @@
     "url": "https://arxiv.org/abs/2512.24708",
     "abstract": "The challenge of effectively transferring knowledge across multiple tasks is of critical importance and is also present in downstream tasks with foundation models. However, the nature of transfer, its transitive-intransitive nature, is still an open problem, and negative transfer remains a significa",
     "file": "cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md"
+  },
+  {
+    "arxiv_id": "2512.24955",
+    "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+    "authors": [
+      "Yongwei Zhang",
+      "Yuanzhe Xing",
+      "Quan Quan",
+      "Zhikun She"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO",
+      "eess.SY"
+    ],
+    "url": "https://arxiv.org/abs/2512.24955",
+    "abstract": "Achieving provable stability in model-free reinforcement learning (RL) remains a challenge, particularly in balancing exploration with rigorous safety. This article introduces MSACL, a framework that integrates exponential stability theory with maximum entropy RL through multi-step Lyapunov certific",
+    "file": "cs/lg/2512.24955-msacl-multi-step-actor-critic-learning-with-lyapu.md"
   },
   {
     "arxiv_id": "2512.25063",
@@ -308,6 +366,29 @@
     "file": "cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md"
   },
   {
+    "arxiv_id": "2512.24948",
+    "title": "ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT",
+    "authors": [
+      "Xinran Gong",
+      "Gorkem Durak",
+      "Halil Ertugrul Aktas",
+      "Vedat Cicek",
+      "Jinkui Hao",
+      "Ulas Bagci",
+      "Nilay S. Shah",
+      "Bo Zhou"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.24948",
+    "abstract": "Coronary artery calcium (CAC) scoring from chest CT is a well-established tool to stratify and refine clinical cardiovascular disease risk estimation. CAC quantification relies on the accurate delineation of calcified lesions, but is oftentimes affected by artifacts introduced by cardiac and respira",
+    "file": "cs/cv/2512.24948-prodm-synthetic-reality-driven-property-aware-pro.md"
+  },
+  {
     "arxiv_id": "2512.25075",
     "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
     "authors": [
@@ -390,6 +471,45 @@
     "url": "https://arxiv.org/abs/2512.24986",
     "abstract": "Realistic visual simulations are omnipresent, yet their creation requires computing time, rendering, and expert animation knowledge. Open-vocabulary visual effects generation from text inputs emerges as a promising solution that can unlock immense creative potential. However, current pipelines lack ",
     "file": "other/2512.24986-phystalk-language-driven-real-time-physics-in-3d.md"
+  },
+  {
+    "arxiv_id": "2512.24968",
+    "title": "The Impact of LLMs on Online News Consumption and Production",
+    "authors": [
+      "Hangcheng Zhao",
+      "Ron Berman"
+    ],
+    "date": "2025-12-31",
+    "field": "other",
+    "tags": [
+      "econ.GN",
+      "cs.AI",
+      "cs.CY",
+      "stat.AP"
+    ],
+    "url": "https://arxiv.org/abs/2512.24968",
+    "abstract": "Large language models (LLMs) change how consumers acquire information online; their bots also crawl news publishers' websites for training data and to answer consumer queries; and they provide tools that can lower the cost of content creation. These changes lead to predictions of adverse impact on n",
+    "file": "other/2512.24968-the-impact-of-llms-on-online-news-consumption-and.md"
+  },
+  {
+    "arxiv_id": "2512.24969",
+    "title": "Large language models and the entropy of English",
+    "authors": [
+      "Colin Scheibner",
+      "Lindsay M. Smith",
+      "William Bialek"
+    ],
+    "date": "2025-12-31",
+    "field": "other",
+    "tags": [
+      "cond-mat.stat-mech",
+      "cs.CL",
+      "physics.bio-ph",
+      "q-bio.NC"
+    ],
+    "url": "https://arxiv.org/abs/2512.24969",
+    "abstract": "We use large language models (LLMs) to uncover long-ranged structure in English texts from a variety of sources. The conditional entropy or code length in many cases continues to decrease with context length at least to $N\\sim 10^4$ characters, implying that there are direct dependencies or interact",
+    "file": "other/2512.24969-large-language-models-and-the-entropy-of-english.md"
   },
   {
     "arxiv_id": "2512.23684",
