@@ -17,6 +17,22 @@
     "file": "cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md"
   },
   {
+    "arxiv_id": "2512.24997",
+    "title": "Classifying long legal documents using short random chunks",
+    "authors": [
+      "Luis Adri\u00e1n Cabrera-Diego"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.24997",
+    "abstract": "Classifying legal documents is a challenge, besides their specialized vocabulary, sometimes they can be very long. This means that feeding full documents to a Transformers-based models for classification might be impossible, expensive or slow. Thus, we present a legal document classifier based on De",
+    "file": "cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md"
+  },
+  {
     "arxiv_id": "2512.25026",
     "title": "Modeling Language as a Sequence of Thoughts",
     "authors": [
@@ -56,6 +72,26 @@
     "url": "https://arxiv.org/abs/2512.24733",
     "abstract": "Multi-omics studies often rely on pathway enrichment to interpret heterogeneous molecular changes, but pathway enrichment (PE)-based workflows inherit structural limitations of pathway resources, including curation lag, functional redundancy, and limited sensitivity to molecular states and intervent",
     "file": "cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md"
+  },
+  {
+    "arxiv_id": "2512.25015",
+    "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+    "authors": [
+      "Siddhant Agarwal",
+      "Adya Dhuler",
+      "Polly Ruhnke",
+      "Melvin Speisman",
+      "Md Shad Akhtar",
+      "Shweta Yadav"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2512.25015",
+    "abstract": "Over the past years, memes have evolved from being exclusively a medium of humorous exchanges to one that allows users to express a range of emotions freely and easily. With the ever-growing utilization of memes in expressing depressive sentiments, we conduct a study on identifying depressive sympto",
+    "file": "cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md"
   },
   {
     "arxiv_id": "2512.24695",
@@ -171,6 +207,22 @@
     "file": "cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md"
   },
   {
+    "arxiv_id": "2512.24991",
+    "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+    "authors": [
+      "Gyung Hyun Je",
+      "Colin Raffel"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2512.24991",
+    "abstract": "While large language models (LLMs) demonstrate reasonable zero-shot capability across many downstream tasks, fine-tuning is a common practice to improve their performance. However, a task's data efficiency--i.e., the number of fine-tuning examples needed to achieve a desired level of performance--is",
+    "file": "cs/lg/2512.24991-efficiently-estimating-data-efficiency-for-languag.md"
+  },
+  {
     "arxiv_id": "2512.25070",
     "title": "Scaling Open-Ended Reasoning to Predict the Future",
     "authors": [
@@ -213,6 +265,26 @@
     "url": "https://arxiv.org/abs/2512.25066",
     "abstract": "Audio-driven visual dubbing aims to synchronize a video's lip movements with new speech, but is fundamentally challenged by the lack of ideal training data: paired videos where only a subject's lip movements differ while all other visual conditions are identical. Existing methods circumvent this wit",
     "file": "cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md"
+  },
+  {
+    "arxiv_id": "2512.24971",
+    "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+    "authors": [
+      "Itallo Patrick Castro Alves Da Silva",
+      "Emanuel Adler Medeiros Pereira",
+      "Erick de Andrade Barboza",
+      "Baldoino Fonseca dos Santos Neto",
+      "Marcio de Medeiros Ribeiro"
+    ],
+    "date": "2025-12-31",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.24971",
+    "abstract": "Compressed deep learning models are crucial for deploying computer vision systems on resource-constrained devices. However, model compression may affect robustness, especially under natural corruption. Therefore, it is important to consider robustness evaluation while validating computer vision syst",
+    "file": "cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md"
   },
   {
     "arxiv_id": "2512.24702",
@@ -298,6 +370,26 @@
     "url": "https://arxiv.org/abs/2512.25065",
     "abstract": "Resource-management tasks in modern operating and distributed systems continue to rely primarily on hand-designed heuristics for tasks such as scheduling, caching, or active queue management. Designing performant heuristics is an expensive, time-consuming process that we are forced to continuously g",
     "file": "other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md"
+  },
+  {
+    "arxiv_id": "2512.24986",
+    "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+    "authors": [
+      "Luca Collorone",
+      "Mert Kiray",
+      "Indro Spinelli",
+      "Fabio Galasso",
+      "Benjamin Busam"
+    ],
+    "date": "2025-12-31",
+    "field": "other",
+    "tags": [
+      "cs.GR",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2512.24986",
+    "abstract": "Realistic visual simulations are omnipresent, yet their creation requires computing time, rendering, and expert animation knowledge. Open-vocabulary visual effects generation from text inputs emerges as a promising solution that can unlock immense creative potential. However, current pipelines lack ",
+    "file": "other/2512.24986-phystalk-language-driven-real-time-physics-in-3d.md"
   },
   {
     "arxiv_id": "2512.23684",

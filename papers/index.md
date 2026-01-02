@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 190
-- **Unique Authors**: 1149
+- **Total Papers**: 195
+- **Unique Authors**: 1168
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-01 16:33:25
+- **Last Updated**: 2026-01-02 02:05:38
 
 ## Latest Papers
 
@@ -15,6 +15,11 @@
 **Tianzhi He, Farrokh Jazizadeh** · arXiv:2512.25055 · 2025-12-31 · `cs-ai`
 
 This study presents a conceptual framework and a prototype assessment for Large Language Model (LLM)-based Building Energy Management System (BEMS) AI agents to facilitate context-aware energy management in smart buildings through natural language interaction. The proposed framework comprises three ...
+
+### [Classifying long legal documents using short random chunks](/cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md)
+**Luis Adrián Cabrera-Diego** · arXiv:2512.24997 · 2025-12-31 · `cs-ai`
+
+Classifying legal documents is a challenge, besides their specialized vocabulary, sometimes they can be very long. This means that feeding full documents to a Transformers-based models for classification might be impossible, expensive or slow. Thus, we present a legal document classifier based on De...
 
 ### [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md)
 **Nasim Borazjanizadeh, James McClelland** · arXiv:2512.25026 · 2025-12-31 · `cs-ai`
@@ -25,6 +30,11 @@ Transformer language models can generate strikingly natural text by modeling lan
 **Sibo Wei, Peng Chen, Lifeng Dong et al.** · arXiv:2512.24733 · 2025-12-31 · `cs-ai`
 
 Multi-omics studies often rely on pathway enrichment to interpret heterogeneous molecular changes, but pathway enrichment (PE)-based workflows inherit structural limitations of pathway resources, including curation lag, functional redundancy, and limited sensitivity to molecular states and intervent...
+
+### [MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes](/cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md)
+**Siddhant Agarwal, Adya Dhuler, Polly Ruhnke et al.** · arXiv:2512.25015 · 2025-12-31 · `cs-ai`
+
+Over the past years, memes have evolved from being exclusively a medium of humorous exchanges to one that allows users to express a range of emotions freely and easily. With the ever-growing utilization of memes in expressing depressive sentiments, we conduct a study on identifying depressive sympto...
 
 ### [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md)
 **Ali Behrouz, Meisam Razaviyayn, Peilin Zhong et al.** · arXiv:2512.24695 · 2025-12-31 · `cs-lg`
@@ -56,6 +66,11 @@ The challenge of effectively transferring knowledge across multiple tasks is of 
 
 Despite their scale and success, modern transformers are almost universally trained as single-minded systems: optimization produces one deterministic set of parameters, representing a single functional hypothesis about the data. Motivated by the idea that intelligence emerge from many minds, we prop...
 
+### [Efficiently Estimating Data Efficiency for Language Model Fine-tuning](/cs/lg/2512.24991-efficiently-estimating-data-efficiency-for-languag.md)
+**Gyung Hyun Je, Colin Raffel** · arXiv:2512.24991 · 2025-12-31 · `cs-lg`
+
+While large language models (LLMs) demonstrate reasonable zero-shot capability across many downstream tasks, fine-tuning is a common practice to improve their performance. However, a task's data efficiency--i.e., the number of fine-tuning examples needed to achieve a desired level of performance--is...
+
 ### [Scaling Open-Ended Reasoning to Predict the Future](/cs/lg/2512.25070-scaling-open-ended-reasoning-to-predict-the-future.md)
 **Nikhil Chandak, Shashwat Goel, Ameya Prabhu et al.** · arXiv:2512.25070 · 2025-12-31 · `cs-lg`
 
@@ -65,6 +80,11 @@ High-stakes decision making involves reasoning under uncertainty about the futur
 **Xu He, Haoxian Zhang, Hejia Chen et al.** · arXiv:2512.25066 · 2025-12-31 · `cs-cv`
 
 Audio-driven visual dubbing aims to synchronize a video's lip movements with new speech, but is fundamentally challenged by the lack of ideal training data: paired videos where only a subject's lip movements differ while all other visual conditions are identical. Existing methods circumvent this wit...
+
+### [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md)
+**Itallo Patrick Castro Alves Da Silva, Emanuel Adler Medeiros Pereira, Erick de Andrade Barboza et al.** · arXiv:2512.24971 · 2025-12-31 · `cs-cv`
+
+Compressed deep learning models are crucial for deploying computer vision systems on resource-constrained devices. However, model compression may affect robustness, especially under natural corruption. Therefore, it is important to consider robustness evaluation while validating computer vision syst...
 
 ### [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md)
 **Kai Ye, Xiaotong You, Jianghang Lin et al.** · arXiv:2512.24702 · 2025-12-31 · `cs-cv`
@@ -86,51 +106,32 @@ The aim of this article is to provide a firm mathematical foundation for the app
 
 Resource-management tasks in modern operating and distributed systems continue to rely primarily on hand-designed heuristics for tasks such as scheduling, caching, or active queue management. Designing performant heuristics is an expensive, time-consuming process that we are forced to continuously g...
 
-### [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md)
-**Panagiotis Theocharopoulos, Ajinkya Kulkarni, Mathew Magimai. -Doss** · arXiv:2512.23684 · 2025-12-29 · `cs-ai`
+### [PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes](/other/2512.24986-phystalk-language-driven-real-time-physics-in-3d.md)
+**Luca Collorone, Mert Kiray, Indro Spinelli et al.** · arXiv:2512.24986 · 2025-12-31 · `other`
 
-Large language models (LLMs) are increasingly considered for use in high-impact workflows, including academic peer review. However, LLMs are vulnerable to document-level hidden prompt injection attacks. In this work, we construct a dataset of approximately 500 real academic papers accepted to ICML a...
-
-### [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md)
-**Yuwen Li, Wei Zhang, Zelong Huang et al.** · arXiv:2512.23611 · 2025-12-29 · `cs-ai`
-
-Enabling Large Language Models (LLMs) to reliably invoke external tools remains a critical bottleneck for autonomous agents. Existing approaches suffer from three fundamental challenges: expensive human annotation for high-quality trajectories, poor generalization to unseen tools, and quality ceilin...
-
-### [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md)
-**Huan-ang Gao, Zikang Zhang, Tianwei Luo et al.** · arXiv:2512.23328 · 2025-12-29 · `cs-ai`
-
-Large Language Model (LLM) agents, while proficient in the digital realm, face a significant gap in physical-world deployment due to the challenge of forming and maintaining a robust spatial mental model. We identify three core cognitive challenges hindering this transition: spatial reasoning, long-...
-
-### [Web World Models](/cs/ai/2512.23676-web-world-models.md)
-**Jichen Feng, Yifan Zhang, Chenggong Zhang et al.** · arXiv:2512.23676 · 2025-12-29 · `cs-ai`
-
-Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative world models aim for unlimited environments at the e...
-
-### [Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study of NeuroSPICE](/cs/ai/2512.23624-physics-informed-neural-networks-for-device-and-ci.md)
-**Chien-Ting Tung, Chenming Hu** · arXiv:2512.23624 · 2025-12-29 · `cs-ai`
-
-We present NeuroSPICE, a physics-informed neural network (PINN) framework for device and circuit simulation. Unlike conventional SPICE, which relies on time-discretized numerical solvers, NeuroSPICE leverages PINNs to solve circuit differential-algebraic equations (DAEs) by minimizing the residual o...
+Realistic visual simulations are omnipresent, yet their creation requires computing time, rendering, and expert animation knowledge. Open-vocabulary visual effects generation from text inputs emerges as a promising solution that can unlock immense creative potential. However, current pipelines lack ...
 
 
 ## By Field
 
 
-### CS-AI (46 papers)
+### CS-AI (48 papers)
 
 - [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md) - arXiv:2512.25055
+- [Classifying long legal documents using short random chunks](/cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md) - arXiv:2512.24997
 - [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md) - arXiv:2512.25026
 - [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md) - arXiv:2512.24733
+- [MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes](/cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md) - arXiv:2512.25015
 - [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 - [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md) - arXiv:2512.23611
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
 - [Web World Models](/cs/ai/2512.23676-web-world-models.md) - arXiv:2512.23676
 - [Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study of NeuroSPICE](/cs/ai/2512.23624-physics-informed-neural-networks-for-device-and-ci.md) - arXiv:2512.23624
-- [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](/cs/ai/2512.23601-divergent-convergent-thinking-in-large-language-mo.md) - arXiv:2512.23601
-- [Eliciting Behaviors in Multi-Turn Conversations](/cs/ai/2512.23701-eliciting-behaviors-in-multi-turn-conversations.md) - arXiv:2512.23701
 
-### CS-CV (72 papers)
+### CS-CV (73 papers)
 
 - [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md) - arXiv:2512.25066
+- [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 - [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
 - [SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time](/cs/cv/2512.25075-spacetimepilot-generative-rendering-of-dynamic-sc.md) - arXiv:2512.25075
 - [LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation](/cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md) - arXiv:2512.23576
@@ -139,9 +140,8 @@ We present NeuroSPICE, a physics-informed neural network (PINN) framework for de
 - [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md) - arXiv:2512.23333
 - [Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging](/cs/cv/2512.23597-scalable-residual-feature-aggregation-framework-wi.md) - arXiv:2512.23597
 - [OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding](/cs/cv/2512.23646-omniagent-audio-guided-active-perception-agent-fo.md) - arXiv:2512.23646
-- [IDT: A Physically Grounded Transformer for Feed-Forward Multi-View Intrinsic Decomposition](/cs/cv/2512.23667-idt-a-physically-grounded-transformer-for-feed-fo.md) - arXiv:2512.23667
 
-### CS-LG (42 papers)
+### CS-LG (43 papers)
 
 - [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
 - [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
@@ -149,15 +149,16 @@ We present NeuroSPICE, a physics-informed neural network (PINN) framework for de
 - [ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](/cs/lg/2512.25023-responserank-data-efficient-reward-modeling-throu.md) - arXiv:2512.25023
 - [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md) - arXiv:2512.24708
 - [Many Minds from One Model: Bayesian Transformers for Population Intelligence](/cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md) - arXiv:2512.25063
+- [Efficiently Estimating Data Efficiency for Language Model Fine-tuning](/cs/lg/2512.24991-efficiently-estimating-data-efficiency-for-languag.md) - arXiv:2512.24991
 - [Scaling Open-Ended Reasoning to Predict the Future](/cs/lg/2512.25070-scaling-open-ended-reasoning-to-predict-the-future.md) - arXiv:2512.25070
 - [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md) - arXiv:2512.23675
 - [Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning](/cs/lg/2512.23617-le-cam-distortion-a-decision-theoretic-framework.md) - arXiv:2512.23617
-- [Deep learning for pedestrians: backpropagation in Transformers](/cs/lg/2512.23329-deep-learning-for-pedestrians-backpropagation-in.md) - arXiv:2512.23329
 
-### OTHER (30 papers)
+### OTHER (31 papers)
 
 - [Convergence of the generalization error for deep gradient flow methods for PDEs](/other/2512.25017-convergence-of-the-generalization-error-for-deep-g.md) - arXiv:2512.25017
 - [Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search](/other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md) - arXiv:2512.25065
+- [PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes](/other/2512.24986-phystalk-language-driven-real-time-physics-in-3d.md) - arXiv:2512.24986
 - [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 - [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
 - [The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentiment on Weibo and Xiaohongshu](/other/2512.23609-the-big-three-in-marriage-talk-llm-assisted-analy.md) - arXiv:2512.23609
@@ -165,7 +166,6 @@ We present NeuroSPICE, a physics-informed neural network (PINN) framework for de
 - [AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms](/other/2512.23633-ai-tutoring-can-safely-and-effectively-support-stu.md) - arXiv:2512.23633
 - [PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering](/other/2512.23318-pcr-orb-enhanced-orb-slam3-with-point-cloud-refin.md) - arXiv:2512.23318
 - [Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Consulting, Data Analyst, and Management Tasks](/other/2512.21316-scaling-laws-for-economic-productivity-experiment.md) - arXiv:2512.21316
-- [Assessing the Software Security Comprehension of Large Language Models](/other/2512.21238-assessing-the-software-security-comprehension-of-l.md) - arXiv:2512.21238
 
 ---
 
