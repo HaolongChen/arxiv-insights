@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 200
-- **Unique Authors**: 1207
+- **Total Papers**: 205
+- **Unique Authors**: 1242
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-05 16:33:57
+- **Last Updated**: 2026-01-06 02:05:28
 
 ## Latest Papers
+
+### [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md)
+**Qianjun Pan, Junyi Wang, Jie Zhou et al.** · arXiv:2601.01802 · 2026-01-05 · `cs-ai`
+
+To develop a reliable AI for psychological assessment, we introduce \texttt{PsychEval}, a multi-session, multi-therapy, and highly realistic benchmark designed to address three key challenges: \textbf{1) Can we train a highly realistic AI counselor?} Realistic counseling is a longitudinal task requi...
+
+### [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md)
+**Qi Wei, Junchao Fan, Zhao Yang et al.** · arXiv:2601.01800 · 2026-01-05 · `cs-lg`
+
+Reinforcement learning (RL) has shown considerable potential in autonomous driving (AD), yet its vulnerability to perturbations remains a critical barrier to real-world deployment. As a primary countermeasure, adversarial training improves policy robustness by training the AD agent in the presence o...
+
+### [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md)
+**Dennis Jabs, Aditya Mohan, Marius Lindauer** · arXiv:2601.01803 · 2026-01-05 · `cs-lg`
+
+Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous...
+
+### [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md)
+**Ubaidullah, Muhammad Abid Hussain, Mohsin Raza Jafri et al.** · arXiv:2601.01807 · 2026-01-05 · `cs-cv`
+
+Lumpy Skin Disease (LSD) is a contagious viral infection that significantly deteriorates livestock health, thereby posing a serious threat to the global economy and food security. Owing to its rapid spread characteristics, early and precise identification is crucial to prevent outbreaks and ensure t...
+
+### [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md)
+**Zhengjian Kang, Qi Chen, Rui Liu et al.** · arXiv:2601.01804 · 2026-01-05 · `cs-cv`
+
+Recent Video Large Language Models (Video-LLMs) have shown strong multimodal reasoning capabilities, yet remain challenged by video understanding tasks that require consistent temporal ordering and causal coherence. Many parameter-efficient Video-LLMs rely on unconstrained bidirectional projectors t...
 
 ### [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md)
 **Tianzhi He, Farrokh Jazizadeh** · arXiv:2512.25055 · 2025-12-31 · `cs-ai`
@@ -86,37 +111,13 @@ While large language models (LLMs) demonstrate reasonable zero-shot capability a
 
 High-stakes decision making involves reasoning under uncertainty about the future. In this work, we train language models to make predictions on open-ended forecasting questions. To scale up training data, we synthesize novel forecasting questions from global events reported in daily news, using a f...
 
-### [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md)
-**Xu He, Haoxian Zhang, Hejia Chen et al.** · arXiv:2512.25066 · 2025-12-31 · `cs-cv`
-
-Audio-driven visual dubbing aims to synchronize a video's lip movements with new speech, but is fundamentally challenged by the lack of ideal training data: paired videos where only a subject's lip movements differ while all other visual conditions are identical. Existing methods circumvent this wit...
-
-### [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md)
-**Itallo Patrick Castro Alves Da Silva, Emanuel Adler Medeiros Pereira, Erick de Andrade Barboza et al.** · arXiv:2512.24971 · 2025-12-31 · `cs-cv`
-
-Compressed deep learning models are crucial for deploying computer vision systems on resource-constrained devices. However, model compression may affect robustness, especially under natural corruption. Therefore, it is important to consider robustness evaluation while validating computer vision syst...
-
-### [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md)
-**Kai Ye, Xiaotong You, Jianghang Lin et al.** · arXiv:2512.24702 · 2025-12-31 · `cs-cv`
-
-Reasoning Segmentation requires models to interpret complex, context-dependent linguistic queries to achieve pixel-level localization. Current dominant approaches rely heavily on Supervised Fine-Tuning (SFT) or Reinforcement Learning (RL). However, SFT suffers from catastrophic forgetting and domain...
-
-### [ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT](/cs/cv/2512.24948-prodm-synthetic-reality-driven-property-aware-pro.md)
-**Xinran Gong, Gorkem Durak, Halil Ertugrul Aktas et al.** · arXiv:2512.24948 · 2025-12-31 · `cs-cv`
-
-Coronary artery calcium (CAC) scoring from chest CT is a well-established tool to stratify and refine clinical cardiovascular disease risk estimation. CAC quantification relies on the accurate delineation of calcified lesions, but is oftentimes affected by artifacts introduced by cardiac and respira...
-
-### [SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time](/cs/cv/2512.25075-spacetimepilot-generative-rendering-of-dynamic-sc.md)
-**Zhening Huang, Hyeonho Jeong, Xuelin Chen et al.** · arXiv:2512.25075 · 2025-12-31 · `cs-cv`
-
-We present SpaceTimePilot, a video diffusion model that disentangles space and time for controllable generative rendering. Given a monocular video, SpaceTimePilot can independently alter the camera viewpoint and the motion sequence within the generative process, re-rendering the scene for continuous...
-
 
 ## By Field
 
 
-### CS-AI (49 papers)
+### CS-AI (50 papers)
 
+- [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md) - arXiv:2601.01802
 - [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md) - arXiv:2512.25055
 - [Classifying long legal documents using short random chunks](/cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md) - arXiv:2512.24997
 - [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md) - arXiv:2512.25026
@@ -126,10 +127,11 @@ We present SpaceTimePilot, a video diffusion model that disentangles space and t
 - [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 - [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md) - arXiv:2512.23611
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
-- [Web World Models](/cs/ai/2512.23676-web-world-models.md) - arXiv:2512.23676
 
-### CS-CV (74 papers)
+### CS-CV (76 papers)
 
+- [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
+- [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md) - arXiv:2601.01804
 - [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md) - arXiv:2512.25066
 - [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 - [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
@@ -138,11 +140,11 @@ We present SpaceTimePilot, a video diffusion model that disentangles space and t
 - [LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation](/cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md) - arXiv:2512.23576
 - [Memorization in 3D Shape Generation: An Empirical Study](/cs/cv/2512.23628-memorization-in-3d-shape-generation-an-empirical.md) - arXiv:2512.23628
 - [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md) - arXiv:2512.23705
-- [CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation](/cs/cv/2512.23333-cme-cad-heterogeneous-collaborative-multi-expert.md) - arXiv:2512.23333
-- [Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging](/cs/cv/2512.23597-scalable-residual-feature-aggregation-framework-wi.md) - arXiv:2512.23597
 
-### CS-LG (44 papers)
+### CS-LG (46 papers)
 
+- [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
+- [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md) - arXiv:2601.01803
 - [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
 - [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
 - [On the geometry and topology of representations: the manifolds of modular addition](/cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md) - arXiv:2512.25060
@@ -151,8 +153,6 @@ We present SpaceTimePilot, a video diffusion model that disentangles space and t
 - [MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control](/cs/lg/2512.24955-msacl-multi-step-actor-critic-learning-with-lyapu.md) - arXiv:2512.24955
 - [Many Minds from One Model: Bayesian Transformers for Population Intelligence](/cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md) - arXiv:2512.25063
 - [Efficiently Estimating Data Efficiency for Language Model Fine-tuning](/cs/lg/2512.24991-efficiently-estimating-data-efficiency-for-languag.md) - arXiv:2512.24991
-- [Scaling Open-Ended Reasoning to Predict the Future](/cs/lg/2512.25070-scaling-open-ended-reasoning-to-predict-the-future.md) - arXiv:2512.25070
-- [End-to-End Test-Time Training for Long Context](/cs/lg/2512.23675-end-to-end-test-time-training-for-long-context.md) - arXiv:2512.23675
 
 ### OTHER (33 papers)
 

@@ -1,5 +1,114 @@
 [
   {
+    "arxiv_id": "2601.01802",
+    "title": "PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor",
+    "authors": [
+      "Qianjun Pan",
+      "Junyi Wang",
+      "Jie Zhou",
+      "Yutao Yang",
+      "Junsong Li",
+      "Kaiyin Xu",
+      "Yougen Zhou",
+      "Yihan Li",
+      "Jingyuan Zhao",
+      "Qin Chen",
+      "Ningning Zhou",
+      "Kai Chen",
+      "Liang He"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.01802",
+    "abstract": "To develop a reliable AI for psychological assessment, we introduce \\texttt{PsychEval}, a multi-session, multi-therapy, and highly realistic benchmark designed to address three key challenges: \\textbf{1) Can we train a highly realistic AI counselor?} Realistic counseling is a longitudinal task requi",
+    "file": "cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md"
+  },
+  {
+    "arxiv_id": "2601.01800",
+    "title": "Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving",
+    "authors": [
+      "Qi Wei",
+      "Junchao Fan",
+      "Zhao Yang",
+      "Jianhua Wang",
+      "Jingkai Mao",
+      "Xiaolin Chang"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.01800",
+    "abstract": "Reinforcement learning (RL) has shown considerable potential in autonomous driving (AD), yet its vulnerability to perturbations remains a critical barrier to real-world deployment. As a primary countermeasure, adversarial training improves policy robustness by training the AD agent in the presence o",
+    "file": "cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md"
+  },
+  {
+    "arxiv_id": "2601.01803",
+    "title": "Moments Matter:Stabilizing Policy Optimization using Return Distributions",
+    "authors": [
+      "Dennis Jabs",
+      "Aditya Mohan",
+      "Marius Lindauer"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.01803",
+    "abstract": "Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous",
+    "file": "cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md"
+  },
+  {
+    "arxiv_id": "2601.01807",
+    "title": "Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification",
+    "authors": [
+      "Ubaidullah",
+      "Muhammad Abid Hussain",
+      "Mohsin Raza Jafri",
+      "Rozi Khan",
+      "Moid Sandhu",
+      "Abd Ullah Khan",
+      "Hyundong Shin"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.01807",
+    "abstract": "Lumpy Skin Disease (LSD) is a contagious viral infection that significantly deteriorates livestock health, thereby posing a serious threat to the global economy and food security. Owing to its rapid spread characteristics, early and precise identification is crucial to prevent outbreaks and ensure t",
+    "file": "cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md"
+  },
+  {
+    "arxiv_id": "2601.01804",
+    "title": "Causality-Aware Temporal Projection for Video Understanding in Video-LLMs",
+    "authors": [
+      "Zhengjian Kang",
+      "Qi Chen",
+      "Rui Liu",
+      "Kangtong Mo",
+      "Xingyu Zhang",
+      "Xiaoyu Deng",
+      "Ye Zhang"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.01804",
+    "abstract": "Recent Video Large Language Models (Video-LLMs) have shown strong multimodal reasoning capabilities, yet remain challenged by video understanding tasks that require consistent temporal ordering and causal coherence. Many parameter-efficient Video-LLMs rely on unconstrained bidirectional projectors t",
+    "file": "cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md"
+  },
+  {
     "arxiv_id": "2512.25055",
     "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
     "authors": [
