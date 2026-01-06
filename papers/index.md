@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 205
-- **Unique Authors**: 1242
+- **Total Papers**: 210
+- **Unique Authors**: 1265
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-06 02:05:28
+- **Last Updated**: 2026-01-06 08:38:36
 
 ## Latest Papers
 
@@ -21,20 +21,45 @@ To develop a reliable AI for psychological assessment, we introduce \texttt{Psyc
 
 Reinforcement learning (RL) has shown considerable potential in autonomous driving (AD), yet its vulnerability to perturbations remains a critical barrier to real-world deployment. As a primary countermeasure, adversarial training improves policy robustness by training the AD agent in the presence o...
 
+### [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md)
+**Yazan Obeidi, Amir Sarfi, Joel Lidin et al.** · arXiv:2601.02360 · 2026-01-05 · `cs-lg`
+
+Pre-training large language models (LLMs) increasingly requires distributed compute, yet bandwidth constraints make it difficult to scale beyond well-provisioned datacenters-especially when model parallelism forces frequent, large inter-device communications. We study whether SparseLoCo, a low-commu...
+
 ### [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md)
 **Dennis Jabs, Aditya Mohan, Marius Lindauer** · arXiv:2601.01803 · 2026-01-05 · `cs-lg`
 
 Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous...
+
+### [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md)
+**Jing Tan, Zhaoyang Zhang, Yantao Shen et al.** · arXiv:2601.02356 · 2026-01-05 · `cs-cv`
+
+We introduce Talk2Move, a reinforcement learning (RL) based diffusion framework for text-instructed spatial transformation of objects within scenes. Spatially manipulating objects in a scene through natural language poses a challenge for multimodal generation systems. While existing text-based manip...
 
 ### [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md)
 **Ubaidullah, Muhammad Abid Hussain, Mohsin Raza Jafri et al.** · arXiv:2601.01807 · 2026-01-05 · `cs-cv`
 
 Lumpy Skin Disease (LSD) is a contagious viral infection that significantly deteriorates livestock health, thereby posing a serious threat to the global economy and food security. Owing to its rapid spread characteristics, early and precise identification is crucial to prevent outbreaks and ensure t...
 
+### [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md)
+**Shahnawaz Alam, Mohammed Mudassir Uddin, Mohammed Kaif Pasha** · arXiv:2601.02353 · 2026-01-05 · `cs-cv`
+
+Farmers in remote areas need quick and reliable methods for identifying plant diseases, yet they often lack access to laboratories or high-performance computing resources. Deep learning models can detect diseases from leaf images with high accuracy, but these models are typically too large and compu...
+
 ### [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md)
 **Zhengjian Kang, Qi Chen, Rui Liu et al.** · arXiv:2601.01804 · 2026-01-05 · `cs-cv`
 
 Recent Video Large Language Models (Video-LLMs) have shown strong multimodal reasoning capabilities, yet remain challenged by video understanding tasks that require consistent temporal ordering and causal coherence. Many parameter-efficient Video-LLMs rely on unconstrained bidirectional projectors t...
+
+### [ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors](/cs/cv/2601.02359-exposeanyone-personalized-audio-to-expression-dif.md)
+**Kaede Shiohara, Toshihiko Yamasaki, Vladislav Golyanik** · arXiv:2601.02359 · 2026-01-05 · `cs-cv`
+
+Detecting unknown deepfake manipulations remains one of the most challenging problems in face forgery detection. Current state-of-the-art approaches fail to generalize to unseen manipulations, as they primarily rely on supervised training with existing deepfakes or pseudo-fakes, which leads to overf...
+
+### [VINO: A Unified Visual Generator with Interleaved OmniModal Context](/cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md)
+**Junyi Chen, Tong He, Zhoujie Fu et al.** · arXiv:2601.02358 · 2026-01-05 · `cs-cv`
+
+We present VINO, a unified visual generator that performs image and video generation and editing within a single framework. Instead of relying on task-specific models or independent modules for each modality, VINO uses a shared diffusion backbone that conditions on text, images and videos, enabling ...
 
 ### [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md)
 **Tianzhi He, Farrokh Jazizadeh** · arXiv:2512.25055 · 2025-12-31 · `cs-ai`
@@ -86,31 +111,6 @@ The Clock and Pizza interpretations, associated with architectures differing in 
 
 Binary choices, as often used for reinforcement learning from human feedback (RLHF), convey only the direction of a preference. A person may choose apples over oranges and bananas over grapes, but which preference is stronger? Strength is crucial for decision-making under uncertainty and generalizat...
 
-### [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md)
-**András Millinghoffer, András Formanek, András Antos et al.** · arXiv:2512.24708 · 2025-12-31 · `cs-lg`
-
-The challenge of effectively transferring knowledge across multiple tasks is of critical importance and is also present in downstream tasks with foundation models. However, the nature of transfer, its transitive-intransitive nature, is still an open problem, and negative transfer remains a significa...
-
-### [MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control](/cs/lg/2512.24955-msacl-multi-step-actor-critic-learning-with-lyapu.md)
-**Yongwei Zhang, Yuanzhe Xing, Quan Quan et al.** · arXiv:2512.24955 · 2025-12-31 · `cs-lg`
-
-Achieving provable stability in model-free reinforcement learning (RL) remains a challenge, particularly in balancing exploration with rigorous safety. This article introduces MSACL, a framework that integrates exponential stability theory with maximum entropy RL through multi-step Lyapunov certific...
-
-### [Many Minds from One Model: Bayesian Transformers for Population Intelligence](/cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md)
-**Diji Yang, Yi Zhang** · arXiv:2512.25063 · 2025-12-31 · `cs-lg`
-
-Despite their scale and success, modern transformers are almost universally trained as single-minded systems: optimization produces one deterministic set of parameters, representing a single functional hypothesis about the data. Motivated by the idea that intelligence emerge from many minds, we prop...
-
-### [Efficiently Estimating Data Efficiency for Language Model Fine-tuning](/cs/lg/2512.24991-efficiently-estimating-data-efficiency-for-languag.md)
-**Gyung Hyun Je, Colin Raffel** · arXiv:2512.24991 · 2025-12-31 · `cs-lg`
-
-While large language models (LLMs) demonstrate reasonable zero-shot capability across many downstream tasks, fine-tuning is a common practice to improve their performance. However, a task's data efficiency--i.e., the number of fine-tuning examples needed to achieve a desired level of performance--is...
-
-### [Scaling Open-Ended Reasoning to Predict the Future](/cs/lg/2512.25070-scaling-open-ended-reasoning-to-predict-the-future.md)
-**Nikhil Chandak, Shashwat Goel, Ameya Prabhu et al.** · arXiv:2512.25070 · 2025-12-31 · `cs-lg`
-
-High-stakes decision making involves reasoning under uncertainty about the future. In this work, we train language models to make predictions on open-ended forecasting questions. To scale up training data, we synthesize novel forecasting questions from global events reported in daily news, using a f...
-
 
 ## By Field
 
@@ -128,22 +128,23 @@ High-stakes decision making involves reasoning under uncertainty about the futur
 - [Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing](/cs/ai/2512.23611-close-the-loop-synthesizing-infinite-tool-use-dat.md) - arXiv:2512.23611
 - [CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations](/cs/ai/2512.23328-cubebench-diagnosing-interactive-long-horizon-sp.md) - arXiv:2512.23328
 
-### CS-CV (76 papers)
+### CS-CV (80 papers)
 
+- [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md) - arXiv:2601.02356
 - [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
+- [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md) - arXiv:2601.02353
 - [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md) - arXiv:2601.01804
+- [ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors](/cs/cv/2601.02359-exposeanyone-personalized-audio-to-expression-dif.md) - arXiv:2601.02359
+- [VINO: A Unified Visual Generator with Interleaved OmniModal Context](/cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md) - arXiv:2601.02358
 - [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md) - arXiv:2512.25066
 - [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 - [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
 - [ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT](/cs/cv/2512.24948-prodm-synthetic-reality-driven-property-aware-pro.md) - arXiv:2512.24948
-- [SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time](/cs/cv/2512.25075-spacetimepilot-generative-rendering-of-dynamic-sc.md) - arXiv:2512.25075
-- [LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation](/cs/cv/2512.23576-livetalk-real-time-multimodal-interactive-video-d.md) - arXiv:2512.23576
-- [Memorization in 3D Shape Generation: An Empirical Study](/cs/cv/2512.23628-memorization-in-3d-shape-generation-an-empirical.md) - arXiv:2512.23628
-- [Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation](/cs/cv/2512.23705-diffusion-knows-transparency-repurposing-video-di.md) - arXiv:2512.23705
 
-### CS-LG (46 papers)
+### CS-LG (47 papers)
 
 - [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
+- [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md) - arXiv:2601.02360
 - [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md) - arXiv:2601.01803
 - [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
 - [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
@@ -152,7 +153,6 @@ High-stakes decision making involves reasoning under uncertainty about the futur
 - [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md) - arXiv:2512.24708
 - [MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control](/cs/lg/2512.24955-msacl-multi-step-actor-critic-learning-with-lyapu.md) - arXiv:2512.24955
 - [Many Minds from One Model: Bayesian Transformers for Population Intelligence](/cs/lg/2512.25063-many-minds-from-one-model-bayesian-transformers-f.md) - arXiv:2512.25063
-- [Efficiently Estimating Data Efficiency for Language Model Fine-tuning](/cs/lg/2512.24991-efficiently-estimating-data-efficiency-for-languag.md) - arXiv:2512.24991
 
 ### OTHER (33 papers)
 

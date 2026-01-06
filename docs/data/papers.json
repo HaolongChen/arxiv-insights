@@ -48,6 +48,25 @@
     "file": "cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md"
   },
   {
+    "arxiv_id": "2601.02360",
+    "title": "Heterogeneous Low-Bandwidth Pre-Training of LLMs",
+    "authors": [
+      "Yazan Obeidi",
+      "Amir Sarfi",
+      "Joel Lidin",
+      "Paul Janson",
+      "Eugene Belilovsky"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.02360",
+    "abstract": "Pre-training large language models (LLMs) increasingly requires distributed compute, yet bandwidth constraints make it difficult to scale beyond well-provisioned datacenters-especially when model parallelism forces frequent, large inter-device communications. We study whether SparseLoCo, a low-commu",
+    "file": "cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md"
+  },
+  {
     "arxiv_id": "2601.01803",
     "title": "Moments Matter:Stabilizing Policy Optimization using Return Distributions",
     "authors": [
@@ -64,6 +83,29 @@
     "url": "https://arxiv.org/abs/2601.01803",
     "abstract": "Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous",
     "file": "cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md"
+  },
+  {
+    "arxiv_id": "2601.02356",
+    "title": "Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes",
+    "authors": [
+      "Jing Tan",
+      "Zhaoyang Zhang",
+      "Yantao Shen",
+      "Jiarui Cai",
+      "Shuo Yang",
+      "Jiajun Wu",
+      "Wei Xia",
+      "Zhuowen Tu",
+      "Stefano Soatto"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.02356",
+    "abstract": "We introduce Talk2Move, a reinforcement learning (RL) based diffusion framework for text-instructed spatial transformation of objects within scenes. Spatially manipulating objects in a scene through natural language poses a challenge for multimodal generation systems. While existing text-based manip",
+    "file": "cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md"
   },
   {
     "arxiv_id": "2601.01807",
@@ -88,6 +130,24 @@
     "file": "cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md"
   },
   {
+    "arxiv_id": "2601.02353",
+    "title": "Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices",
+    "authors": [
+      "Shahnawaz Alam",
+      "Mohammed Mudassir Uddin",
+      "Mohammed Kaif Pasha"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.02353",
+    "abstract": "Farmers in remote areas need quick and reliable methods for identifying plant diseases, yet they often lack access to laboratories or high-performance computing resources. Deep learning models can detect diseases from leaf images with high accuracy, but these models are typically too large and compu",
+    "file": "cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md"
+  },
+  {
     "arxiv_id": "2601.01804",
     "title": "Causality-Aware Temporal Projection for Video Understanding in Video-LLMs",
     "authors": [
@@ -107,6 +167,43 @@
     "url": "https://arxiv.org/abs/2601.01804",
     "abstract": "Recent Video Large Language Models (Video-LLMs) have shown strong multimodal reasoning capabilities, yet remain challenged by video understanding tasks that require consistent temporal ordering and causal coherence. Many parameter-efficient Video-LLMs rely on unconstrained bidirectional projectors t",
     "file": "cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md"
+  },
+  {
+    "arxiv_id": "2601.02359",
+    "title": "ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors",
+    "authors": [
+      "Kaede Shiohara",
+      "Toshihiko Yamasaki",
+      "Vladislav Golyanik"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.02359",
+    "abstract": "Detecting unknown deepfake manipulations remains one of the most challenging problems in face forgery detection. Current state-of-the-art approaches fail to generalize to unseen manipulations, as they primarily rely on supervised training with existing deepfakes or pseudo-fakes, which leads to overf",
+    "file": "cs/cv/2601.02359-exposeanyone-personalized-audio-to-expression-dif.md"
+  },
+  {
+    "arxiv_id": "2601.02358",
+    "title": "VINO: A Unified Visual Generator with Interleaved OmniModal Context",
+    "authors": [
+      "Junyi Chen",
+      "Tong He",
+      "Zhoujie Fu",
+      "Pengfei Wan",
+      "Kun Gai",
+      "Weicai Ye"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.02358",
+    "abstract": "We present VINO, a unified visual generator that performs image and video generation and editing within a single framework. Instead of relying on task-specific models or independent modules for each modality, VINO uses a shared diffusion backbone that conditions on text, images and videos, enabling ",
+    "file": "cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md"
   },
   {
     "arxiv_id": "2512.25055",
