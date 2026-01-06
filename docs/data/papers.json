@@ -1,5 +1,37 @@
 [
   {
+    "arxiv_id": "2601.02314",
+    "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+    "authors": [
+      "Sourena Khanzadeh"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.02314",
+    "abstract": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it ",
+    "file": "cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md"
+  },
+  {
+    "arxiv_id": "2601.02337",
+    "title": "Robust Persona-Aware Toxicity Detection with Prompt Optimization and Learned Ensembling",
+    "authors": [
+      "Berk Atil",
+      "Rebecca J. Passonneau",
+      "Ninareh Mehrabi"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2601.02337",
+    "abstract": "Toxicity detection is inherently subjective, shaped by the diverse perspectives and social priors of different demographic groups. While ``pluralistic'' modeling as used in economics and the social sciences aims to capture perspective differences across contexts, current Large Language Model (LLM) p",
+    "file": "cs/ai/2601.02337-robust-persona-aware-toxicity-detection-with-promp.md"
+  },
+  {
     "arxiv_id": "2601.01802",
     "title": "PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor",
     "authors": [
@@ -25,6 +57,52 @@
     "url": "https://arxiv.org/abs/2601.01802",
     "abstract": "To develop a reliable AI for psychological assessment, we introduce \\texttt{PsychEval}, a multi-session, multi-therapy, and highly realistic benchmark designed to address three key challenges: \\textbf{1) Can we train a highly realistic AI counselor?} Realistic counseling is a longitudinal task requi",
     "file": "cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md"
+  },
+  {
+    "arxiv_id": "2601.02316",
+    "title": "DatBench: Discriminative, Faithful, and Efficient VLM Evaluations",
+    "authors": [
+      "Siddharth Joshi",
+      "Haoli Yin",
+      "Rishabh Adiga",
+      "Ricardo Monti",
+      "Aldo Carranza",
+      "Alex Fang",
+      "Alvin Deng",
+      "Amro Abbas",
+      "Brett Larsen",
+      "Cody Blakeney",
+      "Darren Teh",
+      "David Schwab",
+      "Fan Pan",
+      "Haakon Mongstad",
+      "Jack Urbanek",
+      "Jason Lee",
+      "Jason Telanoff",
+      "Josh Wills",
+      "Kaleigh Mentzer",
+      "Luke Merrick",
+      "Parth Doshi",
+      "Paul Burstein",
+      "Pratyush Maini",
+      "Scott Loftin",
+      "Spandan Das",
+      "Tony Jiang",
+      "Vineeth Dorna",
+      "Zhengping Wang",
+      "Bogdan Gaza",
+      "Ari Morcos",
+      "Matthew Leavitt"
+    ],
+    "date": "2026-01-05",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.02316",
+    "abstract": "Empirical evaluation serves as the primary compass guiding research progress in foundation models. Despite a large body of work focused on training frontier vision-language models (VLMs), approaches to their evaluation remain nascent. To guide their maturation, we propose three desiderata that evalu",
+    "file": "cs/lg/2601.02316-datbench-discriminative-faithful-and-efficient.md"
   },
   {
     "arxiv_id": "2601.01800",
@@ -204,6 +282,22 @@
     "url": "https://arxiv.org/abs/2601.02358",
     "abstract": "We present VINO, a unified visual generator that performs image and video generation and editing within a single framework. Instead of relying on task-specific models or independent modules for each modality, VINO uses a shared diffusion backbone that conditions on text, images and videos, enabling ",
     "file": "cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md"
+  },
+  {
+    "arxiv_id": "2601.02311",
+    "title": "Placement Semantics for Distributed Deep Learning: A Systematic Framework for Analyzing Parallelism Strategies",
+    "authors": [
+      "Deep Pankajbhai Mehta"
+    ],
+    "date": "2026-01-05",
+    "field": "other",
+    "tags": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.02311",
+    "abstract": "Training large language models requires distributing computation across many accelerators, yet practitioners select parallelism strategies (data, tensor, pipeline, ZeRO) through trial and error because no unified systematic framework predicts their behavior. We introduce placement semantics: each st",
+    "file": "other/2601.02311-placement-semantics-for-distributed-deep-learning.md"
   },
   {
     "arxiv_id": "2512.25055",
