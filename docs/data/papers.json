@@ -1,5 +1,45 @@
 [
   {
+    "arxiv_id": "2601.03232",
+    "title": "Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models",
+    "authors": [
+      "Kartik Bose",
+      "Abhinandan Kumar",
+      "Raghuraman Soundararajan",
+      "Priya Mudgil",
+      "Samonee Ralmilay",
+      "Niharika Dutta",
+      "Manphool Singhal",
+      "Arun Kumar",
+      "Saugata Sen",
+      "Anurima Patra",
+      "Priya Ghosh",
+      "Abanti Das",
+      "Amit Gupta",
+      "Ashish Verma",
+      "Dipin Sudhakaran",
+      "Ekta Dhamija",
+      "Himangi Unde",
+      "Ishan Kumar",
+      "Krithika Rangarajan",
+      "Prerna Garg",
+      "Rachel Sequeira",
+      "Sudhin Shylendran",
+      "Taruna Yadav",
+      "Tej Pal",
+      "Pankaj Gupta"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.03232",
+    "abstract": "Background: Reporting and Data Systems (RADS) standardize radiology risk communication but automated RADS assignment from narrative reports is challenging because of guideline complexity, output-format constraints, and limited benchmarking across RADS frameworks and model sizes. Purpose: To create R",
+    "file": "cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md"
+  },
+  {
     "arxiv_id": "2601.03248",
     "title": "STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning",
     "authors": [
@@ -37,6 +77,31 @@
     "file": "cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md"
   },
   {
+    "arxiv_id": "2601.03205",
+    "title": "UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward",
+    "authors": [
+      "Yile Liu",
+      "Yixian Liu",
+      "Zongwei Li",
+      "Yufei Huang",
+      "Xinhua Feng",
+      "Zhichao Hu",
+      "Jinglu Hu",
+      "Jianfeng Yan",
+      "Fengzong Lian",
+      "Yuhong Liu"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.03205",
+    "abstract": "While Large Language Models (LLMs) have demonstrated significant potential in natural language processing , complex general-purpose reasoning requiring multi-step logic, planning, and verification remains a critical bottleneck. Although Reinforcement Learning with Verifiable Rewards (RLVR) has succe",
+    "file": "cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md"
+  },
+  {
     "arxiv_id": "2601.03237",
     "title": "PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters",
     "authors": [
@@ -52,6 +117,46 @@
     "url": "https://arxiv.org/abs/2601.03237",
     "abstract": "Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers da",
     "file": "cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md"
+  },
+  {
+    "arxiv_id": "2601.03213",
+    "title": "Critic-Guided Reinforcement Unlearning in Text-to-Image Diffusion",
+    "authors": [
+      "Mykola Vysotskyi",
+      "Zahar Kohut",
+      "Mariia Shpir",
+      "Taras Rumezhak",
+      "Volodymyr Karpiv"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.03213",
+    "abstract": "Machine unlearning in text-to-image diffusion models aims to remove targeted concepts while preserving overall utility. Prior diffusion unlearning methods typically rely on supervised weight edits or global penalties; reinforcement-learning (RL) approaches, while flexible, often optimize sparse end-",
+    "file": "cs/lg/2601.03213-critic-guided-reinforcement-unlearning-in-text-to.md"
+  },
+  {
+    "arxiv_id": "2601.03220",
+    "title": "From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence",
+    "authors": [
+      "Marc Finzi",
+      "Shikai Qiu",
+      "Yiding Jiang",
+      "Pavel Izmailov",
+      "J. Zico Kolter",
+      "Andrew Gordon Wilson"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2601.03220",
+    "abstract": "Can we learn more from data than existed in the generating process itself? Can new and useful information be constructed from merely applying deterministic transformations to existing data? Can the learnable content in data be evaluated without considering a downstream task? On these questions, Shan",
+    "file": "cs/lg/2601.03220-from-entropy-to-epiplexity-rethinking-information.md"
   },
   {
     "arxiv_id": "2601.03233",
@@ -95,6 +200,44 @@
     "url": "https://arxiv.org/abs/2601.03233",
     "abstract": "Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiov",
     "file": "cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md"
+  },
+  {
+    "arxiv_id": "2601.03211",
+    "title": "Fine-tuning Small Language Models as Efficient Enterprise Search Relevance Labelers",
+    "authors": [
+      "Yue Kang",
+      "Zhuoyi Huang",
+      "Benji Schussheim",
+      "Diana Licon",
+      "Dina Atia",
+      "Shixing Cao",
+      "Jacob Danovitch",
+      "Kunho Kim",
+      "Billy Norcilien",
+      "Jonah Karpman",
+      "Mahmound Sayed",
+      "Mike Taylor",
+      "Tao Sun",
+      "Pavel Metrikov",
+      "Vipul Agarwal",
+      "Chris Quirk",
+      "Ye-Yi Wang",
+      "Nick Craswell",
+      "Irene Shaffer",
+      "Tianwei Chen",
+      "Sulaiman Vesal",
+      "Soundar Srinivasan"
+    ],
+    "date": "2026-01-06",
+    "field": "other",
+    "tags": [
+      "cs.IR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2601.03211",
+    "abstract": "In enterprise search, building high-quality datasets at scale remains a central challenge due to the difficulty of acquiring labeled data. To resolve this challenge, we propose an efficient approach to fine-tune small language models (SLMs) for accurate relevance labeling, enabling high-throughput, ",
+    "file": "other/2601.03211-fine-tuning-small-language-models-as-efficient-ent.md"
   },
   {
     "arxiv_id": "2601.03235",

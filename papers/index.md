@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 219
-- **Unique Authors**: 1349
+- **Total Papers**: 224
+- **Unique Authors**: 1417
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-07 02:05:12
+- **Last Updated**: 2026-01-07 16:37:02
 
 ## Latest Papers
+
+### [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md)
+**Kartik Bose, Abhinandan Kumar, Raghuraman Soundararajan et al.** · arXiv:2601.03232 · 2026-01-06 · `cs-ai`
+
+Background: Reporting and Data Systems (RADS) standardize radiology risk communication but automated RADS assignment from narrative reports is challenging because of guideline complexity, output-format constraints, and limited benchmarking across RADS frameworks and model sizes. Purpose: To create R...
 
 ### [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md)
 **Juntong Ni, Shiyu Wang, Ming Jin et al.** · arXiv:2601.03248 · 2026-01-06 · `cs-ai`
@@ -21,15 +26,35 @@ Spatio-temporal reasoning in time series involves the explicit synthesis of temp
 
 Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability ...
 
+### [UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward](/cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md)
+**Yile Liu, Yixian Liu, Zongwei Li et al.** · arXiv:2601.03205 · 2026-01-06 · `cs-ai`
+
+While Large Language Models (LLMs) have demonstrated significant potential in natural language processing , complex general-purpose reasoning requiring multi-step logic, planning, and verification remains a critical bottleneck. Although Reinforcement Learning with Verifiable Rewards (RLVR) has succe...
+
 ### [PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters](/cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md)
 **Javier Salazar Cavazos** · arXiv:2601.03237 · 2026-01-06 · `cs-lg`
 
 Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers da...
 
+### [Critic-Guided Reinforcement Unlearning in Text-to-Image Diffusion](/cs/lg/2601.03213-critic-guided-reinforcement-unlearning-in-text-to.md)
+**Mykola Vysotskyi, Zahar Kohut, Mariia Shpir et al.** · arXiv:2601.03213 · 2026-01-06 · `cs-lg`
+
+Machine unlearning in text-to-image diffusion models aims to remove targeted concepts while preserving overall utility. Prior diffusion unlearning methods typically rely on supervised weight edits or global penalties; reinforcement-learning (RL) approaches, while flexible, often optimize sparse end-...
+
+### [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](/cs/lg/2601.03220-from-entropy-to-epiplexity-rethinking-information.md)
+**Marc Finzi, Shikai Qiu, Yiding Jiang et al.** · arXiv:2601.03220 · 2026-01-06 · `cs-lg`
+
+Can we learn more from data than existed in the generating process itself? Can new and useful information be constructed from merely applying deterministic transformations to existing data? Can the learnable content in data be evaluated without considering a downstream task? On these questions, Shan...
+
 ### [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md)
 **Yoav HaCohen, Benny Brazowski, Nisan Chiprut et al.** · arXiv:2601.03233 · 2026-01-06 · `cs-cv`
 
 Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiov...
+
+### [Fine-tuning Small Language Models as Efficient Enterprise Search Relevance Labelers](/other/2601.03211-fine-tuning-small-language-models-as-efficient-ent.md)
+**Yue Kang, Zhuoyi Huang, Benji Schussheim et al.** · arXiv:2601.03211 · 2026-01-06 · `other`
+
+In enterprise search, building high-quality datasets at scale remains a central challenge due to the difficulty of acquiring labeled data. To resolve this challenge, we propose an efficient approach to fine-tune small language models (SLMs) for accurate relevance labeling, enabling high-throughput, ...
 
 ### [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md)
 **Luca Candelori, Swarnadeep Majumder, Antonio Mezzacapo et al.** · arXiv:2601.03235 · 2026-01-06 · `other`
@@ -86,47 +111,22 @@ Lumpy Skin Disease (LSD) is a contagious viral infection that significantly dete
 
 Farmers in remote areas need quick and reliable methods for identifying plant diseases, yet they often lack access to laboratories or high-performance computing resources. Deep learning models can detect diseases from leaf images with high accuracy, but these models are typically too large and compu...
 
-### [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md)
-**Zhengjian Kang, Qi Chen, Rui Liu et al.** · arXiv:2601.01804 · 2026-01-05 · `cs-cv`
-
-Recent Video Large Language Models (Video-LLMs) have shown strong multimodal reasoning capabilities, yet remain challenged by video understanding tasks that require consistent temporal ordering and causal coherence. Many parameter-efficient Video-LLMs rely on unconstrained bidirectional projectors t...
-
-### [ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors](/cs/cv/2601.02359-exposeanyone-personalized-audio-to-expression-dif.md)
-**Kaede Shiohara, Toshihiko Yamasaki, Vladislav Golyanik** · arXiv:2601.02359 · 2026-01-05 · `cs-cv`
-
-Detecting unknown deepfake manipulations remains one of the most challenging problems in face forgery detection. Current state-of-the-art approaches fail to generalize to unseen manipulations, as they primarily rely on supervised training with existing deepfakes or pseudo-fakes, which leads to overf...
-
-### [VINO: A Unified Visual Generator with Interleaved OmniModal Context](/cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md)
-**Junyi Chen, Tong He, Zhoujie Fu et al.** · arXiv:2601.02358 · 2026-01-05 · `cs-cv`
-
-We present VINO, a unified visual generator that performs image and video generation and editing within a single framework. Instead of relying on task-specific models or independent modules for each modality, VINO uses a shared diffusion backbone that conditions on text, images and videos, enabling ...
-
-### [Placement Semantics for Distributed Deep Learning: A Systematic Framework for Analyzing Parallelism Strategies](/other/2601.02311-placement-semantics-for-distributed-deep-learning.md)
-**Deep Pankajbhai Mehta** · arXiv:2601.02311 · 2026-01-05 · `other`
-
-Training large language models requires distributing computation across many accelerators, yet practitioners select parallelism strategies (data, tensor, pipeline, ZeRO) through trial and error because no unified systematic framework predicts their behavior. We introduce placement semantics: each st...
-
-### [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md)
-**Tianzhi He, Farrokh Jazizadeh** · arXiv:2512.25055 · 2025-12-31 · `cs-ai`
-
-This study presents a conceptual framework and a prototype assessment for Large Language Model (LLM)-based Building Energy Management System (BEMS) AI agents to facilitate context-aware energy management in smart buildings through natural language interaction. The proposed framework comprises three ...
-
 
 ## By Field
 
 
-### CS-AI (54 papers)
+### CS-AI (56 papers)
 
+- [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md) - arXiv:2601.03232
 - [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md) - arXiv:2601.03248
 - [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md) - arXiv:2601.03236
+- [UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward](/cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md) - arXiv:2601.03205
 - [Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents](/cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md) - arXiv:2601.02314
 - [Robust Persona-Aware Toxicity Detection with Prompt Optimization and Learned Ensembling](/cs/ai/2601.02337-robust-persona-aware-toxicity-detection-with-promp.md) - arXiv:2601.02337
 - [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md) - arXiv:2601.01802
 - [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md) - arXiv:2512.25055
 - [Classifying long legal documents using short random chunks](/cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md) - arXiv:2512.24997
 - [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md) - arXiv:2512.25026
-- [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md) - arXiv:2512.24733
-- [MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes](/cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md) - arXiv:2512.25015
 
 ### CS-CV (81 papers)
 
@@ -141,9 +141,11 @@ This study presents a conceptual framework and a prototype assessment for Large 
 - [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 - [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
 
-### CS-LG (49 papers)
+### CS-LG (51 papers)
 
 - [PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters](/cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md) - arXiv:2601.03237
+- [Critic-Guided Reinforcement Unlearning in Text-to-Image Diffusion](/cs/lg/2601.03213-critic-guided-reinforcement-unlearning-in-text-to.md) - arXiv:2601.03213
+- [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](/cs/lg/2601.03220-from-entropy-to-epiplexity-rethinking-information.md) - arXiv:2601.03220
 - [DatBench: Discriminative, Faithful, and Efficient VLM Evaluations](/cs/lg/2601.02316-datbench-discriminative-faithful-and-efficient.md) - arXiv:2601.02316
 - [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
 - [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md) - arXiv:2601.02360
@@ -151,11 +153,10 @@ This study presents a conceptual framework and a prototype assessment for Large 
 - [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
 - [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
 - [On the geometry and topology of representations: the manifolds of modular addition](/cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md) - arXiv:2512.25060
-- [ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](/cs/lg/2512.25023-responserank-data-efficient-reward-modeling-throu.md) - arXiv:2512.25023
-- [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md) - arXiv:2512.24708
 
-### OTHER (35 papers)
+### OTHER (36 papers)
 
+- [Fine-tuning Small Language Models as Efficient Enterprise Search Relevance Labelers](/other/2601.03211-fine-tuning-small-language-models-as-efficient-ent.md) - arXiv:2601.03211
 - [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md) - arXiv:2601.03235
 - [Placement Semantics for Distributed Deep Learning: A Systematic Framework for Analyzing Parallelism Strategies](/other/2601.02311-placement-semantics-for-distributed-deep-learning.md) - arXiv:2601.02311
 - [Convergence of the generalization error for deep gradient flow methods for PDEs](/other/2512.25017-convergence-of-the-generalization-error-for-deep-g.md) - arXiv:2512.25017
@@ -165,7 +166,6 @@ This study presents a conceptual framework and a prototype assessment for Large 
 - [Large language models and the entropy of English](/other/2512.24969-large-language-models-and-the-entropy-of-english.md) - arXiv:2512.24969
 - [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 - [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
-- [The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentiment on Weibo and Xiaohongshu](/other/2512.23609-the-big-three-in-marriage-talk-llm-assisted-analy.md) - arXiv:2512.23609
 
 ---
 
