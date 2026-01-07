@@ -1,5 +1,127 @@
 [
   {
+    "arxiv_id": "2601.03248",
+    "title": "STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning",
+    "authors": [
+      "Juntong Ni",
+      "Shiyu Wang",
+      "Ming Jin",
+      "Qi He",
+      "Wei Jin"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2601.03248",
+    "abstract": "Spatio-temporal reasoning in time series involves the explicit synthesis of temporal dynamics, spatial dependencies, and textual context. This capability is vital for high-stakes decision-making in systems such as traffic networks, power grids, and disease propagation. However, the field remains und",
+    "file": "cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md"
+  },
+  {
+    "arxiv_id": "2601.03236",
+    "title": "MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents",
+    "authors": [
+      "Dongming Jiang",
+      "Yi Li",
+      "Guanpeng Li",
+      "Bingzhe Li"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.03236",
+    "abstract": "Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability ",
+    "file": "cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md"
+  },
+  {
+    "arxiv_id": "2601.03237",
+    "title": "PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters",
+    "authors": [
+      "Javier Salazar Cavazos"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "eess.IV",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2601.03237",
+    "abstract": "Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers da",
+    "file": "cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md"
+  },
+  {
+    "arxiv_id": "2601.03233",
+    "title": "LTX-2: Efficient Joint Audio-Visual Foundation Model",
+    "authors": [
+      "Yoav HaCohen",
+      "Benny Brazowski",
+      "Nisan Chiprut",
+      "Yaki Bitterman",
+      "Andrew Kvochko",
+      "Avishai Berkowitz",
+      "Daniel Shalem",
+      "Daphna Lifschitz",
+      "Dudu Moshe",
+      "Eitan Porat",
+      "Eitan Richardson",
+      "Guy Shiran",
+      "Itay Chachy",
+      "Jonathan Chetboun",
+      "Michael Finkelson",
+      "Michael Kupchick",
+      "Nir Zabari",
+      "Nitzan Guetta",
+      "Noa Kotler",
+      "Ofir Bibi",
+      "Ori Gordon",
+      "Poriya Panet",
+      "Roi Benita",
+      "Shahar Armon",
+      "Victor Kulikov",
+      "Yaron Inger",
+      "Yonatan Shiftan",
+      "Zeev Melumian",
+      "Zeev Farbman"
+    ],
+    "date": "2026-01-06",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.03233",
+    "abstract": "Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiov",
+    "file": "cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md"
+  },
+  {
+    "arxiv_id": "2601.03235",
+    "title": "Shallow-circuit Supervised Learning on a Quantum Processor",
+    "authors": [
+      "Luca Candelori",
+      "Swarnadeep Majumder",
+      "Antonio Mezzacapo",
+      "Javier Robledo Moreno",
+      "Kharen Musaelian",
+      "Santhanam Nagarajan",
+      "Sunil Pinnamaneni",
+      "Kunal Sharma",
+      "Dario Villani"
+    ],
+    "date": "2026-01-06",
+    "field": "other",
+    "tags": [
+      "quant-ph",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2601.03235",
+    "abstract": "Quantum computing has long promised transformative advances in data analysis, yet practical quantum machine learning has remained elusive due to fundamental obstacles such as a steep quantum cost for the loading of classical data and poor trainability of many quantum machine learning algorithms desi",
+    "file": "other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md"
+  },
+  {
     "arxiv_id": "2601.02314",
     "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
     "authors": [

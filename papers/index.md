@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 214
-- **Unique Authors**: 1301
+- **Total Papers**: 219
+- **Unique Authors**: 1349
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-06 16:36:19
+- **Last Updated**: 2026-01-07 02:05:12
 
 ## Latest Papers
+
+### [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md)
+**Juntong Ni, Shiyu Wang, Ming Jin et al.** · arXiv:2601.03248 · 2026-01-06 · `cs-ai`
+
+Spatio-temporal reasoning in time series involves the explicit synthesis of temporal dynamics, spatial dependencies, and textual context. This capability is vital for high-stakes decision-making in systems such as traffic networks, power grids, and disease propagation. However, the field remains und...
+
+### [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md)
+**Dongming Jiang, Yi Li, Guanpeng Li et al.** · arXiv:2601.03236 · 2026-01-06 · `cs-ai`
+
+Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability ...
+
+### [PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters](/cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md)
+**Javier Salazar Cavazos** · arXiv:2601.03237 · 2026-01-06 · `cs-lg`
+
+Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers da...
+
+### [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md)
+**Yoav HaCohen, Benny Brazowski, Nisan Chiprut et al.** · arXiv:2601.03233 · 2026-01-06 · `cs-cv`
+
+Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiov...
+
+### [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md)
+**Luca Candelori, Swarnadeep Majumder, Antonio Mezzacapo et al.** · arXiv:2601.03235 · 2026-01-06 · `other`
+
+Quantum computing has long promised transformative advances in data analysis, yet practical quantum machine learning has remained elusive due to fundamental obstacles such as a steep quantum cost for the loading of classical data and poor trainability of many quantum machine learning algorithms desi...
 
 ### [Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents](/cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md)
 **Sourena Khanzadeh** · arXiv:2601.02314 · 2026-01-05 · `cs-ai`
@@ -86,37 +111,14 @@ Training large language models requires distributing computation across many acc
 
 This study presents a conceptual framework and a prototype assessment for Large Language Model (LLM)-based Building Energy Management System (BEMS) AI agents to facilitate context-aware energy management in smart buildings through natural language interaction. The proposed framework comprises three ...
 
-### [Classifying long legal documents using short random chunks](/cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md)
-**Luis Adrián Cabrera-Diego** · arXiv:2512.24997 · 2025-12-31 · `cs-ai`
-
-Classifying legal documents is a challenge, besides their specialized vocabulary, sometimes they can be very long. This means that feeding full documents to a Transformers-based models for classification might be impossible, expensive or slow. Thus, we present a legal document classifier based on De...
-
-### [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md)
-**Nasim Borazjanizadeh, James McClelland** · arXiv:2512.25026 · 2025-12-31 · `cs-ai`
-
-Transformer language models can generate strikingly natural text by modeling language as a sequence of tokens. Yet, by relying primarily on surface-level co-occurrence statistics, they fail to form globally consistent latent representations of entities and events, lack of which contributes to brittl...
-
-### [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md)
-**Sibo Wei, Peng Chen, Lifeng Dong et al.** · arXiv:2512.24733 · 2025-12-31 · `cs-ai`
-
-Multi-omics studies often rely on pathway enrichment to interpret heterogeneous molecular changes, but pathway enrichment (PE)-based workflows inherit structural limitations of pathway resources, including curation lag, functional redundancy, and limited sensitivity to molecular states and intervent...
-
-### [MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes](/cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md)
-**Siddhant Agarwal, Adya Dhuler, Polly Ruhnke et al.** · arXiv:2512.25015 · 2025-12-31 · `cs-ai`
-
-Over the past years, memes have evolved from being exclusively a medium of humorous exchanges to one that allows users to express a range of emotions freely and easily. With the ever-growing utilization of memes in expressing depressive sentiments, we conduct a study on identifying depressive sympto...
-
-### [AMAP Agentic Planning Technical Report](/cs/ai/2512.24957-amap-agentic-planning-technical-report.md)
-**Yulan Hu, Xiangwen Zhang, Sheng Ouyang et al.** · arXiv:2512.24957 · 2025-12-31 · `cs-ai`
-
-We present STAgent, an agentic large language model tailored for spatio-temporal understanding, designed to solve complex tasks such as constrained point-of-interest discovery and itinerary planning. STAgent is a specialized model capable of interacting with ten distinct tools within spatio-temporal...
-
 
 ## By Field
 
 
-### CS-AI (52 papers)
+### CS-AI (54 papers)
 
+- [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md) - arXiv:2601.03248
+- [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md) - arXiv:2601.03236
 - [Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents](/cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md) - arXiv:2601.02314
 - [Robust Persona-Aware Toxicity Detection with Prompt Optimization and Learned Ensembling](/cs/ai/2601.02337-robust-persona-aware-toxicity-detection-with-promp.md) - arXiv:2601.02337
 - [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md) - arXiv:2601.01802
@@ -125,11 +127,10 @@ We present STAgent, an agentic large language model tailored for spatio-temporal
 - [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md) - arXiv:2512.25026
 - [BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature](/cs/ai/2512.24733-biome-bench-a-benchmark-for-biomolecular-interact.md) - arXiv:2512.24733
 - [MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes](/cs/ai/2512.25015-mama-memeia-multi-aspect-multi-agent-collaboratio.md) - arXiv:2512.25015
-- [AMAP Agentic Planning Technical Report](/cs/ai/2512.24957-amap-agentic-planning-technical-report.md) - arXiv:2512.24957
-- [Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing](/cs/ai/2512.23684-multilingual-hidden-prompt-injection-attacks-on-ll.md) - arXiv:2512.23684
 
-### CS-CV (80 papers)
+### CS-CV (81 papers)
 
+- [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md) - arXiv:2601.03233
 - [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md) - arXiv:2601.02356
 - [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
 - [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md) - arXiv:2601.02353
@@ -139,10 +140,10 @@ We present STAgent, an agentic large language model tailored for spatio-temporal
 - [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md) - arXiv:2512.25066
 - [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 - [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
-- [ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT](/cs/cv/2512.24948-prodm-synthetic-reality-driven-property-aware-pro.md) - arXiv:2512.24948
 
-### CS-LG (48 papers)
+### CS-LG (49 papers)
 
+- [PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters](/cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md) - arXiv:2601.03237
 - [DatBench: Discriminative, Faithful, and Efficient VLM Evaluations](/cs/lg/2601.02316-datbench-discriminative-faithful-and-efficient.md) - arXiv:2601.02316
 - [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
 - [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md) - arXiv:2601.02360
@@ -152,10 +153,10 @@ We present STAgent, an agentic large language model tailored for spatio-temporal
 - [On the geometry and topology of representations: the manifolds of modular addition](/cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md) - arXiv:2512.25060
 - [ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](/cs/lg/2512.25023-responserank-data-efficient-reward-modeling-throu.md) - arXiv:2512.25023
 - [BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework](/cs/lg/2512.24708-bandik-efficient-multi-task-decomposition-using-a.md) - arXiv:2512.24708
-- [MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control](/cs/lg/2512.24955-msacl-multi-step-actor-critic-learning-with-lyapu.md) - arXiv:2512.24955
 
-### OTHER (34 papers)
+### OTHER (35 papers)
 
+- [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md) - arXiv:2601.03235
 - [Placement Semantics for Distributed Deep Learning: A Systematic Framework for Analyzing Parallelism Strategies](/other/2601.02311-placement-semantics-for-distributed-deep-learning.md) - arXiv:2601.02311
 - [Convergence of the generalization error for deep gradient flow methods for PDEs](/other/2512.25017-convergence-of-the-generalization-error-for-deep-g.md) - arXiv:2512.25017
 - [Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search](/other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md) - arXiv:2512.25065
@@ -165,7 +166,6 @@ We present STAgent, an agentic large language model tailored for spatio-temporal
 - [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 - [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
 - [The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentiment on Weibo and Xiaohongshu](/other/2512.23609-the-big-three-in-marriage-talk-llm-assisted-analy.md) - arXiv:2512.23609
-- [Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants](/other/2512.23312-explainable-neural-inverse-kinematics-for-obstacle.md) - arXiv:2512.23312
 
 ---
 
