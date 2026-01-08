@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 224
-- **Unique Authors**: 1417
+- **Total Papers**: 229
+- **Unique Authors**: 1438
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-07 16:37:02
+- **Last Updated**: 2026-01-08 16:37:11
 
 ## Latest Papers
+
+### [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md)
+**Yuechen Jiang, Zhiwei Liu, Yupeng Cao et al.** · arXiv:2601.04160 · 2026-01-07 · `cs-ai`
+
+We introduce RFC Bench, a benchmark for evaluating large language models on financial misinformation under realistic news. RFC Bench operates at the paragraph level and captures the contextual complexity of financial news where meaning emerges from dispersed cues. The benchmark defines two complemen...
+
+### [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md)
+**Abhishek Rath** · arXiv:2601.04170 · 2026-01-07 · `cs-ai`
+
+Multi-agent Large Language Model (LLM) systems have emerged as powerful architectures for complex task decomposition and collaborative problem-solving. However, their long-term behavioral stability remains largely unexamined. This study introduces the concept of agent drift, defined as the progressi...
+
+### [Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schrödinger Equation](/cs/lg/2601.04176-robust-physics-discovery-from-highly-corrupted-dat.md)
+**Pietro de Oliveira Esteves** · arXiv:2601.04176 · 2026-01-07 · `cs-lg`
+
+We demonstrate a deep learning framework capable of recovering physical parameters from the Nonlinear Schrodinger Equation (NLSE) under severe noise conditions. By integrating Physics-Informed Neural Networks (PINNs) with automatic differentiation, we achieve reconstruction of the nonlinear coeffici...
+
+### [Clinical Data Goes MEDS? Let's OWL make sense of it](/cs/lg/2601.04164-clinical-data-goes-meds-lets-owl-make-sense-of-i.md)
+**Alberto Marfoglia, Jong Ho Jhee, Adrien Coulet** · arXiv:2601.04164 · 2026-01-07 · `cs-lg`
+
+The application of machine learning on healthcare data is often hindered by the lack of standardized and semantically explicit representation, leading to limited interoperability and reproducibility across datasets and experiments. The Medical Event Data Standard (MEDS) addresses these issues by int...
+
+### [Agentic Rubrics as Contextual Verifiers for SWE Agents](/cs/lg/2601.04171-agentic-rubrics-as-contextual-verifiers-for-swe-ag.md)
+**Mohit Raghavendra, Anisha Gunjal, Bing Liu et al.** · arXiv:2601.04171 · 2026-01-07 · `cs-lg`
+
+Verification is critical for improving agents: it provides the reward signal for Reinforcement Learning and enables inference-time gains through Test-Time Scaling (TTS). Despite its importance, verification in software engineering (SWE) agent settings often relies on code execution, which can be dif...
 
 ### [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md)
 **Kartik Bose, Abhinandan Kumar, Raghuraman Soundararajan et al.** · arXiv:2601.03232 · 2026-01-06 · `cs-ai`
@@ -86,37 +111,14 @@ Empirical evaluation serves as the primary compass guiding research progress in 
 
 Reinforcement learning (RL) has shown considerable potential in autonomous driving (AD), yet its vulnerability to perturbations remains a critical barrier to real-world deployment. As a primary countermeasure, adversarial training improves policy robustness by training the AD agent in the presence o...
 
-### [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md)
-**Yazan Obeidi, Amir Sarfi, Joel Lidin et al.** · arXiv:2601.02360 · 2026-01-05 · `cs-lg`
-
-Pre-training large language models (LLMs) increasingly requires distributed compute, yet bandwidth constraints make it difficult to scale beyond well-provisioned datacenters-especially when model parallelism forces frequent, large inter-device communications. We study whether SparseLoCo, a low-commu...
-
-### [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md)
-**Dennis Jabs, Aditya Mohan, Marius Lindauer** · arXiv:2601.01803 · 2026-01-05 · `cs-lg`
-
-Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous...
-
-### [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md)
-**Jing Tan, Zhaoyang Zhang, Yantao Shen et al.** · arXiv:2601.02356 · 2026-01-05 · `cs-cv`
-
-We introduce Talk2Move, a reinforcement learning (RL) based diffusion framework for text-instructed spatial transformation of objects within scenes. Spatially manipulating objects in a scene through natural language poses a challenge for multimodal generation systems. While existing text-based manip...
-
-### [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md)
-**Ubaidullah, Muhammad Abid Hussain, Mohsin Raza Jafri et al.** · arXiv:2601.01807 · 2026-01-05 · `cs-cv`
-
-Lumpy Skin Disease (LSD) is a contagious viral infection that significantly deteriorates livestock health, thereby posing a serious threat to the global economy and food security. Owing to its rapid spread characteristics, early and precise identification is crucial to prevent outbreaks and ensure t...
-
-### [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md)
-**Shahnawaz Alam, Mohammed Mudassir Uddin, Mohammed Kaif Pasha** · arXiv:2601.02353 · 2026-01-05 · `cs-cv`
-
-Farmers in remote areas need quick and reliable methods for identifying plant diseases, yet they often lack access to laboratories or high-performance computing resources. Deep learning models can detect diseases from leaf images with high accuracy, but these models are typically too large and compu...
-
 
 ## By Field
 
 
-### CS-AI (56 papers)
+### CS-AI (58 papers)
 
+- [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md) - arXiv:2601.04160
+- [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md) - arXiv:2601.04170
 - [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md) - arXiv:2601.03232
 - [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md) - arXiv:2601.03248
 - [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md) - arXiv:2601.03236
@@ -125,8 +127,6 @@ Farmers in remote areas need quick and reliable methods for identifying plant di
 - [Robust Persona-Aware Toxicity Detection with Prompt Optimization and Learned Ensembling](/cs/ai/2601.02337-robust-persona-aware-toxicity-detection-with-promp.md) - arXiv:2601.02337
 - [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md) - arXiv:2601.01802
 - [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md) - arXiv:2512.25055
-- [Classifying long legal documents using short random chunks](/cs/ai/2512.24997-classifying-long-legal-documents-using-short-rando.md) - arXiv:2512.24997
-- [Modeling Language as a Sequence of Thoughts](/cs/ai/2512.25026-modeling-language-as-a-sequence-of-thoughts.md) - arXiv:2512.25026
 
 ### CS-CV (81 papers)
 
@@ -141,8 +141,11 @@ Farmers in remote areas need quick and reliable methods for identifying plant di
 - [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 - [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
 
-### CS-LG (51 papers)
+### CS-LG (54 papers)
 
+- [Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schrödinger Equation](/cs/lg/2601.04176-robust-physics-discovery-from-highly-corrupted-dat.md) - arXiv:2601.04176
+- [Clinical Data Goes MEDS? Let's OWL make sense of it](/cs/lg/2601.04164-clinical-data-goes-meds-lets-owl-make-sense-of-i.md) - arXiv:2601.04164
+- [Agentic Rubrics as Contextual Verifiers for SWE Agents](/cs/lg/2601.04171-agentic-rubrics-as-contextual-verifiers-for-swe-ag.md) - arXiv:2601.04171
 - [PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters](/cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md) - arXiv:2601.03237
 - [Critic-Guided Reinforcement Unlearning in Text-to-Image Diffusion](/cs/lg/2601.03213-critic-guided-reinforcement-unlearning-in-text-to.md) - arXiv:2601.03213
 - [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](/cs/lg/2601.03220-from-entropy-to-epiplexity-rethinking-information.md) - arXiv:2601.03220
@@ -150,9 +153,6 @@ Farmers in remote areas need quick and reliable methods for identifying plant di
 - [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
 - [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md) - arXiv:2601.02360
 - [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md) - arXiv:2601.01803
-- [Nested Learning: The Illusion of Deep Learning Architectures](/cs/lg/2512.24695-nested-learning-the-illusion-of-deep-learning-arc.md) - arXiv:2512.24695
-- [FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference](/cs/lg/2512.24713-fpga-co-design-for-efficient-nm-sparse-and-quanti.md) - arXiv:2512.24713
-- [On the geometry and topology of representations: the manifolds of modular addition](/cs/lg/2512.25060-on-the-geometry-and-topology-of-representations-t.md) - arXiv:2512.25060
 
 ### OTHER (36 papers)
 
