@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 234
-- **Unique Authors**: 1467
+- **Total Papers**: 239
+- **Unique Authors**: 1507
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-09 02:06:47
+- **Last Updated**: 2026-01-09 08:37:39
 
 ## Latest Papers
+
+### [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](/cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md)
+**Shih-Yang Liu, Xin Dong, Ximing Lu et al.** · arXiv:2601.05242 · 2026-01-08 · `cs-ai`
+
+As language models become increasingly capable, users expect them to provide not only accurate responses but also behaviors aligned with diverse human preferences across a variety of scenarios. To achieve this, Reinforcement learning (RL) pipelines have begun incorporating multiple rewards, each cap...
 
 ### [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md)
 **P. Gilda, P. Dungarwal, A. Thongkham et al.** · arXiv:2601.05232 · 2026-01-08 · `cs-ai`
@@ -26,10 +31,30 @@ We present \textsc{MineNPC-Task}, a user-authored benchmark and evaluation harne
 
 Large Language Models (LLMs) have shown remarkable capabilities in tool calling and tool usage, but suffer from hallucinations where they choose incorrect tools, provide malformed parameters and exhibit 'tool bypass' behavior by performing simulations and generating outputs instead of invoking speci...
 
+### [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](/cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md)
+**Zeren Jiang, Chuanxia Zheng, Iro Laina et al.** · arXiv:2601.05251 · 2026-01-08 · `cs-cv`
+
+We propose Mesh4D, a feed-forward model for monocular 4D mesh reconstruction. Given a monocular video of a dynamic object, our model reconstructs the object's complete 3D shape and motion, represented as a deformation field. Our key contribution is a compact latent space that encodes the entire anim...
+
 ### [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md)
 **Danilo Danese, Angela Lombardi, Matteo Attimonelli et al.** · arXiv:2601.05212 · 2026-01-08 · `cs-cv`
 
 Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ...
+
+### [RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes](/cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md)
+**Yuan-Kang Lee, Kuan-Lin Chen, Chia-Che Chang et al.** · arXiv:2601.05249 · 2026-01-08 · `cs-cv`
+
+Nighttime color constancy remains a challenging problem in computational photography due to low-light noise and complex illumination conditions. We present RL-AWB, a novel framework combining statistical methods with deep reinforcement learning for nighttime white balance. Our method begins with a s...
+
+### [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md)
+**Boyang Wang, Haoran Zhang, Shujie Zhang et al.** · arXiv:2601.05241 · 2026-01-08 · `cs-cv`
+
+The diversity, quantity, and quality of manipulation data are critical for training effective robot policies. However, due to hardware and physical setup constraints, collecting large-scale real-world manipulation data remains difficult to scale across diverse environments. Recent work uses text-pro...
+
+### [Pixel-Perfect Visual Geometry Estimation](/cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md)
+**Gangwei Xu, Haotong Lin, Hongcheng Luo et al.** · arXiv:2601.05246 · 2026-01-08 · `cs-cv`
+
+Recovering clean and accurate geometry from images is essential for robotics and augmented reality. However, existing geometry foundation models still suffer severely from flying pixels and the loss of fine details. In this paper, we present pixel-perfect visual geometry models that can predict high...
 
 ### [Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data](/other/2601.05227-stochastic-deep-learning-a-probabilistic-framewor.md)
 **James Rice** · arXiv:2601.05227 · 2026-01-08 · `other`
@@ -86,37 +111,13 @@ While Large Language Models (LLMs) have demonstrated significant potential in na
 
 Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers da...
 
-### [Critic-Guided Reinforcement Unlearning in Text-to-Image Diffusion](/cs/lg/2601.03213-critic-guided-reinforcement-unlearning-in-text-to.md)
-**Mykola Vysotskyi, Zahar Kohut, Mariia Shpir et al.** · arXiv:2601.03213 · 2026-01-06 · `cs-lg`
-
-Machine unlearning in text-to-image diffusion models aims to remove targeted concepts while preserving overall utility. Prior diffusion unlearning methods typically rely on supervised weight edits or global penalties; reinforcement-learning (RL) approaches, while flexible, often optimize sparse end-...
-
-### [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](/cs/lg/2601.03220-from-entropy-to-epiplexity-rethinking-information.md)
-**Marc Finzi, Shikai Qiu, Yiding Jiang et al.** · arXiv:2601.03220 · 2026-01-06 · `cs-lg`
-
-Can we learn more from data than existed in the generating process itself? Can new and useful information be constructed from merely applying deterministic transformations to existing data? Can the learnable content in data be evaluated without considering a downstream task? On these questions, Shan...
-
-### [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md)
-**Yoav HaCohen, Benny Brazowski, Nisan Chiprut et al.** · arXiv:2601.03233 · 2026-01-06 · `cs-cv`
-
-Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiov...
-
-### [Fine-tuning Small Language Models as Efficient Enterprise Search Relevance Labelers](/other/2601.03211-fine-tuning-small-language-models-as-efficient-ent.md)
-**Yue Kang, Zhuoyi Huang, Benji Schussheim et al.** · arXiv:2601.03211 · 2026-01-06 · `other`
-
-In enterprise search, building high-quality datasets at scale remains a central challenge due to the difficulty of acquiring labeled data. To resolve this challenge, we propose an efficient approach to fine-tune small language models (SLMs) for accurate relevance labeling, enabling high-throughput, ...
-
-### [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md)
-**Luca Candelori, Swarnadeep Majumder, Antonio Mezzacapo et al.** · arXiv:2601.03235 · 2026-01-06 · `other`
-
-Quantum computing has long promised transformative advances in data analysis, yet practical quantum machine learning has remained elusive due to fundamental obstacles such as a steep quantum cost for the loading of classical data and poor trainability of many quantum machine learning algorithms desi...
-
 
 ## By Field
 
 
-### CS-AI (61 papers)
+### CS-AI (62 papers)
 
+- [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](/cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md) - arXiv:2601.05242
 - [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md) - arXiv:2601.05232
 - [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](/cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md) - arXiv:2601.05215
 - [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md) - arXiv:2601.05214
@@ -126,20 +127,19 @@ Quantum computing has long promised transformative advances in data analysis, ye
 - [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md) - arXiv:2601.03248
 - [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md) - arXiv:2601.03236
 - [UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward](/cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md) - arXiv:2601.03205
-- [Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents](/cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md) - arXiv:2601.02314
 
-### CS-CV (82 papers)
+### CS-CV (86 papers)
 
+- [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](/cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md) - arXiv:2601.05251
 - [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md) - arXiv:2601.05212
+- [RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes](/cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md) - arXiv:2601.05249
+- [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md) - arXiv:2601.05241
+- [Pixel-Perfect Visual Geometry Estimation](/cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md) - arXiv:2601.05246
 - [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md) - arXiv:2601.03233
 - [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md) - arXiv:2601.02356
 - [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
 - [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md) - arXiv:2601.02353
 - [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md) - arXiv:2601.01804
-- [ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors](/cs/cv/2601.02359-exposeanyone-personalized-audio-to-expression-dif.md) - arXiv:2601.02359
-- [VINO: A Unified Visual Generator with Interleaved OmniModal Context](/cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md) - arXiv:2601.02358
-- [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md) - arXiv:2512.25066
-- [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
 
 ### CS-LG (54 papers)
 

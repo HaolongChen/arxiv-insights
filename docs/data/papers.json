@@ -1,5 +1,34 @@
 [
   {
+    "arxiv_id": "2601.05242",
+    "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+    "authors": [
+      "Shih-Yang Liu",
+      "Xin Dong",
+      "Ximing Lu",
+      "Shizhe Diao",
+      "Peter Belcak",
+      "Mingjie Liu",
+      "Min-Hung Chen",
+      "Hongxu Yin",
+      "Yu-Chiang Frank Wang",
+      "Kwang-Ting Cheng",
+      "Yejin Choi",
+      "Jan Kautz",
+      "Pavlo Molchanov"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.05242",
+    "abstract": "As language models become increasingly capable, users expect them to provide not only accurate responses but also behaviors aligned with diverse human preferences across a variety of scenarios. To achieve this, Reinforcement learning (RL) pipelines have begun incorporating multiple rewards, each cap",
+    "file": "cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md"
+  },
+  {
     "arxiv_id": "2601.05232",
     "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
     "authors": [
@@ -67,6 +96,25 @@
     "file": "cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md"
   },
   {
+    "arxiv_id": "2601.05251",
+    "title": "Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video",
+    "authors": [
+      "Zeren Jiang",
+      "Chuanxia Zheng",
+      "Iro Laina",
+      "Diane Larlus",
+      "Andrea Vedaldi"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05251",
+    "abstract": "We propose Mesh4D, a feed-forward model for monocular 4D mesh reconstruction. Given a monocular video of a dynamic object, our model reconstructs the object's complete 3D shape and motion, represented as a deformation field. Our key contribution is a compact latent space that encodes the entire anim",
+    "file": "cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md"
+  },
+  {
     "arxiv_id": "2601.05212",
     "title": "FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching",
     "authors": [
@@ -84,6 +132,74 @@
     "url": "https://arxiv.org/abs/2601.05212",
     "abstract": "Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ",
     "file": "cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md"
+  },
+  {
+    "arxiv_id": "2601.05249",
+    "title": "RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes",
+    "authors": [
+      "Yuan-Kang Lee",
+      "Kuan-Lin Chen",
+      "Chia-Che Chang",
+      "Yu-Lun Liu"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05249",
+    "abstract": "Nighttime color constancy remains a challenging problem in computational photography due to low-light noise and complex illumination conditions. We present RL-AWB, a novel framework combining statistical methods with deep reinforcement learning for nighttime white balance. Our method begins with a s",
+    "file": "cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md"
+  },
+  {
+    "arxiv_id": "2601.05241",
+    "title": "RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation",
+    "authors": [
+      "Boyang Wang",
+      "Haoran Zhang",
+      "Shujie Zhang",
+      "Jinkun Hao",
+      "Mingda Jia",
+      "Qi Lv",
+      "Yucheng Mao",
+      "Zhaoyang Lyu",
+      "Jia Zeng",
+      "Xudong Xu",
+      "Jiangmiao Pang"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "url": "https://arxiv.org/abs/2601.05241",
+    "abstract": "The diversity, quantity, and quality of manipulation data are critical for training effective robot policies. However, due to hardware and physical setup constraints, collecting large-scale real-world manipulation data remains difficult to scale across diverse environments. Recent work uses text-pro",
+    "file": "cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md"
+  },
+  {
+    "arxiv_id": "2601.05246",
+    "title": "Pixel-Perfect Visual Geometry Estimation",
+    "authors": [
+      "Gangwei Xu",
+      "Haotong Lin",
+      "Hongcheng Luo",
+      "Haiyang Sun",
+      "Bing Wang",
+      "Guang Chen",
+      "Sida Peng",
+      "Hangjun Ye",
+      "Xin Yang"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05246",
+    "abstract": "Recovering clean and accurate geometry from images is essential for robotics and augmented reality. However, existing geometry foundation models still suffer severely from flying pixels and the loss of fine details. In this paper, we present pixel-perfect visual geometry models that can predict high",
+    "file": "cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md"
   },
   {
     "arxiv_id": "2601.05227",
