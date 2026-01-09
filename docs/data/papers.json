@@ -29,6 +29,44 @@
     "file": "cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md"
   },
   {
+    "arxiv_id": "2601.05202",
+    "title": "Stock Market Price Prediction using Neural Prophet with Deep Neural Network",
+    "authors": [
+      "Navin Chhibber",
+      "Suneel Khemka",
+      "Navneet Kumar Tyagi",
+      "Rohit Tewari",
+      "Bireswar Banerjee",
+      "Piyush Ranjan"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.05202",
+    "abstract": "Stock market price prediction is a significant interdisciplinary research domain that depends at the intersection of finance, statistics, and economics. Forecasting Accurately predicting stock prices has always been a focal point for various researchers. However, existing statistical approaches for ",
+    "file": "cs/ai/2601.05202-stock-market-price-prediction-using-neural-prophet.md"
+  },
+  {
+    "arxiv_id": "2601.05192",
+    "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+    "authors": [
+      "Samy Haffoudhi",
+      "Fabian M. Suchanek",
+      "Nils Holzenberger"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2601.05192",
+    "abstract": "Entity linking (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question-answering, and information extraction. Our method, LELA, is a modular coarse-to-fine approach that leverages the capabilities of large la",
+    "file": "cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md"
+  },
+  {
     "arxiv_id": "2601.05232",
     "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
     "authors": [
@@ -96,6 +134,41 @@
     "file": "cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md"
   },
   {
+    "arxiv_id": "2601.05240",
+    "title": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+    "authors": [
+      "Ilmo Sung"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cond-mat.dis-nn",
+      "cs.AI",
+      "hep-th"
+    ],
+    "url": "https://arxiv.org/abs/2601.05240",
+    "abstract": "Large language models suffer from \"hallucinations\"-logical inconsistencies induced by semantic noise. We propose that current architectures operate in a \"Metric Phase,\" where causal order is vulnerable to spontaneous symmetry breaking. Here, we identify robust inference as an effective Symmetry-Prot",
+    "file": "cs/lg/2601.05240-robust-reasoning-as-a-symmetry-protected-topologic.md"
+  },
+  {
+    "arxiv_id": "2601.05205",
+    "title": "EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI",
+    "authors": [
+      "Zain Iqbal",
+      "Lorenzo Valerio"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-lg",
+    "tags": [
+      "cs.LG",
+      "cs.PF"
+    ],
+    "url": "https://arxiv.org/abs/2601.05205",
+    "abstract": "Pervasive AI increasingly depends on on-device learning systems that deliver low-latency and energy-efficient computation under strict resource constraints. Liquid State Machines (LSMs) offer a promising approach for low-power temporal processing in pervasive and neuromorphic systems, but their depl",
+    "file": "cs/lg/2601.05205-earl-energy-aware-optimization-of-liquid-state-ma.md"
+  },
+  {
     "arxiv_id": "2601.05251",
     "title": "Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video",
     "authors": [
@@ -113,6 +186,28 @@
     "url": "https://arxiv.org/abs/2601.05251",
     "abstract": "We propose Mesh4D, a feed-forward model for monocular 4D mesh reconstruction. Given a monocular video of a dynamic object, our model reconstructs the object's complete 3D shape and motion, represented as a deformation field. Our key contribution is a compact latent space that encodes the entire anim",
     "file": "cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md"
+  },
+  {
+    "arxiv_id": "2601.05239",
+    "title": "Plenoptic Video Generation",
+    "authors": [
+      "Xiao Fu",
+      "Shitao Tang",
+      "Min Shi",
+      "Xian Liu",
+      "Jinwei Gu",
+      "Ming-Yu Liu",
+      "Dahua Lin",
+      "Chen-Hsuan Lin"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05239",
+    "abstract": "Camera-controlled generative video re-rendering methods, such as ReCamMaster, have achieved remarkable progress. However, despite their success in single-view setting, these works often struggle to maintain consistency across multi-view scenarios. Ensuring spatio-temporal coherence in hallucinated r",
+    "file": "cs/cv/2601.05239-plenoptic-video-generation.md"
   },
   {
     "arxiv_id": "2601.05212",

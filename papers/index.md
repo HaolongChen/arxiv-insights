@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 239
-- **Unique Authors**: 1507
+- **Total Papers**: 244
+- **Unique Authors**: 1526
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-09 08:37:39
+- **Last Updated**: 2026-01-09 16:35:12
 
 ## Latest Papers
 
@@ -15,6 +15,16 @@
 **Shih-Yang Liu, Xin Dong, Ximing Lu et al.** · arXiv:2601.05242 · 2026-01-08 · `cs-ai`
 
 As language models become increasingly capable, users expect them to provide not only accurate responses but also behaviors aligned with diverse human preferences across a variety of scenarios. To achieve this, Reinforcement learning (RL) pipelines have begun incorporating multiple rewards, each cap...
+
+### [Stock Market Price Prediction using Neural Prophet with Deep Neural Network](/cs/ai/2601.05202-stock-market-price-prediction-using-neural-prophet.md)
+**Navin Chhibber, Suneel Khemka, Navneet Kumar Tyagi et al.** · arXiv:2601.05202 · 2026-01-08 · `cs-ai`
+
+Stock market price prediction is a significant interdisciplinary research domain that depends at the intersection of finance, statistics, and economics. Forecasting Accurately predicting stock prices has always been a focal point for various researchers. However, existing statistical approaches for ...
+
+### [LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation](/cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md)
+**Samy Haffoudhi, Fabian M. Suchanek, Nils Holzenberger** · arXiv:2601.05192 · 2026-01-08 · `cs-ai`
+
+Entity linking (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question-answering, and information extraction. Our method, LELA, is a modular coarse-to-fine approach that leverages the capabilities of large la...
 
 ### [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md)
 **P. Gilda, P. Dungarwal, A. Thongkham et al.** · arXiv:2601.05232 · 2026-01-08 · `cs-ai`
@@ -31,10 +41,25 @@ We present \textsc{MineNPC-Task}, a user-authored benchmark and evaluation harne
 
 Large Language Models (LLMs) have shown remarkable capabilities in tool calling and tool usage, but suffer from hallucinations where they choose incorrect tools, provide malformed parameters and exhibit 'tool bypass' behavior by performing simulations and generating outputs instead of invoking speci...
 
+### [Robust Reasoning as a Symmetry-Protected Topological Phase](/cs/lg/2601.05240-robust-reasoning-as-a-symmetry-protected-topologic.md)
+**Ilmo Sung** · arXiv:2601.05240 · 2026-01-08 · `cs-lg`
+
+Large language models suffer from "hallucinations"-logical inconsistencies induced by semantic noise. We propose that current architectures operate in a "Metric Phase," where causal order is vulnerable to spontaneous symmetry breaking. Here, we identify robust inference as an effective Symmetry-Prot...
+
+### [EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI](/cs/lg/2601.05205-earl-energy-aware-optimization-of-liquid-state-ma.md)
+**Zain Iqbal, Lorenzo Valerio** · arXiv:2601.05205 · 2026-01-08 · `cs-lg`
+
+Pervasive AI increasingly depends on on-device learning systems that deliver low-latency and energy-efficient computation under strict resource constraints. Liquid State Machines (LSMs) offer a promising approach for low-power temporal processing in pervasive and neuromorphic systems, but their depl...
+
 ### [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](/cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md)
 **Zeren Jiang, Chuanxia Zheng, Iro Laina et al.** · arXiv:2601.05251 · 2026-01-08 · `cs-cv`
 
 We propose Mesh4D, a feed-forward model for monocular 4D mesh reconstruction. Given a monocular video of a dynamic object, our model reconstructs the object's complete 3D shape and motion, represented as a deformation field. Our key contribution is a compact latent space that encodes the entire anim...
+
+### [Plenoptic Video Generation](/cs/cv/2601.05239-plenoptic-video-generation.md)
+**Xiao Fu, Shitao Tang, Min Shi et al.** · arXiv:2601.05239 · 2026-01-08 · `cs-cv`
+
+Camera-controlled generative video re-rendering methods, such as ReCamMaster, have achieved remarkable progress. However, despite their success in single-view setting, these works often struggle to maintain consistency across multi-view scenarios. Ensuring spatio-temporal coherence in hallucinated r...
 
 ### [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md)
 **Danilo Danese, Angela Lombardi, Matteo Attimonelli et al.** · arXiv:2601.05212 · 2026-01-08 · `cs-cv`
@@ -86,38 +111,15 @@ The application of machine learning on healthcare data is often hindered by the 
 
 Verification is critical for improving agents: it provides the reward signal for Reinforcement Learning and enables inference-time gains through Test-Time Scaling (TTS). Despite its importance, verification in software engineering (SWE) agent settings often relies on code execution, which can be dif...
 
-### [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md)
-**Kartik Bose, Abhinandan Kumar, Raghuraman Soundararajan et al.** · arXiv:2601.03232 · 2026-01-06 · `cs-ai`
-
-Background: Reporting and Data Systems (RADS) standardize radiology risk communication but automated RADS assignment from narrative reports is challenging because of guideline complexity, output-format constraints, and limited benchmarking across RADS frameworks and model sizes. Purpose: To create R...
-
-### [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md)
-**Juntong Ni, Shiyu Wang, Ming Jin et al.** · arXiv:2601.03248 · 2026-01-06 · `cs-ai`
-
-Spatio-temporal reasoning in time series involves the explicit synthesis of temporal dynamics, spatial dependencies, and textual context. This capability is vital for high-stakes decision-making in systems such as traffic networks, power grids, and disease propagation. However, the field remains und...
-
-### [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md)
-**Dongming Jiang, Yi Li, Guanpeng Li et al.** · arXiv:2601.03236 · 2026-01-06 · `cs-ai`
-
-Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability ...
-
-### [UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward](/cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md)
-**Yile Liu, Yixian Liu, Zongwei Li et al.** · arXiv:2601.03205 · 2026-01-06 · `cs-ai`
-
-While Large Language Models (LLMs) have demonstrated significant potential in natural language processing , complex general-purpose reasoning requiring multi-step logic, planning, and verification remains a critical bottleneck. Although Reinforcement Learning with Verifiable Rewards (RLVR) has succe...
-
-### [PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters](/cs/lg/2601.03237-pet-turtle-deep-unsupervised-support-vector-machi.md)
-**Javier Salazar Cavazos** · arXiv:2601.03237 · 2026-01-06 · `cs-lg`
-
-Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers da...
-
 
 ## By Field
 
 
-### CS-AI (62 papers)
+### CS-AI (64 papers)
 
 - [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](/cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md) - arXiv:2601.05242
+- [Stock Market Price Prediction using Neural Prophet with Deep Neural Network](/cs/ai/2601.05202-stock-market-price-prediction-using-neural-prophet.md) - arXiv:2601.05202
+- [LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation](/cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md) - arXiv:2601.05192
 - [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md) - arXiv:2601.05232
 - [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](/cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md) - arXiv:2601.05215
 - [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md) - arXiv:2601.05214
@@ -125,12 +127,11 @@ Foundation vision, audio, and language models enable zero-shot performance on do
 - [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md) - arXiv:2601.04170
 - [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md) - arXiv:2601.03232
 - [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md) - arXiv:2601.03248
-- [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md) - arXiv:2601.03236
-- [UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward](/cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md) - arXiv:2601.03205
 
-### CS-CV (86 papers)
+### CS-CV (87 papers)
 
 - [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](/cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md) - arXiv:2601.05251
+- [Plenoptic Video Generation](/cs/cv/2601.05239-plenoptic-video-generation.md) - arXiv:2601.05239
 - [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md) - arXiv:2601.05212
 - [RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes](/cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md) - arXiv:2601.05249
 - [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md) - arXiv:2601.05241
@@ -139,10 +140,11 @@ Foundation vision, audio, and language models enable zero-shot performance on do
 - [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md) - arXiv:2601.02356
 - [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
 - [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md) - arXiv:2601.02353
-- [Causality-Aware Temporal Projection for Video Understanding in Video-LLMs](/cs/cv/2601.01804-causality-aware-temporal-projection-for-video-unde.md) - arXiv:2601.01804
 
-### CS-LG (54 papers)
+### CS-LG (56 papers)
 
+- [Robust Reasoning as a Symmetry-Protected Topological Phase](/cs/lg/2601.05240-robust-reasoning-as-a-symmetry-protected-topologic.md) - arXiv:2601.05240
+- [EARL: Energy-Aware Optimization of Liquid State Machines for Pervasive AI](/cs/lg/2601.05205-earl-energy-aware-optimization-of-liquid-state-ma.md) - arXiv:2601.05205
 - [Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schrödinger Equation](/cs/lg/2601.04176-robust-physics-discovery-from-highly-corrupted-dat.md) - arXiv:2601.04176
 - [Clinical Data Goes MEDS? Let's OWL make sense of it](/cs/lg/2601.04164-clinical-data-goes-meds-lets-owl-make-sense-of-i.md) - arXiv:2601.04164
 - [Agentic Rubrics as Contextual Verifiers for SWE Agents](/cs/lg/2601.04171-agentic-rubrics-as-contextual-verifiers-for-swe-ag.md) - arXiv:2601.04171
@@ -151,8 +153,6 @@ Foundation vision, audio, and language models enable zero-shot performance on do
 - [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](/cs/lg/2601.03220-from-entropy-to-epiplexity-rethinking-information.md) - arXiv:2601.03220
 - [DatBench: Discriminative, Faithful, and Efficient VLM Evaluations](/cs/lg/2601.02316-datbench-discriminative-faithful-and-efficient.md) - arXiv:2601.02316
 - [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
-- [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md) - arXiv:2601.02360
-- [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md) - arXiv:2601.01803
 
 ### OTHER (37 papers)
 
