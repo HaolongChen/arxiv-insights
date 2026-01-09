@@ -4,12 +4,37 @@
 
 ## Statistics
 
-- **Total Papers**: 229
-- **Unique Authors**: 1438
+- **Total Papers**: 234
+- **Unique Authors**: 1467
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-08 16:37:11
+- **Last Updated**: 2026-01-09 02:06:47
 
 ## Latest Papers
+
+### [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md)
+**P. Gilda, P. Dungarwal, A. Thongkham et al.** · arXiv:2601.05232 · 2026-01-08 · `cs-ai`
+
+We used machine learning and artificial intelligence: 1) to measure levels of peace in countries from news and social media and 2) to develop on-line tools that promote peace by helping users better understand their own media diet. For news media, we used neural networks to measure levels of peace f...
+
+### [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](/cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md)
+**Tamil Sudaravan Mohan Doss, Michael Xu, Sudha Rao et al.** · arXiv:2601.05215 · 2026-01-08 · `cs-ai`
+
+We present \textsc{MineNPC-Task}, a user-authored benchmark and evaluation harness for testing memory-aware, mixed-initiative LLM agents in open-world \emph{Minecraft}. Rather than relying on synthetic prompts, tasks are elicited from formative and summative co-play with expert players, normalized i...
+
+### [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md)
+**Kait Healy, Bharathi Srinivasan, Visakh Madathil et al.** · arXiv:2601.05214 · 2026-01-08 · `cs-ai`
+
+Large Language Models (LLMs) have shown remarkable capabilities in tool calling and tool usage, but suffer from hallucinations where they choose incorrect tools, provide malformed parameters and exhibit 'tool bypass' behavior by performing simulations and generating outputs instead of invoking speci...
+
+### [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md)
+**Danilo Danese, Angela Lombardi, Matteo Attimonelli et al.** · arXiv:2601.05212 · 2026-01-08 · `cs-cv`
+
+Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ...
+
+### [Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data](/other/2601.05227-stochastic-deep-learning-a-probabilistic-framewor.md)
+**James Rice** · arXiv:2601.05227 · 2026-01-08 · `other`
+
+I propose a novel framework that integrates stochastic differential equations (SDEs) with deep generative models to improve uncertainty quantification in machine learning applications involving structured and temporal data. This approach, termed Stochastic Latent Differential Inference (SLDI), embed...
 
 ### [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md)
 **Yuechen Jiang, Zhiwei Liu, Yupeng Cao et al.** · arXiv:2601.04160 · 2026-01-07 · `cs-ai`
@@ -86,37 +111,15 @@ In enterprise search, building high-quality datasets at scale remains a central 
 
 Quantum computing has long promised transformative advances in data analysis, yet practical quantum machine learning has remained elusive due to fundamental obstacles such as a steep quantum cost for the loading of classical data and poor trainability of many quantum machine learning algorithms desi...
 
-### [Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents](/cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md)
-**Sourena Khanzadeh** · arXiv:2601.02314 · 2026-01-05 · `cs-ai`
-
-As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it ...
-
-### [Robust Persona-Aware Toxicity Detection with Prompt Optimization and Learned Ensembling](/cs/ai/2601.02337-robust-persona-aware-toxicity-detection-with-promp.md)
-**Berk Atil, Rebecca J. Passonneau, Ninareh Mehrabi** · arXiv:2601.02337 · 2026-01-05 · `cs-ai`
-
-Toxicity detection is inherently subjective, shaped by the diverse perspectives and social priors of different demographic groups. While ``pluralistic'' modeling as used in economics and the social sciences aims to capture perspective differences across contexts, current Large Language Model (LLM) p...
-
-### [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md)
-**Qianjun Pan, Junyi Wang, Jie Zhou et al.** · arXiv:2601.01802 · 2026-01-05 · `cs-ai`
-
-To develop a reliable AI for psychological assessment, we introduce \texttt{PsychEval}, a multi-session, multi-therapy, and highly realistic benchmark designed to address three key challenges: \textbf{1) Can we train a highly realistic AI counselor?} Realistic counseling is a longitudinal task requi...
-
-### [DatBench: Discriminative, Faithful, and Efficient VLM Evaluations](/cs/lg/2601.02316-datbench-discriminative-faithful-and-efficient.md)
-**Siddharth Joshi, Haoli Yin, Rishabh Adiga et al.** · arXiv:2601.02316 · 2026-01-05 · `cs-lg`
-
-Empirical evaluation serves as the primary compass guiding research progress in foundation models. Despite a large body of work focused on training frontier vision-language models (VLMs), approaches to their evaluation remain nascent. To guide their maturation, we propose three desiderata that evalu...
-
-### [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md)
-**Qi Wei, Junchao Fan, Zhao Yang et al.** · arXiv:2601.01800 · 2026-01-05 · `cs-lg`
-
-Reinforcement learning (RL) has shown considerable potential in autonomous driving (AD), yet its vulnerability to perturbations remains a critical barrier to real-world deployment. As a primary countermeasure, adversarial training improves policy robustness by training the AD agent in the presence o...
-
 
 ## By Field
 
 
-### CS-AI (58 papers)
+### CS-AI (61 papers)
 
+- [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md) - arXiv:2601.05232
+- [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](/cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md) - arXiv:2601.05215
+- [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md) - arXiv:2601.05214
 - [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md) - arXiv:2601.04160
 - [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md) - arXiv:2601.04170
 - [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md) - arXiv:2601.03232
@@ -124,12 +127,10 @@ Reinforcement learning (RL) has shown considerable potential in autonomous drivi
 - [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](/cs/ai/2601.03236-magma-a-multi-graph-based-agentic-memory-architec.md) - arXiv:2601.03236
 - [UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward](/cs/ai/2601.03205-ultralogic-enhancing-llm-reasoning-through-large.md) - arXiv:2601.03205
 - [Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents](/cs/ai/2601.02314-project-ariadne-a-structural-causal-framework-for.md) - arXiv:2601.02314
-- [Robust Persona-Aware Toxicity Detection with Prompt Optimization and Learned Ensembling](/cs/ai/2601.02337-robust-persona-aware-toxicity-detection-with-promp.md) - arXiv:2601.02337
-- [PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism and Comprehensive AI Psychological Counselor](/cs/ai/2601.01802-psycheval-a-multi-session-and-multi-therapy-bench.md) - arXiv:2601.01802
-- [Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings](/cs/ai/2512.25055-context-aware-llm-based-ai-agents-for-human-center.md) - arXiv:2512.25055
 
-### CS-CV (81 papers)
+### CS-CV (82 papers)
 
+- [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md) - arXiv:2601.05212
 - [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md) - arXiv:2601.03233
 - [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md) - arXiv:2601.02356
 - [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
@@ -139,7 +140,6 @@ Reinforcement learning (RL) has shown considerable potential in autonomous drivi
 - [VINO: A Unified Visual Generator with Interleaved OmniModal Context](/cs/cv/2601.02358-vino-a-unified-visual-generator-with-interleaved.md) - arXiv:2601.02358
 - [From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing](/cs/cv/2512.25066-from-inpainting-to-editing-a-self-bootstrapping-f.md) - arXiv:2512.25066
 - [Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions](/cs/cv/2512.24971-evaluating-the-impact-of-compression-techniques-on.md) - arXiv:2512.24971
-- [Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompting](/cs/cv/2512.24702-evolving-not-training-zero-shot-reasoning-segmen.md) - arXiv:2512.24702
 
 ### CS-LG (54 papers)
 
@@ -154,8 +154,9 @@ Reinforcement learning (RL) has shown considerable potential in autonomous drivi
 - [Heterogeneous Low-Bandwidth Pre-Training of LLMs](/cs/lg/2601.02360-heterogeneous-low-bandwidth-pre-training-of-llms.md) - arXiv:2601.02360
 - [Moments Matter:Stabilizing Policy Optimization using Return Distributions](/cs/lg/2601.01803-moments-matterstabilizing-policy-optimization-usi.md) - arXiv:2601.01803
 
-### OTHER (36 papers)
+### OTHER (37 papers)
 
+- [Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data](/other/2601.05227-stochastic-deep-learning-a-probabilistic-framewor.md) - arXiv:2601.05227
 - [Fine-tuning Small Language Models as Efficient Enterprise Search Relevance Labelers](/other/2601.03211-fine-tuning-small-language-models-as-efficient-ent.md) - arXiv:2601.03211
 - [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md) - arXiv:2601.03235
 - [Placement Semantics for Distributed Deep Learning: A Systematic Framework for Analyzing Parallelism Strategies](/other/2601.02311-placement-semantics-for-distributed-deep-learning.md) - arXiv:2601.02311
@@ -165,7 +166,6 @@ Reinforcement learning (RL) has shown considerable potential in autonomous drivi
 - [The Impact of LLMs on Online News Consumption and Production](/other/2512.24968-the-impact-of-llms-on-online-news-consumption-and.md) - arXiv:2512.24968
 - [Large language models and the entropy of English](/other/2512.24969-large-language-models-and-the-entropy-of-english.md) - arXiv:2512.24969
 - [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
-- [Bellman Calibration for V-Learning in Offline Reinforcement Learning](/other/2512.23694-bellman-calibration-for-v-learning-in-offline-rein.md) - arXiv:2512.23694
 
 ---
 

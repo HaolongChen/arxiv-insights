@@ -1,5 +1,109 @@
 [
   {
+    "arxiv_id": "2601.05232",
+    "title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence",
+    "authors": [
+      "P. Gilda",
+      "P. Dungarwal",
+      "A. Thongkham",
+      "E. T. Ajayi",
+      "S. Choudhary",
+      "T. M. Terol",
+      "C. Lam",
+      "J. P. Araujo",
+      "M. McFadyen-Mungalln",
+      "L. S. Liebovitch",
+      "P. T. Coleman",
+      "H. West",
+      "K. Sieck",
+      "S. Carter"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.05232",
+    "abstract": "We used machine learning and artificial intelligence: 1) to measure levels of peace in countries from news and social media and 2) to develop on-line tools that promote peace by helping users better understand their own media diet. For news media, we used neural networks to measure levels of peace f",
+    "file": "cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md"
+  },
+  {
+    "arxiv_id": "2601.05215",
+    "title": "MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents",
+    "authors": [
+      "Tamil Sudaravan Mohan Doss",
+      "Michael Xu",
+      "Sudha Rao",
+      "Andrew D. Wilson",
+      "Balasaravanan Thoravi Kumaravel"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.05215",
+    "abstract": "We present \\textsc{MineNPC-Task}, a user-authored benchmark and evaluation harness for testing memory-aware, mixed-initiative LLM agents in open-world \\emph{Minecraft}. Rather than relying on synthetic prompts, tasks are elicited from formative and summative co-play with expert players, normalized i",
+    "file": "cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md"
+  },
+  {
+    "arxiv_id": "2601.05214",
+    "title": "Internal Representations as Indicators of Hallucinations in Agent Tool Selection",
+    "authors": [
+      "Kait Healy",
+      "Bharathi Srinivasan",
+      "Visakh Madathil",
+      "Jing Wu"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.05214",
+    "abstract": "Large Language Models (LLMs) have shown remarkable capabilities in tool calling and tool usage, but suffer from hallucinations where they choose incorrect tools, provide malformed parameters and exhibit 'tool bypass' behavior by performing simulations and generating outputs instead of invoking speci",
+    "file": "cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md"
+  },
+  {
+    "arxiv_id": "2601.05212",
+    "title": "FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching",
+    "authors": [
+      "Danilo Danese",
+      "Angela Lombardi",
+      "Matteo Attimonelli",
+      "Giuseppe Fasano",
+      "Tommaso Di Noia"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05212",
+    "abstract": "Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ",
+    "file": "cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md"
+  },
+  {
+    "arxiv_id": "2601.05227",
+    "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+    "authors": [
+      "James Rice"
+    ],
+    "date": "2026-01-08",
+    "field": "other",
+    "tags": [
+      "stat.ML",
+      "cs.LG",
+      "econ.EM",
+      "math.ST"
+    ],
+    "url": "https://arxiv.org/abs/2601.05227",
+    "abstract": "I propose a novel framework that integrates stochastic differential equations (SDEs) with deep generative models to improve uncertainty quantification in machine learning applications involving structured and temporal data. This approach, termed Stochastic Latent Differential Inference (SLDI), embed",
+    "file": "other/2601.05227-stochastic-deep-learning-a-probabilistic-framewor.md"
+  },
+  {
     "arxiv_id": "2601.04160",
     "title": "All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection",
     "authors": [
