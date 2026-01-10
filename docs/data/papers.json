@@ -1,5 +1,25 @@
 [
   {
+    "arxiv_id": "2601.05184",
+    "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+    "authors": [
+      "Yaxuan Wang",
+      "Zhongteng Cai",
+      "Yujia Bao",
+      "Xueru Zhang",
+      "Yang Liu"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2601.05184",
+    "abstract": "The rapid advancement of large language models (LLMs) has led to growing interest in using synthetic data to train future models. However, this creates a self-consuming retraining loop, where models are trained on their own outputs and may cause performance drops and induce emerging biases. In real-",
+    "file": "cs/ai/2601.05184-observations-and-remedies-for-large-language-model.md"
+  },
+  {
     "arxiv_id": "2601.05242",
     "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
     "authors": [
@@ -48,6 +68,22 @@
     "url": "https://arxiv.org/abs/2601.05202",
     "abstract": "Stock market price prediction is a significant interdisciplinary research domain that depends at the intersection of finance, statistics, and economics. Forecasting Accurately predicting stock prices has always been a focal point for various researchers. However, existing statistical approaches for ",
     "file": "cs/ai/2601.05202-stock-market-price-prediction-using-neural-prophet.md"
+  },
+  {
+    "arxiv_id": "2601.05187",
+    "title": "SimuAgent: An LLM-Based Simulink Modeling Assistant Enhanced with Reinforcement Learning",
+    "authors": [
+      "Yanchang Liang",
+      "Xiaowei Zhao"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.05187",
+    "abstract": "Large language models (LLMs) have revolutionized text-based code automation, but their potential in graph-oriented engineering workflows remains under-explored. We introduce SimuAgent, an LLM-powered modeling and simulation agent tailored for Simulink. SimuAgent replaces verbose XML with a concise, ",
+    "file": "cs/ai/2601.05187-simuagent-an-llm-based-simulink-modeling-assistan.md"
   },
   {
     "arxiv_id": "2601.05192",
@@ -229,6 +265,24 @@
     "file": "cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md"
   },
   {
+    "arxiv_id": "2601.05191",
+    "title": "Cutting AI Research Costs: How Task-Aware Compression Makes Large Language Model Agents Affordable",
+    "authors": [
+      "Zuhair Ahmed Khan Taha",
+      "Mohammed Mudassir Uddin",
+      "Shahnawaz Alam"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.05191",
+    "abstract": "When researchers deploy large language models for autonomous tasks like reviewing literature or generating hypotheses, the computational bills add up quickly. A single research session using a 70-billion parameter model can cost around $127 in cloud fees, putting these tools out of reach for many ac",
+    "file": "cs/cv/2601.05191-cutting-ai-research-costs-how-task-aware-compress.md"
+  },
+  {
     "arxiv_id": "2601.05249",
     "title": "RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes",
     "authors": [
@@ -245,6 +299,66 @@
     "url": "https://arxiv.org/abs/2601.05249",
     "abstract": "Nighttime color constancy remains a challenging problem in computational photography due to low-light noise and complex illumination conditions. We present RL-AWB, a novel framework combining statistical methods with deep reinforcement learning for nighttime white balance. Our method begins with a s",
     "file": "cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md"
+  },
+  {
+    "arxiv_id": "2601.05172",
+    "title": "CoV: Chain-of-View Prompting for Spatial Reasoning",
+    "authors": [
+      "Haoyu Zhao",
+      "Akide Liu",
+      "Zeyu Zhang",
+      "Weijie Wang",
+      "Feng Chen",
+      "Ruihan Zhu",
+      "Gholamreza Haffari",
+      "Bohan Zhuang"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.05172",
+    "abstract": "Embodied question answering (EQA) in 3D environments often requires collecting context that is distributed across multiple viewpoints and partially occluded. However, most recent vision--language models (VLMs) are constrained to a fixed and finite set of input views, which limits their ability to ac",
+    "file": "cs/cv/2601.05172-cov-chain-of-view-prompting-for-spatial-reasoning.md"
+  },
+  {
+    "arxiv_id": "2601.05175",
+    "title": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+    "authors": [
+      "Shuming Liu",
+      "Mingchen Zhuge",
+      "Changsheng Zhao",
+      "Jun Chen",
+      "Lemeng Wu",
+      "Zechun Liu",
+      "Chenchen Zhu",
+      "Zhipeng Cai",
+      "Chong Zhou",
+      "Haozhe Liu",
+      "Ernie Chang",
+      "Saksham Suri",
+      "Hongyu Xu",
+      "Qi Qian",
+      "Wei Wen",
+      "Balakrishnan Varadarajan",
+      "Zhuang Liu",
+      "Hu Xu",
+      "Florian Bordes",
+      "Raghuraman Krishnamoorthi",
+      "Bernard Ghanem",
+      "Vikas Chandra",
+      "Yunyang Xiong"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05175",
+    "abstract": "Chain-of-thought (CoT) reasoning has emerged as a powerful tool for multimodal large language models on video understanding tasks. However, its necessity and advantages over direct answering remain underexplored. In this paper, we first demonstrate that for RL-trained video models, direct answering ",
+    "file": "cs/cv/2601.05175-videoauto-r1-video-auto-reasoning-via-thinking-on.md"
   },
   {
     "arxiv_id": "2601.05241",

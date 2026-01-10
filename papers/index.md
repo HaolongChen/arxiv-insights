@@ -4,12 +4,17 @@
 
 ## Statistics
 
-- **Total Papers**: 244
-- **Unique Authors**: 1526
+- **Total Papers**: 249
+- **Unique Authors**: 1563
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-09 16:35:12
+- **Last Updated**: 2026-01-10 08:32:43
 
 ## Latest Papers
+
+### [Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop](/cs/ai/2601.05184-observations-and-remedies-for-large-language-model.md)
+**Yaxuan Wang, Zhongteng Cai, Yujia Bao et al.** · arXiv:2601.05184 · 2026-01-08 · `cs-ai`
+
+The rapid advancement of large language models (LLMs) has led to growing interest in using synthetic data to train future models. However, this creates a self-consuming retraining loop, where models are trained on their own outputs and may cause performance drops and induce emerging biases. In real-...
 
 ### [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](/cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md)
 **Shih-Yang Liu, Xin Dong, Ximing Lu et al.** · arXiv:2601.05242 · 2026-01-08 · `cs-ai`
@@ -20,6 +25,11 @@ As language models become increasingly capable, users expect them to provide not
 **Navin Chhibber, Suneel Khemka, Navneet Kumar Tyagi et al.** · arXiv:2601.05202 · 2026-01-08 · `cs-ai`
 
 Stock market price prediction is a significant interdisciplinary research domain that depends at the intersection of finance, statistics, and economics. Forecasting Accurately predicting stock prices has always been a focal point for various researchers. However, existing statistical approaches for ...
+
+### [SimuAgent: An LLM-Based Simulink Modeling Assistant Enhanced with Reinforcement Learning](/cs/ai/2601.05187-simuagent-an-llm-based-simulink-modeling-assistan.md)
+**Yanchang Liang, Xiaowei Zhao** · arXiv:2601.05187 · 2026-01-08 · `cs-ai`
+
+Large language models (LLMs) have revolutionized text-based code automation, but their potential in graph-oriented engineering workflows remains under-explored. We introduce SimuAgent, an LLM-powered modeling and simulation agent tailored for Simulink. SimuAgent replaces verbose XML with a concise, ...
 
 ### [LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation](/cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md)
 **Samy Haffoudhi, Fabian M. Suchanek, Nils Holzenberger** · arXiv:2601.05192 · 2026-01-08 · `cs-ai`
@@ -66,10 +76,25 @@ Camera-controlled generative video re-rendering methods, such as ReCamMaster, ha
 
 Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ...
 
+### [Cutting AI Research Costs: How Task-Aware Compression Makes Large Language Model Agents Affordable](/cs/cv/2601.05191-cutting-ai-research-costs-how-task-aware-compress.md)
+**Zuhair Ahmed Khan Taha, Mohammed Mudassir Uddin, Shahnawaz Alam** · arXiv:2601.05191 · 2026-01-08 · `cs-cv`
+
+When researchers deploy large language models for autonomous tasks like reviewing literature or generating hypotheses, the computational bills add up quickly. A single research session using a 70-billion parameter model can cost around $127 in cloud fees, putting these tools out of reach for many ac...
+
 ### [RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes](/cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md)
 **Yuan-Kang Lee, Kuan-Lin Chen, Chia-Che Chang et al.** · arXiv:2601.05249 · 2026-01-08 · `cs-cv`
 
 Nighttime color constancy remains a challenging problem in computational photography due to low-light noise and complex illumination conditions. We present RL-AWB, a novel framework combining statistical methods with deep reinforcement learning for nighttime white balance. Our method begins with a s...
+
+### [CoV: Chain-of-View Prompting for Spatial Reasoning](/cs/cv/2601.05172-cov-chain-of-view-prompting-for-spatial-reasoning.md)
+**Haoyu Zhao, Akide Liu, Zeyu Zhang et al.** · arXiv:2601.05172 · 2026-01-08 · `cs-cv`
+
+Embodied question answering (EQA) in 3D environments often requires collecting context that is distributed across multiple viewpoints and partially occluded. However, most recent vision--language models (VLMs) are constrained to a fixed and finite set of input views, which limits their ability to ac...
+
+### [VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](/cs/cv/2601.05175-videoauto-r1-video-auto-reasoning-via-thinking-on.md)
+**Shuming Liu, Mingchen Zhuge, Changsheng Zhao et al.** · arXiv:2601.05175 · 2026-01-08 · `cs-cv`
+
+Chain-of-thought (CoT) reasoning has emerged as a powerful tool for multimodal large language models on video understanding tasks. However, its necessity and advantages over direct answering remain underexplored. In this paper, we first demonstrate that for RL-trained video models, direct answering ...
 
 ### [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md)
 **Boyang Wang, Haoran Zhang, Shujie Zhang et al.** · arXiv:2601.05241 · 2026-01-08 · `cs-cv`
@@ -86,60 +111,35 @@ Recovering clean and accurate geometry from images is essential for robotics and
 
 I propose a novel framework that integrates stochastic differential equations (SDEs) with deep generative models to improve uncertainty quantification in machine learning applications involving structured and temporal data. This approach, termed Stochastic Latent Differential Inference (SLDI), embed...
 
-### [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md)
-**Yuechen Jiang, Zhiwei Liu, Yupeng Cao et al.** · arXiv:2601.04160 · 2026-01-07 · `cs-ai`
-
-We introduce RFC Bench, a benchmark for evaluating large language models on financial misinformation under realistic news. RFC Bench operates at the paragraph level and captures the contextual complexity of financial news where meaning emerges from dispersed cues. The benchmark defines two complemen...
-
-### [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md)
-**Abhishek Rath** · arXiv:2601.04170 · 2026-01-07 · `cs-ai`
-
-Multi-agent Large Language Model (LLM) systems have emerged as powerful architectures for complex task decomposition and collaborative problem-solving. However, their long-term behavioral stability remains largely unexamined. This study introduces the concept of agent drift, defined as the progressi...
-
-### [Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schrödinger Equation](/cs/lg/2601.04176-robust-physics-discovery-from-highly-corrupted-dat.md)
-**Pietro de Oliveira Esteves** · arXiv:2601.04176 · 2026-01-07 · `cs-lg`
-
-We demonstrate a deep learning framework capable of recovering physical parameters from the Nonlinear Schrodinger Equation (NLSE) under severe noise conditions. By integrating Physics-Informed Neural Networks (PINNs) with automatic differentiation, we achieve reconstruction of the nonlinear coeffici...
-
-### [Clinical Data Goes MEDS? Let's OWL make sense of it](/cs/lg/2601.04164-clinical-data-goes-meds-lets-owl-make-sense-of-i.md)
-**Alberto Marfoglia, Jong Ho Jhee, Adrien Coulet** · arXiv:2601.04164 · 2026-01-07 · `cs-lg`
-
-The application of machine learning on healthcare data is often hindered by the lack of standardized and semantically explicit representation, leading to limited interoperability and reproducibility across datasets and experiments. The Medical Event Data Standard (MEDS) addresses these issues by int...
-
-### [Agentic Rubrics as Contextual Verifiers for SWE Agents](/cs/lg/2601.04171-agentic-rubrics-as-contextual-verifiers-for-swe-ag.md)
-**Mohit Raghavendra, Anisha Gunjal, Bing Liu et al.** · arXiv:2601.04171 · 2026-01-07 · `cs-lg`
-
-Verification is critical for improving agents: it provides the reward signal for Reinforcement Learning and enables inference-time gains through Test-Time Scaling (TTS). Despite its importance, verification in software engineering (SWE) agent settings often relies on code execution, which can be dif...
-
 
 ## By Field
 
 
-### CS-AI (64 papers)
+### CS-AI (66 papers)
 
+- [Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop](/cs/ai/2601.05184-observations-and-remedies-for-large-language-model.md) - arXiv:2601.05184
 - [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](/cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md) - arXiv:2601.05242
 - [Stock Market Price Prediction using Neural Prophet with Deep Neural Network](/cs/ai/2601.05202-stock-market-price-prediction-using-neural-prophet.md) - arXiv:2601.05202
+- [SimuAgent: An LLM-Based Simulink Modeling Assistant Enhanced with Reinforcement Learning](/cs/ai/2601.05187-simuagent-an-llm-based-simulink-modeling-assistan.md) - arXiv:2601.05187
 - [LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation](/cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md) - arXiv:2601.05192
 - [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md) - arXiv:2601.05232
 - [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](/cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md) - arXiv:2601.05215
 - [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md) - arXiv:2601.05214
 - [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md) - arXiv:2601.04160
 - [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md) - arXiv:2601.04170
-- [Multi-RADS Synthetic Radiology Report Dataset and Head-to-Head Benchmarking of 41 Open-Weight and Proprietary Language Models](/cs/ai/2601.03232-multi-rads-synthetic-radiology-report-dataset-and.md) - arXiv:2601.03232
-- [STReasoner: Empowering LLMs for Spatio-Temporal Reasoning in Time Series via Spatial-Aware Reinforcement Learning](/cs/ai/2601.03248-streasoner-empowering-llms-for-spatio-temporal-re.md) - arXiv:2601.03248
 
-### CS-CV (87 papers)
+### CS-CV (90 papers)
 
 - [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](/cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md) - arXiv:2601.05251
 - [Plenoptic Video Generation](/cs/cv/2601.05239-plenoptic-video-generation.md) - arXiv:2601.05239
 - [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md) - arXiv:2601.05212
+- [Cutting AI Research Costs: How Task-Aware Compression Makes Large Language Model Agents Affordable](/cs/cv/2601.05191-cutting-ai-research-costs-how-task-aware-compress.md) - arXiv:2601.05191
 - [RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes](/cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md) - arXiv:2601.05249
+- [CoV: Chain-of-View Prompting for Spatial Reasoning](/cs/cv/2601.05172-cov-chain-of-view-prompting-for-spatial-reasoning.md) - arXiv:2601.05172
+- [VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](/cs/cv/2601.05175-videoauto-r1-video-auto-reasoning-via-thinking-on.md) - arXiv:2601.05175
 - [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md) - arXiv:2601.05241
 - [Pixel-Perfect Visual Geometry Estimation](/cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md) - arXiv:2601.05246
 - [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md) - arXiv:2601.03233
-- [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](/cs/cv/2601.02356-talk2move-reinforcement-learning-for-text-instruc.md) - arXiv:2601.02356
-- [Adaptive Hybrid Optimizer based Framework for Lumpy Skin Disease Identification](/cs/cv/2601.01807-adaptive-hybrid-optimizer-based-framework-for-lump.md) - arXiv:2601.01807
-- [Meta-Learning Guided Pruning for Few-Shot Plant Pathology on Edge Devices](/cs/cv/2601.02353-meta-learning-guided-pruning-for-few-shot-plant-pa.md) - arXiv:2601.02353
 
 ### CS-LG (56 papers)
 
