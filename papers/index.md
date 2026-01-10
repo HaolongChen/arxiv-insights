@@ -4,10 +4,10 @@
 
 ## Statistics
 
-- **Total Papers**: 249
-- **Unique Authors**: 1563
+- **Total Papers**: 254
+- **Unique Authors**: 1593
 - **Research Fields**: 4
-- **Last Updated**: 2026-01-10 08:32:43
+- **Last Updated**: 2026-01-10 16:30:57
 
 ## Latest Papers
 
@@ -31,6 +31,11 @@ Stock market price prediction is a significant interdisciplinary research domain
 
 Large language models (LLMs) have revolutionized text-based code automation, but their potential in graph-oriented engineering workflows remains under-explored. We introduce SimuAgent, an LLM-powered modeling and simulation agent tailored for Simulink. SimuAgent replaces verbose XML with a concise, ...
 
+### [Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems](/cs/ai/2601.05171-inside-out-evolving-user-centric-core-memory-tree.md)
+**Jihao Zhao, Ding Chen, Zhaoxin Fan et al.** · arXiv:2601.05171 · 2026-01-08 · `cs-ai`
+
+Existing long-term personalized dialogue systems struggle to reconcile unbounded interaction streams with finite context constraints, often succumbing to memory noise accumulation, reasoning degradation, and persona inconsistency. To address these challenges, this paper proposes Inside Out, a framew...
+
 ### [LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation](/cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md)
 **Samy Haffoudhi, Fabian M. Suchanek, Nils Holzenberger** · arXiv:2601.05192 · 2026-01-08 · `cs-ai`
 
@@ -45,6 +50,11 @@ We used machine learning and artificial intelligence: 1) to measure levels of pe
 **Tamil Sudaravan Mohan Doss, Michael Xu, Sudha Rao et al.** · arXiv:2601.05215 · 2026-01-08 · `cs-ai`
 
 We present \textsc{MineNPC-Task}, a user-authored benchmark and evaluation harness for testing memory-aware, mixed-initiative LLM agents in open-world \emph{Minecraft}. Rather than relying on synthetic prompts, tasks are elicited from formative and summative co-play with expert players, normalized i...
+
+### [RelayLLM: Efficient Reasoning via Collaborative Decoding](/cs/ai/2601.05167-relayllm-efficient-reasoning-via-collaborative-de.md)
+**Chengsong Huang, Tong Zheng, Langlin Huang et al.** · arXiv:2601.05167 · 2026-01-08 · `cs-ai`
+
+Large Language Models (LLMs) for complex reasoning is often hindered by high computational costs and latency, while resource-efficient Small Language Models (SLMs) typically lack the necessary reasoning capacity. Existing collaborative approaches, such as cascading or routing, operate at a coarse gr...
 
 ### [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md)
 **Kait Healy, Bharathi Srinivasan, Visakh Madathil et al.** · arXiv:2601.05214 · 2026-01-08 · `cs-ai`
@@ -76,6 +86,11 @@ Camera-controlled generative video re-rendering methods, such as ReCamMaster, ha
 
 Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ...
 
+### [Vision-Language Introspection: Mitigating Overconfident Hallucinations in MLLMs via Interpretable Bi-Causal Steering](/cs/cv/2601.05159-vision-language-introspection-mitigating-overconf.md)
+**Shuliang Liu, Songbo Yang, Dong Fang et al.** · arXiv:2601.05159 · 2026-01-08 · `cs-cv`
+
+Object hallucination critically undermines the reliability of Multimodal Large Language Models, often stemming from a fundamental failure in cognitive introspection, where models blindly trust linguistic priors over specific visual evidence. Existing mitigations remain limited: contrastive decoding ...
+
 ### [Cutting AI Research Costs: How Task-Aware Compression Makes Large Language Model Agents Affordable](/cs/cv/2601.05191-cutting-ai-research-costs-how-task-aware-compress.md)
 **Zuhair Ahmed Khan Taha, Mohammed Mudassir Uddin, Shahnawaz Alam** · arXiv:2601.05191 · 2026-01-08 · `cs-cv`
 
@@ -96,50 +111,35 @@ Embodied question answering (EQA) in 3D environments often requires collecting c
 
 Chain-of-thought (CoT) reasoning has emerged as a powerful tool for multimodal large language models on video understanding tasks. However, its necessity and advantages over direct answering remain underexplored. In this paper, we first demonstrate that for RL-trained video models, direct answering ...
 
-### [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md)
-**Boyang Wang, Haoran Zhang, Shujie Zhang et al.** · arXiv:2601.05241 · 2026-01-08 · `cs-cv`
-
-The diversity, quantity, and quality of manipulation data are critical for training effective robot policies. However, due to hardware and physical setup constraints, collecting large-scale real-world manipulation data remains difficult to scale across diverse environments. Recent work uses text-pro...
-
-### [Pixel-Perfect Visual Geometry Estimation](/cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md)
-**Gangwei Xu, Haotong Lin, Hongcheng Luo et al.** · arXiv:2601.05246 · 2026-01-08 · `cs-cv`
-
-Recovering clean and accurate geometry from images is essential for robotics and augmented reality. However, existing geometry foundation models still suffer severely from flying pixels and the loss of fine details. In this paper, we present pixel-perfect visual geometry models that can predict high...
-
-### [Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data](/other/2601.05227-stochastic-deep-learning-a-probabilistic-framewor.md)
-**James Rice** · arXiv:2601.05227 · 2026-01-08 · `other`
-
-I propose a novel framework that integrates stochastic differential equations (SDEs) with deep generative models to improve uncertainty quantification in machine learning applications involving structured and temporal data. This approach, termed Stochastic Latent Differential Inference (SLDI), embed...
-
 
 ## By Field
 
 
-### CS-AI (66 papers)
+### CS-AI (68 papers)
 
 - [Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop](/cs/ai/2601.05184-observations-and-remedies-for-large-language-model.md) - arXiv:2601.05184
 - [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](/cs/ai/2601.05242-gdpo-group-reward-decoupled-normalization-policy.md) - arXiv:2601.05242
 - [Stock Market Price Prediction using Neural Prophet with Deep Neural Network](/cs/ai/2601.05202-stock-market-price-prediction-using-neural-prophet.md) - arXiv:2601.05202
 - [SimuAgent: An LLM-Based Simulink Modeling Assistant Enhanced with Reinforcement Learning](/cs/ai/2601.05187-simuagent-an-llm-based-simulink-modeling-assistan.md) - arXiv:2601.05187
+- [Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems](/cs/ai/2601.05171-inside-out-evolving-user-centric-core-memory-tree.md) - arXiv:2601.05171
 - [LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation](/cs/ai/2601.05192-lela-an-llm-based-entity-linking-approach-with-ze.md) - arXiv:2601.05192
 - [Measuring and Fostering Peace through Machine Learning and Artificial Intelligence](/cs/ai/2601.05232-measuring-and-fostering-peace-through-machine-lear.md) - arXiv:2601.05232
 - [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](/cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md) - arXiv:2601.05215
+- [RelayLLM: Efficient Reasoning via Collaborative Decoding](/cs/ai/2601.05167-relayllm-efficient-reasoning-via-collaborative-de.md) - arXiv:2601.05167
 - [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](/cs/ai/2601.05214-internal-representations-as-indicators-of-hallucin.md) - arXiv:2601.05214
-- [All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection](/cs/ai/2601.04160-all-that-glisters-is-not-gold-a-benchmark-for-ref.md) - arXiv:2601.04160
-- [Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over Extended Interactions](/cs/ai/2601.04170-agent-drift-quantifying-behavioral-degradation-in.md) - arXiv:2601.04170
 
-### CS-CV (90 papers)
+### CS-CV (91 papers)
 
 - [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](/cs/cv/2601.05251-mesh4d-4d-mesh-reconstruction-and-tracking-from-m.md) - arXiv:2601.05251
 - [Plenoptic Video Generation](/cs/cv/2601.05239-plenoptic-video-generation.md) - arXiv:2601.05239
 - [FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching](/cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md) - arXiv:2601.05212
+- [Vision-Language Introspection: Mitigating Overconfident Hallucinations in MLLMs via Interpretable Bi-Causal Steering](/cs/cv/2601.05159-vision-language-introspection-mitigating-overconf.md) - arXiv:2601.05159
 - [Cutting AI Research Costs: How Task-Aware Compression Makes Large Language Model Agents Affordable](/cs/cv/2601.05191-cutting-ai-research-costs-how-task-aware-compress.md) - arXiv:2601.05191
 - [RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes](/cs/cv/2601.05249-rl-awb-deep-reinforcement-learning-for-auto-white.md) - arXiv:2601.05249
 - [CoV: Chain-of-View Prompting for Spatial Reasoning](/cs/cv/2601.05172-cov-chain-of-view-prompting-for-spatial-reasoning.md) - arXiv:2601.05172
 - [VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice](/cs/cv/2601.05175-videoauto-r1-video-auto-reasoning-via-thinking-on.md) - arXiv:2601.05175
 - [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](/cs/cv/2601.05241-robovip-multi-view-video-generation-with-visual-i.md) - arXiv:2601.05241
 - [Pixel-Perfect Visual Geometry Estimation](/cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md) - arXiv:2601.05246
-- [LTX-2: Efficient Joint Audio-Visual Foundation Model](/cs/cv/2601.03233-ltx-2-efficient-joint-audio-visual-foundation-mod.md) - arXiv:2601.03233
 
 ### CS-LG (56 papers)
 
@@ -154,8 +154,10 @@ I propose a novel framework that integrates stochastic differential equations (S
 - [DatBench: Discriminative, Faithful, and Efficient VLM Evaluations](/cs/lg/2601.02316-datbench-discriminative-faithful-and-efficient.md) - arXiv:2601.02316
 - [Sparse Threats, Focused Defense: Criticality-Aware Robust Reinforcement Learning for Safe Autonomous Driving](/cs/lg/2601.01800-sparse-threats-focused-defense-criticality-aware.md) - arXiv:2601.01800
 
-### OTHER (37 papers)
+### OTHER (39 papers)
 
+- [GenAI-DrawIO-Creator: A Framework for Automated Diagram Generation](/other/2601.05162-genai-drawio-creator-a-framework-for-automated-di.md) - arXiv:2601.05162
+- [Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms](/other/2601.05157-learning-mixture-models-via-efficient-high-dimensi.md) - arXiv:2601.05157
 - [Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data](/other/2601.05227-stochastic-deep-learning-a-probabilistic-framewor.md) - arXiv:2601.05227
 - [Fine-tuning Small Language Models as Efficient Enterprise Search Relevance Labelers](/other/2601.03211-fine-tuning-small-language-models-as-efficient-ent.md) - arXiv:2601.03211
 - [Shallow-circuit Supervised Learning on a Quantum Processor](/other/2601.03235-shallow-circuit-supervised-learning-on-a-quantum-p.md) - arXiv:2601.03235
@@ -164,8 +166,6 @@ I propose a novel framework that integrates stochastic differential equations (S
 - [Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search](/other/2512.25065-vulcan-instance-optimal-systems-heuristics-throug.md) - arXiv:2512.25065
 - [PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes](/other/2512.24986-phystalk-language-driven-real-time-physics-in-3d.md) - arXiv:2512.24986
 - [The Impact of LLMs on Online News Consumption and Production](/other/2512.24968-the-impact-of-llms-on-online-news-consumption-and.md) - arXiv:2512.24968
-- [Large language models and the entropy of English](/other/2512.24969-large-language-models-and-the-entropy-of-english.md) - arXiv:2512.24969
-- [Simultaneous Approximation of the Score Function and Its Derivatives by Deep Neural Networks](/other/2512.23643-simultaneous-approximation-of-the-score-function-a.md) - arXiv:2512.23643
 
 ---
 

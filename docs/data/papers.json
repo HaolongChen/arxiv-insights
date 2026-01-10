@@ -86,6 +86,28 @@
     "file": "cs/ai/2601.05187-simuagent-an-llm-based-simulink-modeling-assistan.md"
   },
   {
+    "arxiv_id": "2601.05171",
+    "title": "Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems",
+    "authors": [
+      "Jihao Zhao",
+      "Ding Chen",
+      "Zhaoxin Fan",
+      "Kerun Xu",
+      "Mengting Hu",
+      "Bo Tang",
+      "Feiyu Xiong",
+      "Zhiyu li"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL"
+    ],
+    "url": "https://arxiv.org/abs/2601.05171",
+    "abstract": "Existing long-term personalized dialogue systems struggle to reconcile unbounded interaction streams with finite context constraints, often succumbing to memory noise accumulation, reasoning degradation, and persona inconsistency. To address these challenges, this paper proposes Inside Out, a framew",
+    "file": "cs/ai/2601.05171-inside-out-evolving-user-centric-core-memory-tree.md"
+  },
+  {
     "arxiv_id": "2601.05192",
     "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
     "authors": [
@@ -150,6 +172,28 @@
     "url": "https://arxiv.org/abs/2601.05215",
     "abstract": "We present \\textsc{MineNPC-Task}, a user-authored benchmark and evaluation harness for testing memory-aware, mixed-initiative LLM agents in open-world \\emph{Minecraft}. Rather than relying on synthetic prompts, tasks are elicited from formative and summative co-play with expert players, normalized i",
     "file": "cs/ai/2601.05215-minenpc-task-task-suite-for-memory-aware-minecraf.md"
+  },
+  {
+    "arxiv_id": "2601.05167",
+    "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+    "authors": [
+      "Chengsong Huang",
+      "Tong Zheng",
+      "Langlin Huang",
+      "Jinyuan Li",
+      "Haolin Liu",
+      "Jiaxin Huang"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-ai",
+    "tags": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "url": "https://arxiv.org/abs/2601.05167",
+    "abstract": "Large Language Models (LLMs) for complex reasoning is often hindered by high computational costs and latency, while resource-efficient Small Language Models (SLMs) typically lack the necessary reasoning capacity. Existing collaborative approaches, such as cascading or routing, operate at a coarse gr",
+    "file": "cs/ai/2601.05167-relayllm-efficient-reasoning-via-collaborative-de.md"
   },
   {
     "arxiv_id": "2601.05214",
@@ -263,6 +307,31 @@
     "url": "https://arxiv.org/abs/2601.05212",
     "abstract": "Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ",
     "file": "cs/cv/2601.05212-flowlet-conditional-3d-brain-mri-synthesis-using.md"
+  },
+  {
+    "arxiv_id": "2601.05159",
+    "title": "Vision-Language Introspection: Mitigating Overconfident Hallucinations in MLLMs via Interpretable Bi-Causal Steering",
+    "authors": [
+      "Shuliang Liu",
+      "Songbo Yang",
+      "Dong Fang",
+      "Sihang Jia",
+      "Yuqi Tang",
+      "Lingfeng Su",
+      "Ruoshui Peng",
+      "Yibo Yan",
+      "Xin Zou",
+      "Xuming Hu"
+    ],
+    "date": "2026-01-08",
+    "field": "cs-cv",
+    "tags": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "url": "https://arxiv.org/abs/2601.05159",
+    "abstract": "Object hallucination critically undermines the reliability of Multimodal Large Language Models, often stemming from a fundamental failure in cognitive introspection, where models blindly trust linguistic priors over specific visual evidence. Existing mitigations remain limited: contrastive decoding ",
+    "file": "cs/cv/2601.05159-vision-language-introspection-mitigating-overconf.md"
   },
   {
     "arxiv_id": "2601.05191",
@@ -409,6 +478,43 @@
     "url": "https://arxiv.org/abs/2601.05246",
     "abstract": "Recovering clean and accurate geometry from images is essential for robotics and augmented reality. However, existing geometry foundation models still suffer severely from flying pixels and the loss of fine details. In this paper, we present pixel-perfect visual geometry models that can predict high",
     "file": "cs/cv/2601.05246-pixel-perfect-visual-geometry-estimation.md"
+  },
+  {
+    "arxiv_id": "2601.05162",
+    "title": "GenAI-DrawIO-Creator: A Framework for Automated Diagram Generation",
+    "authors": [
+      "Jinze Yu",
+      "Dayuan Jiang"
+    ],
+    "date": "2026-01-08",
+    "field": "other",
+    "tags": [
+      "cs.GR",
+      "cs.CV"
+    ],
+    "url": "https://arxiv.org/abs/2601.05162",
+    "abstract": "Diagrams are crucial for communicating complex information, yet creating and modifying them remains a labor-intensive task. We present GenAI-DrawIO-Creator, a novel framework that leverages Large Language Models (LLMs) to automate diagram generation and manipulation in the structured XML format used",
+    "file": "other/2601.05162-genai-drawio-creator-a-framework-for-automated-di.md"
+  },
+  {
+    "arxiv_id": "2601.05157",
+    "title": "Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms",
+    "authors": [
+      "Alkis Kalavasis",
+      "Pravesh K. Kothari",
+      "Shuchen Li",
+      "Manolis Zampetakis"
+    ],
+    "date": "2026-01-08",
+    "field": "other",
+    "tags": [
+      "cs.DS",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "url": "https://arxiv.org/abs/2601.05157",
+    "abstract": "In this work, we give a ${\\rm poly}(d,k)$ time and sample algorithm for efficiently learning the parameters of a mixture of $k$ spherical distributions in $d$ dimensions. Unlike all previous methods, our techniques apply to heavy-tailed distributions and include examples that do not even have finite",
+    "file": "other/2601.05157-learning-mixture-models-via-efficient-high-dimensi.md"
   },
   {
     "arxiv_id": "2601.05227",
